@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norsk øvingsapp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f3ee; --card:#fffdf9; --ink:#1f2a2e; --muted:#6b7478; --line:#e3ddd2;
+  --green:#2f5a46; --green-soft:#e3ece6; --red:#b4483a; --red-soft:#f6e3df; --gold:#c08a2b;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#141a1c; --card:#1d2528; --ink:#e9ece9; --muted:#9aa4a7; --line:#2d383b;
+  --green:#7fb69a; --green-soft:#22332b; --red:#e48b7d; --red-soft:#3a2522; --gold:#e0b45c;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+header{padding:20px 18px 6px;max-width:860px;margin:0 auto}
+h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:26px;margin:0;letter-spacing:-.01em}
+h1 span{color:var(--green)}
+.sub{color:var(--muted);font-size:13px;margin-top:2px}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .in{max-width:860px;margin:0 auto;display:flex;gap:4px;overflow-x:auto;padding:8px 14px}
+nav button{flex:none;border:0;background:none;color:var(--muted);font:600 14px Inter;padding:8px 12px;border-radius:999px;cursor:pointer}
+nav button.on{background:var(--green);color:#fff}
+main{max-width:860px;margin:0 auto;padding:14px 14px 80px}
+.panel{display:none}.panel.on{display:block}
+.filters{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px;margin-bottom:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input[type=search],input[type=text],select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+input[type=search]{flex:1;min-width:180px}
+textarea{width:100%;min-height:140px;font:12px/1.4 ui-monospace,monospace}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{border:1px solid var(--line);background:none;color:var(--ink);border-radius:999px;padding:3px 10px;font-size:12.5px;cursor:pointer}
+.chips.collapsed .chip.x{display:none}
+.chip.on{background:var(--green-soft);border-color:var(--green);color:var(--green);font-weight:600}
+.count{color:var(--muted);font-size:13px;margin:4px 2px 10px}
+.btn{border:0;background:var(--green);color:#fff;font:600 14px Inter;padding:10px 16px;border-radius:10px;cursor:pointer}
+.btn.ghost{background:none;color:var(--green);border:1px solid var(--green)}
+.btn.sm{padding:6px 11px;font-size:13px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:8px}
+.item .no{font-weight:600}
+.item .en{color:var(--muted)}
+.item .forms{font-size:13px;color:var(--green);margin-top:2px}
+.item .ex{font-size:13.5px;font-style:italic;margin-top:4px}
+.item .meta{font-size:11.5px;color:var(--muted);margin-top:5px}
+.kind{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:600;margin-right:6px}
+.rule h3{font-family:Fraunces,Georgia,serif;margin:0 0 6px;font-size:17px}
+.rule ul{margin:4px 0;padding-left:20px}
+.rule table{border-collapse:collapse;font-size:13px;margin:6px 0}
+.rule td,.rule th{border:1px solid var(--line);padding:4px 7px;text-align:left}
+details.rule{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 13px;margin-bottom:8px}
+details.rule summary{cursor:pointer;font-weight:600}
+/* flashcard */
+.stage{display:flex;flex-direction:column;align-items:center;gap:14px}
+.fc{width:100%;max-width:560px;min-height:260px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 22px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.fc .front{font-family:Fraunces,Georgia,serif;font-size:28px;font-weight:600;line-height:1.25}
+.fc .back{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);width:100%}
+.fc .back .big{font-size:19px;font-weight:600}
+.fc .hint{color:var(--muted);font-size:12.5px;margin-top:14px}
+.grade{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.grade button{min-width:86px}
+.g-again{background:var(--red)!important}
+.g-hard{background:var(--gold)!important}
+.stats{display:flex;gap:16px;color:var(--muted);font-size:13px}
+.stats b{color:var(--ink)}
+/* exercises */
+.ex-pick{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin-bottom:14px}
+.ex-pick button{text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;color:var(--ink);font:inherit}
+.ex-pick button.on{border-color:var(--green);background:var(--green-soft)}
+.ex-pick b{display:block;font-size:14px}
+.ex-pick small{color:var(--muted)}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.q .prompt{font-size:13px;color:var(--muted);margin-bottom:6px}
+.q .ask{font-family:Fraunces,Georgia,serif;font-size:24px;font-weight:600;margin-bottom:16px;line-height:1.3}
+.opts{display:grid;gap:8px}
+.opt{text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 13px;cursor:pointer;font:inherit;color:var(--ink)}
+.opt.ok{background:var(--green-soft);border-color:var(--green)}
+.opt.bad{background:var(--red-soft);border-color:var(--red)}
+.fb{margin-top:12px;font-size:14px}
+.fb.ok{color:var(--green)} .fb.bad{color:var(--red)}
+.score{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:10px}
+.blank{display:inline-block;min-width:70px;border-bottom:2px solid var(--gold)}
+.note{font-size:13px;color:var(--muted)}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:13px;opacity:0;transition:.25s;pointer-events:none}
+.toast.on{opacity:1}
+.vt{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);border-radius:12px;overflow:hidden}
+.vt th,.vt td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.vt th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.vt td.g{color:var(--gold);font-size:11.5px;white-space:nowrap}
+#vTable{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.vgrid input{width:100%;min-width:0}
+body{overflow-x:hidden}
+.vgrid{display:grid;grid-template-columns:100px minmax(0,1fr);gap:8px;align-items:center;margin-bottom:8px}
+.vgrid input.ok{border-color:var(--green);background:var(--green-soft)} .vgrid input.bad{border-color:var(--red);background:var(--red-soft)}
+.corr{grid-column:2;font-size:13px;color:var(--red);margin-top:-4px}
+h2{font-family:Fraunces,Georgia,serif;font-size:19px;margin:6px 0 10px}
+label.cb{display:flex;gap:6px;align-items:center;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Norsk <span>øvingsapp</span></h1>
+  <div class="sub" id="dbinfo"></div>
+</header>
+<nav><div class="in">
+  <button data-tab="search" class="on">🔎 Søk</button>
+  <button data-tab="cards">🃏 Kort</button>
+  <button data-tab="ex">✍️ Øvelser</button>
+  <button data-tab="verbs">🔁 Verb</button>
+  <button data-tab="grammar">📘 Grammatikk</button>
+  <button data-tab="anki">⬇️ Anki</button>
+  <button data-tab="data">⚙️ Database</button>
+</div></nav>
+
+<main>
+  <!-- shared filters -->
+  <div class="filters" id="filters">
+    <div class="row">
+      <input type="search" id="q" placeholder="Søk norsk, engelsk, eksempel…">
+      <select id="kind">
+        <option value="">Alt</option>
+        <option value="word">Ord</option>
+        <option value="expr">Uttrykk</option>
+        <option value="verb">Verbliste</option>
+        <option value="rule">Grammatikk</option>
+      </select>
+    </div>
+    <div class="chips" id="tags"></div>
+  </div>
+
+  <section class="panel on" id="p-search">
+    <div class="count" id="count"></div>
+    <div id="list"></div>
+  </section>
+
+  <section class="panel" id="p-cards">
+    <div class="row" style="justify-content:space-between;margin-bottom:12px">
+      <div class="stats" id="srsStats"></div>
+      <select id="dir">
+        <option value="no-en">Norsk → English</option>
+        <option value="en-no">English → Norsk</option>
+        <option value="mix">Blandet</option>
+      </select>
+    </div>
+    <div class="stage">
+      <div class="fc" id="fc"></div>
+      <div class="grade" id="grade" style="visibility:hidden">
+        <button class="btn g-again" data-g="0">Igjen</button>
+        <button class="btn g-hard" data-g="1">Vanskelig</button>
+        <button class="btn" data-g="2">Bra</button>
+        <button class="btn ghost" data-g="3">Lett</button>
+      </div>
+      <div class="note">Tap the card to flip it. The cards you get wrong come back sooner (spaced repetition, saved in this browser).</div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-ex">
+    <div class="ex-pick" id="exPick">
+      <button data-ex="mc"><b>Flervalg</b><small>Norsk → velg betydning</small></button>
+      <button data-ex="mcr"><b>Omvendt flervalg</b><small>English → velg norsk ord</small></button>
+      <button data-ex="write"><b>Skriv ordet</b><small>English → skriv på norsk</small></button>
+      <button data-ex="forms"><b>Bøyning</b><small>Preteritum, perfektum, bestemt form…</small></button>
+      <button data-ex="cloze"><b>Fyll inn</b><small>Ordet mangler i eksempelsetningen</small></button>
+      <button data-ex="gender"><b>en / ei / et</b><small>Velg riktig kjønn</small></button>
+    </div>
+    <div class="score" id="exScore"></div>
+    <div id="exArea"><div class="note">Velg en øvelse. The filters at the top (tags, search) decide which words are used, e.g. tap <b>kap6</b> to practise only chapter 6.</div></div>
+  </section>
+
+  <section class="panel" id="p-verbs">
+    <div class="ex-pick" id="vPick">
+      <button data-v="all"><b>Alle former</b><small>Skriv presens, preteritum og perfektum</small></button>
+      <button data-v="pret"><b>Bare preteritum</b><small>Rask runde: fortid</small></button>
+      <button data-v="group"><b>Hvilken gruppe?</b><small>sterk / -et / -te / -de / -dde …</small></button>
+      <button data-v="meaning"><b>Betydning</b><small>Verb → velg engelsk</small></button>
+    </div>
+    <div class="row" style="margin-bottom:10px">
+      <label class="cb"><input type="checkbox" id="vHard"> Bare sterke og uregelmessige</label>
+      <label class="cb"><input type="checkbox" id="vMine"> Bare verb fra timene / boka</label>
+    </div>
+    <div class="score" id="vScore"></div>
+    <div id="vArea"><div class="note">Velg en verbøvelse. Rule G25 in the Grammatikk tab explains the groups.</div></div>
+    <h2 style="margin-top:22px">Verbtabell</h2>
+    <div id="vTable"></div>
+  </section>
+
+  <section class="panel" id="p-grammar">
+    <div id="rules"></div>
+  </section>
+
+  <section class="panel" id="p-anki">
+    <h2>Export to Anki</h2>
+    <p class="note">The export uses the filtered entries. Copy the text, save it as a <b>.txt</b> file, and in Anki choose <i>File → Import</i>. The header lines set the separator (tab), turn on HTML and put the tags in column 3.</p>
+    <div class="row" style="margin:10px 0">
+      <label class="cb"><input type="radio" name="adir" value="no-en" checked> Norsk → English</label>
+      <label class="cb"><input type="radio" name="adir" value="en-no"> English → Norsk</label>
+      <label class="cb"><input type="radio" name="adir" value="both"> Begge</label>
+    </div>
+    <div class="row" style="margin-bottom:10px">
+      <button class="btn" id="copyAnki">Kopier Anki-tekst</button>
+      <a class="btn ghost" id="ankiFile" href="norsk-anki.txt" download style="display:none;text-decoration:none">Last ned Anki-fil (alt)</a>
+      <span class="note" id="ankiCount"></span>
+    </div>
+    <textarea id="ankiOut" readonly></textarea>
+  </section>
+
+  <section class="panel" id="p-data">
+    <h2>Database</h2>
+    <p class="note">The app reads <b>norsk-database.md</b> from the project. Claude updates the copy inside the app after each lesson. If you have a newer version, paste the whole markdown here: it's saved in this browser only.</p>
+    <textarea id="mdIn" placeholder="Lim inn norsk-database.md her…"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="btn" id="loadMd">Last inn</button>
+      <button class="btn ghost" id="resetMd">Tilbake til innebygd versjon</button>
+      <button class="btn ghost" id="resetSrs">Nullstill kort-fremgang</button>
+    </div>
+  </section>
+</main>
+<div class="toast" id="toast"></div>
+
+<script id="db" type="text/markdown">
+__DB__
+</script>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('on');setTimeout(()=>el.classList.remove('on'),1600)}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/~~(.+?)~~/g,'<s>$1</s>').replace(/\*(.+?)\*/g,'<i>$1</i>').replace(/`(.+?)`/g,'<code>$1</code>')}
+function plain(s){return String(s).replace(/\*\*|~~|`/g,'').replace(/\*/g,'')}
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+
+/* ---------- parse markdown ---------- */
+let DB=[];
+function cells(line){return line.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim())}
+function parse(md){
+  const out=[]; const lines=md.split('\n'); let sec='', sub='';
+  let i=0;
+  while(i<lines.length){
+    const L=lines[i];
+    if(/^## /.test(L)){sec=L.replace(/^## /,'').trim();sub='';i++;continue}
+    if(/^### G\d+/.test(L)){
+      const title=L.replace(/^### /,'').trim(); const body=[]; i++;
+      while(i<lines.length && !/^#{2,3} /.test(lines[i]) && !/^---\s*$/.test(lines[i])){body.push(lines[i]);i++}
+      const src=(title.match(/\*\((.+?)\)\*/)||[])[1]||'';
+      out.push({kind:'rule',id:title.split('.')[0],no:title.replace(/\s*\*\(.+?\)\*/,''),body:body.join('\n').trim(),src,tags:['grammatikk']});
+      continue;
+    }
+    if(/^### /.test(L)){sub=L.replace(/^### /,'').trim();i++;continue}
+    if(/^\|/.test(L) && /^\|[-\s|]+\|$/.test((lines[i+1]||'').trim())){
+      const head=cells(L).map(h=>h.toLowerCase()); i+=2;
+      while(i<lines.length && /^\|/.test(lines[i])){
+        const c=cells(lines[i]); i++;
+        if(sec.startsWith('1') && head.length===6){
+          out.push({kind:'word',no:c[0],forms:c[1],en:c[2],ex:c[3],src:c[4],tags:c[5].split(/\s+/).filter(Boolean),sub});
+        } else if(sec.startsWith('6') && head.length===6){
+          const g=c[5]; out.push({kind:'verb',no:c[0],pres:c[1],pret:c[2],perf:c[3],forms:`${c[1]} – ${c[2]} – ${c[3]}`,en:c[4],ex:'',src:'Verbliste',group:g,tags:['verbliste',g.replace(/\s+/g,'')],sub:'Verb'});
+        } else if(sec.startsWith('2') && head.length===5){
+          out.push({kind:'expr',no:c[0],en:c[1],ex:c[2],src:c[3],tags:c[4].split(/\s+/).filter(Boolean),sub:'Uttrykk'});
+        }
+      }
+      continue;
+    }
+    i++;
+  }
+  out.forEach((e,k)=>{e.key=(e.kind+':'+plain(e.no)).toLowerCase()});
+  return out;
+}
+
+function loadDb(){
+  const custom=store.get('norsk_md',null);
+  const md=custom||$('#db').textContent;
+  DB=parse(md);
+  const v=DB.filter(e=>e.kind==='verb').length,w=DB.filter(e=>e.kind==='word').length,x=DB.filter(e=>e.kind==='expr').length,r=DB.filter(e=>e.kind==='rule').length;
+  const log=(md.match(/\| (\d{4}-\d\d-\d\d[^|]*)\|/g)||[]).pop()||'';
+  $('#dbinfo').textContent=`${w} ord · ${x} uttrykk · ${v} verb · ${r} grammatikkregler${custom?' · (lokal versjon)':''}${log?' · sist oppdatert '+log.replace(/\|/g,'').trim():''}`;
+  buildTags(); render();
+}
+
+/* ---------- filters ---------- */
+let activeTags=new Set(store.get('norsk_tags',[]));
+function buildTags(){
+  const counts={}; DB.forEach(e=>e.tags.forEach(t=>counts[t]=(counts[t]||0)+1));
+  const tags=Object.keys(counts).sort((a,b)=>counts[b]-counts[a]);
+  $('#tags').innerHTML=tags.map((t,i)=>`<button class="chip${activeTags.has(t)?' on':''}${i>=8&&!activeTags.has(t)?' x':''}" data-t="${esc(t)}">${esc(t)} <span style="opacity:.6">${counts[t]}</span></button>`).join('')+`<button class="chip" id="moreTags" style="border-style:dashed">flere tags…</button>`;
+  $('#tags').classList.add('collapsed');
+}
+function filtered(kinds){
+  const q=$('#q').value.trim().toLowerCase(); const k=$('#kind').value;
+  return DB.filter(e=>{
+    if(kinds && !kinds.includes(e.kind)) return false;
+    if(k && e.kind!==k) return false;
+    if(activeTags.size && !e.tags.some(t=>activeTags.has(t))) return false;
+    if(q){const hay=[e.no,e.en,e.ex,e.forms,e.body,e.src].join(' ').toLowerCase(); if(!hay.includes(q)) return false}
+    return true;
+  });
+}
+$('#tags').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;if(b.id==='moreTags'){const c=$('#tags').classList.toggle('collapsed');b.textContent=c?'flere tags…':'færre tags';return}const t=b.dataset.t;activeTags.has(t)?activeTags.delete(t):activeTags.add(t);store.set('norsk_tags',[...activeTags]);b.classList.toggle('on');render()});
+$('#q').addEventListener('input',render);$('#kind').addEventListener('change',render);
+
+/* ---------- markdown block renderer for rules ---------- */
+function mdBlock(s){
+  const lines=s.split('\n');let h='',inUl=false,inT=false;
+  for(let i=0;i<lines.length;i++){const l=lines[i];
+    if(/^\|/.test(l)){ if(/^\|[-\s|]+\|$/.test(l.trim()))continue; if(!inT){h+='<table>';inT=true}
+      h+='<tr>'+cells(l).map(c=>'<td>'+inline(c)+'</td>').join('')+'</tr>';continue}
+    if(inT){h+='</table>';inT=false}
+    if(/^\s*- /.test(l)){if(!inUl){h+='<ul>';inUl=true}h+='<li>'+inline(l.replace(/^\s*- /,''))+'</li>';continue}
+    if(inUl){h+='</ul>';inUl=false}
+    if(l.trim())h+='<div>'+inline(l.trim())+'</div>';
+  }
+  if(inUl)h+='</ul>';if(inT)h+='</table>';return h;
+}
+
+/* ---------- search list ---------- */
+const KL={word:'ord',expr:'uttrykk',verb:'verb',rule:'grammatikk'};
+/* balanced random pick: verbs can never dominate */
+const W={word:4,expr:3,verb:2,rule:1};
+function pickBal(pool){
+  if(!pool.length) return null;
+  const g={}; pool.forEach(e=>(g[e.kind]=g[e.kind]||[]).push(e));
+  const ks=Object.keys(g); let tot=ks.reduce((s,k)=>s+W[k],0), r=Math.random()*tot;
+  for(const k of ks){r-=W[k]; if(r<=0) return pick(g[k])} return pick(g[ks[0]]);
+}
+function itemHtml(e){
+  if(e.kind==='rule') return `<details class="rule item"><summary><span class="kind">regel</span>${inline(e.no)}</summary><div style="margin-top:8px">${mdBlock(e.body)}</div><div class="meta">${esc(e.src)}</div></details>`;
+  return `<div class="item"><span class="kind">${KL[e.kind]}${e.group?' · '+esc(e.group):''}</span><span class="no">${inline(e.no)}</span> <span class="en">— ${inline(e.en)}</span>
+  ${e.forms?`<div class="forms">${inline(e.forms)}</div>`:''}${e.ex?`<div class="ex">${inline(e.ex)}</div>`:''}
+  <div class="meta">${esc(e.src)} · ${e.tags.map(esc).join(' · ')}</div></div>`;
+}
+function render(){
+  const f=filtered(); $('#count').textContent=`${f.length} treff`;
+  $('#list').innerHTML=f.slice(0,400).map(itemHtml).join('');
+  $('#rules').innerHTML=filtered(['rule']).map(e=>`<details class="rule"><summary>${inline(e.no)}</summary><div style="margin-top:8px">${mdBlock(e.body)}</div><div class="meta">${esc(e.src)}</div></details>`).join('')||'<div class="note">Ingen regler matcher filteret.</div>';
+  renderVerbTable(); renderAnki(); if(curTab==='cards') nextCard();
+}
+
+/* ---------- tabs ---------- */
+let curTab='search';
+$$('nav button').forEach(b=>b.addEventListener('click',()=>{
+  $$('nav button').forEach(x=>x.classList.toggle('on',x===b)); curTab=b.dataset.tab;
+  $$('.panel').forEach(p=>p.classList.toggle('on',p.id==='p-'+curTab));
+  $('#filters').style.display=curTab==='data'?'none':'';
+  if(curTab==='cards') nextCard();
+}));
+
+/* ---------- flashcards with SRS ---------- */
+let srs=store.get('norsk_srs',{}); let cur=null, curDir='no-en';
+const DAY=864e5;
+function cardPool(){return filtered(['word','expr','verb','rule'])}
+function srsStats(pool){const now=Date.now();let nw=0,due=0,learned=0;pool.forEach(e=>{const s=srs[e.key];if(!s)nw++;else if(s.due<=now)due++;else learned++});return{nw,due,learned}}
+function nextCard(){
+  const pool=cardPool(); const now=Date.now();
+  const st=srsStats(pool); $('#srsStats').innerHTML=`<span>Nye <b>${st.nw}</b></span><span>Til repetisjon <b>${st.due}</b></span><span>Lært <b>${st.learned}</b></span>`;
+  if(!pool.length){$('#fc').innerHTML='<div class="note">Ingen kort matcher filteret.</div>';$('#grade').style.visibility='hidden';return}
+  const due=pool.filter(e=>srs[e.key]&&srs[e.key].due<=now);
+  const fresh=pool.filter(e=>!srs[e.key]);
+  let c=null;
+  if(due.length){const k=pickBal(due).kind;c=due.filter(e=>e.kind===k).sort((a,b)=>srs[a.key].due-srs[b.key].due)[0]}
+  else if(fresh.length) c=pickBal(fresh);
+  if(!c){c=pool.slice().sort((a,b)=>srs[a.key].due-srs[b.key].due)[0]}
+  cur=c; const d=$('#dir').value; curDir=d==='mix'?pick(['no-en','en-no']):d;
+  showCard(false);
+}
+function showCard(flipped){
+  const e=cur; let front,back;
+  if(e.kind==='rule'){front=inline(e.no);back=`<div style="text-align:left;font-size:14px">${mdBlock(e.body)}</div>`}
+  else if(curDir==='no-en'){front=inline(e.no);back=`<div class="big">${inline(e.en)}</div>${e.forms?`<div class="forms" style="color:var(--green);margin-top:6px">${inline(e.forms)}</div>`:''}${e.ex?`<div class="ex" style="font-style:italic;margin-top:6px">${inline(e.ex)}</div>`:''}`}
+  else {front=inline(e.en);back=`<div class="big">${inline(e.no)}</div>${e.forms?`<div style="color:var(--green);margin-top:6px">${inline(e.forms)}</div>`:''}${e.ex?`<div style="font-style:italic;margin-top:6px">${inline(e.ex)}</div>`:''}`}
+  $('#fc').innerHTML=`<div class="kind">${KL[e.kind]} · ${esc(e.src)}</div><div class="front">${front}</div>${flipped?`<div class="back">${back}</div>`:'<div class="hint">trykk for å snu</div>'}`;
+  $('#grade').style.visibility=flipped?'visible':'hidden';
+}
+$('#fc').addEventListener('click',()=>{if(cur)showCard(true)});
+$('#dir').addEventListener('change',nextCard);
+$('#grade').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b||!cur)return;const g=+b.dataset.g;
+  const s=srs[cur.key]||{iv:0,ease:2.5,reps:0};
+  if(g===0){s.iv=0;s.reps=0;s.ease=Math.max(1.3,s.ease-.2);s.due=Date.now()+60e3}
+  else{ s.reps++; if(g===1){s.iv=Math.max(1,s.iv*1.2);s.ease=Math.max(1.3,s.ease-.15)} else if(g===2){s.iv=s.reps===1?1:s.reps===2?3:s.iv*s.ease} else {s.iv=s.reps===1?4:s.iv*s.ease*1.3;s.ease+=.15}
+    s.due=Date.now()+s.iv*DAY }
+  srs[cur.key]=s; store.set('norsk_srs',srs); nextCard();
+});
+
+/* ---------- helpers for exercises ---------- */
+function head(e){ // headword without article / å
+  return plain(e.no).split(/[·(]/)[0].replace(/^(ei\/en|en|ei|et|å)\s+/i,'').split('/')[0].trim();
+}
+function gender(e){const m=plain(e.no).match(/^(ei\/en|en|ei|et)\s/i);return m?m[1].toLowerCase():null}
+function norm(s){return plain(s).toLowerCase().replace(/[()….,!?«»"]/g,'').replace(/^(å|en|ei|et|ei\/en)\s+/,'').replace(/\s+/g,' ').trim()}
+function enShort(e){return plain(e.en).split(/[;(]/)[0].trim()}
+
+let exType=null, score={ok:0,n:0};
+$('#exPick').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$$('#exPick button').forEach(x=>x.classList.toggle('on',x===b));exType=b.dataset.ex;score={ok:0,n:0};newQ()});
+function upScore(){$('#exScore').innerHTML=score.n?`<span>Riktig: <b>${score.ok}/${score.n}</b></span><span>${Math.round(100*score.ok/score.n)}%</span>`:''}
+function nextBtn(){return `<div style="margin-top:14px"><button class="btn" id="nxt">Neste →</button></div>`}
+function bindNext(){const n=$('#nxt');if(n){n.onclick=newQ;n.focus()}}
+function answered(ok,msg){score.n++;if(ok)score.ok++;upScore();return `<div class="fb ${ok?'ok':'bad'}">${ok?'✓ Riktig!':'✗ Feil.'} ${msg||''}</div>`}
+
+function newQ(){
+  const words=filtered(['word','expr','verb']);
+  const area=$('#exArea');
+  if(words.length<4){area.innerHTML='<div class="note">Too few entries match the filter (at least 4 are needed). Remove some filters.</div>';return}
+  const t=exType;
+  if(t==='mc'||t==='mcr'){
+    const e=pickBal(words); const same=words.filter(x=>x!==e&&x.kind===e.kind&&enShort(x)!==enShort(e)); const others=shuffle(same.length>=3?same:words.filter(x=>x!==e&&enShort(x)!==enShort(e))).slice(0,3);
+    const opts=shuffle([e,...others]);
+    const ask=t==='mc'?inline(e.no):inline(e.en);
+    area.innerHTML=`<div class="q"><div class="prompt">${t==='mc'?'Hva betyr…':'Hvordan sier man på norsk…'}</div><div class="ask">${ask}</div><div class="opts">${opts.map((o,i)=>`<button class="opt" data-i="${i}">${t==='mc'?inline(enShort(o)):inline(o.no)}</button>`).join('')}</div><div id="fbx"></div></div>`;
+    $$('.opt').forEach(b=>b.onclick=()=>{const o=opts[+b.dataset.i];const ok=o===e;$$('.opt').forEach((x,i)=>{x.disabled=true;if(opts[i]===e)x.classList.add('ok')});if(!ok)b.classList.add('bad');
+      $('#fbx').innerHTML=answered(ok,`<div class="note" style="margin-top:6px"><b>${inline(e.no)}</b> — ${inline(e.en)}${e.forms?'<br>'+inline(e.forms):''}${e.ex?'<br><i>'+inline(e.ex)+'</i>':''}</div>`)+nextBtn();bindNext()});
+  }
+  else if(t==='write'){
+    const e=pickBal(words);
+    textQ(`Skriv på norsk`, inline(e.en)+(e.ex?`<div class="note" style="font-family:Inter;font-size:13px;margin-top:6px">Hint: ${esc(plain(e.ex).replace(new RegExp(head(e).slice(0,Math.max(3,head(e).length-2)),'ig'),'___'))}</div>`:''),
+      [plain(e.no)], e);
+  }
+  else if(t==='forms'){
+    const cand=words.filter(e=>e.kind==='word'&&e.forms&&!/^\(/.test(e.forms)&&e.forms.includes('–'));
+    const verbs=cand.filter(e=>/^å /.test(plain(e.no))&&plain(e.forms).split('–').length===3);
+    const vlist=filtered(['verb']);
+    const nouns=cand.filter(e=>gender(e)&&plain(e.forms).split('–').length>=2);
+    const allV=[...verbs,...vlist];
+    if(!allV.length&&!nouns.length){area.innerHTML='<div class="note">No verbs/nouns with forms in this filter.</div>';return}
+    const v=(!nouns.length)?1:(!allV.length)?0:(Math.random()<.5?1:0);
+    const e=v?pick(allV):pick(nouns); const parts=plain(e.forms).split('–').map(s=>s.split('·')[0].split('(')[0].trim());
+    let q,ans;
+    if(v){const which=pick([[1,'preteritum (fortid)'],[2,'perfektum (har + …)']]);q=which[1];ans=parts[which[0]].split('/').map(s=>s.trim())}
+    else{const opts=[[0,'bestemt form entall (the …)'],[1,'ubestemt flertall'],[2,'bestemt flertall']].filter(o=>parts[o[0]]&&!/no pl|rarely|^-/.test(parts[o[0]]));const which=pick(opts);q=which[1];ans=parts[which[0]].split('/').map(s=>s.trim())}
+    textQ(`Skriv ${q} av`, inline(e.no)+`<div class="note" style="font-family:Inter;font-size:13px">${inline(e.en)}</div>`, ans, e, true);
+  }
+  else if(t==='cloze'){
+    const cand=words.filter(e=>e.kind==='word'&&e.ex&&e.ex.length>8).map(e=>{const h=head(e).toLowerCase();const stem=h.slice(0,Math.max(3,Math.min(h.length,h.length>5?h.length-2:h.length)));
+      const toks=plain(e.ex).split(/(\s+)/);const idx=toks.findIndex(w=>w.toLowerCase().replace(/[.,!?…«»]/g,'').startsWith(stem));return idx>=0?{e,toks,idx}:null}).filter(Boolean);
+    if(!cand.length){area.innerHTML='<div class="note">No example sentences in this filter.</div>';return}
+    const {e,toks,idx}=pick(cand); const word=toks[idx].replace(/[.,!?…«»]/g,'');
+    const sent=toks.map((w,i)=>i===idx?'<span class="blank">&nbsp;</span>'+w.slice(word.length+ (w.indexOf(word)>0?w.indexOf(word):0)):esc(w)).join('');
+    textQ(`Fyll inn ordet (${esc(enShort(e))})`, sent, [word], e, true);
+  }
+  else if(t==='gender'){
+    const nouns=words.filter(e=>gender(e));
+    if(!nouns.length){area.innerHTML='<div class="note">No nouns in this filter.</div>';return}
+    const e=pick(nouns); const g=gender(e); const h=head(e);
+    const choices=['en','ei','et'];
+    area.innerHTML=`<div class="q"><div class="prompt">Hvilket kjønn?</div><div class="ask">___ ${esc(h)}</div><div class="note" style="margin:-8px 0 12px">${inline(e.en)}</div><div class="opts" style="grid-template-columns:repeat(3,1fr)">${choices.map(c=>`<button class="opt" data-c="${c}">${c}</button>`).join('')}</div><div id="fbx"></div></div>`;
+    const right=g==='ei/en'?['ei','en']:[g];
+    $$('.opt').forEach(b=>b.onclick=()=>{const ok=right.includes(b.dataset.c);$$('.opt').forEach(x=>{x.disabled=true;if(right.includes(x.dataset.c))x.classList.add('ok')});if(!ok)b.classList.add('bad');
+      $('#fbx').innerHTML=answered(ok,`<div class="note" style="margin-top:6px"><b>${inline(e.no)}</b> — ${inline(e.forms||'')}${g==='ei/en'?'<br>Feminine nouns can take both <b>ei</b> and <b>en</b> in bokmål.':''}</div>`)+nextBtn();bindNext()});
+  }
+}
+function textQ(prompt,askHtml,answers,e,exact){
+  $('#exArea').innerHTML=`<div class="q"><div class="prompt">${prompt}</div><div class="ask">${askHtml}</div>
+  <form id="tf" class="row"><input type="text" id="ta" autocomplete="off" autocapitalize="off" spellcheck="false" style="flex:1" placeholder="Svar…"><button class="btn">Sjekk</button></form><div id="fbx"></div></div>`;
+  const ta=$('#ta');ta.focus();
+  $('#tf').onsubmit=ev=>{ev.preventDefault();const v=norm(ta.value);
+    const accepted=answers.flatMap(a=>plain(a).split(/\s*[\/=]\s*/)).map(norm).filter(Boolean);
+    const ok=accepted.includes(v)||(!exact&&accepted.some(a=>a.split(' ')[0]===v));
+    ta.disabled=true;
+    $('#fbx').innerHTML=answered(ok,`Svaret: <b>${esc(answers.join(' / '))}</b><div class="note" style="margin-top:6px"><b>${inline(e.no)}</b> — ${inline(e.en)}${e.forms?'<br>'+inline(e.forms):''}${e.ex?'<br><i>'+inline(e.ex)+'</i>':''}</div>`)+nextBtn();bindNext()};
+}
+
+/* ---------- Verb tab ---------- */
+function alts(s){ // "ba(d)" -> ba, bad ; "bet/beit" ; strip "har"
+  return plain(s).split('/').flatMap(x=>{x=x.trim().replace(/^har\s+/,'');const m=x.match(/^(.*)\((.+)\)(.*)$/);return m?[m[1]+m[3],m[1]+m[2]+m[3]]:[x]}).map(x=>x.trim().toLowerCase());
+}
+function vNorm(s){return s.trim().toLowerCase().replace(/^har\s+/,'').replace(/\s+/g,' ')}
+function verbPool(){
+  let p=filtered(['verb']);
+  if($('#vHard').checked) p=p.filter(e=>/sterk|uregelmessig|modal|s-verb/.test(e.group));
+  if($('#vMine').checked){const mine=new Set(DB.filter(e=>e.kind==='word').map(e=>plain(e.no).toLowerCase().split(/[ (]/).slice(0,2).join(' ')));p=p.filter(e=>mine.has(plain(e.no).toLowerCase().split(/[ (]/).slice(0,2).join(' ')))}
+  return p;
+}
+function renderVerbTable(){
+  const p=verbPool();
+  $('#vTable').innerHTML=p.length?`<table class="vt"><tr><th>Infinitiv</th><th>Presens</th><th>Preteritum</th><th>Perfektum</th><th>English</th><th></th></tr>${p.map(e=>`<tr><td><b>${esc(e.no)}</b></td><td>${esc(e.pres)}</td><td>${esc(e.pret)}</td><td>${esc(e.perf)}</td><td>${esc(e.en)}</td><td class="g">${esc(e.group)}</td></tr>`).join('')}</table>`:'<div class="note">Ingen verb matcher filteret. (Choose "Alt" or "Verbliste" at the top and clear the tags.)</div>';
+}
+['#vHard','#vMine'].forEach(s=>$(s).addEventListener('change',()=>{renderVerbTable();if(vType)vQ()}));
+let vType=null,vScore={ok:0,n:0};
+$('#vPick').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$$('#vPick button').forEach(x=>x.classList.toggle('on',x===b));vType=b.dataset.v;vScore={ok:0,n:0};vQ()});
+function vUp(ok){vScore.n++;if(ok)vScore.ok++;$('#vScore').innerHTML=`<span>Riktig: <b>${vScore.ok}/${vScore.n}</b></span><span>${Math.round(100*vScore.ok/vScore.n)}%</span>`}
+function vQ(){
+  const p=verbPool(),A=$('#vArea');
+  if(p.length<4){A.innerHTML='<div class="note">For få verb i filteret.</div>';return}
+  const e=pick(p);
+  if(vType==='all'||vType==='pret'){
+    const fields=vType==='all'?[['pres','presens'],['pret','preteritum'],['perf','perfektum (har …)']]:[['pret','preteritum']];
+    A.innerHTML=`<div class="q"><div class="prompt">${esc(e.en)}</div><div class="ask">${esc(e.no)}</div>
+    <form id="vf">${fields.map(([k,l])=>`<div class="vgrid"><label class="note">${l}</label><input type="text" data-k="${k}" autocomplete="off" autocapitalize="off" spellcheck="false"></div>`).join('')}
+    <button class="btn">Sjekk</button></form><div id="vfb"></div></div>`;
+    A.querySelector('input').focus();
+    $('#vf').onsubmit=ev=>{ev.preventDefault();let all=true;
+      $$('#vf input').forEach(inp=>{const k=inp.dataset.k;const ok=alts(e[k]).includes(vNorm(inp.value));all=all&&ok;inp.classList.add(ok?'ok':'bad');inp.disabled=true;
+        if(!ok){const d=document.createElement('div');d.className='corr';d.textContent='→ '+e[k];inp.parentNode.appendChild(d)}});
+      vUp(all);$('#vf button').remove();
+      $('#vfb').innerHTML=`<div class="fb ${all?'ok':'bad'}">${all?'✓ Alt riktig!':'✗ Ikke helt.'} <span class="note">${esc(e.no)} – ${esc(e.forms)} · <b>${esc(e.group)}</b></span></div><div style="margin-top:12px"><button class="btn" id="vn">Neste →</button></div>`;
+      $('#vn').onclick=vQ;$('#vn').focus()};
+  } else if(vType==='group'){
+    const groups=['sterk','svak -et','svak -te','svak -de','svak -dde','uregelmessig'];
+    const right=e.group;
+    A.innerHTML=`<div class="q"><div class="prompt">Hvilken gruppe? (${esc(e.en)})</div><div class="ask">${esc(e.no)}</div><div class="opts" style="grid-template-columns:repeat(2,1fr)">${groups.map(g=>`<button class="opt" data-g="${g}">${g}</button>`).join('')}</div><div id="vfb"></div></div>`;
+    $$('#vArea .opt').forEach(b=>b.onclick=()=>{const ok=b.dataset.g===right||(!groups.includes(right)&&b.dataset.g==='uregelmessig');$$('#vArea .opt').forEach(x=>{x.disabled=true;if(x.dataset.g===right)x.classList.add('ok')});if(!ok)b.classList.add('bad');vUp(ok);
+      $('#vfb').innerHTML=`<div class="fb ${ok?'ok':'bad'}">${ok?'✓':'✗'} ${esc(e.no)} – ${esc(e.forms)} · <b>${esc(right)}</b></div><div style="margin-top:12px"><button class="btn" id="vn">Neste →</button></div>`;$('#vn').onclick=vQ});
+  } else {
+    const opts=shuffle([e,...shuffle(p.filter(x=>x!==e)).slice(0,3)]);
+    A.innerHTML=`<div class="q"><div class="prompt">Hva betyr…</div><div class="ask">${esc(e.no)}</div><div class="opts">${opts.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o.en)}</button>`).join('')}</div><div id="vfb"></div></div>`;
+    $$('#vArea .opt').forEach(b=>b.onclick=()=>{const ok=opts[+b.dataset.i]===e;$$('#vArea .opt').forEach((x,i)=>{x.disabled=true;if(opts[i]===e)x.classList.add('ok')});if(!ok)b.classList.add('bad');vUp(ok);
+      $('#vfb').innerHTML=`<div class="fb ${ok?'ok':'bad'}">${esc(e.no)} – ${esc(e.forms)}</div><div style="margin-top:12px"><button class="btn" id="vn">Neste →</button></div>`;$('#vn').onclick=vQ});
+  }
+}
+
+/* ---------- Anki export ---------- */
+function ankiField(s){return String(s).replace(/\t/g,' ').replace(/\n/g,'<br>')}
+function renderAnki(){
+  const dir=(document.querySelector('input[name=adir]:checked')||{}).value||'no-en';
+  const f=filtered();
+  const rows=[];
+  f.forEach(e=>{
+    const tags=['norsk',...e.tags,e.src.replace(/[\s·.]+/g,'_')].join(' ');
+    if(e.kind==='rule'){rows.push([inline(e.no),mdBlock(e.body),tags]);return}
+    if(e.kind==='verb'){const f=`${esc(e.pres)} – ${esc(e.pret)} – ${esc(e.perf)}<br><small>${esc(e.group)}</small>`;
+      if(dir!=='en-no') rows.push([esc(e.no),esc(e.en)+'<br>'+f,tags]); if(dir!=='no-en') rows.push([esc(e.en)+' (verb)',esc(e.no)+'<br>'+f,tags]); return}
+    const no=inline(e.no), en=inline(e.en);
+    const extra=(e.forms?`<br><small>${inline(e.forms)}</small>`:'')+(e.ex?`<br><i>${inline(e.ex)}</i>`:'');
+    if(dir!=='en-no') rows.push([no,en+extra,tags]);
+    if(dir!=='no-en') rows.push([en,no+extra,tags]);
+  });
+  const txt='#separator:tab\n#html:true\n#tags column:3\n'+rows.map(r=>r.map(ankiField).join('\t')).join('\n');
+  $('#ankiOut').value=txt; $('#ankiCount').textContent=`${rows.length} kort`;
+}
+$$('input[name=adir]').forEach(r=>r.addEventListener('change',renderAnki));
+$('#copyAnki').onclick=async()=>{try{await navigator.clipboard.writeText($('#ankiOut').value);toast('Kopiert!')}catch(e){$('#ankiOut').select();toast('Marker og kopier manuelt')}};
+
+/* ---------- data tab ---------- */
+$('#loadMd').onclick=()=>{const v=$('#mdIn').value.trim();if(!v)return;const p=parse(v);if(!p.length){toast('Fant ingen tabeller');return}store.set('norsk_md',v);loadDb();toast(`Lastet ${p.length} oppføringer`)};
+$('#resetMd').onclick=()=>{try{localStorage.removeItem('norsk_md')}catch(e){}loadDb();toast('Innebygd versjon')};
+$('#resetSrs').onclick=()=>{srs={};store.set('norsk_srs',srs);nextCard();toast('Fremgang nullstilt')};
+
+if(/github\.io$/.test(location.hostname)) $('#ankiFile').style.display='';
+loadDb();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norsk øvingsapp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f3ee; --card:#fffdf9; --ink:#1f2a2e; --muted:#6b7478; --line:#e3ddd2;
+  --green:#2f5a46; --green-soft:#e3ece6; --red:#b4483a; --red-soft:#f6e3df; --gold:#c08a2b;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#141a1c; --card:#1d2528; --ink:#e9ece9; --muted:#9aa4a7; --line:#2d383b;
+  --green:#7fb69a; --green-soft:#22332b; --red:#e48b7d; --red-soft:#3a2522; --gold:#e0b45c;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+header{padding:20px 18px 6px;max-width:860px;margin:0 auto}
+h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:26px;margin:0;letter-spacing:-.01em}
+h1 span{color:var(--green)}
+.sub{color:var(--muted);font-size:13px;margin-top:2px}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .in{max-width:860px;margin:0 auto;display:flex;gap:4px;overflow-x:auto;padding:8px 14px}
+nav button{flex:none;border:0;background:none;color:var(--muted);font:600 14px Inter;padding:8px 12px;border-radius:999px;cursor:pointer}
+nav button.on{background:var(--green);color:#fff}
+main{max-width:860px;margin:0 auto;padding:14px 14px 80px}
+.panel{display:none}.panel.on{display:block}
+.filters{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px;margin-bottom:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input[type=search],input[type=text],select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+input[type=search]{flex:1;min-width:180px}
+textarea{width:100%;min-height:140px;font:12px/1.4 ui-monospace,monospace}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{border:1px solid var(--line);background:none;color:var(--ink);border-radius:999px;padding:3px 10px;font-size:12.5px;cursor:pointer}
+.chips.collapsed .chip.x{display:none}
+.chip.on{background:var(--green-soft);border-color:var(--green);color:var(--green);font-weight:600}
+.count{color:var(--muted);font-size:13px;margin:4px 2px 10px}
+.btn{border:0;background:var(--green);color:#fff;font:600 14px Inter;padding:10px 16px;border-radius:10px;cursor:pointer}
+.btn.ghost{background:none;color:var(--green);border:1px solid var(--green)}
+.btn.sm{padding:6px 11px;font-size:13px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:8px}
+.item .no{font-weight:600}
+.item .en{color:var(--muted)}
+.item .forms{font-size:13px;color:var(--green);margin-top:2px}
+.item .ex{font-size:13.5px;font-style:italic;margin-top:4px}
+.item .meta{font-size:11.5px;color:var(--muted);margin-top:5px}
+.kind{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:600;margin-right:6px}
+.rule h3{font-family:Fraunces,Georgia,serif;margin:0 0 6px;font-size:17px}
+.rule ul{margin:4px 0;padding-left:20px}
+.rule table{border-collapse:collapse;font-size:13px;margin:6px 0}
+.rule td,.rule th{border:1px solid var(--line);padding:4px 7px;text-align:left}
+details.rule{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 13px;margin-bottom:8px}
+details.rule summary{cursor:pointer;font-weight:600}
+/* flashcard */
+.stage{display:flex;flex-direction:column;align-items:center;gap:14px}
+.fc{width:100%;max-width:560px;min-height:260px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 22px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+.fc .front{font-family:Fraunces,Georgia,serif;font-size:28px;font-weight:600;line-height:1.25}
+.fc .back{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);width:100%}
+.fc .back .big{font-size:19px;font-weight:600}
+.fc .hint{color:var(--muted);font-size:12.5px;margin-top:14px}
+.grade{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.grade button{min-width:86px}
+.g-again{background:var(--red)!important}
+.g-hard{background:var(--gold)!important}
+.stats{display:flex;gap:16px;color:var(--muted);font-size:13px}
+.stats b{color:var(--ink)}
+/* exercises */
+.ex-pick{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin-bottom:14px}
+.ex-pick button{text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;color:var(--ink);font:inherit}
+.ex-pick button.on{border-color:var(--green);background:var(--green-soft)}
+.ex-pick b{display:block;font-size:14px}
+.ex-pick small{color:var(--muted)}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.q .prompt{font-size:13px;color:var(--muted);margin-bottom:6px}
+.q .ask{font-family:Fraunces,Georgia,serif;font-size:24px;font-weight:600;margin-bottom:16px;line-height:1.3}
+.opts{display:grid;gap:8px}
+.opt{text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 13px;cursor:pointer;font:inherit;color:var(--ink)}
+.opt.ok{background:var(--green-soft);border-color:var(--green)}
+.opt.bad{background:var(--red-soft);border-color:var(--red)}
+.fb{margin-top:12px;font-size:14px}
+.fb.ok{color:var(--green)} .fb.bad{color:var(--red)}
+.score{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:10px}
+.blank{display:inline-block;min-width:70px;border-bottom:2px solid var(--gold)}
+.note{font-size:13px;color:var(--muted)}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:13px;opacity:0;transition:.25s;pointer-events:none}
+.toast.on{opacity:1}
+.vt{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);border-radius:12px;overflow:hidden}
+.vt th,.vt td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+.vt th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.vt td.g{color:var(--gold);font-size:11.5px;white-space:nowrap}
+#vTable{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.vgrid input{width:100%;min-width:0}
+body{overflow-x:hidden}
+.vgrid{display:grid;grid-template-columns:100px minmax(0,1fr);gap:8px;align-items:center;margin-bottom:8px}
+.vgrid input.ok{border-color:var(--green);background:var(--green-soft)} .vgrid input.bad{border-color:var(--red);background:var(--red-soft)}
+.corr{grid-column:2;font-size:13px;color:var(--red);margin-top:-4px}
+h2{font-family:Fraunces,Georgia,serif;font-size:19px;margin:6px 0 10px}
+label.cb{display:flex;gap:6px;align-items:center;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Norsk <span>øvingsapp</span></h1>
+  <div class="sub" id="dbinfo"></div>
+</header>
+<nav><div class="in">
+  <button data-tab="search" class="on">🔎 Søk</button>
+  <button data-tab="cards">🃏 Kort</button>
+  <button data-tab="ex">✍️ Øvelser</button>
+  <button data-tab="verbs">🔁 Verb</button>
+  <button data-tab="grammar">📘 Grammatikk</button>
+  <button data-tab="anki">⬇️ Anki</button>
+  <button data-tab="data">⚙️ Database</button>
+</div></nav>
+
+<main>
+  <!-- shared filters -->
+  <div class="filters" id="filters">
+    <div class="row">
+      <input type="search" id="q" placeholder="Søk norsk, engelsk, eksempel…">
+      <select id="kind">
+        <option value="">Alt</option>
+        <option value="word">Ord</option>
+        <option value="expr">Uttrykk</option>
+        <option value="verb">Verbliste</option>
+        <option value="rule">Grammatikk</option>
+      </select>
+    </div>
+    <div class="chips" id="tags"></div>
+  </div>
+
+  <section class="panel on" id="p-search">
+    <div class="count" id="count"></div>
+    <div id="list"></div>
+  </section>
+
+  <section class="panel" id="p-cards">
+    <div class="row" style="justify-content:space-between;margin-bottom:12px">
+      <div class="stats" id="srsStats"></div>
+      <select id="dir">
+        <option value="no-en">Norsk → English</option>
+        <option value="en-no">English → Norsk</option>
+        <option value="mix">Blandet</option>
+      </select>
+    </div>
+    <div class="stage">
+      <div class="fc" id="fc"></div>
+      <div class="grade" id="grade" style="visibility:hidden">
+        <button class="btn g-again" data-g="0">Igjen</button>
+        <button class="btn g-hard" data-g="1">Vanskelig</button>
+        <button class="btn" data-g="2">Bra</button>
+        <button class="btn ghost" data-g="3">Lett</button>
+      </div>
+      <div class="note">Tap the card to flip it. The cards you get wrong come back sooner (spaced repetition, saved in this browser).</div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-ex">
+    <div class="ex-pick" id="exPick">
+      <button data-ex="mc"><b>Flervalg</b><small>Norsk → velg betydning</small></button>
+      <button data-ex="mcr"><b>Omvendt flervalg</b><small>English → velg norsk ord</small></button>
+      <button data-ex="write"><b>Skriv ordet</b><small>English → skriv på norsk</small></button>
+      <button data-ex="forms"><b>Bøyning</b><small>Preteritum, perfektum, bestemt form…</small></button>
+      <button data-ex="cloze"><b>Fyll inn</b><small>Ordet mangler i eksempelsetningen</small></button>
+      <button data-ex="gender"><b>en / ei / et</b><small>Velg riktig kjønn</small></button>
+    </div>
+    <div class="score" id="exScore"></div>
+    <div id="exArea"><div class="note">Velg en øvelse. The filters at the top (tags, search) decide which words are used, e.g. tap <b>kap6</b> to practise only chapter 6.</div></div>
+  </section>
+
+  <section class="panel" id="p-verbs">
+    <div class="ex-pick" id="vPick">
+      <button data-v="all"><b>Alle former</b><small>Skriv presens, preteritum og perfektum</small></button>
+      <button data-v="pret"><b>Bare preteritum</b><small>Rask runde: fortid</small></button>
+      <button data-v="group"><b>Hvilken gruppe?</b><small>sterk / -et / -te / -de / -dde …</small></button>
+      <button data-v="meaning"><b>Betydning</b><small>Verb → velg engelsk</small></button>
+    </div>
+    <div class="row" style="margin-bottom:10px">
+      <label class="cb"><input type="checkbox" id="vHard"> Bare sterke og uregelmessige</label>
+      <label class="cb"><input type="checkbox" id="vMine"> Bare verb fra timene / boka</label>
+    </div>
+    <div class="score" id="vScore"></div>
+    <div id="vArea"><div class="note">Velg en verbøvelse. Rule G25 in the Grammatikk tab explains the groups.</div></div>
+    <h2 style="margin-top:22px">Verbtabell</h2>
+    <div id="vTable"></div>
+  </section>
+
+  <section class="panel" id="p-grammar">
+    <div id="rules"></div>
+  </section>
+
+  <section class="panel" id="p-anki">
+    <h2>Export to Anki</h2>
+    <p class="note">The export uses the filtered entries. Copy the text, save it as a <b>.txt</b> file, and in Anki choose <i>File → Import</i>. The header lines set the separator (tab), turn on HTML and put the tags in column 3.</p>
+    <div class="row" style="margin:10px 0">
+      <label class="cb"><input type="radio" name="adir" value="no-en" checked> Norsk → English</label>
+      <label class="cb"><input type="radio" name="adir" value="en-no"> English → Norsk</label>
+      <label class="cb"><input type="radio" name="adir" value="both"> Begge</label>
+    </div>
+    <div class="row" style="margin-bottom:10px">
+      <button class="btn" id="copyAnki">Kopier Anki-tekst</button>
+      <a class="btn ghost" id="ankiFile" href="norsk-anki.txt" download style="display:none;text-decoration:none">Last ned Anki-fil (alt)</a>
+      <span class="note" id="ankiCount"></span>
+    </div>
+    <textarea id="ankiOut" readonly></textarea>
+  </section>
+
+  <section class="panel" id="p-data">
+    <h2>Database</h2>
+    <p class="note">The app reads <b>norsk-database.md</b> from the project. Claude updates the copy inside the app after each lesson. If you have a newer version, paste the whole markdown here: it's saved in this browser only.</p>
+    <textarea id="mdIn" placeholder="Lim inn norsk-database.md her…"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="btn" id="loadMd">Last inn</button>
+      <button class="btn ghost" id="resetMd">Tilbake til innebygd versjon</button>
+      <button class="btn ghost" id="resetSrs">Nullstill kort-fremgang</button>
+    </div>
+  </section>
+</main>
+<div class="toast" id="toast"></div>
+
+<script id="db" type="text/markdown">
+# Norsk læringsdatabase (B1, bokmål)
+
+This is the master list for building flashcards (Anki or similar). New lessons get **appended** to it. The verb list (section 6) lives in a separate file: `norsk-verbliste.md`.
+Columns: **Norsk** (with gender/article) · **Bøyning** (all forms) · **English** · **Eksempel** (from the book or your notes) · **Kilde** (where it came from) · **Tag**.
+
+Noun forms: indefinite sg – definite sg – indefinite pl – definite pl
+Verb forms: infinitive – present – past – perfect
+Adjective forms: m/f – neuter – plural/definite
+
+Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook page dated 15/10 · `N p7` = notebook page 7/26
+
+---
+
+## 0. Lesson log
+
+| Dato | Innhold |
+|---|---|
+| 2026-11-03 | Kap. 5 *Bolig og økonomi* (s. 66, 75–81), kap. 6 *Informasjon og kommunikasjon* (s. 82–87), notatbok s. 5, 6, 7, 9, 10, 11 |
+| 2026-11-03 (b) | Notatbok s. 13 (leddsetninger), 14 (22/10), 15, 17 (27/10), 18, 19, 20, 21 (29/10) |
+| 2026-11-03 (c) | Verbliste: 238 norske verb (grammatikk.com s. 1–6) → section 6 + rule G25 |
+| 2026-11-03 (d) | Time 3/11: notatbok s. 26–28 (passiv), tavle (substantiv-endelser), K6 s. 87–88 (personvern, Frustrert/Alex/Mikkel) |
+
+---
+
+## 1. Ord (vocabulary)
+
+### 1a. Kapittel 5 – Bolig og økonomi
+
+| Norsk | Bøyning | English | Eksempel | Kilde | Tag |
+|---|---|---|---|---|---|
+| en bolig | boligen – boliger – boligene | home, dwelling (house or flat) | De fleste har en boligdrøm. | K5 s.66 | kap5 bolig |
+| en boligdrøm | boligdrømmen – boligdrømmer – boligdrømmene | dream home | De fleste har en boligdrøm. | K5 s.66 | kap5 bolig |
+| å foretrekke | foretrekker – foretrakk – har foretrukket | to prefer | Andre foretrekker bylivet. | K5 s.66 | kap5 verb sterkt |
+| å trives | trives – trivdes – har trivdes | to thrive, to be happy (somewhere) | Darian trives ikke på skolen. | K5 s.75 | kap5 verb s-verb |
+| vanskelig | vanskelig – vanskelige | difficult | Det er litt vanskelig hjemme. | K5 s.75 | kap5 adj |
+| hjemmefra | (adverb) | (away) from home | Hun vil flytte hjemmefra. | K5 s.75 | kap5 adv |
+| et kollektiv | kollektivet – kollektiv – kollektivene | shared flat / house share | Hun vil flytte inn i et kollektiv. | K5 s.75 | kap5 bolig |
+| et bofellesskap | bofellesskapet – bofellesskap – bofellesskapene | co-living arrangement, shared housing | Et kollektiv er et bofellesskap. | K5 s.78 | kap5 bolig |
+| skeptisk | skeptisk – skeptiske | sceptical | Foreldrene er veldig skeptiske. | K5 s.75 | kap5 adj |
+| en stemning | stemningen – stemninger – stemningene | atmosphere, mood ("vibe") | Det er ganske dårlig stemning i huset. | K5 s.75 | kap5 |
+| et farmasistudium | farmasistudiet – farmasistudier – farmasistudiene | pharmacy degree/studies | …til du er ferdig med farmasistudiet. | K5 s.75 | kap5 |
+| sentral | sentralt – sentrale | central | Det er mer sentralt. | K5 s.75 | kap5 adj |
+| nær | nært – nære · komp. nærmere – nærmest | near, close | …nærmere universitetet. | K5 s.75 | kap5 adj komparativ |
+| å slippe | slipper – slapp – har sluppet | to not have to, to be spared (+ å) | Jeg slipper å ta bussen hver dag. | K5 s.75 · N p11 | kap5 verb sterkt |
+| et soverom | soverommet – soverom – soverommene | bedroom | …en leilighet med fire soverom. | K5 s.75 | kap5 bolig |
+| ei/en husleie | husleia/husleien – husleier – husleiene | rent | Vi skal dele på husleia. | K5 s.75 | kap5 bolig økonomi |
+| en strøm | strømmen – strømmer – strømmene | electricity; current | …dele på husleia og strømmen. | K5 s.75 | kap5 bolig |
+| å dele (på) | deler – delte – har delt | to share, to split | Vi skal dele på husleia. | K5 s.75 | kap5 verb |
+| dessuten | (adverb) | besides, moreover | Dessuten har jeg lyst til å bo med de andre. | K5 s.75 | kap5 adv konnektor |
+| å treffe | treffer – traff – har truffet | to meet; to hit | Dere har jo truffet dem. | K5 s.75 | kap5 verb sterkt |
+| hyggelig | hyggelig – hyggelige | nice, pleasant | Det er hyggelige jenter. | K5 s.75 | kap5 adj |
+| gratis | (uninflected) | free (of charge) | Du bor gratis. | K5 s.75 | kap5 adj |
+| å behøve | behøver – behøvde – har behøvd | to need (≈ trenge) | Du behøver verken å betale for husleie eller mat. | K5 s.75 | kap5 verb |
+| likevel | (adverb) | nevertheless, still, anyway | Likevel føler jeg meg … | K5 s.76 | kap5 adv konnektor |
+| å forklare | forklarer – forklarte – har forklart | to explain | Det er vanskelig å forklare. | K5 s.76 | kap5 verb |
+| skuffet | skuffet – skuffede/skuffa | disappointed | Sara er skuffet. | K5 s.76 | kap5 adj følelser |
+| å krangle | krangler – kranglet/krangla – har kranglet | to argue, quarrel ("fight" with words) | Hun har ikke lyst til å krangle med foreldrene. | K5 s.76 · s.81 | kap5 verb |
+| å legge ut | legger ut – la ut – har lagt ut | to post (online) | Hun legger den ut på Facebook. | K5 s.76 | kap5 verb partikkelverb |
+| kraftig | kraftig – kraftige | strong, powerful, solid | et stort og kraftig tre | K5 s.76 | kap5 adj |
+| trygg | trygt – trygge | safe, secure | Det lille treet sto trygt. | K5 s.76 | kap5 adj |
+| en storm | stormen – stormer – stormene | storm | i storm og uvær | K5 s.76 | kap5 vær |
+| et uvær | uværet – uvær – uværene | bad weather | i storm og uvær | K5 s.76 | kap5 vær |
+| å vokse | vokser – vokste – har vokst | to grow | lite lys og luft å vokse i | K5 s.76 | kap5 verb |
+| å hogge | hogger – hogde – har hogd (also: hugge – hugget) | to chop, to fell (a tree) | Noen hogde det store treet. | K5 s.76 · N 15/10 | kap5 verb |
+| en beskyttelse | beskyttelsen – (no pl.) | protection | Det hadde ikke lenger noen beskyttelse. | K5 s.76 | kap5 |
+| å klare seg | klarer seg – klarte seg – har klart seg | to manage, get by, cope | …et sterkt tre som klarte seg i all slags vær. | K5 s.76 | kap5 verb refleksiv |
+| kjempesnill | kjempesnilt – kjempesnille | super kind | De er kjempesnille! | K5 s.76 | kap5 adj |
+| kul | kult – kule | cool | Veldig kule er de i hvert fall. | K5 s.76 | kap5 adj |
+| å leie | leier – leide – har leid | to rent | Du leier en bolig når du betaler husleie. | K5 s.78 | kap5 bolig verb |
+| å eie | eier – eide – har eid | to own | Når du kjøper en bolig, eier du den. | K5 s.78 | kap5 bolig verb |
+| en eier | eieren – eiere – eierne | owner | …betaler husleie til eieren. | K5 s.78 | kap5 bolig |
+| en kjøper | kjøperen – kjøpere – kjøperne | buyer | | K5 s.78 | kap5 bolig |
+| et lån | lånet – lån – lånene | loan | ta opp et lån i banken | K5 s.78 | kap5 økonomi |
+| å låne | låner – lånte – har lånt | to borrow; to lend | Når du låner penger i banken … | K5 s.78 | kap5 økonomi verb |
+| ei/en gjeld | gjelda/gjelden – (rarely pl.) | debt | …får du gjeld. | K5 s.78 | kap5 økonomi |
+| et avdrag | avdraget – avdrag – avdragene | instalment, repayment | Du betaler et avdrag hver måned. | K5 s.78 | kap5 økonomi |
+| ei/en avdragstid | avdragstida/avdragstiden | repayment period | Denne tida kaller vi avdragstid. | K5 s.78 | kap5 økonomi |
+| ei/en rente | renta/renten – renter – rentene | interest (rate) | Renta er 4 % per år. | K5 s.78 | kap5 økonomi |
+| en egenkapital | egenkapitalen | equity, own savings (down payment) | Egenkapital er pengene du har spart selv. | K5 s.78 | kap5 økonomi |
+| et budsjett | budsjettet – budsjetter – budsjettene | budget | Det er lurt å sette opp et budsjett. | K5 s.78 | kap5 økonomi |
+| lur | lurt – lure | clever, smart (of an idea) | Det er lurt å … | K5 s.78 | kap5 adj |
+| ei/en oversikt | oversikta/oversikten – oversikter – oversiktene | overview | …bedre oversikt over økonomien | K5 s.78 | kap5 |
+| ei/en visning | visninga/visningen – visninger – visningene | viewing (of a property) | Du går på visning. | K5 s.78 | kap5 bolig |
+| et bud | budet – bud – budene | bid, offer | Å legge inn et bud | K5 s.78 | kap5 bolig |
+| å by (på) | byr – bød – har budt | to bid; to offer | å by på en leilighet | N p7 | kap5 bolig verb sterkt |
+| en megler | megleren – meglere – meglerne | (estate) agent | …til megleren | K5 s.78 | kap5 bolig |
+| skriftlig | skriftlig – skriftlige | written | et skriftlig bud | K5 s.78 | kap5 adj |
+| bindende | (uninflected) | binding | Budet ditt er bindende. | K5 s.78 | kap5 adj |
+| å akseptere | aksepterer – aksepterte – har akseptert | to accept | …hvis eieren aksepterer budet. | K5 s.78 | kap5 verb |
+| å øke | øker – økte – har økt | to increase, raise | Du må øke budet. | K5 s.79 | kap5 verb |
+| en budrunde | budrunden – budrunder – budrundene | bidding round | være med på budrunden | K5 s.79 | kap5 bolig |
+| å skje | skjer – skjedde – har skjedd | to happen | Det skjer vanligvis via sms. | K5 s.79 | kap5 verb |
+| ei/en fellesgjeld | fellesgjelda/-en | shared debt (of a housing co-op) | | K5 s.79 | kap5 bolig økonomi |
+| felleskostnader (pl.) | felleskostnadene | common costs, monthly fee | Felleskostnader kalles ofte husleie. | K5 s.79 | kap5 bolig økonomi |
+| et borettslag | borettslaget – borettslag – borettslagene | housing co-operative | | K5 s.79 | kap5 bolig |
+| et sameie | sameiet – sameier – sameiene | jointly-owned building (condo) | | K5 s.79 | kap5 bolig |
+| en beboer | beboeren – beboere – beboerne | resident | hver beboer | K5 s.79 | kap5 bolig |
+| ei/en forsikring | forsikringa/-en – forsikringer – forsikringene | insurance | forsikringer på bygg | K5 s.79 | kap5 økonomi |
+| en trappevask | trappevasken | stairwell cleaning | | K5 s.79 | kap5 bolig |
+| et kredittkort | kredittkortet – kredittkort – kredittkortene | credit card | | K5 s.79 | kap5 økonomi |
+| et beløp | beløpet – beløp – beløpene | amount, sum | betale hele beløpet | K5 s.79 | kap5 økonomi |
+| ei/en regning | regninga/-en – regninger – regningene | bill | Du får en regning. | K5 s.79 | kap5 økonomi |
+| imidlertid | (adverb) | however | Du må imidlertid betale høye renter. | K5 s.79 · N p7 | kap5 adv konnektor |
+| tydeligvis | (adverb) | evidently, clearly | | K5 s.81 | kap5 ordliste |
+| trang | trangt – trange | cramped, tight | trange skap | K5 s.81 · N p7 | kap5 adj |
+| miljøvennlig | miljøvennlig – miljøvennlige | environmentally friendly | | K5 s.81 | kap5 ordliste |
+| fornuftig | fornuftig – fornuftige | sensible, reasonable | | K5 s.81 | kap5 ordliste |
+| et abonnement | abonnementet – abonnementer – abonnementene | subscription | | K5 s.81 | kap5 ordliste |
+| å fornye | fornyer – fornyet – har fornyet | to renew | | K5 s.81 | kap5 ordliste verb |
+| å avslutte | avslutter – avsluttet – har avsluttet | to end, cancel, finish | | K5 s.81 | kap5 ordliste verb |
+| å skifte | skifter – skiftet – har skiftet | to change, switch (≈ bytte) | | K5 s.81 | kap5 ordliste verb |
+| å beholde | beholder – beholdt – har beholdt | to keep | | K5 s.81 | kap5 ordliste verb |
+| ei/en leting | letinga/-en | search(ing) | | K5 s.81 | kap5 ordliste |
+| å protestere | protesterer – protesterte – har protestert | to object, protest | | K5 s.81 | kap5 ordliste verb |
+| å stemme | stemmer – stemte – har stemt | to be correct; to vote | Det stemmer! | K5 s.81 | kap5 ordliste verb |
+| ei/en anledning | anledninga/-en – anledninger | opportunity, occasion | | K5 s.81 | kap5 ordliste |
+| å foreslå | foreslår – foreslo – har foreslått | to suggest | | K5 s.81 | kap5 ordliste verb sterkt |
+| å love | lover – lovet/lovte – har lovet/lovt | to promise | | K5 s.81 | kap5 ordliste verb |
+| faktisk | (adverb) | actually, in fact | Jeg har faktisk akkurat flyttet. | K5 s.76 · s.81 · N p7 | kap5 adv |
+| en bakgård | bakgården – bakgårder – bakgårdene | back yard, courtyard | | K5 s.81 · N p7 | kap5 bolig |
+| å oppgradere | oppgraderer – oppgraderte – har oppgradert | to upgrade, renovate (= pusse opp, modernisere) | | K5 s.81 · N p7 | kap5 bolig verb |
+| å nedgradere | nedgraderer – nedgraderte – har nedgradert | to downgrade | | N p7 | verb |
+| et skap | skapet – skap – skapene | cupboard, wardrobe | trange skap = cramped cupboards | N p7 | bolig |
+
+### 1b. Kapittel 6 – Informasjon og kommunikasjon
+
+| Norsk | Bøyning | English | Eksempel | Kilde | Tag |
+|---|---|---|---|---|---|
+| å oversvømme | oversvømmer – oversvømte – har oversvømt · passiv: oversvømmes | to flood, overwhelm | Vi oversvømmes av informasjon. | K6 s.82 | kap6 verb passiv |
+| uviktig | uviktig – uviktige | unimportant | viktige og uviktige nyheter | K6 s.82 | kap6 adj |
+| opptatt (av) | opptatt – opptatte | busy; preoccupied (with) | Er vi så opptatt av nettet? | K6 s.82 · s.85 | kap6 adj |
+| et personvern | personvernet | privacy (protection) | | K6 s.82 · s.87 | kap6 |
+| ei/en kildekritikk | kildekritikken | source criticism | | K6 s.82 | kap6 |
+| et nettvett | nettvettet | online etiquette / safe internet use | | K6 s.82 | kap6 |
+| ei/en livsmestring | livsmestringa/-en | life skills, coping | | K6 s.82 | kap6 |
+| å sms'e | sms'er – sms'et – har sms'et | to text (SMS) | | K6 s.83 | kap6 verb |
+| å tekste | tekster – tekstet – har tekstet | to text; to subtitle | Jeg tekster deg i stedet. | K6 s.84 | kap6 verb |
+| ei/en melding | meldinga/-en – meldinger – meldingene | message | sjekke meldinger | K6 s.84 | kap6 |
+| kjedelig | kjedelig – kjedelige | boring | Filmen var jo ganske kjedelig. | K6 s.84 | kap6 adj |
+| et øyeblikk | øyeblikket – øyeblikk – øyeblikkene | moment | Et øyeblikk! | K6 s.84 | kap6 |
+| å skru av | skrur av – skrudde av – har skrudd av | to switch off | Jeg skrur den av om natta. | K6 s.85 | kap6 verb partikkelverb |
+| ei/en sminke | sminka/sminken | make-up | | K6 s.85 | kap6 |
+| avhengig (av) | avhengig – avhengige | dependent on, addicted to | Jeg er helt avhengig av mobilen. | K6 s.85 | kap6 adj |
+| folk | (collective, no article in this sense) | people | holde kontakt med folk | K6 s.85 | kap6 |
+| et månedskort | månedskortet – månedskort – månedskortene | monthly (travel) pass | | K6 s.85 | kap6 |
+| ledig | ledig – ledige | vacant, free | ledige stillinger | K6 s.85 | kap6 adj |
+| ei/en stilling | stillinga/-en – stillinger | position, job | | K6 s.85 | kap6 jobb |
+| en jobbsøknad | jobbsøknaden – jobbsøknader | job application | | K6 s.85 | kap6 jobb |
+| en nabogutt | nabogutten – nabogutter | the boy next door | | K6 s.86 | kap6 |
+| å plage | plager – plaget/plagde – har plaget/plagd | to bother, harass | En som plager deg? | K6 s.86 | kap6 verb |
+| å chatte | chatter – chattet – har chattet | to chat (online) | | K6 s.86 | kap6 verb |
+| grei | greit – greie | nice, decent; easy | Han virket så grei. | K6 s.86 | kap6 adj |
+| å virke | virker – virket – har virket | to seem; to work (function) | Han virket så grei. | K6 s.86 | kap6 verb |
+| å manipulere | manipulerer – manipulerte – har manipulert | to manipulate | | K6 s.86 | kap6 verb |
+| en trussel | trusselen – trusler – truslene | threat | en tom trussel | K6 s.86 | kap6 |
+| en gubbe | gubben – gubber – gubbene | old man, geezer (informal) | en gammel gubbe | K6 s.86 | kap6 uformell |
+| å lure | lurer – lurte – har lurt | to trick, fool; (lure på) to wonder | prøver å lure jenter | K6 s.86 | kap6 verb |
+| å straffe | straffer – straffet – har straffet | to punish | Han kan bli straffet. | K6 s.86 | kap6 verb jus |
+| å dømme | dømmer – dømte – har dømt | to sentence, judge | Han ble dømt til fengsel. | K6 s.87 | kap6 verb jus |
+| et fengsel | fengselet – fengsler – fengslene | prison | ubetinget fengsel | K6 s.87 | kap6 jus |
+| ubetinget | ubetinget – ubetingede | unconditional (non-suspended sentence) | fem måneders ubetinget fengsel | K6 s.87 | kap6 jus |
+| å spre | sprer – spredte – har spredt | to spread | spre nakenbilder | K6 s.87 | kap6 verb |
+| ei/en krenkelse | krenkelsen – krenkelser | violation, offence (against a person) | | K6 s.87 | kap6 jus |
+| ei/en personopplysning | -opplysninga/-en – -opplysninger | personal data | | K6 s.87 | kap6 |
+| ei/en opplysning | opplysninga/-en – opplysninger | (piece of) information | | K6 s.87 | kap6 |
+| et privatliv | privatlivet | private life, privacy | | K6 s.87 | kap6 |
+| ei/en plikt | plikta/-en – plikter | duty | Foreldre har plikt til å passe på barna. | K6 s.87 | kap6 |
+| bekymret | bekymret – bekymrede/bekymra | worried | | K6 s.87 | kap6 adj følelser |
+| å beskytte | beskytter – beskyttet – har beskyttet | to protect | | K6 s.87 | kap6 verb |
+
+### 1c. Notatbok (fra timene)
+
+| Norsk | Bøyning | English | Eksempel | Kilde | Tag |
+|---|---|---|---|---|---|
+| å diskriminere | diskriminerer – diskriminerte – har diskriminert | to discriminate | | N 15/10 | samfunn verb |
+| ei/en likestilling | likestillinga/-en | (gender) equality | | N 15/10 | samfunn |
+| FN (De forente nasjoner) | | UN (United Nations) | | N 15/10 | samfunn |
+| å forene | forener – forente – har forent | to unite | De forente nasjoner | N 15/10 | samfunn verb |
+| en forening | foreningen – foreninger – foreningene | association, union, club | | N 15/10 | samfunn |
+| ei/en kunst → kunstig | kunstig – kunstige | art → artificial | kunstig intelligens | N 15/10 | adj ordlaging |
+| ei/en støtte · å støtte | støtta/-en · støtter – støttet – har støttet | support · to support (also financially) | | N 15/10 | samfunn |
+| å passe på | passer på – passet på – har passet på | to look after, keep an eye on (≈ observere, kontrollere) | Foreldre må passe på barna. | N 15/10 · K6 s.87 | verb partikkelverb |
+| å ta vare på | tar – tok – har tatt vare på | to take care of, preserve | | N 15/10 | verb |
+| å bevare | bevarer – bevarte – har bevart | to preserve, conserve | | N 15/10 | verb |
+| en stabilitet | stabiliteten | stability | | N 15/10 | samfunn |
+| å forhandle | forhandler – forhandlet – har forhandlet | to negotiate | | N 15/10 | samfunn verb |
+| en funksjonsnedsettelse | -nedsettelsen – -nedsettelser | disability | | N 15/10 | samfunn |
+| å bidra (til) | bidrar – bidro – har bidratt | to contribute (≈ hjelpe til) | | N 15/10 | verb sterkt |
+| forurenset | forurenset – forurensede | polluted | | N 15/10 | miljø adj |
+| et krigsområde | krigsområdet – krigsområder | war zone | | N 15/10 | samfunn |
+| krigsrammet | krigsrammet – krigsrammede | war-torn | | N 15/10 | samfunn adj |
+| å drive (med) | driver – drev – har drevet | to do (an activity); to run (a business) | Hva driver du med? | N 15/10 · N p6 | verb sterkt |
+| en skyskraper | skyskraperen – skyskrapere | skyscraper | | N p6 | by |
+| en fordel | fordelen – fordeler – fordelene | advantage | Hva er fordelen? | N p6 · K5 s.77 | |
+| en ulempe | ulempen – ulemper – ulempene | disadvantage | fordeler og ulemper | K5 s.77 | |
+| å berike | beriker – beriket – har beriket | to enrich | | N p6 | verb |
+| å dra | drar – dro – har dratt | to go/leave (by any transport, longer trip); to pull | Vi drar til Bergen. | N p7 | verb sterkt |
+| et faktum | faktumet – fakta – faktaene | fact | Faktum er at … | N p7 | |
+| å droppe | dropper – droppet – har droppet | to drop, leave out (= la falle) | | N 19/10 | verb |
+| ei/en nasjon | nasjonen – nasjoner | nation (*check gender in NAOB: masculine*) | | N 20/10 | |
+| å handle | handler – handlet – har handlet | to shop | Jeg handler mat. | N 19/10 | verb |
+| å handle om | handler om – handlet om | to be about | Boka handler om … | N 19/10 | verb |
+| sjelden | sjeldent – sjeldne | rare; rarely | sjeldne arter | N p10 | adj |
+| ei/en art | arten – arter – artene | species; kind | | N p10 | natur |
+| liknende / lignende | (uninflected) | similar | | N p10 | adj |
+| å gjennomføre | gjennomfører – gjennomførte – har gjennomført | to carry out, complete (≈ gjøre ferdig) | | N p10 | verb |
+| eksentrisk | eksentrisk – eksentriske | eccentric | | N p10 | adj |
+| å pendle | pendler – pendlet – har pendlet | to commute | Jeg slipper å pendle. | N p11 | verb |
+| en pendler | pendleren – pendlere – pendlerne | commuter | | N p11 | |
+| ei/en drosje | drosja/-en – drosjer | taxi | | N p11 | transport |
+| ei/en sikt | sikta/-en | visibility; sight | | N p11 | |
+| ei/en utsikt | utsikta/-en – utsikter | view | Leiligheten har fin utsikt. | N p11 | bolig |
+| ei/en husmor | husmora/husmoren – husmødre – husmødrene | housewife | en husmor som er hjemmeværende | N 22/10 | familie |
+| hjemmeværende | (uninflected) | stay-at-home | | N 22/10 | familie adj |
+| et par | paret – par – parene | couple; pair | | N 22/10 | familie |
+| et brudepar | brudeparet – brudepar – brudeparene | bridal couple, newlyweds | | N 22/10 | familie |
+| et ektepar | ekteparet – ektepar – ekteparene | married couple (mann + kone) | | N 22/10 | familie |
+| et bryllup | bryllupet – bryllup – bryllupene | wedding | | N 22/10 | familie |
+| ei/en brud | brura/bruden – bruder – brudene | bride | | N 22/10 | familie |
+| en brudgom | brudgommen – brudgommer – brudgommene | groom | | N 22/10 | familie |
+| ei/en kone | kona/konen – koner – konene | wife | | N 22/10 | familie |
+| et brensel | brenselet – (no pl.) | fuel (for heating) | | N 22/10 | bolig |
+| ødelagt | ødelagt – ødelagte | broken, ruined | | N p15 | adj |
+| knust | knust – knuste | smashed, shattered | Glasset er knust. | N p15 | adj |
+| å male | maler – malte – har malt | to paint | Hun har malt. | N p15 | verb |
+| en vannlekkasje | vannlekkasjen – vannlekkasjer | water leak | | N p15 | bolig |
+| et baderom | baderommet – baderom – baderommene | bathroom | | N p15 | bolig |
+| å bli | blir – ble – har blitt | to become; to stay | | N p15 | verb sterkt |
+| å slite | sliter – slet – har slitt | to struggle; to wear out | Jeg sliter litt økonomisk. | N p15 | verb sterkt |
+| økonomisk | økonomisk – økonomiske | financial(ly) | | N p15 | adj |
+| ingen | (pronoun) | nobody, no, none (= ikke noen) | Det er ingen hjemme. | N 27/10 | pronomen |
+| stadig | (adverb) | constantly; increasingly (stadig bedre = better and better) | Han sjekket stadig telefonen. | N p18 · K6 s.84 | adv |
+| uinteressant | uinteressant – uinteressante | uninteresting | helt uinteressant | N p18 | adj |
+| å prate | prater – pratet – har pratet | to chat, talk (≈ snakke) | Du ville jo prate om noe. | N p18 · K6 s.84 | verb |
+| visst | (modal adverb) | apparently, I've heard | Han er visst syk. | N p18 | adv partikkel |
+| trolig / sannsynligvis | (adverbs) | probably (= nok) | | N p18 | adv |
+| å anklage | anklager – anklaget – har anklaget | to accuse | De anklager hverandre. | N p19 | verb |
+| å beskylde | beskylder – beskyldte – har beskyldt | to accuse, blame | De beskylder hverandre. | N p19 | verb |
+| hverandre | (pronoun) | each other | | N p19 | pronomen |
+| å sammenligne | sammenligner – sammenlignet – har sammenlignet | to compare | | N p20 | verb |
+| lei (seg) | (predicative) | sad (bli lei seg) | Jeg blir lei meg. | N 29/10 | adj følelser |
+| trist | trist – triste | sad | | N 29/10 | adj følelser |
+| å svare | svarer – svarte – har svart | to answer | Han svarer at … | N 29/10 | verb |
+| å oppdage | oppdager – oppdaget – har oppdaget | to discover, find out | Jeg har oppdaget at foreldrene mine sjekker meldingene. | K6 s.88 · N 3/11 | kap6 verb |
+| en oppdagelse | oppdagelsen – oppdagelser – oppdagelsene | discovery | | N 3/11 | kap6 |
+| å godta | godtar – godtok – har godtatt | to accept, agree to | …hvis de ikke har godtatt det. | K6 s.87 · N 3/11 | kap6 verb sterkt |
+| å tørre | tør – turte – har turt | to dare | Snart tør jeg ikke gå på fest. | K6 s.88 | kap6 verb |
+| ei/en venninne | venninna/venninnen – venninner – venninnene | (female) friend | …hva jeg snakker med venninnene mine om | K6 s.88 | kap6 |
+| morsom | morsomt – morsomme | funny, fun | «morsomme» bilder | K6 s.88 | kap6 adj |
+| full | fullt – fulle | full; drunk | folk som ser dumme og fulle ut | K6 s.88 | kap6 adj |
+| gøy | (uninflected) | fun | Vi hadde det jo bare gøy. | K6 s.88 | kap6 adj |
+| utover | (preposition) | all over; beyond | glass og flasker utover hele bordet | K6 s.88 | kap6 |
+| en arbeidsgiver | arbeidsgiveren – arbeidsgivere – arbeidsgiverne | employer | hva vil en arbeidsgiver tro? | K6 s.88 | kap6 jobb |
+| ei/en smartklokke | smartklokka/smartklokken – smartklokker – smartklokkene | smartwatch | Vi har kjøpt smartklokke til sønnen vår. | K6 s.88 | kap6 |
+| en knapp | knappen – knapper – knappene | button | en egen SOS-knapp | K6 s.88 | kap6 |
+| en trygghet | tryggheten | security, feeling safe | Det gir stor trygghet. | K6 s.88 | kap6 |
+| en frihet | friheten – friheter – frihetene | freedom | Barna må ha frihet. | K6 s.88 | kap6 |
+| en kompetanse | kompetansen | competence, skills | Barn må få digital kompetanse. | K6 s.88 | kap6 |
+| en konsekvens | konsekvensen – konsekvenser – konsekvensene | consequence | Tenker du på konsekvensene? | K6 s.88 | kap6 |
+| enig / uenig | enig – enige | (be) in agreement / disagreement | Er du enig eller uenig? | K6 s.88 | kap6 adj |
+| selvstendig | selvstendig – selvstendige | independent | | N 3/11 (tavle) | adj ordlaging |
+| en selvstendighet | selvstendigheten | independence | | N 3/11 (tavle) | ordlaging |
+| å låse | låser – låste – har låst | to lock | Dørene låses om kvelden. | N 3/11 | verb passiv |
+| å stenge | stenger – stengte – har stengt | to close, shut | Skolen ble stengt i går. | N 3/11 | verb passiv |
+| å vaske | vasker – vasket – har vasket | to wash | Bilen må vaskes. | N 3/11 | verb passiv |
+
+---
+
+## 2. Uttrykk og fraser (expressions)
+
+| Norsk | English | Eksempel | Kilde | Tag |
+|---|---|---|---|---|
+| for tiden | at the moment, these days | Det er litt vanskelig hjemme for tiden. | K5 s.75 | kap5 tid |
+| å gjøre ferdig (noe) | to finish (something) | Han skal gjøre ferdig skolen. | K5 s.75 | kap5 |
+| å være ferdig med | to be done with | …til du er ferdig med farmasistudiet. | K5 s.75 | kap5 |
+| å ha lyst til (å) | to want to, feel like | Han har lyst til å slutte. | K5 s.75 | kap5 |
+| å ha lyst på (noe) | to want (a thing) | Noen har lyst på en ny leilighet. | K5 s.66 | kap5 |
+| å ønske seg | to wish for | Noen ønsker seg et rolig liv på landet. | K5 s.66 | kap5 refleksiv |
+| dårlig stemning | bad atmosphere/vibe | Det er dårlig stemning i huset. | K5 s.75 | kap5 |
+| i tillegg | in addition | I tillegg har Sara sagt at … | K5 s.75 | kap5 konnektor |
+| å flytte hjemmefra | to move out (of parents' home) | | K5 s.75 | kap5 bolig |
+| å dele på (husleia) | to split (the rent) | | K5 s.75 | kap5 bolig |
+| i fred | in peace, undisturbed | Her kan du studere i fred. | K5 s.75 | kap5 |
+| Vi gjør alt for å hjelpe deg. | We do everything to help you. | | K5 s.75 | kap5 |
+| Vi får tenke på det. | We'll have to think about it. (polite "maybe") | | K5 s.76 · N p11 | kap5 modal |
+| dagen etter | the day after | Dagen etter leser hun en historie. | K5 s.76 | kap5 tid |
+| Det var en gang … | Once upon a time … | | K5 s.76 | kap5 |
+| ved siden av | next to; alongside, on the side | et tre ved siden av et stort tre · en jobb ved siden av skolen | K5 s.76 · K6 s.85 | kap5 kap6 |
+| ikke lenger | no longer | Det hadde ikke lenger beskyttelse. | K5 s.76 | kap5 |
+| etter en stund | after a while | | K5 s.76 | kap5 tid |
+| i høyden | upwards, in height | vokse i høyden | K5 s.76 | kap5 |
+| all slags / allslags | all kinds of | all slags vær | K5 s.76 | kap5 |
+| i hvert fall | at any rate, at least | | K5 s.76 | kap5 |
+| Slik kan man også se på det. | That's one way to look at it. | | K5 s.76 | kap5 |
+| å re opp senga | to make the bed | | K5 s.76 | kap5 hjem |
+| ved sjøen / mot sjøen | by the sea / facing the sea | en liten leilighet ved sjøen | N (your answer) s.76 | kap5 preposisjon |
+| Borte bra, men hjemme best. | East or west, home is best. | (gammelt ordtak) | K5 s.66 | kap5 ordtak |
+| å ta opp et lån | to take out a loan | | K5 s.78 | kap5 økonomi |
+| å sette opp et budsjett | to make a budget | | K5 s.78 | kap5 økonomi |
+| å gå på visning | to go to a viewing | | K5 s.78 | kap5 bolig |
+| å legge inn et bud (= å by på) | to place a bid | | K5 s.78 · N p7 | kap5 bolig |
+| til salgs | for sale | en bolig som er til salgs | K5 s.78 | kap5 |
+| som oftest | most often | | K5 s.78 | kap5 |
+| Det vil si … (dvs.) | That is to say … / i.e. | | K5 s.78 | kap5 |
+| slik at | so that | | K5 s.78 | kap5 konnektor |
+| som regel | as a rule, usually | | K5 s.79 | kap5 |
+| med en gang | at once, in one go | | K5 s.79 | kap5 |
+| å ha råd til | to be able to afford | Vi har ikke råd. | K5 s.81 | kap5 økonomi |
+| begge deler | both | | K5 s.81 | kap5 |
+| et par år | a couple of years | | K5 s.81 | kap5 |
+| å ta kontakt med | to get in touch with | | K5 s.81 | kap5 |
+| å si opp (en avtale) | to cancel (a contract) | | K5 s.81 | kap5 |
+| å dukke opp | to turn up, appear | | K5 s.81 | kap5 partikkelverb |
+| i våre dager | nowadays | | K6 s.82 | kap6 tid |
+| uten stans | non-stop | | K6 s.82 | kap6 |
+| å gå glipp av | to miss out on | …slik at de ikke går glipp av noe. | K6 s.82 | kap6 |
+| å legge bort | to put away | Kan du ikke legge bort mobilen? | K6 s.84 | kap6 partikkelverb |
+| i stedet | instead | Så kan vi snakke litt sammen i stedet? | K6 s.84 | kap6 |
+| å bli lei av | to get tired/sick of | Jeg blir så lei av at du ser på mobilen. | K6 s.84 | kap6 |
+| hele tida | all the time | | K6 s.84 | kap6 tid |
+| en god stund | a good while | I helga la jeg den bort en god stund. | K6 s.84 | kap6 tid |
+| (bare) av og til | (only) now and then | | K6 s.84 | kap6 tid |
+| Glem det! | Forget it! | | K6 s.84 | kap6 |
+| Tenk å …! | Imagine …-ing! | Tenk å kjøre rundt i en sånn en! | K6 s.84 | kap6 |
+| å holde kontakten (med) | to keep in touch (with) | | K6 s.85 | kap6 |
+| å gjøre avtaler | to make plans/arrangements | | K6 s.85 | kap6 |
+| i løpet av | during, in the course of | i løpet av dagen | K6 s.85 | kap6 tid |
+| å følge med på | to keep up with, follow | Jeg følger med på nyhetene. | K6 s.85 | kap6 |
+| å holde seg oppdatert | to keep oneself updated | | K6 s.85 | kap6 refleksiv |
+| å kutte ut | to cut out, quit | …men det har jeg kuttet ut. | K6 s.85 | kap6 partikkelverb |
+| å ha (mye) glede av | to get (a lot of) joy from | Det har jeg mye glede av. | K6 s.85 | kap6 |
+| å bestille time hos tannlegen | to book a dentist appointment | | K6 s.85 | kap6 |
+| Hva er det som har skjedd? | What has happened? | | K6 s.86 | kap6 |
+| i det siste | lately | | K6 s.86 | kap6 tid |
+| Hold deg unna ham! | Stay away from him! | | K6 s.86 | kap6 |
+| å kutte kontakten | to cut contact | | K6 s.86 | kap6 |
+| en tom trussel | an empty threat | | K6 s.86 | kap6 |
+| Stol på meg. | Trust me. | | K6 s.86 | kap6 |
+| Jeg håper du har rett. | I hope you're right. | | K6 s.86 | kap6 |
+| å bli utsatt for | to be subjected to | | K6 s.87 | kap6 passiv |
+| å ha rett til | to have the right to | | K6 s.87 | kap6 |
+| Det er (ikke) lov å … | It is (not) allowed to … | | K6 s.87 | kap6 |
+| å ha grunn til å | to have reason to | | K6 s.87 | kap6 |
+| Hva driver du med (på fritida)? | What do you do (in your free time)? | | N p6 | hverdag |
+| Hva er fordelen? | What's the advantage? | | N p6 | |
+| Faktum er at … | The fact is that … | | N p7 | |
+| å gå i kirken | to go to church | | N p7 | |
+| å legge merke til | to notice | | N p11 | |
+| til slutt | finally, in the end | | N p11 | tid |
+| Gi deg! | Give up! / Stop it! / Come on! | | N p15 | hverdag |
+| om kvelden | in the evening(s) | Om kvelden legger jeg bort telefonen. | N p20 · K6 s.85 | tid |
+| fordeler og ulemper | pros and cons | | N p20 | |
+| ganske kjedelig ↔ helt uinteressant | rather boring ↔ completely uninteresting | | N p18 | |
+| stadig bedre | better and better | | N p18 | |
+| en sånn bil = en slik bil | a car like that (sånn = spoken, slik = written) | Tenk å kjøre rundt i en sånn en! | N p18 · K6 s.84 | |
+| Hva var det (at) du sa? | What was it you said? (softer than *Hva sa du?*) | | N p19 | høflighet |
+| Hva er det du mener? | What is it you mean? | | N p19 | høflighet |
+| Jeg har (helt) rett. ↔ Du tar feil. | I'm (completely) right. ↔ You're wrong. | | N p19 · K6 s.86 | |
+| å bli lei seg | to become sad / upset | Hvis du ikke kommer, blir jeg lei meg. | N 29/10 | følelser |
+| å holde en avtale | to keep an appointment/promise | Han har en avtale (som) han må holde. | N 29/10 | |
+| å ha lov til (å) | to be allowed to | Har de lov til det? | K6 s.88 | kap6 |
+| å få noen til å … | to get/make someone do … | Hva kan jeg si for å få dem til å slutte? | K6 s.88 | kap6 |
+| å gjøre noe galt | to do something wrong | Jeg gjør ikke noe galt. | K6 s.88 | kap6 |
+| en eller annen | someone or other | Det er alltid en eller annen som legger ut bilder. | K6 s.88 | kap6 |
+| Det ser verre ut enn det var. | It looks worse than it was. | | K6 s.88 | kap6 |
+| å ha det gøy | to have fun | Vi hadde det jo bare gøy. | K6 s.88 | kap6 |
+| å søke på (en jobb) | to apply for (a job) | Nå skal jeg begynne å søke på jobber. | K6 s.88 | kap6 jobb |
+| å finne ut | to find out | …slik at vi alltid kan finne ut hvor han er. | K6 s.88 | kap6 partikkelverb |
+| noen få | a few | noen få kontakter | K6 s.88 | kap6 |
+| til og med | even | Det er til og med en egen SOS-knapp. | K6 s.88 | kap6 |
+| både … og … | both … and … | både for ham og for oss | K6 s.88 | kap6 konnektor |
+| å være enig/uenig (med noen / i noe) | to agree/disagree (with someone / about something) | | K6 s.88 | kap6 |
+| retten til å bestemme over egne personopplysninger | the right to control your own personal data | | K6 s.87 · N 3/11 | kap6 |
+
+---
+
+## 3. Grammatikk (rules)
+
+### G1. Adjektiv – ubestemt form *(K5 s.80)*
+Pattern: **base** (m/f) · **+t** (neuter) · **+e** (plural)
+en fin leilighet · ei fin stue · et fin**t** kjøkken · fin**e** leiligheter
+Predicative works the same: Leiligheten er stor · Kjøkkenet er stor**t** · Leilighetene er stor**e**.
+
+**Exceptions:**
+- Ends in **-ig** → no -t: vanskelig, hyggelig, kjedelig (et vanskelig valg)
+- Ends in **-sk** → usually no -t: norsk, skeptisk, praktisk (et praktisk kjøkken). Exception: one-syllable words like frisk → friskt, fersk → ferskt
+- Ends in **-ende** or **-e** → never changes: bindende, spennende, moderne, lignende
+- Ends in **-t** already → no extra -t: lett, kort, sint
+- Double consonant → simplify: grønn → grønt, tynn → tynt
+- Ends in a stressed vowel → **-tt**: ny → nytt, blå → blått, fri → fritt
+- Some don't change at all: gratis, bra, ekte
+- **-el / -en / -er** drop the e in the plural: gammel → gamle, sikker → sikre, åpen → åpne
+- Past participles in -et: skuffet → skuffede (or skuffa)
+
+### G2. Adjektiv – bestemt form *(K5 s.80)*
+**den / det / de + adjektiv-e + substantiv i bestemt form** (double definiteness)
+den fine leiligheten · den fine stua · det fine kjøkkenet · de fine rommene
+- After a possessive or genitive, there's no den/det but the adjective still takes **-e**: min fine leilighet, Saras nye kollektiv
+- **-ig/-sk** words also take -e here: det vanskelige valget
+
+### G3. Liten og annen *(K5 s.80)*
+| | m | f | n | pl | bestemt |
+|---|---|---|---|---|---|
+| liten | en liten | ei lita / en liten | et lite | små | den/det lille · de små |
+| annen | en annen | ei anna / en annen | et annet | andre | den/det andre · de andre |
+With **ei** you use lita/anna; with **en** (for feminine nouns) you use liten/annen.
+
+### G4. Modalverb + infinitiv uten «å» *(N p11)*
+vil, skal, må, kan, bør, får + bare infinitive: Jeg **må gå**. Vi **får tenke** på det.
+- **få + infinitive** = "will have to / let's (I suppose)": *Vi får tenke på det* = We'll have to think about it (often a polite "maybe/no").
+- Contrast: *ha lyst til **å***, *slippe **å***, *behøve **å*** → these **do** take å.
+- Exception: **trenge** → *Du trenger ikke (å) betale* — å is optional.
+
+### G5. Leaving out the motion verb after a modal *(N p7)*
+Norwegian often drops gå/dra/reise after modals when there's a direction:
+*Jeg skal (gå) hjem.* · *Jeg må (gå) til tannlegen.* · *Vi skal til Bergen.*
+
+### G6. gå vs dra *(N p7)*
+- **gå** = to walk, go on foot (or regular activities: gå på skolen, gå på visning, gå i kirken)
+- **dra** = to go/leave by any means, often a trip: dra på ferie, dra til Bergen (≈ reise, kjøre)
+- **gå på / gå fra / gå til**: gå på (bussen, skolen, visning) · gå fra (leave from) · gå til (go to)
+
+### G7. Inversjon (V2) *(K6 s.84)*
+The verb is always in **2nd position** in a main clause. If something other than the subject comes first, the subject moves after the verb:
+*Så **kan vi** snakke litt.* · *I helga **la jeg** den bort.* · *Dagen etter **leser hun** en historie.* · *Likevel **føler jeg** meg …*
+
+### G8. Som-setninger (relative clauses) *(N 19/10)*
+- In subordinate clauses, **ikke** (and other sentence adverbs) comes **before** the verb:
+  *Jeg har en bok som jeg **ikke har** lest.* (main clause: Jeg **har ikke** lest boka.)
+- If **som is the subject** of the clause, it **must** stay: *en bok **som** handler om trær*
+- If **som is the object** (someone else is the subject), you **can drop it**: *en bok (som) jeg ikke har lest*
+
+### G9. verken … eller · ikke … heller *(K5 s.75, N p10 – "check this one")*
+- **verken A eller B** = neither A nor B: *Du behøver **verken** å betale for husleie **eller** mat.*
+  = *Du behøver ikke å betale for husleie, og ikke for mat heller.*
+- **ikke … heller** = not … either: *Jeg liker ikke kaffe. Jeg liker ikke te **heller**.*
+- **Heller ikke** at the start of a sentence → inversion: *Heller ikke jeg vet det.*
+- Don't put ikke inside verken…eller (~~verken ikke~~): verken already contains the negation.
+
+### G10. gjerne → heller → helst *(N p11)*
+Gradation for "like to / prefer":
+*Jeg drikker **gjerne** te* (I like to) → *Jeg drikker **heller** te* (I'd rather) → *Jeg drikker **helst** te* (I most prefer).
+Also: *Han vil **heller** jobbe med musikk.* (K5 s.75)
+
+### G11. Modale partikler (jo, vel, nok, da) *(K5 s.75, K6 s.84–86)*
+Small words that add attitude, not content:
+- **jo** = "as you know" (shared knowledge): *Dere har **jo** truffet dem.*
+- **vel** = "surely / I suppose" (asks for agreement): *Du kan **vel** bo hjemme?*
+- **nok** = "probably / I'm fairly sure": *Han er **nok** en gammel gubbe.*
+- **da** = softens or adds emphasis/irritation: *Det gjør jeg **da** ikke!* · *Hva slags bilde **da**?*
+
+### G12. Refleksive verb og s-verb
+- **Reflexive**: klare seg, føle seg, holde seg (oppdatert/unna), ønske seg → the pronoun changes: jeg føler **meg**, hun klarer **seg**
+- **Deponent s-verbs** (look passive, mean active): trives, synes, finnes, minnes → *Darian trives ikke.*
+
+### G13. Partikkelverb (verb + particle)
+The particle changes the meaning, and it's stressed in speech: legge **ut**, legge **bort**, kutte **ut**, skru **av**, dukke **opp**, si **opp**, passe **på**, ta **opp** (et lån).
+With a pronoun object, the pronoun comes **before** the particle: *Jeg skrur **den av**.* · *Hun legger **den ut**.* · *I helga la jeg **den bort**.*
+
+### G14. Passiv (preview of kap. 6, full rule in G26) *(K6 s.82, 86–87)*
+- **s-passiv** (present/infinitive, general or repeated actions): *Vi oversvømmes av informasjon.* · *De som utsettes for …*
+- **bli-passiv** (bli + past participle, specific events): *Han kan **bli straffet**.* · *Han **ble dømt** til fengsel.* · *De **blir utsatt** for krenkelse.*
+
+### G15. Konnektorer (likevel / imidlertid / dessuten / i tillegg)
+- **likevel** = nevertheless (contrast, conversational): *Likevel føler jeg meg …*
+- **imidlertid** = however (more formal, written; often after the verb): *Du må **imidlertid** betale høye renter.*
+- **dessuten / i tillegg** = besides / in addition
+All are adverbs, so when they open a sentence → inversion (G7).
+
+### G16. Leddsetninger – word order in subordinate clauses *(N p13)*
+**subjunksjon + subjekt + (adverb: ikke/alltid/aldri…) + verb + resten**
+Subjunctions: at, når, hvis, om, fordi, mens, selv om, da, før, etter at, til, som.
+- *Det regner **ikke** når jeg **går** til skolen.* (main clause: verb – ikke)
+- *Jeg liker skolen fordi jeg **alltid finner** noen å snakke med.* (NOT ~~fordi jeg finner alltid~~)
+- *Hvis du **ikke kommer**, blir jeg lei meg.*
+- No inversion inside the leddsetning, but if the leddsetning comes **first**, the main clause inverts: *Hvis du ikke kommer, **blir jeg** lei meg.* (the whole leddsetning counts as position 1)
+
+### G17. hvis vs om *(N 29/10)*
+- **hvis** = if (condition): *Hvis du ikke kommer, blir jeg lei meg.*
+- **om** = whether (indirect question): *Hun spør **om** han kommer.* (NOT ~~spør hvis~~)
+- Tip: if you can say "whether" in English, use **om**. (om can also mean "if" in conditions, but hvis can never mean "whether".)
+
+### G18. Indirekte tale (reported speech) *(N 29/10)*
+*Han sier: «Jeg har en avtale.»* → *Han sier **at** han har en avtale.*
+*Hun spør: «Kommer du?»* → *Hun spør **om** han kommer.*
+*Hun spør: «Hvor bor du?»* → *Hun spør **hvor** han bor.*
+Leddsetning word order (G16): *Han sier at han **ikke har** tid.*
+*at* can be dropped after sier/tror/vet: *Han sier (at) han kommer.*
+
+### G19. hel / helt / hele *(N p18)*
+- Indefinite: **en hel** dag · **ei hel** natt · **et helt** år ("a whole")
+- Definite: **hele** + definite noun, **without den/det**: *hele dagen, hele tida, hele verden, hele året* (NOT ~~den hele dagen~~)
+- **helt** as an adverb = completely: *helt rett, helt uinteressant*
+- Contrast: **ganske** = rather/quite: *ganske kjedelig*
+
+### G20. all / alt / alle *(N 27/10)*
++ **definite form** of the noun:
+- **all** + uncountable m/f: *all maten*
+- **alt** + uncountable neuter: *alt vannet*
+- **alle** + plural: *alle menneskene, alle bøkene*
+- With an adjective: **all den** gode maten · **alt det** varme vannet · **alle de** gode vennene
+- **alle** alone = everybody · **alt** alone = everything
+
+### G21. noe / noen / ingen *(N 27/10, p18)*
+- **noe** = something / some, any (+ uncountable or neuter): *noe nytt, Har vi noe mat?* (≈ litt mat)
+- **noen** = someone / some, any (+ plural): *Noen mener at det er feil. Har du noen nyheter?*
+- **ingen** = nobody / no (= ikke noen): *Ingen kom.* · *Det er ingen hjemme.*
+- Adjective after noe takes the neuter -t: *noe nytt, noe gammelt*
+- *Noe er gammelt, noe er nytt.* (= en del av det)
+- **ikke noe / ikke noen** is more common in speech than **ingen** when it's the object: *Jeg har ikke noen venner her.*
+
+### G22. Modale adverb – complete list *(N p18, extends G11)*
+| Word | Meaning | Example |
+|---|---|---|
+| **jo** | as you know | *Du ville jo prate om noe.* |
+| **vel** | I suppose / surely? | *Du kommer vel?* |
+| **nok** | probably (= trolig, sannsynligvis) | *Han er nok syk.* |
+| **da** | obviously / softener / irritation | *Det gjør jeg da ikke!* |
+| **visst** | apparently, so I've heard | *Han har visst flyttet.* |
+They sit right after the verb in main clauses (V2 + modal adverb), like *ikke*.
+
+### G23. Politeness: avoid sounding too direct *(N p19)*
+Short questions like *Hva sa du? / Hva vil du? / Hva mener du?* can sound abrupt.
+Softer: **Hva var det du sa?** · **Hva var det du ville?** · use *Unnskyld, …* or the particle *da*: *Hva mener du, da?*
+The "Hva er/var det (som/at) …" frame is a cleft sentence, used to soften or focus.
+
+### G24. lei meg vs lei av *(N 29/10, K6 s.84)*
+- **å bli/være lei seg** = to be sad/upset: *Jeg blir lei meg.* (reflexive: meg, deg, seg …)
+- **å bli/være lei av** = to be tired/sick of: *Jeg blir lei av at du ser på mobilen.*
+
+### G25. Verbgrupper – how to predict the past tense *(verbliste, grammatikk.com)*
+**Svake verb** (regular) get an ending. Look at the stem (infinitive minus -e):
+- **-et** (gruppe 1): stem ends in **two consonants** → vaske – vasket, snakke – snakket, huske – husket
+- **-te** (gruppe 2): stem ends in **one consonant** (or ll/mm/nn) → spise – spiste, lese – leste, kjøpe – kjøpte, glemme – glemte, kjenne – kjente
+- **-de** (gruppe 3): stem ends in **-v, -g or a diphthong (ei, øy)** → leve – levde, prøve – prøvde, eie – eide, pleie – pleide
+- **-dde** (gruppe 4): **one-syllable verbs ending in a stressed vowel** → bo – bodde, tro – trodde, sy – sydde, snu – snudde, bety – betydde
+- Perfektum: -et → har -et · -te → har -t · -de → har -d · -dde → har -dd
+
+**Sterke verb** (strong): **no ending in preteritum, the vowel changes** → drikke – drakk – har drukket, skrive – skrev – har skrevet, finne – fant – har funnet. Perfektum usually ends in **-et** or **-tt**. You must learn these by heart (practise them in the Verb tab).
+- Common vowel patterns: **i → a → u** (drikke, finne, synge, vinne) · **i → e → e** (skrive, bite, gripe) · **y → ø → (u)** (bryte, fryse, by)
+
+**Uregelmessige** (irregular): change vowel **and** add an ending: gjøre – gjorde – gjort, spørre – spurte, legge – la – lagt, si – sa – sagt, vite – vet – visste, velge – valgte, fortelle – fortalte, sette – satte.
+
+**Exceptions to watch:**
+- Many -et verbs also have an **-a** form in speech/radical bokmål: kastet → kasta (common in Oslo).
+- **gruppe 2 vs 1** isn't 100% reliable: klippe – klippet but perfektum har klipt; leke – lekte (one consonant → -te ✓) but bade – badet.
+- Modal verbs: present has no -r (kan, vil, skal, må, bør).
+- s-verb: synes – syntes – har syntes; trives – trivdes – har trivdes.
+- Pairs with different meaning: **henge** (hang – be hanging) vs **henge** (hengte – hang up); **brenne** (brant – be on fire) vs (brente – set fire to).
+
+### G26. Passiv – bli-passiv, s-passiv og er + partisipp *(N 3/11)*
+Passive = the **object becomes the subject**; who does it is unimportant or unknown (add it with **av**: *Bilen ble vasket av Ola*).
+*De stengte skolen i går.* → *Skolen **ble stengt** i går.*
+
+**bli-passiv** = bli + perfektum partisipp. Works in **all tenses**; used for a **specific, single action**:
+| Tid | Aktiv | Passiv |
+|---|---|---|
+| presens | Noen vasker bilen. | Bilen **blir vasket**. |
+| preteritum | De stengte skolen. | Skolen **ble stengt**. |
+| perfektum | Noen har vasket bilen. | Bilen **har blitt vasket** / **er blitt vasket**. |
+| med modal | Noen må vaske bilen. | Bilen **må bli vasket**. |
+(bli – blir – ble – har blitt)
+
+**s-passiv** = verb + **-s**. Only in **presens** and **infinitiv** (after a modal). Used for **rules, habits, repeated or general actions** ("normative"):
+- å låse → å låses: *Dørene **låses** om kvelden.* (= every evening)
+- *Søknaden **må skrives** nå.* · *Noe **må gjøres**.* · *Klokka kan også **brukes** som telefon.*
+- **After modal verbs (kan, må, skal, bør), s-passiv is the normal choice**: *Bilen må vaskes.*
+- Presens: drop the -r and add -s: vasker → vaskes, skriver → skrives. Verbs ending in a vowel: *å sy → sys*.
+
+**er + partisipp** = a **state/result** (the action is already finished), not an action:
+- *Bilen **er vasket**.* (it's clean now) ≠ *Bilen **blir vasket**.* (someone is washing it)
+- *Skolen **er stengt**.* (it's closed)
+
+**Exceptions and tips:**
+- s-passiv doesn't exist in preteritum in normal modern bokmål (~~vasktes~~ is old-fashioned): use *ble vasket*.
+- Don't confuse s-passiv with **s-verb** (deponent): *trives, synes, finnes* look passive but are active (G12).
+- *Søknaden blir skrevet nå* (specific, now) vs *Søknader skrives på nett* (general rule).
+
+### G27. Substantiv-endelser – which gender? *(tavle 3/11)*
+Nouns with these endings are **(almost) always en** (masculine):
+- **-het**: selvstendighet, frihet, trygghet, sannhet
+- **-else**: oppdagelse, krenkelse, beskyttelse, overraskelse
+- **-sjon**: informasjon, kommunikasjon, situasjon
+- **-ing / -ning**: visning, regning, leting, opplysning: these can also be **ei** (feminine) in bokmål: *ei/en regning, regninga/regningen*
+- Adjectives often end in **-ig** (selvstendig, vanskelig) or **-lig**: add **-het** to make a noun: selvstendig → selvstendighet, trygg → trygghet
+
+**Other useful endings:**
+- **-eri** → et (et bakeri, et vaskeri)
+- **-dom** → en (en sykdom, en ungdom)
+- **-skap** → usually et (et vennskap, et ekteskap), but en vitenskap, ei/en egenskap
+
+**Exceptions:** short words that only *look* like they have the ending aren't suffix words, so the rule doesn't apply: *ei/en seng* (bed), *en ting* / *et ting* (thing / parliament). When the ending isn't a real suffix (the word is one short root), check the gender in NAOB.
+
+### G28. kanskje – no inversion needed *(N 3/11)*
+Normally an adverb at the start causes inversion (G7), but **kanskje** often doesn't:
+- *Kanskje **han kommer**.* (very common, no inversion) = *Kanskje **kommer han**.* (also correct)
+- With ikke: *Kanskje han **ikke kommer**.* (word order like a subordinate clause: ikke before the verb)
+
+
+---
+
+## 4. Uttale (pronunciation, Oslo vs Bergen)
+
+| Ord/mønster | Oslo | Bergen |
+|---|---|---|
+| **rs** (første, norsk, vers) | merges to a "sh" sound: *føsjte*, *nosjk* | uvular (French-style) r, no merging: *før-ste* |
+| **rt, rd, rn, rl** (kort, ferdig, barn) | retroflex sounds: r melts into the consonant | uvular r + clear t/d/n/l |
+| **annen / annet** | *a:-en* (long a, the double n is soft), **annet** = *a:nt* | similar, *annen* |
+| **jeg / ikke** | *jæi / ikke* | *eg / ikkje* |
+| feminine forms (husleia, stua, visninga) | used: *husleia, stua* | Bergen has **no feminine gender** in speech: *husleien, stuen* |
+| verb past tense -et (kranglet) | often *krangla* | *kranglet* / *kranglte* |
+| **mye** | *mye* | *mye* (sometimes *møye* in older speech) |
+| particle verbs | stress falls on the particle: legge **UT** | same |
+| **å** (infinitive marker) and **og** (and) | both pronounced *o* → easy to mix up in writing! | same |
+| **at** (that) vs **åtte** (8) | *at* is short [at]; *åtte* = [ˈɔtːe] | same |
+| **avdrag** | stress on first syllable: **AV**-drag | same |
+| **-sjon** (informasjon) | *-shoon* [ʂuːn], stress on the ending: informa**SJON** | same |
+| **gøy, trygghet** | øy = diphthong like "oy" in "boy" but with rounded lips | same |
+| **tør** (å tørre) | short ø, Oslo: *tør* with tapped r | uvular r: *tøʁ* |
+
+---
+
+## 5. Usikkert / å sjekke (unclear handwriting or follow-ups)
+
+- N 15/10: "gir → bare (også abstrakt) … fysisk": unclear, maybe a note on *gi* used abstractly vs physically?
+- N 15/10: "F…… bevarer styrke" (boxed): couldn't read it.
+- N p6: "vire = nesten alle integrert(?)": unclear.
+- N 19/10: "Jeg planer om": probably **Jeg har planer om** (I have plans to) / **Jeg planlegger å**.
+- N 20/10: gender of *nasjon* in NAOB (en nasjon, masculine).
+- Forms for each word: still to be checked against NAOB.
+- N p13: "Jeg kommer på skolen når jeg finner alltid noen å snakke med": word order corrected in G16 to *…alltid finner…*. Did you mean *fordi*?
+- N 27/10: "alle munnstykkene(?)": word unclear, replaced with *alle de gode vennene* in G20.
+- N p20: "Hvem tinstag(?)": unreadable.
+- N 3/11 p27: "verben være blir blir eller bli værende"(?): not sure what the teacher meant. Maybe that *være* has no passive and *bli værende* = "remain"? Please explain.
+- N 3/11 p28: "Kanskje han ikke blir…": sentence incomplete; rule added as G28.
+
+
+# Verbliste (B1, bokmål)
+
+Companion file to `norsk-database.md`. The study app reads both files.
+
+---
+
+## 6. Verbliste (238 norske verb + verb fra timene)
+
+Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and corrected. Gruppe: svak -et / -te / -de / -dde, sterk, uregelmessig, modal, s-verb.
+
+| Infinitiv | Presens | Preteritum | Perfektum | English | Gruppe |
+|---|---|---|---|---|---|
+| å adlyde | adlyder | adlød | har adlydt | obey | sterk |
+| å anbefale | anbefaler | anbefalte | har anbefalt | recommend | svak -te |
+| å arbeide | arbeider | arbeidet | har arbeidet | work | svak -et |
+| å bade | bader | badet | har badet | bathe, swim | svak -et |
+| å barbere | barberer | barberte | har barbert | shave | svak -te |
+| å be | ber | ba(d) | har bedt | ask for, pray | sterk |
+| å bedra | bedrar | bedro(g) | har bedratt | cheat, deceive | sterk |
+| å bedøve | bedøver | bedøvde | har bedøvd | anaesthetise, numb | svak -de |
+| å begynne | begynner | begynte | har begynt | begin | svak -te |
+| å beskrive | beskriver | beskrev | har beskrevet | describe | sterk |
+| å bestemme | bestemmer | bestemte | har bestemt | decide | svak -te |
+| å bestille | bestiller | bestilte | har bestilt | order, book | svak -te |
+| å besøke | besøker | besøkte | har besøkt | visit | svak -te |
+| å betale | betaler | betalte | har betalt | pay | svak -te |
+| å bety | betyr | betydde | har betydd | mean, matter | svak -dde |
+| å binde | binder | bandt | har bundet | bind, tie | sterk |
+| å bite | biter | bet/beit | har bitt | bite | sterk |
+| å bli | blir | ble | har blitt | become; stay | sterk |
+| å blåse | blåser | blåste | har blåst | blow | svak -te |
+| å bo | bor | bodde | har bodd | live (reside) | svak -dde |
+| å brekke | brekker | brakk | har brukket | break (a bone, a stick) | sterk |
+| å brenne (noe) | brenner | brente | har brent | burn (set fire to) | svak -te |
+| å brenne (stå i flammer) | brenner | brant | har brent | burn (be on fire) | sterk |
+| å briste | brister | brast | har bristet/brustet | burst | sterk |
+| å bruke | bruker | brukte | har brukt | use | svak -te |
+| å bryte | bryter | brøt | har brutt | break (a rule, contact) | sterk |
+| å burde | bør | burde | har burdet | ought to, should | modal |
+| å by | byr | bød | har budt/bydd | bid; offer | sterk |
+| å bære | bærer | bar | har båret | carry | sterk |
+| å danse | danser | danset | har danset | dance | svak -et |
+| å dette | detter | datt | har dettet | fall (informal) | sterk |
+| å diskutere | diskuterer | diskuterte | har diskutert | discuss | svak -te |
+| å dra | drar | dro(g) | har dratt | go, leave; pull | sterk |
+| å drikke | drikker | drakk | har drukket | drink | sterk |
+| å drive | driver | drev/dreiv | har drevet | run (a business); do (an activity) | sterk |
+| å eie | eier | eide | har eid | own | svak -de |
+| å falle | faller | falt | har falt | fall | sterk |
+| å fare | farer | for | har fart | travel, rush | sterk |
+| å finne | finner | fant | har funnet | find | sterk |
+| å fiske | fisker | fisket | har fisket | fish | svak -et |
+| å fly | flyr | fløy | har fløyet/flydd | fly | sterk |
+| å flykte | flykter | flyktet | har flyktet | flee | svak -et |
+| å flyte | flyter | fløt | har flytt | float | sterk |
+| å flytte | flytter | flyttet | har flyttet | move (house) | svak -et |
+| å forklare | forklarer | forklarte | har forklart | explain | svak -te |
+| å forlate | forlater | forlot | har forlatt | leave (a place, a person) | sterk |
+| å forstå | forstår | forstod/forsto | har forstått | understand | sterk |
+| å forsvinne | forsvinner | forsvant | har forsvunnet | disappear | sterk |
+| å fortelle | forteller | fortalte | har fortalt | tell | uregelmessig |
+| å fryse | fryser | frøs | har frosset | freeze, be cold | sterk |
+| å fyke | fyker | føk | har føket | drift, blow (snow) | sterk |
+| å fylle | fyller | fylte | har fylt | fill | svak -te |
+| å føle | føler | følte | har følt | feel | svak -te |
+| å føne | føner | fønte | har fønt | blow-dry | svak -te |
+| å få | får | fikk | har fått | get, receive; be allowed | sterk |
+| å gi | gir | ga(v) | har gitt | give | sterk |
+| å gidde | gidder | gadd | har giddet | bother to (orke) | sterk |
+| å gjelde | gjelder | gjaldt | har gjeldt | concern, apply to | sterk |
+| å gjemme | gjemmer | gjemte | har gjemt | hide | svak -te |
+| å gjette | gjetter | gjettet | har gjettet | guess | svak -et |
+| å gjøre | gjør | gjorde | har gjort | do | uregelmessig |
+| å glemme | glemmer | glemte | har glemt | forget | svak -te |
+| å gli | glir | gled | har glidd | glide, slide | sterk |
+| å glippe | glipper | glapp | har glippet | slip away | sterk |
+| å godta | godtar | godtok | har godtatt | accept, agree to | sterk |
+| å grine | griner | grein | har grint | cry; grimace | sterk |
+| å gripe | griper | grep/greip | har grepet | grab, seize | sterk |
+| å gråte | gråter | gråt | har grått | cry, weep | sterk |
+| å gå | går | gikk | har gått | go, walk | sterk |
+| å ha | har | hadde | har hatt | have | uregelmessig |
+| å handle | handler | handlet | har handlet | shop; act | svak -et |
+| å hende | hender | hendte | har hendt | happen | svak -te |
+| å henge (= være hengende) | henger | hang | har hengt | hang (be hanging) | sterk |
+| å henge (noe opp) | henger | hengte | har hengt | hang (something up) | svak -te |
+| å hente | henter | hentet | har hentet | fetch, pick up | svak -et |
+| å hete | heter | het | har hett | be called | sterk |
+| å hilse | hilser | hilste | har hilst | greet | svak -te |
+| å hindre | hindrer | hindret | har hindret | prevent, obstruct | svak -et |
+| å hjelpe | hjelper | hjalp | har hjulpet | help | sterk |
+| å holde | holder | holdt | har holdt | hold, keep | sterk |
+| å hoste | hoster | hostet | har hostet | cough | svak -et |
+| å huske | husker | husket | har husket | remember | svak -et |
+| å hviske | hvisker | hvisket | har hvisket | whisper | svak -et |
+| å høre | hører | hørte | har hørt | hear | svak -te |
+| å håpe | håper | håpet | har håpet | hope | svak -et |
+| å invitere | inviterer | inviterte | har invitert | invite | svak -te |
+| å jogge | jogger | jogget | har jogget | jog | svak -et |
+| å kikke | kikker | kikket | har kikket | peek, have a look | svak -et |
+| å kjenne | kjenner | kjente | har kjent | know (a person/place); feel | svak -te |
+| å kjøpe | kjøper | kjøpte | har kjøpt | buy | svak -te |
+| å kjøre | kjører | kjørte | har kjørt | drive | svak -te |
+| å klare | klarer | klarte | har klart | manage | svak -te |
+| å klatre | klatrer | klatret | har klatret | climb | svak -et |
+| å kle | kler | kledde | har kledd | dress | svak -dde |
+| å klinge | klinger | klang | har klinget | ring, sound | sterk |
+| å klippe | klipper | klippet | har klipt | cut (hair, paper) | svak -et |
+| å klype | klyper | kløp | har kløpet | pinch | sterk |
+| å knekke | knekker | knakk | har knekket/knekt | crack, snap | sterk |
+| å knipe | kniper | kneip | har knepet | pinch | sterk |
+| å komme | kommer | kom | har kommet | come | sterk |
+| å kose seg | koser seg | koste seg | har kost seg | have a nice time | svak -te |
+| å koste | koster | kostet | har kostet | cost; sweep | svak -et |
+| å kunne | kan | kunne | har kunnet | can, be able to | modal |
+| å la | lar | lot | har latt | let, allow | sterk |
+| å lage | lager | laget | har laget | make | svak -et |
+| å le | ler | lo | har ledd | laugh | sterk |
+| å legge | legger | la | har lagt | lay, put (down) | uregelmessig |
+| å leie | leier | leide | har leid | rent | svak -de |
+| å leke | leker | lekte | har lekt | play (children) | svak -te |
+| å lengte | lengter | lengtet | har lengtet | long for | svak -et |
+| å lese | leser | leste | har lest | read | svak -te |
+| å lete | leter | lette | har lett | look for, search | svak -te |
+| å leve | lever | levde | har levd | live (be alive) | svak -de |
+| å ligge | ligger | lå | har ligget | lie (be lying) | sterk |
+| å lyve | lyver | løy | har løyet | lie (tell lies) | sterk |
+| å lære | lærer | lærte | har lært | learn; teach | svak -te |
+| å løpe | løper | løp | har løpt | run | sterk |
+| å låne | låner | lånte | har lånt | borrow, lend | svak -te |
+| å låse | låser | låste | har låst | lock | svak -te |
+| å låte | låter | låt | har lått | sound (Det låter bra) | sterk |
+| å merke | merker | merket | har merket | notice; mark | svak -et |
+| å møte | møter | møtte | har møtt | meet | svak -te |
+| å måtte | må | måtte | har måttet | must, have to | modal |
+| å nyte | nyter | nøt | har nytt | enjoy | sterk |
+| å oppdage | oppdager | oppdaget | har oppdaget | discover, find out | svak -et |
+| å overtale | overtaler | overtalte | har overtalt | persuade | svak -te |
+| å passe | passer | passet | har passet | fit, suit | svak -et |
+| å passe på | passer på | passet på | har passet på | look after | svak -et |
+| å passere | passerer | passerte | har passert | pass by | svak -te |
+| å pipe | piper | pep/peip | har pepet | squeak, chirp | sterk |
+| å pleie | pleier | pleide | har pleid | usually (do); nurse | svak -de |
+| å plystre | plystrer | plystret | har plystret | whistle | svak -et |
+| å prøve | prøver | prøvde | har prøvd | try | svak -de |
+| å putte | putter | puttet | har puttet | put | svak -et |
+| å pynte | pynter | pyntet | har pyntet | decorate | svak -et |
+| å regne | regner | regnet | har regnet | rain; calculate | svak -et |
+| å reise | reiser | reiste | har reist | travel | svak -te |
+| å rekke | rekker | rakk | har rukket | reach, catch (the bus), have time to | sterk |
+| å reparere | reparerer | reparerte | har reparert | repair | svak -te |
+| å ri | rir | red/reid | har ridd | ride (a horse) | sterk |
+| å rive | river | rev/reiv | har revet | tear, demolish | sterk |
+| å rope | roper | ropte | har ropt | shout, call | svak -te |
+| å rydde | rydder | ryddet | har ryddet | tidy up | svak -et |
+| å ryke | ryker | røk | har røket | snap, break; smoke (chimney) | sterk |
+| å røyke | røyker | røykte | har røykt | smoke (tobacco) | svak -te |
+| å savne | savner | savnet | har savnet | miss (someone) | svak -et |
+| å se | ser | så | har sett | see, look | sterk |
+| å sende | sender | sendte | har sendt | send | svak -te |
+| å sette | setter | satte | har satt | put, place | uregelmessig |
+| å si | sier | sa | har sagt | say | uregelmessig |
+| å sige | siger | seg/seig | har seget | ooze, sink slowly | sterk |
+| å sitte | sitter | satt | har sittet | sit | sterk |
+| å skinne | skinner | skinte | har skint | shine | svak -te |
+| å skjelve | skjelver | skalv | har skjelvet | tremble, shake | sterk |
+| å skjære | skjærer | skar | har skåret | cut, slice | sterk |
+| å skjønne | skjønner | skjønte | har skjønt | understand | svak -te |
+| å skride | skrider | skred/skreid | har skredet/skridd | stride, proceed | sterk |
+| å skrike | skriker | skrek/skreik | har skreket | scream | sterk |
+| å skrive | skriver | skrev | har skrevet | write | sterk |
+| å skulle | skal | skulle | har skullet | shall, be going to | modal |
+| å skylle | skyller | skylte | har skylt | rinse | svak -te |
+| å skynde seg | skynder seg | skyndte seg | har skyndt seg | hurry | svak -te |
+| å skyte | skyter | skjøt | har skutt | shoot | sterk |
+| å skyve | skyver | skjøv | har skjøvet | push | sterk |
+| å slappe av | slapper av | slappet av | har slappet av | relax | svak -et |
+| å slippe | slipper | slapp | har sluppet | let go; not have to | sterk |
+| å slite | sliter | slet/sleit | har slitt | struggle; wear out | sterk |
+| å slutte | slutter | sluttet | har sluttet | stop, quit | svak -et |
+| å slå | slår | slo | har slått | hit, beat | sterk |
+| å smette | smetter | smatt | har smettet | slip | sterk |
+| å smile | smiler | smilte | har smilt | smile | svak -te |
+| å smyge | smyger | smøg | har smøget | creep, slip | sterk |
+| å snike | sniker | snek/sneik | har sneket | sneak | sterk |
+| å snu | snur | snudde | har snudd | turn (around) | svak -dde |
+| å snø | snør | snødde | har snødd | snow | svak -dde |
+| å sove | sover | sov | har sovet | sleep | sterk |
+| å spandere | spanderer | spanderte | har spandert | treat (pay for someone) | svak -te |
+| å spille | spiller | spilte | har spilt | play (game, instrument) | svak -te |
+| å spinne | spinner | spant | har spunnet | spin; purr | sterk |
+| å spise | spiser | spiste | har spist | eat | svak -te |
+| å sprekke | sprekker | sprakk | har sprukket | burst, crack | sterk |
+| å sprette | spretter | spratt | har sprettet | bounce, jump | sterk |
+| å springe | springer | sprang | har sprunget | run | sterk |
+| å spøke | spøker | spøkte | har spøkt | joke; haunt | svak -te |
+| å spørre | spør | spurte | har spurt | ask | uregelmessig |
+| å starte | starter | startet | har startet | start | svak -et |
+| å stave | staver | stavet | har stavet | spell | svak -et |
+| å stelle | steller | stelte | har stelt | take care of, tend | svak -te |
+| å stemme | stemmer | stemte | har stemt | be correct; vote; tune | svak -te |
+| å stenge | stenger | stengte | har stengt | close, block | svak -te |
+| å stige | stiger | steg/steig | har steget | rise, climb | sterk |
+| å stikke | stikker | stakk | har stukket | stick, sting; (stikke av) run off | sterk |
+| å stille | stiller | stilte | har stilt | put, place; ask (a question) | svak -te |
+| å stjele | stjeler | stjal | har stjålet | steal | sterk |
+| å strekke | strekker | strakk | har strukket | stretch | sterk |
+| å stryke | stryker | strøk | har strøket | iron; fail (an exam) | sterk |
+| å studere | studerer | studerte | har studert | study | svak -te |
+| å stå | står | stod/sto | har stått | stand | sterk |
+| å sulte | sulter | sultet | har sultet | starve, be hungry | svak -et |
+| å svare | svarer | svarte | har svart | answer | svak -te |
+| å svike | sviker | svek/sveik | har sveket | betray, let down | sterk |
+| å svømme | svømmer | svømte | har svømt | swim | svak -te |
+| å sy | syr | sydde | har sydd | sew | svak -dde |
+| å sykle | sykler | syklet | har syklet | cycle | svak -et |
+| å synes | synes | syntes | har syntes | think (opinion); seem | s-verb |
+| å synge | synger | sang | har sunget | sing | sterk |
+| å synke | synker | sank | har sunket | sink | sterk |
+| å ta | tar | tok | har tatt | take | sterk |
+| å tape | taper | tapte | har tapt | lose (a game, money) | svak -te |
+| å tappe | tapper | tappet | har tappet | tap, drain | svak -et |
+| å tenke | tenker | tenkte | har tenkt | think | svak -te |
+| å tjene | tjener | tjente | har tjent | earn; serve | svak -te |
+| å treffe | treffer | traff | har truffet | meet; hit | sterk |
+| å trekke | trekker | trakk | har trukket | pull | sterk |
+| å trene | trener | trente | har trent | train, exercise | svak -te |
+| å trenge | trenger | trengte | har trengt | need | svak -te |
+| å trives | trives | trivdes | har trivdes | thrive, feel at home | s-verb |
+| å tro | tror | trodde | har trodd | believe, think | svak -dde |
+| å tvinge | tvinger | tvang | har tvunget | force | sterk |
+| å tørke | tørker | tørket | har tørket | dry | svak -et |
+| å tørre | tør | turte | har turt | dare | uregelmessig |
+| å tørste | tørster | tørstet | har tørstet | thirst (for) | svak -et |
+| å undersøke | undersøker | undersøkte | har undersøkt | examine, investigate | svak -te |
+| å utdanne | utdanner | utdannet | har utdannet | educate | svak -et |
+| å vaske | vasker | vasket | har vasket | wash | svak -et |
+| å veie | veier | veide | har veid | weigh | svak -de |
+| å vekke | vekker | vekket | har vekket | wake (someone) up | svak -et |
+| å velge | velger | valgte | har valgt | choose; elect | uregelmessig |
+| å vente | venter | ventet | har ventet | wait | svak -et |
+| å vike | viker | vek/veik | har veket | give way | sterk |
+| å ville | vil | ville | har villet | want to, will | modal |
+| å vinne | vinner | vant | har vunnet | win | sterk |
+| å virke | virker | virket | har virket | work (function); seem | svak -et |
+| å vise | viser | viste | har vist | show | svak -te |
+| å viske | visker | visket | har visket | rub; erase | svak -et |
+| å vite | vet | visste | har visst | know (a fact) | uregelmessig |
+| å vokse | vokser | vokste | har vokst | grow | svak -te |
+| å være | er | var | har vært | be | uregelmessig |
+| å våkne | våkner | våknet | har våknet | wake up | svak -et |
+| å ønske | ønsker | ønsket | har ønsket | wish | svak -et |
+| å øve | øver | øvde | har øvd | practise | svak -de |
+
+</script>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('on');setTimeout(()=>el.classList.remove('on'),1600)}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/~~(.+?)~~/g,'<s>$1</s>').replace(/\*(.+?)\*/g,'<i>$1</i>').replace(/`(.+?)`/g,'<code>$1</code>')}
+function plain(s){return String(s).replace(/\*\*|~~|`/g,'').replace(/\*/g,'')}
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+
+/* ---------- parse markdown ---------- */
+let DB=[];
+function cells(line){return line.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim())}
+function parse(md){
+  const out=[]; const lines=md.split('\n'); let sec='', sub='';
+  let i=0;
+  while(i<lines.length){
+    const L=lines[i];
+    if(/^## /.test(L)){sec=L.replace(/^## /,'').trim();sub='';i++;continue}
+    if(/^### G\d+/.test(L)){
+      const title=L.replace(/^### /,'').trim(); const body=[]; i++;
+      while(i<lines.length && !/^#{2,3} /.test(lines[i]) && !/^---\s*$/.test(lines[i])){body.push(lines[i]);i++}
+      const src=(title.match(/\*\((.+?)\)\*/)||[])[1]||'';
+      out.push({kind:'rule',id:title.split('.')[0],no:title.replace(/\s*\*\(.+?\)\*/,''),body:body.join('\n').trim(),src,tags:['grammatikk']});
+      continue;
+    }
+    if(/^### /.test(L)){sub=L.replace(/^### /,'').trim();i++;continue}
+    if(/^\|/.test(L) && /^\|[-\s|]+\|$/.test((lines[i+1]||'').trim())){
+      const head=cells(L).map(h=>h.toLowerCase()); i+=2;
+      while(i<lines.length && /^\|/.test(lines[i])){
+        const c=cells(lines[i]); i++;
+        if(sec.startsWith('1') && head.length===6){
+          out.push({kind:'word',no:c[0],forms:c[1],en:c[2],ex:c[3],src:c[4],tags:c[5].split(/\s+/).filter(Boolean),sub});
+        } else if(sec.startsWith('6') && head.length===6){
+          const g=c[5]; out.push({kind:'verb',no:c[0],pres:c[1],pret:c[2],perf:c[3],forms:`${c[1]} – ${c[2]} – ${c[3]}`,en:c[4],ex:'',src:'Verbliste',group:g,tags:['verbliste',g.replace(/\s+/g,'')],sub:'Verb'});
+        } else if(sec.startsWith('2') && head.length===5){
+          out.push({kind:'expr',no:c[0],en:c[1],ex:c[2],src:c[3],tags:c[4].split(/\s+/).filter(Boolean),sub:'Uttrykk'});
+        }
+      }
+      continue;
+    }
+    i++;
+  }
+  out.forEach((e,k)=>{e.key=(e.kind+':'+plain(e.no)).toLowerCase()});
+  return out;
+}
+
+function loadDb(){
+  const custom=store.get('norsk_md',null);
+  const md=custom||$('#db').textContent;
+  DB=parse(md);
+  const v=DB.filter(e=>e.kind==='verb').length,w=DB.filter(e=>e.kind==='word').length,x=DB.filter(e=>e.kind==='expr').length,r=DB.filter(e=>e.kind==='rule').length;
+  const log=(md.match(/\| (\d{4}-\d\d-\d\d[^|]*)\|/g)||[]).pop()||'';
+  $('#dbinfo').textContent=`${w} ord · ${x} uttrykk · ${v} verb · ${r} grammatikkregler${custom?' · (lokal versjon)':''}${log?' · sist oppdatert '+log.replace(/\|/g,'').trim():''}`;
+  buildTags(); render();
+}
+
+/* ---------- filters ---------- */
+let activeTags=new Set(store.get('norsk_tags',[]));
+function buildTags(){
+  const counts={}; DB.forEach(e=>e.tags.forEach(t=>counts[t]=(counts[t]||0)+1));
+  const tags=Object.keys(counts).sort((a,b)=>counts[b]-counts[a]);
+  $('#tags').innerHTML=tags.map((t,i)=>`<button class="chip${activeTags.has(t)?' on':''}${i>=8&&!activeTags.has(t)?' x':''}" data-t="${esc(t)}">${esc(t)} <span style="opacity:.6">${counts[t]}</span></button>`).join('')+`<button class="chip" id="moreTags" style="border-style:dashed">flere tags…</button>`;
+  $('#tags').classList.add('collapsed');
+}
+function filtered(kinds){
+  const q=$('#q').value.trim().toLowerCase(); const k=$('#kind').value;
+  return DB.filter(e=>{
+    if(kinds && !kinds.includes(e.kind)) return false;
+    if(k && e.kind!==k) return false;
+    if(activeTags.size && !e.tags.some(t=>activeTags.has(t))) return false;
+    if(q){const hay=[e.no,e.en,e.ex,e.forms,e.body,e.src].join(' ').toLowerCase(); if(!hay.includes(q)) return false}
+    return true;
+  });
+}
+$('#tags').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;if(b.id==='moreTags'){const c=$('#tags').classList.toggle('collapsed');b.textContent=c?'flere tags…':'færre tags';return}const t=b.dataset.t;activeTags.has(t)?activeTags.delete(t):activeTags.add(t);store.set('norsk_tags',[...activeTags]);b.classList.toggle('on');render()});
+$('#q').addEventListener('input',render);$('#kind').addEventListener('change',render);
+
+/* ---------- markdown block renderer for rules ---------- */
+function mdBlock(s){
+  const lines=s.split('\n');let h='',inUl=false,inT=false;
+  for(let i=0;i<lines.length;i++){const l=lines[i];
+    if(/^\|/.test(l)){ if(/^\|[-\s|]+\|$/.test(l.trim()))continue; if(!inT){h+='<table>';inT=true}
+      h+='<tr>'+cells(l).map(c=>'<td>'+inline(c)+'</td>').join('')+'</tr>';continue}
+    if(inT){h+='</table>';inT=false}
+    if(/^\s*- /.test(l)){if(!inUl){h+='<ul>';inUl=true}h+='<li>'+inline(l.replace(/^\s*- /,''))+'</li>';continue}
+    if(inUl){h+='</ul>';inUl=false}
+    if(l.trim())h+='<div>'+inline(l.trim())+'</div>';
+  }
+  if(inUl)h+='</ul>';if(inT)h+='</table>';return h;
+}
+
+/* ---------- search list ---------- */
+const KL={word:'ord',expr:'uttrykk',verb:'verb',rule:'grammatikk'};
+/* balanced random pick: verbs can never dominate */
+const W={word:4,expr:3,verb:2,rule:1};
+function pickBal(pool){
+  if(!pool.length) return null;
+  const g={}; pool.forEach(e=>(g[e.kind]=g[e.kind]||[]).push(e));
+  const ks=Object.keys(g); let tot=ks.reduce((s,k)=>s+W[k],0), r=Math.random()*tot;
+  for(const k of ks){r-=W[k]; if(r<=0) return pick(g[k])} return pick(g[ks[0]]);
+}
+function itemHtml(e){
+  if(e.kind==='rule') return `<details class="rule item"><summary><span class="kind">regel</span>${inline(e.no)}</summary><div style="margin-top:8px">${mdBlock(e.body)}</div><div class="meta">${esc(e.src)}</div></details>`;
+  return `<div class="item"><span class="kind">${KL[e.kind]}${e.group?' · '+esc(e.group):''}</span><span class="no">${inline(e.no)}</span> <span class="en">— ${inline(e.en)}</span>
+  ${e.forms?`<div class="forms">${inline(e.forms)}</div>`:''}${e.ex?`<div class="ex">${inline(e.ex)}</div>`:''}
+  <div class="meta">${esc(e.src)} · ${e.tags.map(esc).join(' · ')}</div></div>`;
+}
+function render(){
+  const f=filtered(); $('#count').textContent=`${f.length} treff`;
+  $('#list').innerHTML=f.slice(0,400).map(itemHtml).join('');
+  $('#rules').innerHTML=filtered(['rule']).map(e=>`<details class="rule"><summary>${inline(e.no)}</summary><div style="margin-top:8px">${mdBlock(e.body)}</div><div class="meta">${esc(e.src)}</div></details>`).join('')||'<div class="note">Ingen regler matcher filteret.</div>';
+  renderVerbTable(); renderAnki(); if(curTab==='cards') nextCard();
+}
+
+/* ---------- tabs ---------- */
+let curTab='search';
+$$('nav button').forEach(b=>b.addEventListener('click',()=>{
+  $$('nav button').forEach(x=>x.classList.toggle('on',x===b)); curTab=b.dataset.tab;
+  $$('.panel').forEach(p=>p.classList.toggle('on',p.id==='p-'+curTab));
+  $('#filters').style.display=curTab==='data'?'none':'';
+  if(curTab==='cards') nextCard();
+}));
+
+/* ---------- flashcards with SRS ---------- */
+let srs=store.get('norsk_srs',{}); let cur=null, curDir='no-en';
+const DAY=864e5;
+function cardPool(){return filtered(['word','expr','verb','rule'])}
+function srsStats(pool){const now=Date.now();let nw=0,due=0,learned=0;pool.forEach(e=>{const s=srs[e.key];if(!s)nw++;else if(s.due<=now)due++;else learned++});return{nw,due,learned}}
+function nextCard(){
+  const pool=cardPool(); const now=Date.now();
+  const st=srsStats(pool); $('#srsStats').innerHTML=`<span>Nye <b>${st.nw}</b></span><span>Til repetisjon <b>${st.due}</b></span><span>Lært <b>${st.learned}</b></span>`;
+  if(!pool.length){$('#fc').innerHTML='<div class="note">Ingen kort matcher filteret.</div>';$('#grade').style.visibility='hidden';return}
+  const due=pool.filter(e=>srs[e.key]&&srs[e.key].due<=now);
+  const fresh=pool.filter(e=>!srs[e.key]);
+  let c=null;
+  if(due.length){const k=pickBal(due).kind;c=due.filter(e=>e.kind===k).sort((a,b)=>srs[a.key].due-srs[b.key].due)[0]}
+  else if(fresh.length) c=pickBal(fresh);
+  if(!c){c=pool.slice().sort((a,b)=>srs[a.key].due-srs[b.key].due)[0]}
+  cur=c; const d=$('#dir').value; curDir=d==='mix'?pick(['no-en','en-no']):d;
+  showCard(false);
+}
+function showCard(flipped){
+  const e=cur; let front,back;
+  if(e.kind==='rule'){front=inline(e.no);back=`<div style="text-align:left;font-size:14px">${mdBlock(e.body)}</div>`}
+  else if(curDir==='no-en'){front=inline(e.no);back=`<div class="big">${inline(e.en)}</div>${e.forms?`<div class="forms" style="color:var(--green);margin-top:6px">${inline(e.forms)}</div>`:''}${e.ex?`<div class="ex" style="font-style:italic;margin-top:6px">${inline(e.ex)}</div>`:''}`}
+  else {front=inline(e.en);back=`<div class="big">${inline(e.no)}</div>${e.forms?`<div style="color:var(--green);margin-top:6px">${inline(e.forms)}</div>`:''}${e.ex?`<div style="font-style:italic;margin-top:6px">${inline(e.ex)}</div>`:''}`}
+  $('#fc').innerHTML=`<div class="kind">${KL[e.kind]} · ${esc(e.src)}</div><div class="front">${front}</div>${flipped?`<div class="back">${back}</div>`:'<div class="hint">trykk for å snu</div>'}`;
+  $('#grade').style.visibility=flipped?'visible':'hidden';
+}
+$('#fc').addEventListener('click',()=>{if(cur)showCard(true)});
+$('#dir').addEventListener('change',nextCard);
+$('#grade').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b||!cur)return;const g=+b.dataset.g;
+  const s=srs[cur.key]||{iv:0,ease:2.5,reps:0};
+  if(g===0){s.iv=0;s.reps=0;s.ease=Math.max(1.3,s.ease-.2);s.due=Date.now()+60e3}
+  else{ s.reps++; if(g===1){s.iv=Math.max(1,s.iv*1.2);s.ease=Math.max(1.3,s.ease-.15)} else if(g===2){s.iv=s.reps===1?1:s.reps===2?3:s.iv*s.ease} else {s.iv=s.reps===1?4:s.iv*s.ease*1.3;s.ease+=.15}
+    s.due=Date.now()+s.iv*DAY }
+  srs[cur.key]=s; store.set('norsk_srs',srs); nextCard();
+});
+
+/* ---------- helpers for exercises ---------- */
+function head(e){ // headword without article / å
+  return plain(e.no).split(/[·(]/)[0].replace(/^(ei\/en|en|ei|et|å)\s+/i,'').split('/')[0].trim();
+}
+function gender(e){const m=plain(e.no).match(/^(ei\/en|en|ei|et)\s/i);return m?m[1].toLowerCase():null}
+function norm(s){return plain(s).toLowerCase().replace(/[()….,!?«»"]/g,'').replace(/^(å|en|ei|et|ei\/en)\s+/,'').replace(/\s+/g,' ').trim()}
+function enShort(e){return plain(e.en).split(/[;(]/)[0].trim()}
+
+let exType=null, score={ok:0,n:0};
+$('#exPick').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$$('#exPick button').forEach(x=>x.classList.toggle('on',x===b));exType=b.dataset.ex;score={ok:0,n:0};newQ()});
+function upScore(){$('#exScore').innerHTML=score.n?`<span>Riktig: <b>${score.ok}/${score.n}</b></span><span>${Math.round(100*score.ok/score.n)}%</span>`:''}
+function nextBtn(){return `<div style="margin-top:14px"><button class="btn" id="nxt">Neste →</button></div>`}
+function bindNext(){const n=$('#nxt');if(n){n.onclick=newQ;n.focus()}}
+function answered(ok,msg){score.n++;if(ok)score.ok++;upScore();return `<div class="fb ${ok?'ok':'bad'}">${ok?'✓ Riktig!':'✗ Feil.'} ${msg||''}</div>`}
+
+function newQ(){
+  const words=filtered(['word','expr','verb']);
+  const area=$('#exArea');
+  if(words.length<4){area.innerHTML='<div class="note">Too few entries match the filter (at least 4 are needed). Remove some filters.</div>';return}
+  const t=exType;
+  if(t==='mc'||t==='mcr'){
+    const e=pickBal(words); const same=words.filter(x=>x!==e&&x.kind===e.kind&&enShort(x)!==enShort(e)); const others=shuffle(same.length>=3?same:words.filter(x=>x!==e&&enShort(x)!==enShort(e))).slice(0,3);
+    const opts=shuffle([e,...others]);
+    const ask=t==='mc'?inline(e.no):inline(e.en);
+    area.innerHTML=`<div class="q"><div class="prompt">${t==='mc'?'Hva betyr…':'Hvordan sier man på norsk…'}</div><div class="ask">${ask}</div><div class="opts">${opts.map((o,i)=>`<button class="opt" data-i="${i}">${t==='mc'?inline(enShort(o)):inline(o.no)}</button>`).join('')}</div><div id="fbx"></div></div>`;
+    $$('.opt').forEach(b=>b.onclick=()=>{const o=opts[+b.dataset.i];const ok=o===e;$$('.opt').forEach((x,i)=>{x.disabled=true;if(opts[i]===e)x.classList.add('ok')});if(!ok)b.classList.add('bad');
+      $('#fbx').innerHTML=answered(ok,`<div class="note" style="margin-top:6px"><b>${inline(e.no)}</b> — ${inline(e.en)}${e.forms?'<br>'+inline(e.forms):''}${e.ex?'<br><i>'+inline(e.ex)+'</i>':''}</div>`)+nextBtn();bindNext()});
+  }
+  else if(t==='write'){
+    const e=pickBal(words);
+    textQ(`Skriv på norsk`, inline(e.en)+(e.ex?`<div class="note" style="font-family:Inter;font-size:13px;margin-top:6px">Hint: ${esc(plain(e.ex).replace(new RegExp(head(e).slice(0,Math.max(3,head(e).length-2)),'ig'),'___'))}</div>`:''),
+      [plain(e.no)], e);
+  }
+  else if(t==='forms'){
+    const cand=words.filter(e=>e.kind==='word'&&e.forms&&!/^\(/.test(e.forms)&&e.forms.includes('–'));
+    const verbs=cand.filter(e=>/^å /.test(plain(e.no))&&plain(e.forms).split('–').length===3);
+    const vlist=filtered(['verb']);
+    const nouns=cand.filter(e=>gender(e)&&plain(e.forms).split('–').length>=2);
+    const allV=[...verbs,...vlist];
+    if(!allV.length&&!nouns.length){area.innerHTML='<div class="note">No verbs/nouns with forms in this filter.</div>';return}
+    const v=(!nouns.length)?1:(!allV.length)?0:(Math.random()<.5?1:0);
+    const e=v?pick(allV):pick(nouns); const parts=plain(e.forms).split('–').map(s=>s.split('·')[0].split('(')[0].trim());
+    let q,ans;
+    if(v){const which=pick([[1,'preteritum (fortid)'],[2,'perfektum (har + …)']]);q=which[1];ans=parts[which[0]].split('/').map(s=>s.trim())}
+    else{const opts=[[0,'bestemt form entall (the …)'],[1,'ubestemt flertall'],[2,'bestemt flertall']].filter(o=>parts[o[0]]&&!/no pl|rarely|^-/.test(parts[o[0]]));const which=pick(opts);q=which[1];ans=parts[which[0]].split('/').map(s=>s.trim())}
+    textQ(`Skriv ${q} av`, inline(e.no)+`<div class="note" style="font-family:Inter;font-size:13px">${inline(e.en)}</div>`, ans, e, true);
+  }
+  else if(t==='cloze'){
+    const cand=words.filter(e=>e.kind==='word'&&e.ex&&e.ex.length>8).map(e=>{const h=head(e).toLowerCase();const stem=h.slice(0,Math.max(3,Math.min(h.length,h.length>5?h.length-2:h.length)));
+      const toks=plain(e.ex).split(/(\s+)/);const idx=toks.findIndex(w=>w.toLowerCase().replace(/[.,!?…«»]/g,'').startsWith(stem));return idx>=0?{e,toks,idx}:null}).filter(Boolean);
+    if(!cand.length){area.innerHTML='<div class="note">No example sentences in this filter.</div>';return}
+    const {e,toks,idx}=pick(cand); const word=toks[idx].replace(/[.,!?…«»]/g,'');
+    const sent=toks.map((w,i)=>i===idx?'<span class="blank">&nbsp;</span>'+w.slice(word.length+ (w.indexOf(word)>0?w.indexOf(word):0)):esc(w)).join('');
+    textQ(`Fyll inn ordet (${esc(enShort(e))})`, sent, [word], e, true);
+  }
+  else if(t==='gender'){
+    const nouns=words.filter(e=>gender(e));
+    if(!nouns.length){area.innerHTML='<div class="note">No nouns in this filter.</div>';return}
+    const e=pick(nouns); const g=gender(e); const h=head(e);
+    const choices=['en','ei','et'];
+    area.innerHTML=`<div class="q"><div class="prompt">Hvilket kjønn?</div><div class="ask">___ ${esc(h)}</div><div class="note" style="margin:-8px 0 12px">${inline(e.en)}</div><div class="opts" style="grid-template-columns:repeat(3,1fr)">${choices.map(c=>`<button class="opt" data-c="${c}">${c}</button>`).join('')}</div><div id="fbx"></div></div>`;
+    const right=g==='ei/en'?['ei','en']:[g];
+    $$('.opt').forEach(b=>b.onclick=()=>{const ok=right.includes(b.dataset.c);$$('.opt').forEach(x=>{x.disabled=true;if(right.includes(x.dataset.c))x.classList.add('ok')});if(!ok)b.classList.add('bad');
+      $('#fbx').innerHTML=answered(ok,`<div class="note" style="margin-top:6px"><b>${inline(e.no)}</b> — ${inline(e.forms||'')}${g==='ei/en'?'<br>Feminine nouns can take both <b>ei</b> and <b>en</b> in bokmål.':''}</div>`)+nextBtn();bindNext()});
+  }
+}
+function textQ(prompt,askHtml,answers,e,exact){
+  $('#exArea').innerHTML=`<div class="q"><div class="prompt">${prompt}</div><div class="ask">${askHtml}</div>
+  <form id="tf" class="row"><input type="text" id="ta" autocomplete="off" autocapitalize="off" spellcheck="false" style="flex:1" placeholder="Svar…"><button class="btn">Sjekk</button></form><div id="fbx"></div></div>`;
+  const ta=$('#ta');ta.focus();
+  $('#tf').onsubmit=ev=>{ev.preventDefault();const v=norm(ta.value);
+    const accepted=answers.flatMap(a=>plain(a).split(/\s*[\/=]\s*/)).map(norm).filter(Boolean);
+    const ok=accepted.includes(v)||(!exact&&accepted.some(a=>a.split(' ')[0]===v));
+    ta.disabled=true;
+    $('#fbx').innerHTML=answered(ok,`Svaret: <b>${esc(answers.join(' / '))}</b><div class="note" style="margin-top:6px"><b>${inline(e.no)}</b> — ${inline(e.en)}${e.forms?'<br>'+inline(e.forms):''}${e.ex?'<br><i>'+inline(e.ex)+'</i>':''}</div>`)+nextBtn();bindNext()};
+}
+
+/* ---------- Verb tab ---------- */
+function alts(s){ // "ba(d)" -> ba, bad ; "bet/beit" ; strip "har"
+  return plain(s).split('/').flatMap(x=>{x=x.trim().replace(/^har\s+/,'');const m=x.match(/^(.*)\((.+)\)(.*)$/);return m?[m[1]+m[3],m[1]+m[2]+m[3]]:[x]}).map(x=>x.trim().toLowerCase());
+}
+function vNorm(s){return s.trim().toLowerCase().replace(/^har\s+/,'').replace(/\s+/g,' ')}
+function verbPool(){
+  let p=filtered(['verb']);
+  if($('#vHard').checked) p=p.filter(e=>/sterk|uregelmessig|modal|s-verb/.test(e.group));
+  if($('#vMine').checked){const mine=new Set(DB.filter(e=>e.kind==='word').map(e=>plain(e.no).toLowerCase().split(/[ (]/).slice(0,2).join(' ')));p=p.filter(e=>mine.has(plain(e.no).toLowerCase().split(/[ (]/).slice(0,2).join(' ')))}
+  return p;
+}
+function renderVerbTable(){
+  const p=verbPool();
+  $('#vTable').innerHTML=p.length?`<table class="vt"><tr><th>Infinitiv</th><th>Presens</th><th>Preteritum</th><th>Perfektum</th><th>English</th><th></th></tr>${p.map(e=>`<tr><td><b>${esc(e.no)}</b></td><td>${esc(e.pres)}</td><td>${esc(e.pret)}</td><td>${esc(e.perf)}</td><td>${esc(e.en)}</td><td class="g">${esc(e.group)}</td></tr>`).join('')}</table>`:'<div class="note">Ingen verb matcher filteret. (Choose "Alt" or "Verbliste" at the top and clear the tags.)</div>';
+}
+['#vHard','#vMine'].forEach(s=>$(s).addEventListener('change',()=>{renderVerbTable();if(vType)vQ()}));
+let vType=null,vScore={ok:0,n:0};
+$('#vPick').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$$('#vPick button').forEach(x=>x.classList.toggle('on',x===b));vType=b.dataset.v;vScore={ok:0,n:0};vQ()});
+function vUp(ok){vScore.n++;if(ok)vScore.ok++;$('#vScore').innerHTML=`<span>Riktig: <b>${vScore.ok}/${vScore.n}</b></span><span>${Math.round(100*vScore.ok/vScore.n)}%</span>`}
+function vQ(){
+  const p=verbPool(),A=$('#vArea');
+  if(p.length<4){A.innerHTML='<div class="note">For få verb i filteret.</div>';return}
+  const e=pick(p);
+  if(vType==='all'||vType==='pret'){
+    const fields=vType==='all'?[['pres','presens'],['pret','preteritum'],['perf','perfektum (har …)']]:[['pret','preteritum']];
+    A.innerHTML=`<div class="q"><div class="prompt">${esc(e.en)}</div><div class="ask">${esc(e.no)}</div>
+    <form id="vf">${fields.map(([k,l])=>`<div class="vgrid"><label class="note">${l}</label><input type="text" data-k="${k}" autocomplete="off" autocapitalize="off" spellcheck="false"></div>`).join('')}
+    <button class="btn">Sjekk</button></form><div id="vfb"></div></div>`;
+    A.querySelector('input').focus();
+    $('#vf').onsubmit=ev=>{ev.preventDefault();let all=true;
+      $$('#vf input').forEach(inp=>{const k=inp.dataset.k;const ok=alts(e[k]).includes(vNorm(inp.value));all=all&&ok;inp.classList.add(ok?'ok':'bad');inp.disabled=true;
+        if(!ok){const d=document.createElement('div');d.className='corr';d.textContent='→ '+e[k];inp.parentNode.appendChild(d)}});
+      vUp(all);$('#vf button').remove();
+      $('#vfb').innerHTML=`<div class="fb ${all?'ok':'bad'}">${all?'✓ Alt riktig!':'✗ Ikke helt.'} <span class="note">${esc(e.no)} – ${esc(e.forms)} · <b>${esc(e.group)}</b></span></div><div style="margin-top:12px"><button class="btn" id="vn">Neste →</button></div>`;
+      $('#vn').onclick=vQ;$('#vn').focus()};
+  } else if(vType==='group'){
+    const groups=['sterk','svak -et','svak -te','svak -de','svak -dde','uregelmessig'];
+    const right=e.group;
+    A.innerHTML=`<div class="q"><div class="prompt">Hvilken gruppe? (${esc(e.en)})</div><div class="ask">${esc(e.no)}</div><div class="opts" style="grid-template-columns:repeat(2,1fr)">${groups.map(g=>`<button class="opt" data-g="${g}">${g}</button>`).join('')}</div><div id="vfb"></div></div>`;
+    $$('#vArea .opt').forEach(b=>b.onclick=()=>{const ok=b.dataset.g===right||(!groups.includes(right)&&b.dataset.g==='uregelmessig');$$('#vArea .opt').forEach(x=>{x.disabled=true;if(x.dataset.g===right)x.classList.add('ok')});if(!ok)b.classList.add('bad');vUp(ok);
+      $('#vfb').innerHTML=`<div class="fb ${ok?'ok':'bad'}">${ok?'✓':'✗'} ${esc(e.no)} – ${esc(e.forms)} · <b>${esc(right)}</b></div><div style="margin-top:12px"><button class="btn" id="vn">Neste →</button></div>`;$('#vn').onclick=vQ});
+  } else {
+    const opts=shuffle([e,...shuffle(p.filter(x=>x!==e)).slice(0,3)]);
+    A.innerHTML=`<div class="q"><div class="prompt">Hva betyr…</div><div class="ask">${esc(e.no)}</div><div class="opts">${opts.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o.en)}</button>`).join('')}</div><div id="vfb"></div></div>`;
+    $$('#vArea .opt').forEach(b=>b.onclick=()=>{const ok=opts[+b.dataset.i]===e;$$('#vArea .opt').forEach((x,i)=>{x.disabled=true;if(opts[i]===e)x.classList.add('ok')});if(!ok)b.classList.add('bad');vUp(ok);
+      $('#vfb').innerHTML=`<div class="fb ${ok?'ok':'bad'}">${esc(e.no)} – ${esc(e.forms)}</div><div style="margin-top:12px"><button class="btn" id="vn">Neste →</button></div>`;$('#vn').onclick=vQ});
+  }
+}
+
+/* ---------- Anki export ---------- */
+function ankiField(s){return String(s).replace(/\t/g,' ').replace(/\n/g,'<br>')}
+function renderAnki(){
+  const dir=(document.querySelector('input[name=adir]:checked')||{}).value||'no-en';
+  const f=filtered();
+  const rows=[];
+  f.forEach(e=>{
+    const tags=['norsk',...e.tags,e.src.replace(/[\s·.]+/g,'_')].join(' ');
+    if(e.kind==='rule'){rows.push([inline(e.no),mdBlock(e.body),tags]);return}
+    if(e.kind==='verb'){const f=`${esc(e.pres)} – ${esc(e.pret)} – ${esc(e.perf)}<br><small>${esc(e.group)}</small>`;
+      if(dir!=='en-no') rows.push([esc(e.no),esc(e.en)+'<br>'+f,tags]); if(dir!=='no-en') rows.push([esc(e.en)+' (verb)',esc(e.no)+'<br>'+f,tags]); return}
+    const no=inline(e.no), en=inline(e.en);
+    const extra=(e.forms?`<br><small>${inline(e.forms)}</small>`:'')+(e.ex?`<br><i>${inline(e.ex)}</i>`:'');
+    if(dir!=='en-no') rows.push([no,en+extra,tags]);
+    if(dir!=='no-en') rows.push([en,no+extra,tags]);
+  });
+  const txt='#separator:tab\n#html:true\n#tags column:3\n'+rows.map(r=>r.map(ankiField).join('\t')).join('\n');
+  $('#ankiOut').value=txt; $('#ankiCount').textContent=`${rows.length} kort`;
+}
+$$('input[name=adir]').forEach(r=>r.addEventListener('change',renderAnki));
+$('#copyAnki').onclick=async()=>{try{await navigator.clipboard.writeText($('#ankiOut').value);toast('Kopiert!')}catch(e){$('#ankiOut').select();toast('Marker og kopier manuelt')}};
+
+/* ---------- data tab ---------- */
+$('#loadMd').onclick=()=>{const v=$('#mdIn').value.trim();if(!v)return;const p=parse(v);if(!p.length){toast('Fant ingen tabeller');return}store.set('norsk_md',v);loadDb();toast(`Lastet ${p.length} oppføringer`)};
+$('#resetMd').onclick=()=>{try{localStorage.removeItem('norsk_md')}catch(e){}loadDb();toast('Innebygd versjon')};
+$('#resetSrs').onclick=()=>{srs={};store.set('norsk_srs',srs);nextCard();toast('Fremgang nullstilt')};
+
+if(/github\.io$/.test(location.hostname)) $('#ankiFile').style.display='';
+loadDb();
+})();
+</script>
+</body>
+</html>
