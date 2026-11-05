@@ -98,7 +98,7 @@ et skap	cupboard, wardrobe<br><small>skapet – skap – skapene</small><br><i>t
 uviktig	unimportant<br><small>uviktig – uviktige</small><br><i>viktige og uviktige nyheter</i>	norsk ord kap6 adj lagt_til::2026-11-03
 opptatt (av)	busy; preoccupied (with)<br><small>opptatt – opptatte</small><br><i>Er vi så opptatt av nettet?</i>	norsk ord kap6 adj lagt_til::2026-11-03
 et personvern	privacy (protection)<br><small>personvernet</small>	norsk ord kap6 lagt_til::2026-11-03
-ei/en kildekritikk	source criticism<br><small>kildekritikken</small>	norsk ord kap6 lagt_til::2026-11-03
+ei/en kildekritikk	source criticism, checking sources<br><small>kildekritikken – (no pl.)</small><br><i>Kilder og kildekritikk</i>	norsk ord kap6 medier lagt_til::2026-11-03
 et nettvett	online etiquette / safe internet use<br><small>nettvettet</small>	norsk ord kap6 lagt_til::2026-11-03
 ei/en livsmestring	life skills, coping<br><small>livsmestringa/-en</small>	norsk ord kap6 lagt_til::2026-11-03
 å sms&#x27;e	to text (SMS)<br><small>sms&#x27;er – sms&#x27;et – har sms&#x27;et</small>	norsk ord kap6 verb lagt_til::2026-11-03
@@ -153,7 +153,6 @@ masse	lots (of), a lot; (adverb) a lot<br><small>(uninflected, informal)</small>
 en påvirkning	influence<br><small>påvirkningen – påvirkninger – påvirkningene</small>	norsk ord kap6 lagt_til::2026-11-05
 en komfyr	stove, cooker<br><small>komfyren – komfyrer – komfyrene</small><br><i>Maten står på komfyren.</i>	norsk ord bolig kjøkken lagt_til::2026-11-05
 en kilde	source; spring (of water)<br><small>kilden – kilder – kildene</small><br><i>Derfor er det viktig å sjekke kildene.</i>	norsk ord kap6 medier lagt_til::2026-11-05
-ei/en kildekritikk	source criticism, checking sources<br><small>kildekritikken – (no pl.)</small><br><i>Kilder og kildekritikk</i>	norsk ord kap6 medier lagt_til::2026-11-05
 en redaktør	editor<br><small>redaktøren – redaktører – redaktørene</small><br><i>Mediene har en redaktør som har ansvar for hva som skrives.</i>	norsk ord kap6 medier lagt_til::2026-11-05
 å publisere	to publish<br><small>publiserer – publiserte – har publisert · passiv: publiseres</small><br><i>Mye av det som publiseres på nettet …</i>	norsk ord kap6 verb passiv lagt_til::2026-11-05
 å redigere	to edit<br><small>redigerer – redigerte – har redigert</small><br><i>…blir ikke redigert og kontrollert på samme måte.</i>	norsk ord kap6 verb lagt_til::2026-11-05
