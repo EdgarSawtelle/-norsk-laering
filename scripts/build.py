@@ -2,13 +2,13 @@
 """Build the study app and the Anki file from the markdown database.
 
 Usage:  python3 scripts/build.py
-Reads:  data/norsk-database.md, data/norsk-verbliste.md, app/template.html
+Reads:  data/norsk-database.md, data/norsk-uttrykk-grammatikk.md, data/norsk-verbliste.md, app/template.html
 Writes: docs/index.html (the app, for GitHub Pages) and docs/norsk-anki.txt (Anki import file)
 """
 import html, re, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA = [ROOT / "data/norsk-database.md", ROOT / "data/norsk-verbliste.md"]
+DATA = [ROOT / "data/norsk-database.md", ROOT / "data/norsk-uttrykk-grammatikk.md", ROOT / "data/norsk-verbliste.md"]
 md = "\n\n".join(p.read_text(encoding="utf-8") for p in DATA if p.exists())
 if "</script" in md.lower():
     raise SystemExit("The database must not contain '</script'")

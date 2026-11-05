@@ -2,7 +2,7 @@
 
 When Marco sends photos of book pages and/or notebook pages (with or without text like "new lesson"), follow these steps **without asking questions first**:
 
-1. **Read the current database**: `project_read claude/norsk-database.md` (sections 0–5) and `claude/norsk-verbliste.md` (section 6, verbs).
+1. **Read the current database**: `project_read claude/norsk-database.md` (sections 0–1: lesson log + words), `claude/norsk-uttrykk-grammatikk.md` (sections 2–5: expressions, grammar, pronunciation, open questions) and `claude/norsk-verbliste.md` (section 6, verbs). Each file must stay under ~20k tokens so it can be read and saved whole; when one gets too big, split it again and add the new file to `scripts/build.py` (DATA list) and to the concatenation in step 8.
 2. **Skip repeats**: notebook pages show "N/26" in the top bar, and book pages show a page number. Pages already listed in the **Lesson log** (section 0) are skipped. Don't add entries that already exist (match on the Norsk word); just add the new source to the existing row's Kilde.
 3. **Extract from the photos**:
    - Book pages: words/phrases Marco **highlighted, underlined, circled or annotated**, plus his handwritten translations. Also the chapter's *Ordliste* and *Ord og uttrykk* pages, and any grammar box.
@@ -21,8 +21,8 @@ When Marco sends photos of book pages and/or notebook pages (with or without tex
    - `6.` verbliste: new verbs to drill go here (7 columns: Infinitiv | Presens | Preteritum | Perfektum | English | Gruppe | Lagt til). Gruppe is exactly one of: `svak -et`, `svak -te`, `svak -de`, `svak -dde`, `sterk`, `uregelmessig`, `modal`, `s-verb`. A verb learned in class goes in section 1 (with example) as usual; add it to section 6 too if it isn't there.
    - Add a row to the **Lesson log**.
 6. **Keep the table formats exactly as they are** (6 columns in section 1, 7 in section 6, 5 in section 2, `### G` headings, date tags as above): the study app parses them. The app balances random picks across ord / uttrykk / verb / grammatikk (weights 4/3/2/1), so the big verb list never dominates.
-7. **Save**: `project_write` the changed file(s) whole: `claude/norsk-database.md` and/or `claude/norsk-verbliste.md`.
-8. **Update the study app** (artifact "Norsk øvingsapp", slug in the line below): rebuild it with the new database text embedded (`read_artifact` → replace the content of `<script id="db" type="text/markdown">` with the new markdown (database file + a blank line + verbliste file, concatenated) → `publish_version` with slug + base_version).
+7. **Save**: `project_write` the changed file(s) whole: `claude/norsk-database.md`, `claude/norsk-uttrykk-grammatikk.md` and/or `claude/norsk-verbliste.md`.
+8. **Update the study app** (artifact "Norsk øvingsapp", slug in the line below): rebuild it with the new database text embedded (`read_artifact` → replace the content of `<script id="db" type="text/markdown">` with the new markdown (norsk-database.md + blank line + norsk-uttrykk-grammatikk.md + blank line + norsk-verbliste.md, concatenated) → `publish_version` with slug + base_version).
    App slug: `3c479463-1542-464e-82fe-ee6046f11196`
 9. **GitHub** (repo `EdgarSawtelle/-norsk-laering`, note the leading hyphen; public site https://edgarsawtelle.github.io/-norsk-laering/): attach it with `add_repo` (owner `EdgarSawtelle`, repo `-norsk-laering`, access "push"), copy the updated `data/*.md` files into the clone, commit ("Time <dato>") and push to `main`. The GitHub Action rebuilds `docs/index.html` + `docs/norsk-anki.txt`. If the app template changed, update `app/template.html` too. The repo's `scripts/build.py` can also be used to build the artifact page: `python3 scripts/build.py` → `docs/index.html`.
 10. **Reply briefly**: how many words, expressions and rules were added, any grammar points worth explaining (clear, B1 level, with exceptions), and the uncertain items as questions.
