@@ -11,15 +11,16 @@ When Marco sends photos of book pages and/or notebook pages (with or without tex
 4. **Fill in each word** (bokmål): gender/article, all forms, English meaning, an example (from the book if possible), Kilde, tags (`kapN`, part of speech, topic).
    - Check forms on **naob.no** for words where gender or inflection is uncertain (irregular verbs, ei/en nouns, unusual plurals). WebFetch e.g. `https://naob.no/ordbok/<word>`.
    - Formats: noun = `best. sg – ubest. pl – best. pl`; verb = `presens – preteritum – har perfektum`; adjective = `m/f – n – pl/best`.
+   - **Date tag (upload date, YYYY-MM-DD)** on every new entry: as the last token of the Tag column (sections 1–2), in the `Lagt til` column (section 6), and inside the source of each new rule heading: `### G<n>. <title> *(<kilde> · 2026-11-05)*`. Existing rows keep their date; if you only add a new Kilde to an existing row, don't change its date.
 5. **Append** to the right section:
    - `1a/1b/…` vocabulary per chapter (create `1x. Kapittel N – <title>` if new), `1c` notebook words
    - `2.` expressions (5 columns: Norsk | English | Eksempel | Kilde | Tag)
    - `3.` grammar: new rule = new `### G<next number>. <title> *(kilde)*` with the rule, exceptions and examples
    - `4.` pronunciation (Oslo vs Bergen) when relevant
    - `5.` unreadable/uncertain handwriting: list it there and ask Marco at the end
-   - `6.` verbliste: new verbs to drill go here (6 columns: Infinitiv | Presens | Preteritum | Perfektum | English | Gruppe). Gruppe is exactly one of: `svak -et`, `svak -te`, `svak -de`, `svak -dde`, `sterk`, `uregelmessig`, `modal`, `s-verb`. A verb learned in class goes in section 1 (with example) as usual; add it to section 6 too if it isn't there.
+   - `6.` verbliste: new verbs to drill go here (7 columns: Infinitiv | Presens | Preteritum | Perfektum | English | Gruppe | Lagt til). Gruppe is exactly one of: `svak -et`, `svak -te`, `svak -de`, `svak -dde`, `sterk`, `uregelmessig`, `modal`, `s-verb`. A verb learned in class goes in section 1 (with example) as usual; add it to section 6 too if it isn't there.
    - Add a row to the **Lesson log**.
-6. **Keep the table formats exactly as they are** (6 columns in sections 1 and 6, 5 in section 2, `### G` headings): the study app parses them. The app balances random picks across ord / uttrykk / verb / grammatikk (weights 4/3/2/1), so the big verb list never dominates.
+6. **Keep the table formats exactly as they are** (6 columns in section 1, 7 in section 6, 5 in section 2, `### G` headings, date tags as above): the study app parses them. The app balances random picks across ord / uttrykk / verb / grammatikk (weights 4/3/2/1), so the big verb list never dominates.
 7. **Save**: `project_write` the changed file(s) whole: `claude/norsk-database.md` and/or `claude/norsk-verbliste.md`.
 8. **Update the study app** (artifact "Norsk øvingsapp", slug in the line below): rebuild it with the new database text embedded (`read_artifact` → replace the content of `<script id="db" type="text/markdown">` with the new markdown (database file + a blank line + verbliste file, concatenated) → `publish_version` with slug + base_version).
    App slug: `3c479463-1542-464e-82fe-ee6046f11196`

@@ -36,6 +36,8 @@ textarea{width:100%;min-height:140px;font:12px/1.4 ui-monospace,monospace}
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .chip{border:1px solid var(--line);background:none;color:var(--ink);border-radius:999px;padding:3px 10px;font-size:12.5px;cursor:pointer}
 .chips.collapsed .chip.x{display:none}
+input[type=date]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:6px 9px}
+.period{margin-top:10px;font-size:13px}
 .chip.on{background:var(--green-soft);border-color:var(--green);color:var(--green);font-weight:600}
 .count{color:var(--muted);font-size:13px;margin:4px 2px 10px}
 .btn{border:0;background:var(--green);color:#fff;font:600 14px Inter;padding:10px 16px;border-radius:10px;cursor:pointer}
@@ -130,6 +132,13 @@ label.cb{display:flex;gap:6px;align-items:center;font-size:14px}
       </select>
     </div>
     <div class="chips" id="tags"></div>
+    <div class="row period" id="period">
+      <span>📅 Lagt til:</span>
+      <label>fra <input type="date" id="dFrom"></label>
+      <label>til <input type="date" id="dTo"></label>
+      <button class="chip" id="dClear" style="border-style:dashed">alle datoer</button>
+    </div>
+    <div class="chips" id="dates" style="margin-top:6px"></div>
   </div>
 
   <section class="panel on" id="p-search">
@@ -239,6 +248,8 @@ const pick=a=>a[Math.floor(Math.random()*a.length)];
 /* ---------- parse markdown ---------- */
 let DB=[];
 function cells(line){return line.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim())}
+const DATE_RE=/\d{4}-\d\d-\d\d/;
+function splitTags(s){const all=(s||'').split(/\s+/).filter(Boolean);const d=all.find(x=>/^\d{4}-\d\d-\d\d$/.test(x))||'';return{tags:all.filter(x=>x!==d),date:d}}
 function parse(md){
   const out=[]; const lines=md.split('\n'); let sec='', sub='';
   let i=0;
@@ -249,7 +260,7 @@ function parse(md){
       const title=L.replace(/^### /,'').trim(); const body=[]; i++;
       while(i<lines.length && !/^#{2,3} /.test(lines[i]) && !/^---\s*$/.test(lines[i])){body.push(lines[i]);i++}
       const src=(title.match(/\*\((.+?)\)\*/)||[])[1]||'';
-      out.push({kind:'rule',id:title.split('.')[0],no:title.replace(/\s*\*\(.+?\)\*/,''),body:body.join('\n').trim(),src,tags:['grammatikk']});
+      const dm=src.match(DATE_RE);out.push({kind:'rule',id:title.split('.')[0],no:title.replace(/\s*\*\(.+?\)\*/,''),body:body.join('\n').trim(),src:src.replace(/\s*·\s*\d{4}-\d\d-\d\d/,''),date:dm?dm[0]:'',tags:['grammatikk']});
       continue;
     }
     if(/^### /.test(L)){sub=L.replace(/^### /,'').trim();i++;continue}
@@ -258,11 +269,11 @@ function parse(md){
       while(i<lines.length && /^\|/.test(lines[i])){
         const c=cells(lines[i]); i++;
         if(sec.startsWith('1') && head.length===6){
-          out.push({kind:'word',no:c[0],forms:c[1],en:c[2],ex:c[3],src:c[4],tags:c[5].split(/\s+/).filter(Boolean),sub});
-        } else if(sec.startsWith('6') && head.length===6){
-          const g=c[5]; out.push({kind:'verb',no:c[0],pres:c[1],pret:c[2],perf:c[3],forms:`${c[1]} – ${c[2]} – ${c[3]}`,en:c[4],ex:'',src:'Verbliste',group:g,tags:['verbliste',g.replace(/\s+/g,'')],sub:'Verb'});
+          const t=splitTags(c[5]);out.push({kind:'word',no:c[0],forms:c[1],en:c[2],ex:c[3],src:c[4],tags:t.tags,date:t.date,sub});
+        } else if(sec.startsWith('6') && (head.length===6||head.length===7)){
+          const g=c[5]; out.push({kind:'verb',no:c[0],pres:c[1],pret:c[2],perf:c[3],forms:`${c[1]} – ${c[2]} – ${c[3]}`,en:c[4],ex:'',src:'Verbliste',group:g,date:((c[6]||'').match(DATE_RE)||[''])[0],tags:['verbliste',g.replace(/\s+/g,'')],sub:'Verb'});
         } else if(sec.startsWith('2') && head.length===5){
-          out.push({kind:'expr',no:c[0],en:c[1],ex:c[2],src:c[3],tags:c[4].split(/\s+/).filter(Boolean),sub:'Uttrykk'});
+          const t=splitTags(c[4]);out.push({kind:'expr',no:c[0],en:c[1],ex:c[2],src:c[3],tags:t.tags,date:t.date,sub:'Uttrykk'});
         }
       }
       continue;
@@ -280,7 +291,7 @@ function loadDb(){
   const v=DB.filter(e=>e.kind==='verb').length,w=DB.filter(e=>e.kind==='word').length,x=DB.filter(e=>e.kind==='expr').length,r=DB.filter(e=>e.kind==='rule').length;
   const log=(md.match(/\| (\d{4}-\d\d-\d\d[^|]*)\|/g)||[]).pop()||'';
   $('#dbinfo').textContent=`${w} ord · ${x} uttrykk · ${v} verb · ${r} grammatikkregler${custom?' · (lokal versjon)':''}${log?' · sist oppdatert '+log.replace(/\|/g,'').trim():''}`;
-  buildTags(); render();
+  buildTags(); buildDates(); render();
 }
 
 /* ---------- filters ---------- */
@@ -291,17 +302,31 @@ function buildTags(){
   $('#tags').innerHTML=tags.map((t,i)=>`<button class="chip${activeTags.has(t)?' on':''}${i>=8&&!activeTags.has(t)?' x':''}" data-t="${esc(t)}">${esc(t)} <span style="opacity:.6">${counts[t]}</span></button>`).join('')+`<button class="chip" id="moreTags" style="border-style:dashed">flere tags…</button>`;
   $('#tags').classList.add('collapsed');
 }
+let dRange=store.get('norsk_dates',{from:'',to:''});
+function buildDates(){
+  const counts={}; DB.forEach(e=>{if(e.date)counts[e.date]=(counts[e.date]||0)+1});
+  const ds=Object.keys(counts).sort().reverse();
+  $('#dFrom').value=dRange.from||''; $('#dTo').value=dRange.to||'';
+  $('#dates').innerHTML=ds.map(d=>`<button class="chip${dRange.from===d&&dRange.to===d?' on':''}" data-d="${d}">${d} <span style="opacity:.6">${counts[d]}</span></button>`).join('');
+}
+function setRange(f,t){dRange={from:f,to:t};store.set('norsk_dates',dRange);buildDates();render()}
 function filtered(kinds){
   const q=$('#q').value.trim().toLowerCase(); const k=$('#kind').value;
   return DB.filter(e=>{
     if(kinds && !kinds.includes(e.kind)) return false;
     if(k && e.kind!==k) return false;
     if(activeTags.size && !e.tags.some(t=>activeTags.has(t))) return false;
+    if(dRange.from && !(e.date && e.date>=dRange.from)) return false;
+    if(dRange.to && !(e.date && e.date<=dRange.to)) return false;
     if(q){const hay=[e.no,e.en,e.ex,e.forms,e.body,e.src].join(' ').toLowerCase(); if(!hay.includes(q)) return false}
     return true;
   });
 }
 $('#tags').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;if(b.id==='moreTags'){const c=$('#tags').classList.toggle('collapsed');b.textContent=c?'flere tags…':'færre tags';return}const t=b.dataset.t;activeTags.has(t)?activeTags.delete(t):activeTags.add(t);store.set('norsk_tags',[...activeTags]);b.classList.toggle('on');render()});
+$('#dates').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;const d=b.dataset.d;(dRange.from===d&&dRange.to===d)?setRange('',''):setRange(d,d)});
+$('#dFrom').addEventListener('change',()=>setRange($('#dFrom').value,dRange.to));
+$('#dTo').addEventListener('change',()=>setRange(dRange.from,$('#dTo').value));
+$('#dClear').onclick=()=>setRange('','');
 $('#q').addEventListener('input',render);$('#kind').addEventListener('change',render);
 
 /* ---------- markdown block renderer for rules ---------- */
@@ -329,10 +354,10 @@ function pickBal(pool){
   for(const k of ks){r-=W[k]; if(r<=0) return pick(g[k])} return pick(g[ks[0]]);
 }
 function itemHtml(e){
-  if(e.kind==='rule') return `<details class="rule item"><summary><span class="kind">regel</span>${inline(e.no)}</summary><div style="margin-top:8px">${mdBlock(e.body)}</div><div class="meta">${esc(e.src)}</div></details>`;
+  if(e.kind==='rule') return `<details class="rule item"><summary><span class="kind">regel</span>${inline(e.no)}</summary><div style="margin-top:8px">${mdBlock(e.body)}</div><div class="meta">${esc(e.src)}${e.date?' · 📅 '+e.date:''}</div></details>`;
   return `<div class="item"><span class="kind">${KL[e.kind]}${e.group?' · '+esc(e.group):''}</span><span class="no">${inline(e.no)}</span> <span class="en">— ${inline(e.en)}</span>
   ${e.forms?`<div class="forms">${inline(e.forms)}</div>`:''}${e.ex?`<div class="ex">${inline(e.ex)}</div>`:''}
-  <div class="meta">${esc(e.src)} · ${e.tags.map(esc).join(' · ')}</div></div>`;
+  <div class="meta">${esc(e.src)} · ${e.tags.map(esc).join(' · ')}${e.date?' · 📅 '+e.date:''}</div></div>`;
 }
 function render(){
   const f=filtered(); $('#count').textContent=`${f.length} treff`;
@@ -519,7 +544,7 @@ function renderAnki(){
   const f=filtered();
   const rows=[];
   f.forEach(e=>{
-    const tags=['norsk',...e.tags,e.src.replace(/[\s·.]+/g,'_')].join(' ');
+    const tags=['norsk',...e.tags,e.src.replace(/[\s·.]+/g,'_'),...(e.date?['lagt_til::'+e.date]:[])].join(' ');
     if(e.kind==='rule'){rows.push([inline(e.no),mdBlock(e.body),tags]);return}
     if(e.kind==='verb'){const f=`${esc(e.pres)} – ${esc(e.pret)} – ${esc(e.perf)}<br><small>${esc(e.group)}</small>`;
       if(dir!=='en-no') rows.push([esc(e.no),esc(e.en)+'<br>'+f,tags]); if(dir!=='no-en') rows.push([esc(e.en)+' (verb)',esc(e.no)+'<br>'+f,tags]); return}

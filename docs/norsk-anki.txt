@@ -1,598 +1,660 @@
 #separator:tab
 #html:true
 #tags column:3
-en bolig	home, dwelling (house or flat)<br><small>boligen – boliger – boligene</small><br><i>De fleste har en boligdrøm.</i>	norsk ord kap5 bolig
-en boligdrøm	dream home<br><small>boligdrømmen – boligdrømmer – boligdrømmene</small><br><i>De fleste har en boligdrøm.</i>	norsk ord kap5 bolig
-å foretrekke	to prefer<br><small>foretrekker – foretrakk – har foretrukket</small><br><i>Andre foretrekker bylivet.</i>	norsk ord kap5 verb sterkt
-å trives	to thrive, to be happy (somewhere)<br><small>trives – trivdes – har trivdes</small><br><i>Darian trives ikke på skolen.</i>	norsk ord kap5 verb s-verb
-vanskelig	difficult<br><small>vanskelig – vanskelige</small><br><i>Det er litt vanskelig hjemme.</i>	norsk ord kap5 adj
-hjemmefra	(away) from home<br><small>(adverb)</small><br><i>Hun vil flytte hjemmefra.</i>	norsk ord kap5 adv
-et kollektiv	shared flat / house share<br><small>kollektivet – kollektiv – kollektivene</small><br><i>Hun vil flytte inn i et kollektiv.</i>	norsk ord kap5 bolig
-et bofellesskap	co-living arrangement, shared housing<br><small>bofellesskapet – bofellesskap – bofellesskapene</small><br><i>Et kollektiv er et bofellesskap.</i>	norsk ord kap5 bolig
-skeptisk	sceptical<br><small>skeptisk – skeptiske</small><br><i>Foreldrene er veldig skeptiske.</i>	norsk ord kap5 adj
-en stemning	atmosphere, mood (&quot;vibe&quot;)<br><small>stemningen – stemninger – stemningene</small><br><i>Det er ganske dårlig stemning i huset.</i>	norsk ord kap5
-et farmasistudium	pharmacy degree/studies<br><small>farmasistudiet – farmasistudier – farmasistudiene</small><br><i>…til du er ferdig med farmasistudiet.</i>	norsk ord kap5
-sentral	central<br><small>sentralt – sentrale</small><br><i>Det er mer sentralt.</i>	norsk ord kap5 adj
-nær	near, close<br><small>nært – nære · komp. nærmere – nærmest</small><br><i>…nærmere universitetet.</i>	norsk ord kap5 adj komparativ
-å slippe	to not have to, to be spared (+ å)<br><small>slipper – slapp – har sluppet</small><br><i>Jeg slipper å ta bussen hver dag.</i>	norsk ord kap5 verb sterkt
-et soverom	bedroom<br><small>soverommet – soverom – soverommene</small><br><i>…en leilighet med fire soverom.</i>	norsk ord kap5 bolig
-ei/en husleie	rent<br><small>husleia/husleien – husleier – husleiene</small><br><i>Vi skal dele på husleia.</i>	norsk ord kap5 bolig økonomi
-en strøm	electricity; current<br><small>strømmen – strømmer – strømmene</small><br><i>…dele på husleia og strømmen.</i>	norsk ord kap5 bolig
-å dele (på)	to share, to split<br><small>deler – delte – har delt</small><br><i>Vi skal dele på husleia.</i>	norsk ord kap5 verb
-dessuten	besides, moreover<br><small>(adverb)</small><br><i>Dessuten har jeg lyst til å bo med de andre.</i>	norsk ord kap5 adv konnektor
-å treffe	to meet; to hit<br><small>treffer – traff – har truffet</small><br><i>Dere har jo truffet dem.</i>	norsk ord kap5 verb sterkt
-hyggelig	nice, pleasant<br><small>hyggelig – hyggelige</small><br><i>Det er hyggelige jenter.</i>	norsk ord kap5 adj
-gratis	free (of charge)<br><small>(uninflected)</small><br><i>Du bor gratis.</i>	norsk ord kap5 adj
-å behøve	to need (≈ trenge)<br><small>behøver – behøvde – har behøvd</small><br><i>Du behøver verken å betale for husleie eller mat.</i>	norsk ord kap5 verb
-likevel	nevertheless, still, anyway<br><small>(adverb)</small><br><i>Likevel føler jeg meg …</i>	norsk ord kap5 adv konnektor
-å forklare	to explain<br><small>forklarer – forklarte – har forklart</small><br><i>Det er vanskelig å forklare.</i>	norsk ord kap5 verb
-skuffet	disappointed<br><small>skuffet – skuffede/skuffa</small><br><i>Sara er skuffet.</i>	norsk ord kap5 adj følelser
-å krangle	to argue, quarrel (&quot;fight&quot; with words)<br><small>krangler – kranglet/krangla – har kranglet</small><br><i>Hun har ikke lyst til å krangle med foreldrene.</i>	norsk ord kap5 verb
-å legge ut	to post (online)<br><small>legger ut – la ut – har lagt ut</small><br><i>Hun legger den ut på Facebook.</i>	norsk ord kap5 verb partikkelverb
-kraftig	strong, powerful, solid<br><small>kraftig – kraftige</small><br><i>et stort og kraftig tre</i>	norsk ord kap5 adj
-trygg	safe, secure<br><small>trygt – trygge</small><br><i>Det lille treet sto trygt.</i>	norsk ord kap5 adj
-en storm	storm<br><small>stormen – stormer – stormene</small><br><i>i storm og uvær</i>	norsk ord kap5 vær
-et uvær	bad weather<br><small>uværet – uvær – uværene</small><br><i>i storm og uvær</i>	norsk ord kap5 vær
-å vokse	to grow<br><small>vokser – vokste – har vokst</small><br><i>lite lys og luft å vokse i</i>	norsk ord kap5 verb
-å hogge	to chop, to fell (a tree)<br><small>hogger – hogde – har hogd (also: hugge – hugget)</small><br><i>Noen hogde det store treet.</i>	norsk ord kap5 verb
-en beskyttelse	protection<br><small>beskyttelsen – (no pl.)</small><br><i>Det hadde ikke lenger noen beskyttelse.</i>	norsk ord kap5
-å klare seg	to manage, get by, cope<br><small>klarer seg – klarte seg – har klart seg</small><br><i>…et sterkt tre som klarte seg i all slags vær.</i>	norsk ord kap5 verb refleksiv
-kjempesnill	super kind<br><small>kjempesnilt – kjempesnille</small><br><i>De er kjempesnille!</i>	norsk ord kap5 adj
-kul	cool<br><small>kult – kule</small><br><i>Veldig kule er de i hvert fall.</i>	norsk ord kap5 adj
-å leie	to rent<br><small>leier – leide – har leid</small><br><i>Du leier en bolig når du betaler husleie.</i>	norsk ord kap5 bolig verb
-å eie	to own<br><small>eier – eide – har eid</small><br><i>Når du kjøper en bolig, eier du den.</i>	norsk ord kap5 bolig verb
-en eier	owner<br><small>eieren – eiere – eierne</small><br><i>…betaler husleie til eieren.</i>	norsk ord kap5 bolig
-en kjøper	buyer<br><small>kjøperen – kjøpere – kjøperne</small>	norsk ord kap5 bolig
-et lån	loan<br><small>lånet – lån – lånene</small><br><i>ta opp et lån i banken</i>	norsk ord kap5 økonomi
-å låne	to borrow; to lend<br><small>låner – lånte – har lånt</small><br><i>Når du låner penger i banken …</i>	norsk ord kap5 økonomi verb
-ei/en gjeld	debt<br><small>gjelda/gjelden – (rarely pl.)</small><br><i>…får du gjeld.</i>	norsk ord kap5 økonomi
-et avdrag	instalment, repayment<br><small>avdraget – avdrag – avdragene</small><br><i>Du betaler et avdrag hver måned.</i>	norsk ord kap5 økonomi
-ei/en avdragstid	repayment period<br><small>avdragstida/avdragstiden</small><br><i>Denne tida kaller vi avdragstid.</i>	norsk ord kap5 økonomi
-ei/en rente	interest (rate)<br><small>renta/renten – renter – rentene</small><br><i>Renta er 4 % per år.</i>	norsk ord kap5 økonomi
-en egenkapital	equity, own savings (down payment)<br><small>egenkapitalen</small><br><i>Egenkapital er pengene du har spart selv.</i>	norsk ord kap5 økonomi
-et budsjett	budget<br><small>budsjettet – budsjetter – budsjettene</small><br><i>Det er lurt å sette opp et budsjett.</i>	norsk ord kap5 økonomi
-lur	clever, smart (of an idea)<br><small>lurt – lure</small><br><i>Det er lurt å …</i>	norsk ord kap5 adj
-ei/en oversikt	overview<br><small>oversikta/oversikten – oversikter – oversiktene</small><br><i>…bedre oversikt over økonomien</i>	norsk ord kap5
-ei/en visning	viewing (of a property)<br><small>visninga/visningen – visninger – visningene</small><br><i>Du går på visning.</i>	norsk ord kap5 bolig
-et bud	bid, offer<br><small>budet – bud – budene</small><br><i>Å legge inn et bud</i>	norsk ord kap5 bolig
-å by (på)	to bid; to offer<br><small>byr – bød – har budt</small><br><i>å by på en leilighet</i>	norsk ord kap5 bolig verb sterkt
-en megler	(estate) agent<br><small>megleren – meglere – meglerne</small><br><i>…til megleren</i>	norsk ord kap5 bolig
-skriftlig	written<br><small>skriftlig – skriftlige</small><br><i>et skriftlig bud</i>	norsk ord kap5 adj
-bindende	binding<br><small>(uninflected)</small><br><i>Budet ditt er bindende.</i>	norsk ord kap5 adj
-å akseptere	to accept<br><small>aksepterer – aksepterte – har akseptert</small><br><i>…hvis eieren aksepterer budet.</i>	norsk ord kap5 verb
-å øke	to increase, raise<br><small>øker – økte – har økt</small><br><i>Du må øke budet.</i>	norsk ord kap5 verb
-en budrunde	bidding round<br><small>budrunden – budrunder – budrundene</small><br><i>være med på budrunden</i>	norsk ord kap5 bolig
-å skje	to happen<br><small>skjer – skjedde – har skjedd</small><br><i>Det skjer vanligvis via sms.</i>	norsk ord kap5 verb
-ei/en fellesgjeld	shared debt (of a housing co-op)<br><small>fellesgjelda/-en</small>	norsk ord kap5 bolig økonomi
-felleskostnader (pl.)	common costs, monthly fee<br><small>felleskostnadene</small><br><i>Felleskostnader kalles ofte husleie.</i>	norsk ord kap5 bolig økonomi
-et borettslag	housing co-operative<br><small>borettslaget – borettslag – borettslagene</small>	norsk ord kap5 bolig
-et sameie	jointly-owned building (condo)<br><small>sameiet – sameier – sameiene</small>	norsk ord kap5 bolig
-en beboer	resident<br><small>beboeren – beboere – beboerne</small><br><i>hver beboer</i>	norsk ord kap5 bolig
-ei/en forsikring	insurance<br><small>forsikringa/-en – forsikringer – forsikringene</small><br><i>forsikringer på bygg</i>	norsk ord kap5 økonomi
-en trappevask	stairwell cleaning<br><small>trappevasken</small>	norsk ord kap5 bolig
-et kredittkort	credit card<br><small>kredittkortet – kredittkort – kredittkortene</small>	norsk ord kap5 økonomi
-et beløp	amount, sum<br><small>beløpet – beløp – beløpene</small><br><i>betale hele beløpet</i>	norsk ord kap5 økonomi
-ei/en regning	bill<br><small>regninga/-en – regninger – regningene</small><br><i>Du får en regning.</i>	norsk ord kap5 økonomi
-imidlertid	however<br><small>(adverb)</small><br><i>Du må imidlertid betale høye renter.</i>	norsk ord kap5 adv konnektor
-tydeligvis	evidently, clearly<br><small>(adverb)</small>	norsk ord kap5 ordliste
-trang	cramped, tight<br><small>trangt – trange</small><br><i>trange skap</i>	norsk ord kap5 adj
-miljøvennlig	environmentally friendly<br><small>miljøvennlig – miljøvennlige</small>	norsk ord kap5 ordliste
-fornuftig	sensible, reasonable<br><small>fornuftig – fornuftige</small>	norsk ord kap5 ordliste
-et abonnement	subscription<br><small>abonnementet – abonnementer – abonnementene</small>	norsk ord kap5 ordliste
-å fornye	to renew<br><small>fornyer – fornyet – har fornyet</small>	norsk ord kap5 ordliste verb
-å avslutte	to end, cancel, finish<br><small>avslutter – avsluttet – har avsluttet</small>	norsk ord kap5 ordliste verb
-å skifte	to change, switch (≈ bytte)<br><small>skifter – skiftet – har skiftet</small>	norsk ord kap5 ordliste verb
-å beholde	to keep<br><small>beholder – beholdt – har beholdt</small>	norsk ord kap5 ordliste verb
-ei/en leting	search(ing)<br><small>letinga/-en</small>	norsk ord kap5 ordliste
-å protestere	to object, protest<br><small>protesterer – protesterte – har protestert</small>	norsk ord kap5 ordliste verb
-å stemme	to be correct; to vote<br><small>stemmer – stemte – har stemt</small><br><i>Det stemmer!</i>	norsk ord kap5 ordliste verb
-ei/en anledning	opportunity, occasion<br><small>anledninga/-en – anledninger</small>	norsk ord kap5 ordliste
-å foreslå	to suggest<br><small>foreslår – foreslo – har foreslått</small>	norsk ord kap5 ordliste verb sterkt
-å love	to promise<br><small>lover – lovet/lovte – har lovet/lovt</small>	norsk ord kap5 ordliste verb
-faktisk	actually, in fact<br><small>(adverb)</small><br><i>Jeg har faktisk akkurat flyttet.</i>	norsk ord kap5 adv
-en bakgård	back yard, courtyard<br><small>bakgården – bakgårder – bakgårdene</small>	norsk ord kap5 bolig
-å oppgradere	to upgrade, renovate (= pusse opp, modernisere)<br><small>oppgraderer – oppgraderte – har oppgradert</small>	norsk ord kap5 bolig verb
-å nedgradere	to downgrade<br><small>nedgraderer – nedgraderte – har nedgradert</small>	norsk ord verb
-et skap	cupboard, wardrobe<br><small>skapet – skap – skapene</small><br><i>trange skap = cramped cupboards</i>	norsk ord bolig
-å oversvømme	to flood, overwhelm<br><small>oversvømmer – oversvømte – har oversvømt · passiv: oversvømmes</small><br><i>Vi oversvømmes av informasjon.</i>	norsk ord kap6 verb passiv
-uviktig	unimportant<br><small>uviktig – uviktige</small><br><i>viktige og uviktige nyheter</i>	norsk ord kap6 adj
-opptatt (av)	busy; preoccupied (with)<br><small>opptatt – opptatte</small><br><i>Er vi så opptatt av nettet?</i>	norsk ord kap6 adj
-et personvern	privacy (protection)<br><small>personvernet</small>	norsk ord kap6
-ei/en kildekritikk	source criticism<br><small>kildekritikken</small>	norsk ord kap6
-et nettvett	online etiquette / safe internet use<br><small>nettvettet</small>	norsk ord kap6
-ei/en livsmestring	life skills, coping<br><small>livsmestringa/-en</small>	norsk ord kap6
-å sms&#x27;e	to text (SMS)<br><small>sms&#x27;er – sms&#x27;et – har sms&#x27;et</small>	norsk ord kap6 verb
-å tekste	to text; to subtitle<br><small>tekster – tekstet – har tekstet</small><br><i>Jeg tekster deg i stedet.</i>	norsk ord kap6 verb
-ei/en melding	message<br><small>meldinga/-en – meldinger – meldingene</small><br><i>sjekke meldinger</i>	norsk ord kap6
-kjedelig	boring<br><small>kjedelig – kjedelige</small><br><i>Filmen var jo ganske kjedelig.</i>	norsk ord kap6 adj
-et øyeblikk	moment<br><small>øyeblikket – øyeblikk – øyeblikkene</small><br><i>Et øyeblikk!</i>	norsk ord kap6
-å skru av	to switch off<br><small>skrur av – skrudde av – har skrudd av</small><br><i>Jeg skrur den av om natta.</i>	norsk ord kap6 verb partikkelverb
-ei/en sminke	make-up<br><small>sminka/sminken</small>	norsk ord kap6
-avhengig (av)	dependent on, addicted to<br><small>avhengig – avhengige</small><br><i>Jeg er helt avhengig av mobilen.</i>	norsk ord kap6 adj
-folk	people<br><small>(collective, no article in this sense)</small><br><i>holde kontakt med folk</i>	norsk ord kap6
-et månedskort	monthly (travel) pass<br><small>månedskortet – månedskort – månedskortene</small>	norsk ord kap6
-ledig	vacant, free<br><small>ledig – ledige</small><br><i>ledige stillinger</i>	norsk ord kap6 adj
-ei/en stilling	position, job<br><small>stillinga/-en – stillinger</small>	norsk ord kap6 jobb
-en jobbsøknad	job application<br><small>jobbsøknaden – jobbsøknader</small>	norsk ord kap6 jobb
-en nabogutt	the boy next door<br><small>nabogutten – nabogutter</small>	norsk ord kap6
-å plage	to bother, harass<br><small>plager – plaget/plagde – har plaget/plagd</small><br><i>En som plager deg?</i>	norsk ord kap6 verb
-å chatte	to chat (online)<br><small>chatter – chattet – har chattet</small>	norsk ord kap6 verb
-grei	nice, decent; easy<br><small>greit – greie</small><br><i>Han virket så grei.</i>	norsk ord kap6 adj
-å virke	to seem; to work (function)<br><small>virker – virket – har virket</small><br><i>Han virket så grei.</i>	norsk ord kap6 verb
-å manipulere	to manipulate<br><small>manipulerer – manipulerte – har manipulert</small>	norsk ord kap6 verb
-en trussel	threat<br><small>trusselen – trusler – truslene</small><br><i>en tom trussel</i>	norsk ord kap6
-en gubbe	old man, geezer (informal)<br><small>gubben – gubber – gubbene</small><br><i>en gammel gubbe</i>	norsk ord kap6 uformell
-å lure	to trick, fool; (lure på) to wonder<br><small>lurer – lurte – har lurt</small><br><i>prøver å lure jenter</i>	norsk ord kap6 verb
-å straffe	to punish<br><small>straffer – straffet – har straffet</small><br><i>Han kan bli straffet.</i>	norsk ord kap6 verb jus
-å dømme	to sentence, judge<br><small>dømmer – dømte – har dømt</small><br><i>Han ble dømt til fengsel.</i>	norsk ord kap6 verb jus
-et fengsel	prison<br><small>fengselet – fengsler – fengslene</small><br><i>ubetinget fengsel</i>	norsk ord kap6 jus
-ubetinget	unconditional (non-suspended sentence)<br><small>ubetinget – ubetingede</small><br><i>fem måneders ubetinget fengsel</i>	norsk ord kap6 jus
-å spre	to spread<br><small>sprer – spredte – har spredt</small><br><i>spre nakenbilder</i>	norsk ord kap6 verb
-ei/en krenkelse	violation, offence (against a person)<br><small>krenkelsen – krenkelser</small>	norsk ord kap6 jus
-ei/en personopplysning	personal data<br><small>-opplysninga/-en – -opplysninger</small>	norsk ord kap6
-ei/en opplysning	(piece of) information<br><small>opplysninga/-en – opplysninger</small>	norsk ord kap6
-et privatliv	private life, privacy<br><small>privatlivet</small>	norsk ord kap6
-ei/en plikt	duty<br><small>plikta/-en – plikter</small><br><i>Foreldre har plikt til å passe på barna.</i>	norsk ord kap6
-bekymret	worried<br><small>bekymret – bekymrede/bekymra</small>	norsk ord kap6 adj følelser
-å beskytte	to protect<br><small>beskytter – beskyttet – har beskyttet</small>	norsk ord kap6 verb
-å diskriminere	to discriminate<br><small>diskriminerer – diskriminerte – har diskriminert</small>	norsk ord samfunn verb
-ei/en likestilling	(gender) equality<br><small>likestillinga/-en</small>	norsk ord samfunn
-FN (De forente nasjoner)	UN (United Nations)	norsk ord samfunn
-å forene	to unite<br><small>forener – forente – har forent</small><br><i>De forente nasjoner</i>	norsk ord samfunn verb
-en forening	association, union, club<br><small>foreningen – foreninger – foreningene</small>	norsk ord samfunn
-ei/en kunst → kunstig	art → artificial<br><small>kunstig – kunstige</small><br><i>kunstig intelligens</i>	norsk ord adj ordlaging
-ei/en støtte · å støtte	support · to support (also financially)<br><small>støtta/-en · støtter – støttet – har støttet</small>	norsk ord samfunn
-å passe på	to look after, keep an eye on (≈ observere, kontrollere)<br><small>passer på – passet på – har passet på</small><br><i>Foreldre må passe på barna.</i>	norsk ord verb partikkelverb
-å ta vare på	to take care of, preserve<br><small>tar – tok – har tatt vare på</small>	norsk ord verb
-å bevare	to preserve, conserve<br><small>bevarer – bevarte – har bevart</small>	norsk ord verb
-en stabilitet	stability<br><small>stabiliteten</small>	norsk ord samfunn
-å forhandle	to negotiate<br><small>forhandler – forhandlet – har forhandlet</small>	norsk ord samfunn verb
-en funksjonsnedsettelse	disability<br><small>-nedsettelsen – -nedsettelser</small>	norsk ord samfunn
-å bidra (til)	to contribute (≈ hjelpe til)<br><small>bidrar – bidro – har bidratt</small>	norsk ord verb sterkt
-forurenset	polluted<br><small>forurenset – forurensede</small>	norsk ord miljø adj
-et krigsområde	war zone<br><small>krigsområdet – krigsområder</small>	norsk ord samfunn
-krigsrammet	war-torn<br><small>krigsrammet – krigsrammede</small>	norsk ord samfunn adj
-å drive (med)	to do (an activity); to run (a business)<br><small>driver – drev – har drevet</small><br><i>Hva driver du med?</i>	norsk ord verb sterkt
-en skyskraper	skyscraper<br><small>skyskraperen – skyskrapere</small>	norsk ord by
-en fordel	advantage<br><small>fordelen – fordeler – fordelene</small><br><i>Hva er fordelen?</i>	norsk ord 
-en ulempe	disadvantage<br><small>ulempen – ulemper – ulempene</small><br><i>fordeler og ulemper</i>	norsk ord 
-å berike	to enrich<br><small>beriker – beriket – har beriket</small>	norsk ord verb
-å dra	to go/leave (by any transport, longer trip); to pull<br><small>drar – dro – har dratt</small><br><i>Vi drar til Bergen.</i>	norsk ord verb sterkt
-et faktum	fact<br><small>faktumet – fakta – faktaene</small><br><i>Faktum er at …</i>	norsk ord 
-å droppe	to drop, leave out (= la falle)<br><small>dropper – droppet – har droppet</small>	norsk ord verb
-ei/en nasjon	nation (<i>check gender in NAOB: masculine</i>)<br><small>nasjonen – nasjoner</small>	norsk ord 
-å handle	to shop<br><small>handler – handlet – har handlet</small><br><i>Jeg handler mat.</i>	norsk ord verb
-å handle om	to be about<br><small>handler om – handlet om</small><br><i>Boka handler om …</i>	norsk ord verb
-sjelden	rare; rarely<br><small>sjeldent – sjeldne</small><br><i>sjeldne arter</i>	norsk ord adj
-ei/en art	species; kind<br><small>arten – arter – artene</small>	norsk ord natur
-liknende / lignende	similar<br><small>(uninflected)</small>	norsk ord adj
-å gjennomføre	to carry out, complete (≈ gjøre ferdig)<br><small>gjennomfører – gjennomførte – har gjennomført</small>	norsk ord verb
-eksentrisk	eccentric<br><small>eksentrisk – eksentriske</small>	norsk ord adj
-å pendle	to commute<br><small>pendler – pendlet – har pendlet</small><br><i>Jeg slipper å pendle.</i>	norsk ord verb
-en pendler	commuter<br><small>pendleren – pendlere – pendlerne</small>	norsk ord 
-ei/en drosje	taxi<br><small>drosja/-en – drosjer</small>	norsk ord transport
-ei/en sikt	visibility; sight<br><small>sikta/-en</small>	norsk ord 
-ei/en utsikt	view<br><small>utsikta/-en – utsikter</small><br><i>Leiligheten har fin utsikt.</i>	norsk ord bolig
-ei/en husmor	housewife<br><small>husmora/husmoren – husmødre – husmødrene</small><br><i>en husmor som er hjemmeværende</i>	norsk ord familie
-hjemmeværende	stay-at-home<br><small>(uninflected)</small>	norsk ord familie adj
-et par	couple; pair<br><small>paret – par – parene</small>	norsk ord familie
-et brudepar	bridal couple, newlyweds<br><small>brudeparet – brudepar – brudeparene</small>	norsk ord familie
-et ektepar	married couple (mann + kone)<br><small>ekteparet – ektepar – ekteparene</small>	norsk ord familie
-et bryllup	wedding<br><small>bryllupet – bryllup – bryllupene</small>	norsk ord familie
-ei/en brud	bride<br><small>brura/bruden – bruder – brudene</small>	norsk ord familie
-en brudgom	groom<br><small>brudgommen – brudgommer – brudgommene</small>	norsk ord familie
-ei/en kone	wife<br><small>kona/konen – koner – konene</small>	norsk ord familie
-et brensel	fuel (for heating)<br><small>brenselet – (no pl.)</small>	norsk ord bolig
-ødelagt	broken, ruined<br><small>ødelagt – ødelagte</small>	norsk ord adj
-knust	smashed, shattered<br><small>knust – knuste</small><br><i>Glasset er knust.</i>	norsk ord adj
-å male	to paint<br><small>maler – malte – har malt</small><br><i>Hun har malt.</i>	norsk ord verb
-en vannlekkasje	water leak<br><small>vannlekkasjen – vannlekkasjer</small>	norsk ord bolig
-et baderom	bathroom<br><small>baderommet – baderom – baderommene</small>	norsk ord bolig
-å bli	to become; to stay<br><small>blir – ble – har blitt</small>	norsk ord verb sterkt
-å slite	to struggle; to wear out<br><small>sliter – slet – har slitt</small><br><i>Jeg sliter litt økonomisk.</i>	norsk ord verb sterkt
-økonomisk	financial(ly)<br><small>økonomisk – økonomiske</small>	norsk ord adj
-ingen	nobody, no, none (= ikke noen)<br><small>(pronoun)</small><br><i>Det er ingen hjemme.</i>	norsk ord pronomen
-stadig	constantly; increasingly (stadig bedre = better and better)<br><small>(adverb)</small><br><i>Han sjekket stadig telefonen.</i>	norsk ord adv
-uinteressant	uninteresting<br><small>uinteressant – uinteressante</small><br><i>helt uinteressant</i>	norsk ord adj
-å prate	to chat, talk (≈ snakke)<br><small>prater – pratet – har pratet</small><br><i>Du ville jo prate om noe.</i>	norsk ord verb
-visst	apparently, I&#x27;ve heard<br><small>(modal adverb)</small><br><i>Han er visst syk.</i>	norsk ord adv partikkel
-trolig / sannsynligvis	probably (= nok)<br><small>(adverbs)</small>	norsk ord adv
-å anklage	to accuse<br><small>anklager – anklaget – har anklaget</small><br><i>De anklager hverandre.</i>	norsk ord verb
-å beskylde	to accuse, blame<br><small>beskylder – beskyldte – har beskyldt</small><br><i>De beskylder hverandre.</i>	norsk ord verb
-hverandre	each other<br><small>(pronoun)</small>	norsk ord pronomen
-å sammenligne	to compare<br><small>sammenligner – sammenlignet – har sammenlignet</small>	norsk ord verb
-lei (seg)	sad (bli lei seg)<br><small>(predicative)</small><br><i>Jeg blir lei meg.</i>	norsk ord adj følelser
-trist	sad<br><small>trist – triste</small>	norsk ord adj følelser
-å svare	to answer<br><small>svarer – svarte – har svart</small><br><i>Han svarer at …</i>	norsk ord verb
-å oppdage	to discover, find out<br><small>oppdager – oppdaget – har oppdaget</small><br><i>Jeg har oppdaget at foreldrene mine sjekker meldingene.</i>	norsk ord kap6 verb
-en oppdagelse	discovery<br><small>oppdagelsen – oppdagelser – oppdagelsene</small>	norsk ord kap6
-å godta	to accept, agree to<br><small>godtar – godtok – har godtatt</small><br><i>…hvis de ikke har godtatt det.</i>	norsk ord kap6 verb sterkt
-å tørre	to dare<br><small>tør – turte – har turt</small><br><i>Snart tør jeg ikke gå på fest.</i>	norsk ord kap6 verb
-ei/en venninne	(female) friend<br><small>venninna/venninnen – venninner – venninnene</small><br><i>…hva jeg snakker med venninnene mine om</i>	norsk ord kap6
-morsom	funny, fun<br><small>morsomt – morsomme</small><br><i>«morsomme» bilder</i>	norsk ord kap6 adj
-full	full; drunk<br><small>fullt – fulle</small><br><i>folk som ser dumme og fulle ut</i>	norsk ord kap6 adj
-gøy	fun<br><small>(uninflected)</small><br><i>Vi hadde det jo bare gøy.</i>	norsk ord kap6 adj
-utover	all over; beyond<br><small>(preposition)</small><br><i>glass og flasker utover hele bordet</i>	norsk ord kap6
-en arbeidsgiver	employer<br><small>arbeidsgiveren – arbeidsgivere – arbeidsgiverne</small><br><i>hva vil en arbeidsgiver tro?</i>	norsk ord kap6 jobb
-ei/en smartklokke	smartwatch<br><small>smartklokka/smartklokken – smartklokker – smartklokkene</small><br><i>Vi har kjøpt smartklokke til sønnen vår.</i>	norsk ord kap6
-en knapp	button<br><small>knappen – knapper – knappene</small><br><i>en egen SOS-knapp</i>	norsk ord kap6
-en trygghet	security, feeling safe<br><small>tryggheten</small><br><i>Det gir stor trygghet.</i>	norsk ord kap6
-en frihet	freedom<br><small>friheten – friheter – frihetene</small><br><i>Barna må ha frihet.</i>	norsk ord kap6
-en kompetanse	competence, skills<br><small>kompetansen</small><br><i>Barn må få digital kompetanse.</i>	norsk ord kap6
-en konsekvens	consequence<br><small>konsekvensen – konsekvenser – konsekvensene</small><br><i>Tenker du på konsekvensene?</i>	norsk ord kap6
-enig / uenig	(be) in agreement / disagreement<br><small>enig – enige</small><br><i>Er du enig eller uenig?</i>	norsk ord kap6 adj
-selvstendig	independent<br><small>selvstendig – selvstendige</small>	norsk ord adj ordlaging
-en selvstendighet	independence<br><small>selvstendigheten</small>	norsk ord ordlaging
-å låse	to lock<br><small>låser – låste – har låst</small><br><i>Dørene låses om kvelden.</i>	norsk ord verb passiv
-å stenge	to close, shut<br><small>stenger – stengte – har stengt</small><br><i>Skolen ble stengt i går.</i>	norsk ord verb passiv
-å vaske	to wash<br><small>vasker – vasket – har vasket</small><br><i>Bilen må vaskes.</i>	norsk ord verb passiv
-for tiden	at the moment, these days<br><i>Det er litt vanskelig hjemme for tiden.</i>	norsk uttrykk kap5 tid
-å gjøre ferdig (noe)	to finish (something)<br><i>Han skal gjøre ferdig skolen.</i>	norsk uttrykk kap5
-å være ferdig med	to be done with<br><i>…til du er ferdig med farmasistudiet.</i>	norsk uttrykk kap5
-å ha lyst til (å)	to want to, feel like<br><i>Han har lyst til å slutte.</i>	norsk uttrykk kap5
-å ha lyst på (noe)	to want (a thing)<br><i>Noen har lyst på en ny leilighet.</i>	norsk uttrykk kap5
-å ønske seg	to wish for<br><i>Noen ønsker seg et rolig liv på landet.</i>	norsk uttrykk kap5 refleksiv
-dårlig stemning	bad atmosphere/vibe<br><i>Det er dårlig stemning i huset.</i>	norsk uttrykk kap5
-i tillegg	in addition<br><i>I tillegg har Sara sagt at …</i>	norsk uttrykk kap5 konnektor
-å flytte hjemmefra	to move out (of parents&#x27; home)	norsk uttrykk kap5 bolig
-å dele på (husleia)	to split (the rent)	norsk uttrykk kap5 bolig
-i fred	in peace, undisturbed<br><i>Her kan du studere i fred.</i>	norsk uttrykk kap5
-Vi gjør alt for å hjelpe deg.	We do everything to help you.	norsk uttrykk kap5
-Vi får tenke på det.	We&#x27;ll have to think about it. (polite &quot;maybe&quot;)	norsk uttrykk kap5 modal
-dagen etter	the day after<br><i>Dagen etter leser hun en historie.</i>	norsk uttrykk kap5 tid
-Det var en gang …	Once upon a time …	norsk uttrykk kap5
-ved siden av	next to; alongside, on the side<br><i>et tre ved siden av et stort tre · en jobb ved siden av skolen</i>	norsk uttrykk kap5 kap6
-ikke lenger	no longer<br><i>Det hadde ikke lenger beskyttelse.</i>	norsk uttrykk kap5
-etter en stund	after a while	norsk uttrykk kap5 tid
-i høyden	upwards, in height<br><i>vokse i høyden</i>	norsk uttrykk kap5
-all slags / allslags	all kinds of<br><i>all slags vær</i>	norsk uttrykk kap5
-i hvert fall	at any rate, at least	norsk uttrykk kap5
-Slik kan man også se på det.	That&#x27;s one way to look at it.	norsk uttrykk kap5
-å re opp senga	to make the bed	norsk uttrykk kap5 hjem
-ved sjøen / mot sjøen	by the sea / facing the sea<br><i>en liten leilighet ved sjøen</i>	norsk uttrykk kap5 preposisjon
-Borte bra, men hjemme best.	East or west, home is best.<br><i>(gammelt ordtak)</i>	norsk uttrykk kap5 ordtak
-å ta opp et lån	to take out a loan	norsk uttrykk kap5 økonomi
-å sette opp et budsjett	to make a budget	norsk uttrykk kap5 økonomi
-å gå på visning	to go to a viewing	norsk uttrykk kap5 bolig
-å legge inn et bud (= å by på)	to place a bid	norsk uttrykk kap5 bolig
-til salgs	for sale<br><i>en bolig som er til salgs</i>	norsk uttrykk kap5
-som oftest	most often	norsk uttrykk kap5
-Det vil si … (dvs.)	That is to say … / i.e.	norsk uttrykk kap5
-slik at	so that	norsk uttrykk kap5 konnektor
-som regel	as a rule, usually	norsk uttrykk kap5
-med en gang	at once, in one go	norsk uttrykk kap5
-å ha råd til	to be able to afford<br><i>Vi har ikke råd.</i>	norsk uttrykk kap5 økonomi
-begge deler	both	norsk uttrykk kap5
-et par år	a couple of years	norsk uttrykk kap5
-å ta kontakt med	to get in touch with	norsk uttrykk kap5
-å si opp (en avtale)	to cancel (a contract)	norsk uttrykk kap5
-å dukke opp	to turn up, appear	norsk uttrykk kap5 partikkelverb
-i våre dager	nowadays	norsk uttrykk kap6 tid
-uten stans	non-stop	norsk uttrykk kap6
-å gå glipp av	to miss out on<br><i>…slik at de ikke går glipp av noe.</i>	norsk uttrykk kap6
-å legge bort	to put away<br><i>Kan du ikke legge bort mobilen?</i>	norsk uttrykk kap6 partikkelverb
-i stedet	instead<br><i>Så kan vi snakke litt sammen i stedet?</i>	norsk uttrykk kap6
-å bli lei av	to get tired/sick of<br><i>Jeg blir så lei av at du ser på mobilen.</i>	norsk uttrykk kap6
-hele tida	all the time	norsk uttrykk kap6 tid
-en god stund	a good while<br><i>I helga la jeg den bort en god stund.</i>	norsk uttrykk kap6 tid
-(bare) av og til	(only) now and then	norsk uttrykk kap6 tid
-Glem det!	Forget it!	norsk uttrykk kap6
-Tenk å …!	Imagine …-ing!<br><i>Tenk å kjøre rundt i en sånn en!</i>	norsk uttrykk kap6
-å holde kontakten (med)	to keep in touch (with)	norsk uttrykk kap6
-å gjøre avtaler	to make plans/arrangements	norsk uttrykk kap6
-i løpet av	during, in the course of<br><i>i løpet av dagen</i>	norsk uttrykk kap6 tid
-å følge med på	to keep up with, follow<br><i>Jeg følger med på nyhetene.</i>	norsk uttrykk kap6
-å holde seg oppdatert	to keep oneself updated	norsk uttrykk kap6 refleksiv
-å kutte ut	to cut out, quit<br><i>…men det har jeg kuttet ut.</i>	norsk uttrykk kap6 partikkelverb
-å ha (mye) glede av	to get (a lot of) joy from<br><i>Det har jeg mye glede av.</i>	norsk uttrykk kap6
-å bestille time hos tannlegen	to book a dentist appointment	norsk uttrykk kap6
-Hva er det som har skjedd?	What has happened?	norsk uttrykk kap6
-i det siste	lately	norsk uttrykk kap6 tid
-Hold deg unna ham!	Stay away from him!	norsk uttrykk kap6
-å kutte kontakten	to cut contact	norsk uttrykk kap6
-en tom trussel	an empty threat	norsk uttrykk kap6
-Stol på meg.	Trust me.	norsk uttrykk kap6
-Jeg håper du har rett.	I hope you&#x27;re right.	norsk uttrykk kap6
-å bli utsatt for	to be subjected to	norsk uttrykk kap6 passiv
-å ha rett til	to have the right to	norsk uttrykk kap6
-Det er (ikke) lov å …	It is (not) allowed to …	norsk uttrykk kap6
-å ha grunn til å	to have reason to	norsk uttrykk kap6
-Hva driver du med (på fritida)?	What do you do (in your free time)?	norsk uttrykk hverdag
-Hva er fordelen?	What&#x27;s the advantage?	norsk uttrykk 
-Faktum er at …	The fact is that …	norsk uttrykk 
-å gå i kirken	to go to church	norsk uttrykk 
-å legge merke til	to notice	norsk uttrykk 
-til slutt	finally, in the end	norsk uttrykk tid
-Gi deg!	Give up! / Stop it! / Come on!	norsk uttrykk hverdag
-om kvelden	in the evening(s)<br><i>Om kvelden legger jeg bort telefonen.</i>	norsk uttrykk tid
-fordeler og ulemper	pros and cons	norsk uttrykk 
-ganske kjedelig ↔ helt uinteressant	rather boring ↔ completely uninteresting	norsk uttrykk 
-stadig bedre	better and better	norsk uttrykk 
-en sånn bil = en slik bil	a car like that (sånn = spoken, slik = written)<br><i>Tenk å kjøre rundt i en sånn en!</i>	norsk uttrykk 
-Hva var det (at) du sa?	What was it you said? (softer than <i>Hva sa du?</i>)	norsk uttrykk høflighet
-Hva er det du mener?	What is it you mean?	norsk uttrykk høflighet
-Jeg har (helt) rett. ↔ Du tar feil.	I&#x27;m (completely) right. ↔ You&#x27;re wrong.	norsk uttrykk 
-å bli lei seg	to become sad / upset<br><i>Hvis du ikke kommer, blir jeg lei meg.</i>	norsk uttrykk følelser
-å holde en avtale	to keep an appointment/promise<br><i>Han har en avtale (som) han må holde.</i>	norsk uttrykk 
-å ha lov til (å)	to be allowed to<br><i>Har de lov til det?</i>	norsk uttrykk kap6
-å få noen til å …	to get/make someone do …<br><i>Hva kan jeg si for å få dem til å slutte?</i>	norsk uttrykk kap6
-å gjøre noe galt	to do something wrong<br><i>Jeg gjør ikke noe galt.</i>	norsk uttrykk kap6
-en eller annen	someone or other<br><i>Det er alltid en eller annen som legger ut bilder.</i>	norsk uttrykk kap6
-Det ser verre ut enn det var.	It looks worse than it was.	norsk uttrykk kap6
-å ha det gøy	to have fun<br><i>Vi hadde det jo bare gøy.</i>	norsk uttrykk kap6
-å søke på (en jobb)	to apply for (a job)<br><i>Nå skal jeg begynne å søke på jobber.</i>	norsk uttrykk kap6 jobb
-å finne ut	to find out<br><i>…slik at vi alltid kan finne ut hvor han er.</i>	norsk uttrykk kap6 partikkelverb
-noen få	a few<br><i>noen få kontakter</i>	norsk uttrykk kap6
-til og med	even<br><i>Det er til og med en egen SOS-knapp.</i>	norsk uttrykk kap6
-både … og …	both … and …<br><i>både for ham og for oss</i>	norsk uttrykk kap6 konnektor
-å være enig/uenig (med noen / i noe)	to agree/disagree (with someone / about something)	norsk uttrykk kap6
-retten til å bestemme over egne personopplysninger	the right to control your own personal data	norsk uttrykk kap6
-G1. Adjektiv – ubestemt form	Pattern: <b>base</b> (m/f) · <b>+t</b> (neuter) · <b>+e</b> (plural)<br>en fin leilighet · ei fin stue · et fin<b>t</b> kjøkken · fin<b>e</b> leiligheter<br>Predicative works the same: Leiligheten er stor · Kjøkkenet er stor<b>t</b> · Leilighetene er stor<b>e</b>.<br><b>Exceptions:</b><br>Ends in <b>-ig</b> → no -t: vanskelig, hyggelig, kjedelig (et vanskelig valg)<br>Ends in <b>-sk</b> → usually no -t: norsk, skeptisk, praktisk (et praktisk kjøkken). Exception: one-syllable words like frisk → friskt, fersk → ferskt<br>Ends in <b>-ende</b> or <b>-e</b> → never changes: bindende, spennende, moderne, lignende<br>Ends in <b>-t</b> already → no extra -t: lett, kort, sint<br>Double consonant → simplify: grønn → grønt, tynn → tynt<br>Ends in a stressed vowel → <b>-tt</b>: ny → nytt, blå → blått, fri → fritt<br>Some don&#x27;t change at all: gratis, bra, ekte<br><b>-el / -en / -er</b> drop the e in the plural: gammel → gamle, sikker → sikre, åpen → åpne<br>Past participles in -et: skuffet → skuffede (or skuffa)	norsk grammatikk
-G2. Adjektiv – bestemt form	<b>den / det / de + adjektiv-e + substantiv i bestemt form</b> (double definiteness)<br>den fine leiligheten · den fine stua · det fine kjøkkenet · de fine rommene<br>After a possessive or genitive, there&#x27;s no den/det but the adjective still takes <b>-e</b>: min fine leilighet, Saras nye kollektiv<br><b>-ig/-sk</b> words also take -e here: det vanskelige valget	norsk grammatikk
-G3. Liten og annen	| | m | f | n | pl | bestemt |<br>| liten | en liten | ei lita / en liten | et lite | små | den/det lille · de små |<br>| annen | en annen | ei anna / en annen | et annet | andre | den/det andre · de andre |<br>With <b>ei</b> you use lita/anna; with <b>en</b> (for feminine nouns) you use liten/annen.	norsk grammatikk
-G4. Modalverb + infinitiv uten «å»	vil, skal, må, kan, bør, får + bare infinitive: Jeg <b>må gå</b>. Vi <b>får tenke</b> på det.<br><b>få + infinitive</b> = &quot;will have to / let&#x27;s (I suppose)&quot;: <i>Vi får tenke på det</i> = We&#x27;ll have to think about it (often a polite &quot;maybe/no&quot;).<br>Contrast: <i>ha lyst til <b>å</b></i>, <i>slippe <b>å</b></i>, <i>behøve <b>å</b></i> → these <b>do</b> take å.<br>Exception: <b>trenge</b> → <i>Du trenger ikke (å) betale</i> — å is optional.	norsk grammatikk
-G5. Leaving out the motion verb after a modal	Norwegian often drops gå/dra/reise after modals when there&#x27;s a direction:<br><i>Jeg skal (gå) hjem.</i> · <i>Jeg må (gå) til tannlegen.</i> · <i>Vi skal til Bergen.</i>	norsk grammatikk
-G6. gå vs dra	<b>gå</b> = to walk, go on foot (or regular activities: gå på skolen, gå på visning, gå i kirken)<br><b>dra</b> = to go/leave by any means, often a trip: dra på ferie, dra til Bergen (≈ reise, kjøre)<br><b>gå på / gå fra / gå til</b>: gå på (bussen, skolen, visning) · gå fra (leave from) · gå til (go to)	norsk grammatikk
-G7. Inversjon (V2)	The verb is always in <b>2nd position</b> in a main clause. If something other than the subject comes first, the subject moves after the verb:<br><i>Så <b>kan vi</b> snakke litt.</i> · <i>I helga <b>la jeg</b> den bort.</i> · <i>Dagen etter <b>leser hun</b> en historie.</i> · <i>Likevel <b>føler jeg</b> meg …</i>	norsk grammatikk
-G8. Som-setninger (relative clauses)	In subordinate clauses, <b>ikke</b> (and other sentence adverbs) comes <b>before</b> the verb:<br><i>Jeg har en bok som jeg <b>ikke har</b> lest.</i> (main clause: Jeg <b>har ikke</b> lest boka.)<br>If <b>som is the subject</b> of the clause, it <b>must</b> stay: <i>en bok <b>som</b> handler om trær</i><br>If <b>som is the object</b> (someone else is the subject), you <b>can drop it</b>: <i>en bok (som) jeg ikke har lest</i>	norsk grammatikk
-G9. verken … eller · ikke … heller	<b>verken A eller B</b> = neither A nor B: <i>Du behøver <b>verken</b> å betale for husleie <b>eller</b> mat.</i><br>= <i>Du behøver ikke å betale for husleie, og ikke for mat heller.</i><br><b>ikke … heller</b> = not … either: <i>Jeg liker ikke kaffe. Jeg liker ikke te <b>heller</b>.</i><br><b>Heller ikke</b> at the start of a sentence → inversion: <i>Heller ikke jeg vet det.</i><br>Don&#x27;t put ikke inside verken…eller (<s>verken ikke</s>): verken already contains the negation.	norsk grammatikk
-G10. gjerne → heller → helst	Gradation for &quot;like to / prefer&quot;:<br><i>Jeg drikker <b>gjerne</b> te</i> (I like to) → <i>Jeg drikker <b>heller</b> te</i> (I&#x27;d rather) → <i>Jeg drikker <b>helst</b> te</i> (I most prefer).<br>Also: <i>Han vil <b>heller</b> jobbe med musikk.</i> (K5 s.75)	norsk grammatikk
-G11. Modale partikler (jo, vel, nok, da)	Small words that add attitude, not content:<br><b>jo</b> = &quot;as you know&quot; (shared knowledge): <i>Dere har <b>jo</b> truffet dem.</i><br><b>vel</b> = &quot;surely / I suppose&quot; (asks for agreement): <i>Du kan <b>vel</b> bo hjemme?</i><br><b>nok</b> = &quot;probably / I&#x27;m fairly sure&quot;: <i>Han er <b>nok</b> en gammel gubbe.</i><br><b>da</b> = softens or adds emphasis/irritation: <i>Det gjør jeg <b>da</b> ikke!</i> · <i>Hva slags bilde <b>da</b>?</i>	norsk grammatikk
-G12. Refleksive verb og s-verb	<b>Reflexive</b>: klare seg, føle seg, holde seg (oppdatert/unna), ønske seg → the pronoun changes: jeg føler <b>meg</b>, hun klarer <b>seg</b><br><b>Deponent s-verbs</b> (look passive, mean active): trives, synes, finnes, minnes → <i>Darian trives ikke.</i>	norsk grammatikk
-G13. Partikkelverb (verb + particle)	The particle changes the meaning, and it&#x27;s stressed in speech: legge <b>ut</b>, legge <b>bort</b>, kutte <b>ut</b>, skru <b>av</b>, dukke <b>opp</b>, si <b>opp</b>, passe <b>på</b>, ta <b>opp</b> (et lån).<br>With a pronoun object, the pronoun comes <b>before</b> the particle: <i>Jeg skrur <b>den av</b>.</i> · <i>Hun legger <b>den ut</b>.</i> · <i>I helga la jeg <b>den bort</b>.</i>	norsk grammatikk
-G14. Passiv (preview of kap. 6, full rule in G26)	<b>s-passiv</b> (present/infinitive, general or repeated actions): <i>Vi oversvømmes av informasjon.</i> · <i>De som utsettes for …</i><br><b>bli-passiv</b> (bli + past participle, specific events): <i>Han kan <b>bli straffet</b>.</i> · <i>Han <b>ble dømt</b> til fengsel.</i> · <i>De <b>blir utsatt</b> for krenkelse.</i>	norsk grammatikk
-G15. Konnektorer (likevel / imidlertid / dessuten / i tillegg)	<b>likevel</b> = nevertheless (contrast, conversational): <i>Likevel føler jeg meg …</i><br><b>imidlertid</b> = however (more formal, written; often after the verb): <i>Du må <b>imidlertid</b> betale høye renter.</i><br><b>dessuten / i tillegg</b> = besides / in addition<br>All are adverbs, so when they open a sentence → inversion (G7).	norsk grammatikk
-G16. Leddsetninger – word order in subordinate clauses	<b>subjunksjon + subjekt + (adverb: ikke/alltid/aldri…) + verb + resten</b><br>Subjunctions: at, når, hvis, om, fordi, mens, selv om, da, før, etter at, til, som.<br><i>Det regner <b>ikke</b> når jeg <b>går</b> til skolen.</i> (main clause: verb – ikke)<br><i>Jeg liker skolen fordi jeg <b>alltid finner</b> noen å snakke med.</i> (NOT <s>fordi jeg finner alltid</s>)<br><i>Hvis du <b>ikke kommer</b>, blir jeg lei meg.</i><br>No inversion inside the leddsetning, but if the leddsetning comes <b>first</b>, the main clause inverts: <i>Hvis du ikke kommer, <b>blir jeg</b> lei meg.</i> (the whole leddsetning counts as position 1)	norsk grammatikk
-G17. hvis vs om	<b>hvis</b> = if (condition): <i>Hvis du ikke kommer, blir jeg lei meg.</i><br><b>om</b> = whether (indirect question): <i>Hun spør <b>om</b> han kommer.</i> (NOT <s>spør hvis</s>)<br>Tip: if you can say &quot;whether&quot; in English, use <b>om</b>. (om can also mean &quot;if&quot; in conditions, but hvis can never mean &quot;whether&quot;.)	norsk grammatikk
-G18. Indirekte tale (reported speech)	<i>Han sier: «Jeg har en avtale.»</i> → <i>Han sier <b>at</b> han har en avtale.</i><br><i>Hun spør: «Kommer du?»</i> → <i>Hun spør <b>om</b> han kommer.</i><br><i>Hun spør: «Hvor bor du?»</i> → <i>Hun spør <b>hvor</b> han bor.</i><br>Leddsetning word order (G16): <i>Han sier at han <b>ikke har</b> tid.</i><br><i>at</i> can be dropped after sier/tror/vet: <i>Han sier (at) han kommer.</i>	norsk grammatikk
-G19. hel / helt / hele	Indefinite: <b>en hel</b> dag · <b>ei hel</b> natt · <b>et helt</b> år (&quot;a whole&quot;)<br>Definite: <b>hele</b> + definite noun, <b>without den/det</b>: <i>hele dagen, hele tida, hele verden, hele året</i> (NOT <s>den hele dagen</s>)<br><b>helt</b> as an adverb = completely: <i>helt rett, helt uinteressant</i><br>Contrast: <b>ganske</b> = rather/quite: <i>ganske kjedelig</i>	norsk grammatikk
-G20. all / alt / alle	+ <b>definite form</b> of the noun:<br><b>all</b> + uncountable m/f: <i>all maten</i><br><b>alt</b> + uncountable neuter: <i>alt vannet</i><br><b>alle</b> + plural: <i>alle menneskene, alle bøkene</i><br>With an adjective: <b>all den</b> gode maten · <b>alt det</b> varme vannet · <b>alle de</b> gode vennene<br><b>alle</b> alone = everybody · <b>alt</b> alone = everything	norsk grammatikk
-G21. noe / noen / ingen	<b>noe</b> = something / some, any (+ uncountable or neuter): <i>noe nytt, Har vi noe mat?</i> (≈ litt mat)<br><b>noen</b> = someone / some, any (+ plural): <i>Noen mener at det er feil. Har du noen nyheter?</i><br><b>ingen</b> = nobody / no (= ikke noen): <i>Ingen kom.</i> · <i>Det er ingen hjemme.</i><br>Adjective after noe takes the neuter -t: <i>noe nytt, noe gammelt</i><br><i>Noe er gammelt, noe er nytt.</i> (= en del av det)<br><b>ikke noe / ikke noen</b> is more common in speech than <b>ingen</b> when it&#x27;s the object: <i>Jeg har ikke noen venner her.</i>	norsk grammatikk
-G22. Modale adverb – complete list	| Word | Meaning | Example |<br>| <b>jo</b> | as you know | <i>Du ville jo prate om noe.</i> |<br>| <b>vel</b> | I suppose / surely? | <i>Du kommer vel?</i> |<br>| <b>nok</b> | probably (= trolig, sannsynligvis) | <i>Han er nok syk.</i> |<br>| <b>da</b> | obviously / softener / irritation | <i>Det gjør jeg da ikke!</i> |<br>| <b>visst</b> | apparently, so I&#x27;ve heard | <i>Han har visst flyttet.</i> |<br>They sit right after the verb in main clauses (V2 + modal adverb), like <i>ikke</i>.	norsk grammatikk
-G23. Politeness: avoid sounding too direct	Short questions like <i>Hva sa du? / Hva vil du? / Hva mener du?</i> can sound abrupt.<br>Softer: <b>Hva var det du sa?</b> · <b>Hva var det du ville?</b> · use <i>Unnskyld, …</i> or the particle <i>da</i>: <i>Hva mener du, da?</i><br>The &quot;Hva er/var det (som/at) …&quot; frame is a cleft sentence, used to soften or focus.	norsk grammatikk
-G24. lei meg vs lei av	<b>å bli/være lei seg</b> = to be sad/upset: <i>Jeg blir lei meg.</i> (reflexive: meg, deg, seg …)<br><b>å bli/være lei av</b> = to be tired/sick of: <i>Jeg blir lei av at du ser på mobilen.</i>	norsk grammatikk
-G25. Verbgrupper – how to predict the past tense	<b>Svake verb</b> (regular) get an ending. Look at the stem (infinitive minus -e):<br><b>-et</b> (gruppe 1): stem ends in <b>two consonants</b> → vaske – vasket, snakke – snakket, huske – husket<br><b>-te</b> (gruppe 2): stem ends in <b>one consonant</b> (or ll/mm/nn) → spise – spiste, lese – leste, kjøpe – kjøpte, glemme – glemte, kjenne – kjente<br><b>-de</b> (gruppe 3): stem ends in <b>-v, -g or a diphthong (ei, øy)</b> → leve – levde, prøve – prøvde, eie – eide, pleie – pleide<br><b>-dde</b> (gruppe 4): <b>one-syllable verbs ending in a stressed vowel</b> → bo – bodde, tro – trodde, sy – sydde, snu – snudde, bety – betydde<br>Perfektum: -et → har -et · -te → har -t · -de → har -d · -dde → har -dd<br><b>Sterke verb</b> (strong): <b>no ending in preteritum, the vowel changes</b> → drikke – drakk – har drukket, skrive – skrev – har skrevet, finne – fant – har funnet. Perfektum usually ends in <b>-et</b> or <b>-tt</b>. You must learn these by heart (practise them in the Verb tab).<br>Common vowel patterns: <b>i → a → u</b> (drikke, finne, synge, vinne) · <b>i → e → e</b> (skrive, bite, gripe) · <b>y → ø → (u)</b> (bryte, fryse, by)<br><b>Uregelmessige</b> (irregular): change vowel <b>and</b> add an ending: gjøre – gjorde – gjort, spørre – spurte, legge – la – lagt, si – sa – sagt, vite – vet – visste, velge – valgte, fortelle – fortalte, sette – satte.<br><b>Exceptions to watch:</b><br>Many -et verbs also have an <b>-a</b> form in speech/radical bokmål: kastet → kasta (common in Oslo).<br><b>gruppe 2 vs 1</b> isn&#x27;t 100% reliable: klippe – klippet but perfektum har klipt; leke – lekte (one consonant → -te ✓) but bade – badet.<br>Modal verbs: present has no -r (kan, vil, skal, må, bør).<br>s-verb: synes – syntes – har syntes; trives – trivdes – har trivdes.<br>Pairs with different meaning: <b>henge</b> (hang – be hanging) vs <b>henge</b> (hengte – hang up); <b>brenne</b> (brant – be on fire) vs (brente – set fire to).	norsk grammatikk
-G26. Passiv – bli-passiv, s-passiv og er + partisipp	Passive = the <b>object becomes the subject</b>; who does it is unimportant or unknown (add it with <b>av</b>: <i>Bilen ble vasket av Ola</i>).<br><i>De stengte skolen i går.</i> → <i>Skolen <b>ble stengt</b> i går.</i><br><b>bli-passiv</b> = bli + perfektum partisipp. Works in <b>all tenses</b>; used for a <b>specific, single action</b>:<br>| Tid | Aktiv | Passiv |<br>| presens | Noen vasker bilen. | Bilen <b>blir vasket</b>. |<br>| preteritum | De stengte skolen. | Skolen <b>ble stengt</b>. |<br>| perfektum | Noen har vasket bilen. | Bilen <b>har blitt vasket</b> / <b>er blitt vasket</b>. |<br>| med modal | Noen må vaske bilen. | Bilen <b>må bli vasket</b>. |<br>(bli – blir – ble – har blitt)<br><b>s-passiv</b> = verb + <b>-s</b>. Only in <b>presens</b> and <b>infinitiv</b> (after a modal). Used for <b>rules, habits, repeated or general actions</b> (&quot;normative&quot;):<br>å låse → å låses: <i>Dørene <b>låses</b> om kvelden.</i> (= every evening)<br><i>Søknaden <b>må skrives</b> nå.</i> · <i>Noe <b>må gjøres</b>.</i> · <i>Klokka kan også <b>brukes</b> som telefon.</i><br><b>After modal verbs (kan, må, skal, bør), s-passiv is the normal choice</b>: <i>Bilen må vaskes.</i><br>Presens: drop the -r and add -s: vasker → vaskes, skriver → skrives. Verbs ending in a vowel: <i>å sy → sys</i>.<br><b>er + partisipp</b> = a <b>state/result</b> (the action is already finished), not an action:<br><i>Bilen <b>er vasket</b>.</i> (it&#x27;s clean now) ≠ <i>Bilen <b>blir vasket</b>.</i> (someone is washing it)<br><i>Skolen <b>er stengt</b>.</i> (it&#x27;s closed)<br><b>Exceptions and tips:</b><br>s-passiv doesn&#x27;t exist in preteritum in normal modern bokmål (<s>vasktes</s> is old-fashioned): use <i>ble vasket</i>.<br>Don&#x27;t confuse s-passiv with <b>s-verb</b> (deponent): <i>trives, synes, finnes</i> look passive but are active (G12).<br><i>Søknaden blir skrevet nå</i> (specific, now) vs <i>Søknader skrives på nett</i> (general rule).	norsk grammatikk
-G27. Substantiv-endelser – which gender?	Nouns with these endings are <b>(almost) always en</b> (masculine):<br><b>-het</b>: selvstendighet, frihet, trygghet, sannhet<br><b>-else</b>: oppdagelse, krenkelse, beskyttelse, overraskelse<br><b>-sjon</b>: informasjon, kommunikasjon, situasjon<br><b>-ing / -ning</b>: visning, regning, leting, opplysning: these can also be <b>ei</b> (feminine) in bokmål: <i>ei/en regning, regninga/regningen</i><br>Adjectives often end in <b>-ig</b> (selvstendig, vanskelig) or <b>-lig</b>: add <b>-het</b> to make a noun: selvstendig → selvstendighet, trygg → trygghet<br><b>Other useful endings:</b><br><b>-eri</b> → et (et bakeri, et vaskeri)<br><b>-dom</b> → en (en sykdom, en ungdom)<br><b>-skap</b> → usually et (et vennskap, et ekteskap), but en vitenskap, ei/en egenskap<br><b>Exceptions:</b> short words that only <i>look</i> like they have the ending aren&#x27;t suffix words, so the rule doesn&#x27;t apply: <i>ei/en seng</i> (bed), <i>en ting</i> / <i>et ting</i> (thing / parliament). When the ending isn&#x27;t a real suffix (the word is one short root), check the gender in NAOB.	norsk grammatikk
-G28. kanskje – no inversion needed	Normally an adverb at the start causes inversion (G7), but <b>kanskje</b> often doesn&#x27;t:<br><i>Kanskje <b>han kommer</b>.</i> (very common, no inversion) = <i>Kanskje <b>kommer han</b>.</i> (also correct)<br>With ikke: <i>Kanskje han <b>ikke kommer</b>.</i> (word order like a subordinate clause: ikke before the verb)	norsk grammatikk
-å adlyde	obey<br>adlyder – adlød – har adlydt<br><small>sterk</small>	norsk verbliste sterk
-å anbefale	recommend<br>anbefaler – anbefalte – har anbefalt<br><small>svak -te</small>	norsk verbliste svak-te
-å arbeide	work<br>arbeider – arbeidet – har arbeidet<br><small>svak -et</small>	norsk verbliste svak-et
-å bade	bathe, swim<br>bader – badet – har badet<br><small>svak -et</small>	norsk verbliste svak-et
-å barbere	shave<br>barberer – barberte – har barbert<br><small>svak -te</small>	norsk verbliste svak-te
-å be	ask for, pray<br>ber – ba(d) – har bedt<br><small>sterk</small>	norsk verbliste sterk
-å bedra	cheat, deceive<br>bedrar – bedro(g) – har bedratt<br><small>sterk</small>	norsk verbliste sterk
-å bedøve	anaesthetise, numb<br>bedøver – bedøvde – har bedøvd<br><small>svak -de</small>	norsk verbliste svak-de
-å begynne	begin<br>begynner – begynte – har begynt<br><small>svak -te</small>	norsk verbliste svak-te
-å beskrive	describe<br>beskriver – beskrev – har beskrevet<br><small>sterk</small>	norsk verbliste sterk
-å bestemme	decide<br>bestemmer – bestemte – har bestemt<br><small>svak -te</small>	norsk verbliste svak-te
-å bestille	order, book<br>bestiller – bestilte – har bestilt<br><small>svak -te</small>	norsk verbliste svak-te
-å besøke	visit<br>besøker – besøkte – har besøkt<br><small>svak -te</small>	norsk verbliste svak-te
-å betale	pay<br>betaler – betalte – har betalt<br><small>svak -te</small>	norsk verbliste svak-te
-å bety	mean, matter<br>betyr – betydde – har betydd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å binde	bind, tie<br>binder – bandt – har bundet<br><small>sterk</small>	norsk verbliste sterk
-å bite	bite<br>biter – bet/beit – har bitt<br><small>sterk</small>	norsk verbliste sterk
-å bli	become; stay<br>blir – ble – har blitt<br><small>sterk</small>	norsk verbliste sterk
-å blåse	blow<br>blåser – blåste – har blåst<br><small>svak -te</small>	norsk verbliste svak-te
-å bo	live (reside)<br>bor – bodde – har bodd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å brekke	break (a bone, a stick)<br>brekker – brakk – har brukket<br><small>sterk</small>	norsk verbliste sterk
-å brenne (noe)	burn (set fire to)<br>brenner – brente – har brent<br><small>svak -te</small>	norsk verbliste svak-te
-å brenne (stå i flammer)	burn (be on fire)<br>brenner – brant – har brent<br><small>sterk</small>	norsk verbliste sterk
-å briste	burst<br>brister – brast – har bristet/brustet<br><small>sterk</small>	norsk verbliste sterk
-å bruke	use<br>bruker – brukte – har brukt<br><small>svak -te</small>	norsk verbliste svak-te
-å bryte	break (a rule, contact)<br>bryter – brøt – har brutt<br><small>sterk</small>	norsk verbliste sterk
-å burde	ought to, should<br>bør – burde – har burdet<br><small>modal</small>	norsk verbliste modal
-å by	bid; offer<br>byr – bød – har budt/bydd<br><small>sterk</small>	norsk verbliste sterk
-å bære	carry<br>bærer – bar – har båret<br><small>sterk</small>	norsk verbliste sterk
-å danse	dance<br>danser – danset – har danset<br><small>svak -et</small>	norsk verbliste svak-et
-å dette	fall (informal)<br>detter – datt – har dettet<br><small>sterk</small>	norsk verbliste sterk
-å diskutere	discuss<br>diskuterer – diskuterte – har diskutert<br><small>svak -te</small>	norsk verbliste svak-te
-å dra	go, leave; pull<br>drar – dro(g) – har dratt<br><small>sterk</small>	norsk verbliste sterk
-å drikke	drink<br>drikker – drakk – har drukket<br><small>sterk</small>	norsk verbliste sterk
-å drive	run (a business); do (an activity)<br>driver – drev/dreiv – har drevet<br><small>sterk</small>	norsk verbliste sterk
-å eie	own<br>eier – eide – har eid<br><small>svak -de</small>	norsk verbliste svak-de
-å falle	fall<br>faller – falt – har falt<br><small>sterk</small>	norsk verbliste sterk
-å fare	travel, rush<br>farer – for – har fart<br><small>sterk</small>	norsk verbliste sterk
-å finne	find<br>finner – fant – har funnet<br><small>sterk</small>	norsk verbliste sterk
-å fiske	fish<br>fisker – fisket – har fisket<br><small>svak -et</small>	norsk verbliste svak-et
-å fly	fly<br>flyr – fløy – har fløyet/flydd<br><small>sterk</small>	norsk verbliste sterk
-å flykte	flee<br>flykter – flyktet – har flyktet<br><small>svak -et</small>	norsk verbliste svak-et
-å flyte	float<br>flyter – fløt – har flytt<br><small>sterk</small>	norsk verbliste sterk
-å flytte	move (house)<br>flytter – flyttet – har flyttet<br><small>svak -et</small>	norsk verbliste svak-et
-å forklare	explain<br>forklarer – forklarte – har forklart<br><small>svak -te</small>	norsk verbliste svak-te
-å forlate	leave (a place, a person)<br>forlater – forlot – har forlatt<br><small>sterk</small>	norsk verbliste sterk
-å forstå	understand<br>forstår – forstod/forsto – har forstått<br><small>sterk</small>	norsk verbliste sterk
-å forsvinne	disappear<br>forsvinner – forsvant – har forsvunnet<br><small>sterk</small>	norsk verbliste sterk
-å fortelle	tell<br>forteller – fortalte – har fortalt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å fryse	freeze, be cold<br>fryser – frøs – har frosset<br><small>sterk</small>	norsk verbliste sterk
-å fyke	drift, blow (snow)<br>fyker – føk – har føket<br><small>sterk</small>	norsk verbliste sterk
-å fylle	fill<br>fyller – fylte – har fylt<br><small>svak -te</small>	norsk verbliste svak-te
-å føle	feel<br>føler – følte – har følt<br><small>svak -te</small>	norsk verbliste svak-te
-å føne	blow-dry<br>føner – fønte – har fønt<br><small>svak -te</small>	norsk verbliste svak-te
-å få	get, receive; be allowed<br>får – fikk – har fått<br><small>sterk</small>	norsk verbliste sterk
-å gi	give<br>gir – ga(v) – har gitt<br><small>sterk</small>	norsk verbliste sterk
-å gidde	bother to (orke)<br>gidder – gadd – har giddet<br><small>sterk</small>	norsk verbliste sterk
-å gjelde	concern, apply to<br>gjelder – gjaldt – har gjeldt<br><small>sterk</small>	norsk verbliste sterk
-å gjemme	hide<br>gjemmer – gjemte – har gjemt<br><small>svak -te</small>	norsk verbliste svak-te
-å gjette	guess<br>gjetter – gjettet – har gjettet<br><small>svak -et</small>	norsk verbliste svak-et
-å gjøre	do<br>gjør – gjorde – har gjort<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å glemme	forget<br>glemmer – glemte – har glemt<br><small>svak -te</small>	norsk verbliste svak-te
-å gli	glide, slide<br>glir – gled – har glidd<br><small>sterk</small>	norsk verbliste sterk
-å glippe	slip away<br>glipper – glapp – har glippet<br><small>sterk</small>	norsk verbliste sterk
-å godta	accept, agree to<br>godtar – godtok – har godtatt<br><small>sterk</small>	norsk verbliste sterk
-å grine	cry; grimace<br>griner – grein – har grint<br><small>sterk</small>	norsk verbliste sterk
-å gripe	grab, seize<br>griper – grep/greip – har grepet<br><small>sterk</small>	norsk verbliste sterk
-å gråte	cry, weep<br>gråter – gråt – har grått<br><small>sterk</small>	norsk verbliste sterk
-å gå	go, walk<br>går – gikk – har gått<br><small>sterk</small>	norsk verbliste sterk
-å ha	have<br>har – hadde – har hatt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å handle	shop; act<br>handler – handlet – har handlet<br><small>svak -et</small>	norsk verbliste svak-et
-å hende	happen<br>hender – hendte – har hendt<br><small>svak -te</small>	norsk verbliste svak-te
-å henge (= være hengende)	hang (be hanging)<br>henger – hang – har hengt<br><small>sterk</small>	norsk verbliste sterk
-å henge (noe opp)	hang (something up)<br>henger – hengte – har hengt<br><small>svak -te</small>	norsk verbliste svak-te
-å hente	fetch, pick up<br>henter – hentet – har hentet<br><small>svak -et</small>	norsk verbliste svak-et
-å hete	be called<br>heter – het – har hett<br><small>sterk</small>	norsk verbliste sterk
-å hilse	greet<br>hilser – hilste – har hilst<br><small>svak -te</small>	norsk verbliste svak-te
-å hindre	prevent, obstruct<br>hindrer – hindret – har hindret<br><small>svak -et</small>	norsk verbliste svak-et
-å hjelpe	help<br>hjelper – hjalp – har hjulpet<br><small>sterk</small>	norsk verbliste sterk
-å holde	hold, keep<br>holder – holdt – har holdt<br><small>sterk</small>	norsk verbliste sterk
-å hoste	cough<br>hoster – hostet – har hostet<br><small>svak -et</small>	norsk verbliste svak-et
-å huske	remember<br>husker – husket – har husket<br><small>svak -et</small>	norsk verbliste svak-et
-å hviske	whisper<br>hvisker – hvisket – har hvisket<br><small>svak -et</small>	norsk verbliste svak-et
-å høre	hear<br>hører – hørte – har hørt<br><small>svak -te</small>	norsk verbliste svak-te
-å håpe	hope<br>håper – håpet – har håpet<br><small>svak -et</small>	norsk verbliste svak-et
-å invitere	invite<br>inviterer – inviterte – har invitert<br><small>svak -te</small>	norsk verbliste svak-te
-å jogge	jog<br>jogger – jogget – har jogget<br><small>svak -et</small>	norsk verbliste svak-et
-å kikke	peek, have a look<br>kikker – kikket – har kikket<br><small>svak -et</small>	norsk verbliste svak-et
-å kjenne	know (a person/place); feel<br>kjenner – kjente – har kjent<br><small>svak -te</small>	norsk verbliste svak-te
-å kjøpe	buy<br>kjøper – kjøpte – har kjøpt<br><small>svak -te</small>	norsk verbliste svak-te
-å kjøre	drive<br>kjører – kjørte – har kjørt<br><small>svak -te</small>	norsk verbliste svak-te
-å klare	manage<br>klarer – klarte – har klart<br><small>svak -te</small>	norsk verbliste svak-te
-å klatre	climb<br>klatrer – klatret – har klatret<br><small>svak -et</small>	norsk verbliste svak-et
-å kle	dress<br>kler – kledde – har kledd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å klinge	ring, sound<br>klinger – klang – har klinget<br><small>sterk</small>	norsk verbliste sterk
-å klippe	cut (hair, paper)<br>klipper – klippet – har klipt<br><small>svak -et</small>	norsk verbliste svak-et
-å klype	pinch<br>klyper – kløp – har kløpet<br><small>sterk</small>	norsk verbliste sterk
-å knekke	crack, snap<br>knekker – knakk – har knekket/knekt<br><small>sterk</small>	norsk verbliste sterk
-å knipe	pinch<br>kniper – kneip – har knepet<br><small>sterk</small>	norsk verbliste sterk
-å komme	come<br>kommer – kom – har kommet<br><small>sterk</small>	norsk verbliste sterk
-å kose seg	have a nice time<br>koser seg – koste seg – har kost seg<br><small>svak -te</small>	norsk verbliste svak-te
-å koste	cost; sweep<br>koster – kostet – har kostet<br><small>svak -et</small>	norsk verbliste svak-et
-å kunne	can, be able to<br>kan – kunne – har kunnet<br><small>modal</small>	norsk verbliste modal
-å la	let, allow<br>lar – lot – har latt<br><small>sterk</small>	norsk verbliste sterk
-å lage	make<br>lager – laget – har laget<br><small>svak -et</small>	norsk verbliste svak-et
-å le	laugh<br>ler – lo – har ledd<br><small>sterk</small>	norsk verbliste sterk
-å legge	lay, put (down)<br>legger – la – har lagt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å leie	rent<br>leier – leide – har leid<br><small>svak -de</small>	norsk verbliste svak-de
-å leke	play (children)<br>leker – lekte – har lekt<br><small>svak -te</small>	norsk verbliste svak-te
-å lengte	long for<br>lengter – lengtet – har lengtet<br><small>svak -et</small>	norsk verbliste svak-et
-å lese	read<br>leser – leste – har lest<br><small>svak -te</small>	norsk verbliste svak-te
-å lete	look for, search<br>leter – lette – har lett<br><small>svak -te</small>	norsk verbliste svak-te
-å leve	live (be alive)<br>lever – levde – har levd<br><small>svak -de</small>	norsk verbliste svak-de
-å ligge	lie (be lying)<br>ligger – lå – har ligget<br><small>sterk</small>	norsk verbliste sterk
-å lyve	lie (tell lies)<br>lyver – løy – har løyet<br><small>sterk</small>	norsk verbliste sterk
-å lære	learn; teach<br>lærer – lærte – har lært<br><small>svak -te</small>	norsk verbliste svak-te
-å løpe	run<br>løper – løp – har løpt<br><small>sterk</small>	norsk verbliste sterk
-å låne	borrow, lend<br>låner – lånte – har lånt<br><small>svak -te</small>	norsk verbliste svak-te
-å låse	lock<br>låser – låste – har låst<br><small>svak -te</small>	norsk verbliste svak-te
-å låte	sound (Det låter bra)<br>låter – låt – har lått<br><small>sterk</small>	norsk verbliste sterk
-å merke	notice; mark<br>merker – merket – har merket<br><small>svak -et</small>	norsk verbliste svak-et
-å møte	meet<br>møter – møtte – har møtt<br><small>svak -te</small>	norsk verbliste svak-te
-å måtte	must, have to<br>må – måtte – har måttet<br><small>modal</small>	norsk verbliste modal
-å nyte	enjoy<br>nyter – nøt – har nytt<br><small>sterk</small>	norsk verbliste sterk
-å oppdage	discover, find out<br>oppdager – oppdaget – har oppdaget<br><small>svak -et</small>	norsk verbliste svak-et
-å overtale	persuade<br>overtaler – overtalte – har overtalt<br><small>svak -te</small>	norsk verbliste svak-te
-å passe	fit, suit<br>passer – passet – har passet<br><small>svak -et</small>	norsk verbliste svak-et
-å passe på	look after<br>passer på – passet på – har passet på<br><small>svak -et</small>	norsk verbliste svak-et
-å passere	pass by<br>passerer – passerte – har passert<br><small>svak -te</small>	norsk verbliste svak-te
-å pipe	squeak, chirp<br>piper – pep/peip – har pepet<br><small>sterk</small>	norsk verbliste sterk
-å pleie	usually (do); nurse<br>pleier – pleide – har pleid<br><small>svak -de</small>	norsk verbliste svak-de
-å plystre	whistle<br>plystrer – plystret – har plystret<br><small>svak -et</small>	norsk verbliste svak-et
-å prøve	try<br>prøver – prøvde – har prøvd<br><small>svak -de</small>	norsk verbliste svak-de
-å putte	put<br>putter – puttet – har puttet<br><small>svak -et</small>	norsk verbliste svak-et
-å pynte	decorate<br>pynter – pyntet – har pyntet<br><small>svak -et</small>	norsk verbliste svak-et
-å regne	rain; calculate<br>regner – regnet – har regnet<br><small>svak -et</small>	norsk verbliste svak-et
-å reise	travel<br>reiser – reiste – har reist<br><small>svak -te</small>	norsk verbliste svak-te
-å rekke	reach, catch (the bus), have time to<br>rekker – rakk – har rukket<br><small>sterk</small>	norsk verbliste sterk
-å reparere	repair<br>reparerer – reparerte – har reparert<br><small>svak -te</small>	norsk verbliste svak-te
-å ri	ride (a horse)<br>rir – red/reid – har ridd<br><small>sterk</small>	norsk verbliste sterk
-å rive	tear, demolish<br>river – rev/reiv – har revet<br><small>sterk</small>	norsk verbliste sterk
-å rope	shout, call<br>roper – ropte – har ropt<br><small>svak -te</small>	norsk verbliste svak-te
-å rydde	tidy up<br>rydder – ryddet – har ryddet<br><small>svak -et</small>	norsk verbliste svak-et
-å ryke	snap, break; smoke (chimney)<br>ryker – røk – har røket<br><small>sterk</small>	norsk verbliste sterk
-å røyke	smoke (tobacco)<br>røyker – røykte – har røykt<br><small>svak -te</small>	norsk verbliste svak-te
-å savne	miss (someone)<br>savner – savnet – har savnet<br><small>svak -et</small>	norsk verbliste svak-et
-å se	see, look<br>ser – så – har sett<br><small>sterk</small>	norsk verbliste sterk
-å sende	send<br>sender – sendte – har sendt<br><small>svak -te</small>	norsk verbliste svak-te
-å sette	put, place<br>setter – satte – har satt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å si	say<br>sier – sa – har sagt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å sige	ooze, sink slowly<br>siger – seg/seig – har seget<br><small>sterk</small>	norsk verbliste sterk
-å sitte	sit<br>sitter – satt – har sittet<br><small>sterk</small>	norsk verbliste sterk
-å skinne	shine<br>skinner – skinte – har skint<br><small>svak -te</small>	norsk verbliste svak-te
-å skjelve	tremble, shake<br>skjelver – skalv – har skjelvet<br><small>sterk</small>	norsk verbliste sterk
-å skjære	cut, slice<br>skjærer – skar – har skåret<br><small>sterk</small>	norsk verbliste sterk
-å skjønne	understand<br>skjønner – skjønte – har skjønt<br><small>svak -te</small>	norsk verbliste svak-te
-å skride	stride, proceed<br>skrider – skred/skreid – har skredet/skridd<br><small>sterk</small>	norsk verbliste sterk
-å skrike	scream<br>skriker – skrek/skreik – har skreket<br><small>sterk</small>	norsk verbliste sterk
-å skrive	write<br>skriver – skrev – har skrevet<br><small>sterk</small>	norsk verbliste sterk
-å skulle	shall, be going to<br>skal – skulle – har skullet<br><small>modal</small>	norsk verbliste modal
-å skylle	rinse<br>skyller – skylte – har skylt<br><small>svak -te</small>	norsk verbliste svak-te
-å skynde seg	hurry<br>skynder seg – skyndte seg – har skyndt seg<br><small>svak -te</small>	norsk verbliste svak-te
-å skyte	shoot<br>skyter – skjøt – har skutt<br><small>sterk</small>	norsk verbliste sterk
-å skyve	push<br>skyver – skjøv – har skjøvet<br><small>sterk</small>	norsk verbliste sterk
-å slappe av	relax<br>slapper av – slappet av – har slappet av<br><small>svak -et</small>	norsk verbliste svak-et
-å slippe	let go; not have to<br>slipper – slapp – har sluppet<br><small>sterk</small>	norsk verbliste sterk
-å slite	struggle; wear out<br>sliter – slet/sleit – har slitt<br><small>sterk</small>	norsk verbliste sterk
-å slutte	stop, quit<br>slutter – sluttet – har sluttet<br><small>svak -et</small>	norsk verbliste svak-et
-å slå	hit, beat<br>slår – slo – har slått<br><small>sterk</small>	norsk verbliste sterk
-å smette	slip<br>smetter – smatt – har smettet<br><small>sterk</small>	norsk verbliste sterk
-å smile	smile<br>smiler – smilte – har smilt<br><small>svak -te</small>	norsk verbliste svak-te
-å smyge	creep, slip<br>smyger – smøg – har smøget<br><small>sterk</small>	norsk verbliste sterk
-å snike	sneak<br>sniker – snek/sneik – har sneket<br><small>sterk</small>	norsk verbliste sterk
-å snu	turn (around)<br>snur – snudde – har snudd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å snø	snow<br>snør – snødde – har snødd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å sove	sleep<br>sover – sov – har sovet<br><small>sterk</small>	norsk verbliste sterk
-å spandere	treat (pay for someone)<br>spanderer – spanderte – har spandert<br><small>svak -te</small>	norsk verbliste svak-te
-å spille	play (game, instrument)<br>spiller – spilte – har spilt<br><small>svak -te</small>	norsk verbliste svak-te
-å spinne	spin; purr<br>spinner – spant – har spunnet<br><small>sterk</small>	norsk verbliste sterk
-å spise	eat<br>spiser – spiste – har spist<br><small>svak -te</small>	norsk verbliste svak-te
-å sprekke	burst, crack<br>sprekker – sprakk – har sprukket<br><small>sterk</small>	norsk verbliste sterk
-å sprette	bounce, jump<br>spretter – spratt – har sprettet<br><small>sterk</small>	norsk verbliste sterk
-å springe	run<br>springer – sprang – har sprunget<br><small>sterk</small>	norsk verbliste sterk
-å spøke	joke; haunt<br>spøker – spøkte – har spøkt<br><small>svak -te</small>	norsk verbliste svak-te
-å spørre	ask<br>spør – spurte – har spurt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å starte	start<br>starter – startet – har startet<br><small>svak -et</small>	norsk verbliste svak-et
-å stave	spell<br>staver – stavet – har stavet<br><small>svak -et</small>	norsk verbliste svak-et
-å stelle	take care of, tend<br>steller – stelte – har stelt<br><small>svak -te</small>	norsk verbliste svak-te
-å stemme	be correct; vote; tune<br>stemmer – stemte – har stemt<br><small>svak -te</small>	norsk verbliste svak-te
-å stenge	close, block<br>stenger – stengte – har stengt<br><small>svak -te</small>	norsk verbliste svak-te
-å stige	rise, climb<br>stiger – steg/steig – har steget<br><small>sterk</small>	norsk verbliste sterk
-å stikke	stick, sting; (stikke av) run off<br>stikker – stakk – har stukket<br><small>sterk</small>	norsk verbliste sterk
-å stille	put, place; ask (a question)<br>stiller – stilte – har stilt<br><small>svak -te</small>	norsk verbliste svak-te
-å stjele	steal<br>stjeler – stjal – har stjålet<br><small>sterk</small>	norsk verbliste sterk
-å strekke	stretch<br>strekker – strakk – har strukket<br><small>sterk</small>	norsk verbliste sterk
-å stryke	iron; fail (an exam)<br>stryker – strøk – har strøket<br><small>sterk</small>	norsk verbliste sterk
-å studere	study<br>studerer – studerte – har studert<br><small>svak -te</small>	norsk verbliste svak-te
-å stå	stand<br>står – stod/sto – har stått<br><small>sterk</small>	norsk verbliste sterk
-å sulte	starve, be hungry<br>sulter – sultet – har sultet<br><small>svak -et</small>	norsk verbliste svak-et
-å svare	answer<br>svarer – svarte – har svart<br><small>svak -te</small>	norsk verbliste svak-te
-å svike	betray, let down<br>sviker – svek/sveik – har sveket<br><small>sterk</small>	norsk verbliste sterk
-å svømme	swim<br>svømmer – svømte – har svømt<br><small>svak -te</small>	norsk verbliste svak-te
-å sy	sew<br>syr – sydde – har sydd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å sykle	cycle<br>sykler – syklet – har syklet<br><small>svak -et</small>	norsk verbliste svak-et
-å synes	think (opinion); seem<br>synes – syntes – har syntes<br><small>s-verb</small>	norsk verbliste s-verb
-å synge	sing<br>synger – sang – har sunget<br><small>sterk</small>	norsk verbliste sterk
-å synke	sink<br>synker – sank – har sunket<br><small>sterk</small>	norsk verbliste sterk
-å ta	take<br>tar – tok – har tatt<br><small>sterk</small>	norsk verbliste sterk
-å tape	lose (a game, money)<br>taper – tapte – har tapt<br><small>svak -te</small>	norsk verbliste svak-te
-å tappe	tap, drain<br>tapper – tappet – har tappet<br><small>svak -et</small>	norsk verbliste svak-et
-å tenke	think<br>tenker – tenkte – har tenkt<br><small>svak -te</small>	norsk verbliste svak-te
-å tjene	earn; serve<br>tjener – tjente – har tjent<br><small>svak -te</small>	norsk verbliste svak-te
-å treffe	meet; hit<br>treffer – traff – har truffet<br><small>sterk</small>	norsk verbliste sterk
-å trekke	pull<br>trekker – trakk – har trukket<br><small>sterk</small>	norsk verbliste sterk
-å trene	train, exercise<br>trener – trente – har trent<br><small>svak -te</small>	norsk verbliste svak-te
-å trenge	need<br>trenger – trengte – har trengt<br><small>svak -te</small>	norsk verbliste svak-te
-å trives	thrive, feel at home<br>trives – trivdes – har trivdes<br><small>s-verb</small>	norsk verbliste s-verb
-å tro	believe, think<br>tror – trodde – har trodd<br><small>svak -dde</small>	norsk verbliste svak-dde
-å tvinge	force<br>tvinger – tvang – har tvunget<br><small>sterk</small>	norsk verbliste sterk
-å tørke	dry<br>tørker – tørket – har tørket<br><small>svak -et</small>	norsk verbliste svak-et
-å tørre	dare<br>tør – turte – har turt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å tørste	thirst (for)<br>tørster – tørstet – har tørstet<br><small>svak -et</small>	norsk verbliste svak-et
-å undersøke	examine, investigate<br>undersøker – undersøkte – har undersøkt<br><small>svak -te</small>	norsk verbliste svak-te
-å utdanne	educate<br>utdanner – utdannet – har utdannet<br><small>svak -et</small>	norsk verbliste svak-et
-å vaske	wash<br>vasker – vasket – har vasket<br><small>svak -et</small>	norsk verbliste svak-et
-å veie	weigh<br>veier – veide – har veid<br><small>svak -de</small>	norsk verbliste svak-de
-å vekke	wake (someone) up<br>vekker – vekket – har vekket<br><small>svak -et</small>	norsk verbliste svak-et
-å velge	choose; elect<br>velger – valgte – har valgt<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å vente	wait<br>venter – ventet – har ventet<br><small>svak -et</small>	norsk verbliste svak-et
-å vike	give way<br>viker – vek/veik – har veket<br><small>sterk</small>	norsk verbliste sterk
-å ville	want to, will<br>vil – ville – har villet<br><small>modal</small>	norsk verbliste modal
-å vinne	win<br>vinner – vant – har vunnet<br><small>sterk</small>	norsk verbliste sterk
-å virke	work (function); seem<br>virker – virket – har virket<br><small>svak -et</small>	norsk verbliste svak-et
-å vise	show<br>viser – viste – har vist<br><small>svak -te</small>	norsk verbliste svak-te
-å viske	rub; erase<br>visker – visket – har visket<br><small>svak -et</small>	norsk verbliste svak-et
-å vite	know (a fact)<br>vet – visste – har visst<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å vokse	grow<br>vokser – vokste – har vokst<br><small>svak -te</small>	norsk verbliste svak-te
-å være	be<br>er – var – har vært<br><small>uregelmessig</small>	norsk verbliste uregelmessig
-å våkne	wake up<br>våkner – våknet – har våknet<br><small>svak -et</small>	norsk verbliste svak-et
-å ønske	wish<br>ønsker – ønsket – har ønsket<br><small>svak -et</small>	norsk verbliste svak-et
-å øve	practise<br>øver – øvde – har øvd<br><small>svak -de</small>	norsk verbliste svak-de
+en bolig	home, dwelling (house or flat)<br><small>boligen – boliger – boligene</small><br><i>De fleste har en boligdrøm.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+en boligdrøm	dream home<br><small>boligdrømmen – boligdrømmer – boligdrømmene</small><br><i>De fleste har en boligdrøm.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+å foretrekke	to prefer<br><small>foretrekker – foretrakk – har foretrukket</small><br><i>Andre foretrekker bylivet.</i>	norsk ord kap5 verb sterkt lagt_til::2026-11-03
+å trives	to thrive, to be happy (somewhere)<br><small>trives – trivdes – har trivdes</small><br><i>Darian trives ikke på skolen.</i>	norsk ord kap5 verb s-verb lagt_til::2026-11-03
+vanskelig	difficult<br><small>vanskelig – vanskelige</small><br><i>Det er litt vanskelig hjemme.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+hjemmefra	(away) from home<br><small>(adverb)</small><br><i>Hun vil flytte hjemmefra.</i>	norsk ord kap5 adv lagt_til::2026-11-03
+et kollektiv	shared flat / house share<br><small>kollektivet – kollektiv – kollektivene</small><br><i>Hun vil flytte inn i et kollektiv.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+et bofellesskap	co-living arrangement, shared housing<br><small>bofellesskapet – bofellesskap – bofellesskapene</small><br><i>Et kollektiv er et bofellesskap.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+skeptisk	sceptical<br><small>skeptisk – skeptiske</small><br><i>Foreldrene er veldig skeptiske.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+en stemning	atmosphere, mood (&quot;vibe&quot;)<br><small>stemningen – stemninger – stemningene</small><br><i>Det er ganske dårlig stemning i huset.</i>	norsk ord kap5 lagt_til::2026-11-03
+et farmasistudium	pharmacy degree/studies<br><small>farmasistudiet – farmasistudier – farmasistudiene</small><br><i>…til du er ferdig med farmasistudiet.</i>	norsk ord kap5 lagt_til::2026-11-03
+sentral	central<br><small>sentralt – sentrale</small><br><i>Det er mer sentralt.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+nær	near, close<br><small>nært – nære · komp. nærmere – nærmest</small><br><i>…nærmere universitetet.</i>	norsk ord kap5 adj komparativ lagt_til::2026-11-03
+å slippe	to not have to, to be spared (+ å)<br><small>slipper – slapp – har sluppet</small><br><i>Jeg slipper å ta bussen hver dag.</i>	norsk ord kap5 verb sterkt lagt_til::2026-11-03
+et soverom	bedroom<br><small>soverommet – soverom – soverommene</small><br><i>…en leilighet med fire soverom.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+ei/en husleie	rent<br><small>husleia/husleien – husleier – husleiene</small><br><i>Vi skal dele på husleia.</i>	norsk ord kap5 bolig økonomi lagt_til::2026-11-03
+en strøm	electricity; current<br><small>strømmen – strømmer – strømmene</small><br><i>…dele på husleia og strømmen.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+å dele (på)	to share, to split<br><small>deler – delte – har delt</small><br><i>Vi skal dele på husleia.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+dessuten	besides, moreover<br><small>(adverb)</small><br><i>Dessuten har jeg lyst til å bo med de andre.</i>	norsk ord kap5 adv konnektor lagt_til::2026-11-03
+å treffe	to meet; to hit<br><small>treffer – traff – har truffet</small><br><i>Dere har jo truffet dem.</i>	norsk ord kap5 verb sterkt lagt_til::2026-11-03
+hyggelig	nice, pleasant<br><small>hyggelig – hyggelige</small><br><i>Det er hyggelige jenter.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+gratis	free (of charge)<br><small>(uninflected)</small><br><i>Du bor gratis.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+å behøve	to need (≈ trenge)<br><small>behøver – behøvde – har behøvd</small><br><i>Du behøver verken å betale for husleie eller mat.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+likevel	nevertheless, still, anyway<br><small>(adverb)</small><br><i>Likevel føler jeg meg …</i>	norsk ord kap5 adv konnektor lagt_til::2026-11-03
+å forklare	to explain<br><small>forklarer – forklarte – har forklart</small><br><i>Det er vanskelig å forklare.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+skuffet	disappointed<br><small>skuffet – skuffede/skuffa</small><br><i>Sara er skuffet.</i>	norsk ord kap5 adj følelser lagt_til::2026-11-03
+å krangle	to argue, quarrel (&quot;fight&quot; with words)<br><small>krangler – kranglet/krangla – har kranglet</small><br><i>Hun har ikke lyst til å krangle med foreldrene.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+å legge ut	to post (online)<br><small>legger ut – la ut – har lagt ut</small><br><i>Hun legger den ut på Facebook.</i>	norsk ord kap5 verb partikkelverb lagt_til::2026-11-03
+kraftig	strong, powerful, solid<br><small>kraftig – kraftige</small><br><i>et stort og kraftig tre</i>	norsk ord kap5 adj lagt_til::2026-11-03
+trygg	safe, secure<br><small>trygt – trygge</small><br><i>Det lille treet sto trygt.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+en storm	storm<br><small>stormen – stormer – stormene</small><br><i>i storm og uvær</i>	norsk ord kap5 vær lagt_til::2026-11-03
+et uvær	bad weather<br><small>uværet – uvær – uværene</small><br><i>i storm og uvær</i>	norsk ord kap5 vær lagt_til::2026-11-03
+å vokse	to grow<br><small>vokser – vokste – har vokst</small><br><i>lite lys og luft å vokse i</i>	norsk ord kap5 verb lagt_til::2026-11-03
+å hogge	to chop, to fell (a tree)<br><small>hogger – hogde – har hogd (also: hugge – hugget)</small><br><i>Noen hogde det store treet.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+en beskyttelse	protection<br><small>beskyttelsen – (no pl.)</small><br><i>Det hadde ikke lenger noen beskyttelse.</i>	norsk ord kap5 lagt_til::2026-11-03
+å klare seg	to manage, get by, cope<br><small>klarer seg – klarte seg – har klart seg</small><br><i>…et sterkt tre som klarte seg i all slags vær.</i>	norsk ord kap5 verb refleksiv lagt_til::2026-11-03
+kjempesnill	super kind<br><small>kjempesnilt – kjempesnille</small><br><i>De er kjempesnille!</i>	norsk ord kap5 adj lagt_til::2026-11-03
+kul	cool<br><small>kult – kule</small><br><i>Veldig kule er de i hvert fall.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+å leie	to rent<br><small>leier – leide – har leid</small><br><i>Du leier en bolig når du betaler husleie.</i>	norsk ord kap5 bolig verb lagt_til::2026-11-03
+å eie	to own<br><small>eier – eide – har eid</small><br><i>Når du kjøper en bolig, eier du den.</i>	norsk ord kap5 bolig verb lagt_til::2026-11-03
+en eier	owner<br><small>eieren – eiere – eierne</small><br><i>…betaler husleie til eieren.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+en kjøper	buyer<br><small>kjøperen – kjøpere – kjøperne</small>	norsk ord kap5 bolig lagt_til::2026-11-03
+et lån	loan<br><small>lånet – lån – lånene</small><br><i>ta opp et lån i banken</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+å låne	to borrow; to lend<br><small>låner – lånte – har lånt</small><br><i>Når du låner penger i banken …</i>	norsk ord kap5 økonomi verb lagt_til::2026-11-03
+ei/en gjeld	debt<br><small>gjelda/gjelden – (rarely pl.)</small><br><i>…får du gjeld.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+et avdrag	instalment, repayment<br><small>avdraget – avdrag – avdragene</small><br><i>Du betaler et avdrag hver måned.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+ei/en avdragstid	repayment period<br><small>avdragstida/avdragstiden</small><br><i>Denne tida kaller vi avdragstid.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+ei/en rente	interest (rate)<br><small>renta/renten – renter – rentene</small><br><i>Renta er 4 % per år.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+en egenkapital	equity, own savings (down payment)<br><small>egenkapitalen</small><br><i>Egenkapital er pengene du har spart selv.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+et budsjett	budget<br><small>budsjettet – budsjetter – budsjettene</small><br><i>Det er lurt å sette opp et budsjett.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+lur	clever, smart (of an idea)<br><small>lurt – lure</small><br><i>Det er lurt å …</i>	norsk ord kap5 adj lagt_til::2026-11-03
+ei/en oversikt	overview<br><small>oversikta/oversikten – oversikter – oversiktene</small><br><i>…bedre oversikt over økonomien</i>	norsk ord kap5 lagt_til::2026-11-03
+ei/en visning	viewing (of a property)<br><small>visninga/visningen – visninger – visningene</small><br><i>Du går på visning.</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+et bud	bid, offer<br><small>budet – bud – budene</small><br><i>Å legge inn et bud</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+å by (på)	to bid; to offer<br><small>byr – bød – har budt</small><br><i>å by på en leilighet</i>	norsk ord kap5 bolig verb sterkt lagt_til::2026-11-03
+en megler	(estate) agent<br><small>megleren – meglere – meglerne</small><br><i>…til megleren</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+skriftlig	written<br><small>skriftlig – skriftlige</small><br><i>et skriftlig bud</i>	norsk ord kap5 adj lagt_til::2026-11-03
+bindende	binding<br><small>(uninflected)</small><br><i>Budet ditt er bindende.</i>	norsk ord kap5 adj lagt_til::2026-11-03
+å akseptere	to accept<br><small>aksepterer – aksepterte – har akseptert</small><br><i>…hvis eieren aksepterer budet.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+å øke	to increase, raise<br><small>øker – økte – har økt</small><br><i>Du må øke budet.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+en budrunde	bidding round<br><small>budrunden – budrunder – budrundene</small><br><i>være med på budrunden</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+å skje	to happen<br><small>skjer – skjedde – har skjedd</small><br><i>Det skjer vanligvis via sms.</i>	norsk ord kap5 verb lagt_til::2026-11-03
+ei/en fellesgjeld	shared debt (of a housing co-op)<br><small>fellesgjelda/-en</small>	norsk ord kap5 bolig økonomi lagt_til::2026-11-03
+felleskostnader (pl.)	common costs, monthly fee<br><small>felleskostnadene</small><br><i>Felleskostnader kalles ofte husleie.</i>	norsk ord kap5 bolig økonomi lagt_til::2026-11-03
+et borettslag	housing co-operative<br><small>borettslaget – borettslag – borettslagene</small>	norsk ord kap5 bolig lagt_til::2026-11-03
+et sameie	jointly-owned building (condo)<br><small>sameiet – sameier – sameiene</small>	norsk ord kap5 bolig lagt_til::2026-11-03
+en beboer	resident<br><small>beboeren – beboere – beboerne</small><br><i>hver beboer</i>	norsk ord kap5 bolig lagt_til::2026-11-03
+ei/en forsikring	insurance<br><small>forsikringa/-en – forsikringer – forsikringene</small><br><i>forsikringer på bygg</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+en trappevask	stairwell cleaning<br><small>trappevasken</small>	norsk ord kap5 bolig lagt_til::2026-11-03
+et kredittkort	credit card<br><small>kredittkortet – kredittkort – kredittkortene</small>	norsk ord kap5 økonomi lagt_til::2026-11-03
+et beløp	amount, sum<br><small>beløpet – beløp – beløpene</small><br><i>betale hele beløpet</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+ei/en regning	bill<br><small>regninga/-en – regninger – regningene</small><br><i>Du får en regning.</i>	norsk ord kap5 økonomi lagt_til::2026-11-03
+imidlertid	however<br><small>(adverb)</small><br><i>Du må imidlertid betale høye renter.</i>	norsk ord kap5 adv konnektor lagt_til::2026-11-03
+tydeligvis	evidently, clearly<br><small>(adverb)</small>	norsk ord kap5 ordliste lagt_til::2026-11-03
+trang	cramped, tight<br><small>trangt – trange</small><br><i>trange skap</i>	norsk ord kap5 adj lagt_til::2026-11-03
+miljøvennlig	environmentally friendly<br><small>miljøvennlig – miljøvennlige</small>	norsk ord kap5 ordliste lagt_til::2026-11-03
+fornuftig	sensible, reasonable<br><small>fornuftig – fornuftige</small>	norsk ord kap5 ordliste lagt_til::2026-11-03
+et abonnement	subscription<br><small>abonnementet – abonnementer – abonnementene</small>	norsk ord kap5 ordliste lagt_til::2026-11-03
+å fornye	to renew<br><small>fornyer – fornyet – har fornyet</small>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+å avslutte	to end, cancel, finish<br><small>avslutter – avsluttet – har avsluttet</small>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+å skifte	to change, switch (≈ bytte)<br><small>skifter – skiftet – har skiftet</small>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+å beholde	to keep<br><small>beholder – beholdt – har beholdt</small>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+ei/en leting	search(ing)<br><small>letinga/-en</small>	norsk ord kap5 ordliste lagt_til::2026-11-03
+å protestere	to object, protest<br><small>protesterer – protesterte – har protestert</small>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+å stemme	to be correct; to vote<br><small>stemmer – stemte – har stemt</small><br><i>Det stemmer!</i>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+ei/en anledning	opportunity, occasion<br><small>anledninga/-en – anledninger</small>	norsk ord kap5 ordliste lagt_til::2026-11-03
+å foreslå	to suggest<br><small>foreslår – foreslo – har foreslått</small>	norsk ord kap5 ordliste verb sterkt lagt_til::2026-11-03
+å love	to promise<br><small>lover – lovet/lovte – har lovet/lovt</small>	norsk ord kap5 ordliste verb lagt_til::2026-11-03
+faktisk	actually, in fact<br><small>(adverb)</small><br><i>Jeg har faktisk akkurat flyttet.</i>	norsk ord kap5 adv lagt_til::2026-11-03
+en bakgård	back yard, courtyard<br><small>bakgården – bakgårder – bakgårdene</small>	norsk ord kap5 bolig lagt_til::2026-11-03
+å oppgradere	to upgrade, renovate (= pusse opp, modernisere)<br><small>oppgraderer – oppgraderte – har oppgradert</small>	norsk ord kap5 bolig verb lagt_til::2026-11-03
+å nedgradere	to downgrade<br><small>nedgraderer – nedgraderte – har nedgradert</small>	norsk ord verb lagt_til::2026-11-03
+et skap	cupboard, wardrobe<br><small>skapet – skap – skapene</small><br><i>trange skap = cramped cupboards</i>	norsk ord bolig lagt_til::2026-11-03
+å oversvømme	to flood, overwhelm<br><small>oversvømmer – oversvømte – har oversvømt · passiv: oversvømmes</small><br><i>Vi oversvømmes av informasjon.</i>	norsk ord kap6 verb passiv lagt_til::2026-11-03
+uviktig	unimportant<br><small>uviktig – uviktige</small><br><i>viktige og uviktige nyheter</i>	norsk ord kap6 adj lagt_til::2026-11-03
+opptatt (av)	busy; preoccupied (with)<br><small>opptatt – opptatte</small><br><i>Er vi så opptatt av nettet?</i>	norsk ord kap6 adj lagt_til::2026-11-03
+et personvern	privacy (protection)<br><small>personvernet</small>	norsk ord kap6 lagt_til::2026-11-03
+ei/en kildekritikk	source criticism<br><small>kildekritikken</small>	norsk ord kap6 lagt_til::2026-11-03
+et nettvett	online etiquette / safe internet use<br><small>nettvettet</small>	norsk ord kap6 lagt_til::2026-11-03
+ei/en livsmestring	life skills, coping<br><small>livsmestringa/-en</small>	norsk ord kap6 lagt_til::2026-11-03
+å sms&#x27;e	to text (SMS)<br><small>sms&#x27;er – sms&#x27;et – har sms&#x27;et</small>	norsk ord kap6 verb lagt_til::2026-11-03
+å tekste	to text; to subtitle<br><small>tekster – tekstet – har tekstet</small><br><i>Jeg tekster deg i stedet.</i>	norsk ord kap6 verb lagt_til::2026-11-03
+ei/en melding	message<br><small>meldinga/-en – meldinger – meldingene</small><br><i>sjekke meldinger</i>	norsk ord kap6 lagt_til::2026-11-03
+kjedelig	boring<br><small>kjedelig – kjedelige</small><br><i>Filmen var jo ganske kjedelig.</i>	norsk ord kap6 adj lagt_til::2026-11-03
+et øyeblikk	moment<br><small>øyeblikket – øyeblikk – øyeblikkene</small><br><i>Et øyeblikk!</i>	norsk ord kap6 lagt_til::2026-11-03
+å skru av	to switch off<br><small>skrur av – skrudde av – har skrudd av</small><br><i>Jeg skrur den av om natta.</i>	norsk ord kap6 verb partikkelverb lagt_til::2026-11-03
+ei/en sminke	make-up<br><small>sminka/sminken</small>	norsk ord kap6 lagt_til::2026-11-03
+avhengig (av)	dependent on, addicted to<br><small>avhengig – avhengige</small><br><i>Jeg er helt avhengig av mobilen.</i>	norsk ord kap6 adj lagt_til::2026-11-03
+folk	people<br><small>(collective, no article in this sense)</small><br><i>holde kontakt med folk</i>	norsk ord kap6 lagt_til::2026-11-03
+et månedskort	monthly (travel) pass<br><small>månedskortet – månedskort – månedskortene</small>	norsk ord kap6 lagt_til::2026-11-03
+ledig	vacant, free<br><small>ledig – ledige</small><br><i>ledige stillinger</i>	norsk ord kap6 adj lagt_til::2026-11-03
+ei/en stilling	position, job<br><small>stillinga/-en – stillinger</small>	norsk ord kap6 jobb lagt_til::2026-11-03
+en jobbsøknad	job application<br><small>jobbsøknaden – jobbsøknader</small>	norsk ord kap6 jobb lagt_til::2026-11-03
+en nabogutt	the boy next door<br><small>nabogutten – nabogutter</small>	norsk ord kap6 lagt_til::2026-11-03
+å plage	to bother, harass<br><small>plager – plaget/plagde – har plaget/plagd</small><br><i>En som plager deg?</i>	norsk ord kap6 verb lagt_til::2026-11-03
+å chatte	to chat (online)<br><small>chatter – chattet – har chattet</small>	norsk ord kap6 verb lagt_til::2026-11-03
+grei	nice, decent; easy<br><small>greit – greie</small><br><i>Han virket så grei.</i>	norsk ord kap6 adj lagt_til::2026-11-03
+å virke	to seem; to work (function)<br><small>virker – virket – har virket</small><br><i>Han virket så grei.</i>	norsk ord kap6 verb lagt_til::2026-11-03
+å manipulere	to manipulate<br><small>manipulerer – manipulerte – har manipulert</small>	norsk ord kap6 verb lagt_til::2026-11-03
+en trussel	threat<br><small>trusselen – trusler – truslene</small><br><i>en tom trussel</i>	norsk ord kap6 lagt_til::2026-11-03
+en gubbe	old man, geezer (informal)<br><small>gubben – gubber – gubbene</small><br><i>en gammel gubbe</i>	norsk ord kap6 uformell lagt_til::2026-11-03
+å lure	to trick, fool; (lure på) to wonder<br><small>lurer – lurte – har lurt</small><br><i>prøver å lure jenter</i>	norsk ord kap6 verb lagt_til::2026-11-03
+å straffe	to punish<br><small>straffer – straffet – har straffet</small><br><i>Han kan bli straffet.</i>	norsk ord kap6 verb jus lagt_til::2026-11-03
+å dømme	to sentence, judge<br><small>dømmer – dømte – har dømt</small><br><i>Han ble dømt til fengsel.</i>	norsk ord kap6 verb jus lagt_til::2026-11-03
+et fengsel	prison<br><small>fengselet – fengsler – fengslene</small><br><i>ubetinget fengsel</i>	norsk ord kap6 jus lagt_til::2026-11-03
+ubetinget	unconditional (non-suspended sentence)<br><small>ubetinget – ubetingede</small><br><i>fem måneders ubetinget fengsel</i>	norsk ord kap6 jus lagt_til::2026-11-03
+å spre	to spread<br><small>sprer – spredte – har spredt</small><br><i>spre nakenbilder</i>	norsk ord kap6 verb lagt_til::2026-11-03
+ei/en krenkelse	violation, offence (against a person)<br><small>krenkelsen – krenkelser</small>	norsk ord kap6 jus lagt_til::2026-11-03
+ei/en personopplysning	personal data<br><small>-opplysninga/-en – -opplysninger</small>	norsk ord kap6 lagt_til::2026-11-03
+ei/en opplysning	(piece of) information<br><small>opplysninga/-en – opplysninger</small>	norsk ord kap6 lagt_til::2026-11-03
+et privatliv	private life, privacy<br><small>privatlivet</small>	norsk ord kap6 lagt_til::2026-11-03
+ei/en plikt	duty<br><small>plikta/-en – plikter</small><br><i>Foreldre har plikt til å passe på barna.</i>	norsk ord kap6 lagt_til::2026-11-03
+bekymret	worried<br><small>bekymret – bekymrede/bekymra</small>	norsk ord kap6 adj følelser lagt_til::2026-11-03
+å beskytte	to protect<br><small>beskytter – beskyttet – har beskyttet</small>	norsk ord kap6 verb lagt_til::2026-11-03
+ei/en meningsmåling	opinion poll, survey<br><small>meningsmålinga/meningsmålingen – meningsmålinger – meningsmålingene</small><br><i>Meningsmåling: Hva bruker du mediene til?</i>	norsk ord kap6 medier lagt_til::2026-11-05
+et medium	medium; (pl.) <b>medier/mediene</b> = the media<br><small>mediet – medier – mediene</small><br><i>Hva bruker du mediene til?</i>	norsk ord kap6 medier lagt_til::2026-11-05
+en nyhet	(a piece of) news; novelty, new product<br><small>nyheten – nyheter – nyhetene</small><br><i>Nyheter fra Norge · Nyheter fra andre land</i>	norsk ord kap6 medier lagt_til::2026-11-05
+nytt	news, updates, what&#x27;s new (see G29)<br><small>(substantivised adjective: no article, no plural)</small><br><i>Nytt fra hjemlandet · Hva er nytt?</i>	norsk ord kap6 medier lagt_til::2026-11-05
+et hjemland	home country, native country<br><small>hjemlandet – hjemland – hjemlandene</small><br><i>Nytt fra hjemlandet</i>	norsk ord kap6 lagt_til::2026-11-05
+et stoff	material, content (in the media); fabric; substance<br><small>stoffet – stoff/stoffer – stoffa/stoffene</small><br><i>stoff om religion</i>	norsk ord kap6 medier lagt_til::2026-11-05
+et kulturstoff	cultural content, culture coverage<br><small>kulturstoffet – (no pl.)</small><br><i>Kulturstoff er veldig viktig for meg.</i>	norsk ord kap6 medier lagt_til::2026-11-05
+et kriminalstoff	crime coverage, crime news<br><small>kriminalstoffet – (no pl.)</small>	norsk ord kap6 medier lagt_til::2026-11-05
+en annonse	advertisement, ad<br><small>annonsen – annonser – annonsene</small>	norsk ord kap6 medier lagt_til::2026-11-05
+en tegneserie	comic (strip), comic book<br><small>tegneserien – tegneserier – tegneseriene</small>	norsk ord kap6 medier lagt_til::2026-11-05
+ei/en underholdning	entertainment<br><small>underholdninga/underholdningen – (no pl.)</small>	norsk ord kap6 medier lagt_til::2026-11-05
+kanskje	maybe, perhaps (see G28)<br><small>(adverb)</small><br><i>Kanskje han kommer.</i>	norsk ord kap6 adv lagt_til::2026-11-05
+ofte	often<br><small>(adverb) · oftere – oftest</small><br><i>Jeg leser ofte nyheter på nett.</i>	norsk ord adv frekvens lagt_til::2026-11-05
+masse	lots (of), a lot; (adverb) a lot<br><small>(uninflected, informal)</small><br><i>Det var masse folk der. · Han jobber masse.</i>	norsk ord adv uformell frekvens lagt_til::2026-11-05
+å påvirke	to influence, affect<br><small>påvirker – påvirket – har påvirket · passiv: påvirkes</small><br><i>Hvordan kan sosiale medier påvirke oss negativt?</i>	norsk ord kap6 verb lagt_til::2026-11-05
+en påvirkning	influence<br><small>påvirkningen – påvirkninger – påvirkningene</small>	norsk ord kap6 lagt_til::2026-11-05
+en komfyr	stove, cooker<br><small>komfyren – komfyrer – komfyrene</small><br><i>Maten står på komfyren.</i>	norsk ord bolig kjøkken lagt_til::2026-11-05
+en kilde	source; spring (of water)<br><small>kilden – kilder – kildene</small><br><i>Derfor er det viktig å sjekke kildene.</i>	norsk ord kap6 medier lagt_til::2026-11-05
+ei/en kildekritikk	source criticism, checking sources<br><small>kildekritikken – (no pl.)</small><br><i>Kilder og kildekritikk</i>	norsk ord kap6 medier lagt_til::2026-11-05
+en redaktør	editor<br><small>redaktøren – redaktører – redaktørene</small><br><i>Mediene har en redaktør som har ansvar for hva som skrives.</i>	norsk ord kap6 medier lagt_til::2026-11-05
+å publisere	to publish<br><small>publiserer – publiserte – har publisert · passiv: publiseres</small><br><i>Mye av det som publiseres på nettet …</i>	norsk ord kap6 verb passiv lagt_til::2026-11-05
+å redigere	to edit<br><small>redigerer – redigerte – har redigert</small><br><i>…blir ikke redigert og kontrollert på samme måte.</i>	norsk ord kap6 verb lagt_til::2026-11-05
+å kontrollere	to check, verify; to control<br><small>kontrollerer – kontrollerte – har kontrollert</small><br><i>Informasjonen blir kontrollert på flere måter.</i>	norsk ord kap6 verb lagt_til::2026-11-05
+å presentere	to present<br><small>presenterer – presenterte – har presentert · passiv: presenteres</small><br><i>Falske nyheter kan presenteres som fakta.</i>	norsk ord kap6 verb passiv lagt_til::2026-11-05
+å behandle	to handle, deal with; to treat (medically)<br><small>behandler – behandlet – har behandlet</small><br><i>PFU behandler klager mot trykte medier.</i>	norsk ord kap6 verb lagt_til::2026-11-05
+en klage	complaint<br><small>klagen – klager – klagene</small><br><i>klager mot trykte medier</i>	norsk ord kap6 lagt_til::2026-11-05
+et klageorgan	complaints body<br><small>klageorganet – klageorgan/klageorganer – klageorgana/klageorganene</small><br><i>Mediene har sitt eget klageorgan.</i>	norsk ord kap6 medier lagt_til::2026-11-05
+ei/en avis	newspaper<br><small>avisa/avisen – aviser – avisene</small><br><i>I aviser og store tv-kanaler …</i>	norsk ord kap6 medier lagt_til::2026-11-05
+en kanal	channel<br><small>kanalen – kanaler – kanalene</small><br><i>store tv-kanaler</i>	norsk ord kap6 medier lagt_til::2026-11-05
+trykt	printed<br><small>trykt – trykte</small><br><i>trykte medier</i>	norsk ord kap6 adj medier lagt_til::2026-11-05
+falsk	false, fake<br><small>falskt – falske</small><br><i>falske nyheter</i>	norsk ord kap6 adj lagt_til::2026-11-05
+personlig	personal<br><small>personlig – personlige</small><br><i>personlige meninger</i>	norsk ord kap6 adj lagt_til::2026-11-05
+en mening	opinion; meaning<br><small>meningen – meninger – meningene</small><br><i>Personlige meninger kan presenteres som fakta.</i>	norsk ord kap6 lagt_til::2026-11-05
+et ansvar	responsibility<br><small>ansvaret – (no pl.)</small><br><i>Hvem har ansvaret for innholdet?</i>	norsk ord kap6 lagt_til::2026-11-05
+et innhold	content(s)<br><small>innholdet – (rarely pl.)</small><br><i>Hvem har ansvaret for innholdet?</i>	norsk ord kap6 medier lagt_til::2026-11-05
+en avsender	sender<br><small>avsenderen – avsendere – avsenderne</small><br><i>Hvem er avsenderen?</i>	norsk ord kap6 lagt_til::2026-11-05
+nyttig	useful<br><small>nyttig – nyttige</small><br><i>noen nyttige spørsmål</i>	norsk ord kap6 adj lagt_til::2026-11-05
+et mål	goal, aim; measurement<br><small>målet – mål – målene</small><br><i>politiske eller økonomiske mål</i>	norsk ord kap6 lagt_til::2026-11-05
+å diskriminere	to discriminate<br><small>diskriminerer – diskriminerte – har diskriminert</small>	norsk ord samfunn verb lagt_til::2026-11-03
+ei/en likestilling	(gender) equality<br><small>likestillinga/-en</small>	norsk ord samfunn lagt_til::2026-11-03
+FN (De forente nasjoner)	UN (United Nations)	norsk ord samfunn lagt_til::2026-11-03
+å forene	to unite<br><small>forener – forente – har forent</small><br><i>De forente nasjoner</i>	norsk ord samfunn verb lagt_til::2026-11-03
+en forening	association, union, club<br><small>foreningen – foreninger – foreningene</small>	norsk ord samfunn lagt_til::2026-11-03
+ei/en kunst → kunstig	art → artificial<br><small>kunstig – kunstige</small><br><i>kunstig intelligens</i>	norsk ord adj ordlaging lagt_til::2026-11-03
+ei/en støtte · å støtte	support · to support (also financially)<br><small>støtta/-en · støtter – støttet – har støttet</small>	norsk ord samfunn lagt_til::2026-11-03
+å passe på	to look after, keep an eye on (≈ observere, kontrollere)<br><small>passer på – passet på – har passet på</small><br><i>Foreldre må passe på barna.</i>	norsk ord verb partikkelverb lagt_til::2026-11-03
+å ta vare på	to take care of, preserve<br><small>tar – tok – har tatt vare på</small>	norsk ord verb lagt_til::2026-11-03
+å bevare	to preserve, conserve<br><small>bevarer – bevarte – har bevart</small>	norsk ord verb lagt_til::2026-11-03
+en stabilitet	stability<br><small>stabiliteten</small>	norsk ord samfunn lagt_til::2026-11-03
+å forhandle	to negotiate<br><small>forhandler – forhandlet – har forhandlet</small>	norsk ord samfunn verb lagt_til::2026-11-03
+en funksjonsnedsettelse	disability<br><small>-nedsettelsen – -nedsettelser</small>	norsk ord samfunn lagt_til::2026-11-03
+å bidra (til)	to contribute (≈ hjelpe til)<br><small>bidrar – bidro – har bidratt</small>	norsk ord verb sterkt lagt_til::2026-11-03
+forurenset	polluted<br><small>forurenset – forurensede</small>	norsk ord miljø adj lagt_til::2026-11-03
+et krigsområde	war zone<br><small>krigsområdet – krigsområder</small>	norsk ord samfunn lagt_til::2026-11-03
+krigsrammet	war-torn<br><small>krigsrammet – krigsrammede</small>	norsk ord samfunn adj lagt_til::2026-11-03
+å drive (med)	to do (an activity); to run (a business)<br><small>driver – drev – har drevet</small><br><i>Hva driver du med?</i>	norsk ord verb sterkt lagt_til::2026-11-03
+en skyskraper	skyscraper<br><small>skyskraperen – skyskrapere</small>	norsk ord by lagt_til::2026-11-03
+en fordel	advantage<br><small>fordelen – fordeler – fordelene</small><br><i>Hva er fordelen?</i>	norsk ord lagt_til::2026-11-03
+en ulempe	disadvantage<br><small>ulempen – ulemper – ulempene</small><br><i>fordeler og ulemper</i>	norsk ord lagt_til::2026-11-03
+å berike	to enrich<br><small>beriker – beriket – har beriket</small>	norsk ord verb lagt_til::2026-11-03
+å dra	to go/leave (by any transport, longer trip); to pull<br><small>drar – dro – har dratt</small><br><i>Vi drar til Bergen.</i>	norsk ord verb sterkt lagt_til::2026-11-03
+et faktum	fact<br><small>faktumet – fakta – faktaene</small><br><i>Faktum er at …</i>	norsk ord lagt_til::2026-11-03
+å droppe	to drop, leave out (= la falle)<br><small>dropper – droppet – har droppet</small>	norsk ord verb lagt_til::2026-11-03
+ei/en nasjon	nation (<i>check gender in NAOB: masculine</i>)<br><small>nasjonen – nasjoner</small>	norsk ord lagt_til::2026-11-03
+å handle	to shop<br><small>handler – handlet – har handlet</small><br><i>Jeg handler mat.</i>	norsk ord verb lagt_til::2026-11-03
+å handle om	to be about<br><small>handler om – handlet om</small><br><i>Boka handler om …</i>	norsk ord verb lagt_til::2026-11-03
+sjelden	rare; rarely<br><small>sjeldent – sjeldne</small><br><i>sjeldne arter</i>	norsk ord adj lagt_til::2026-11-03
+ei/en art	species; kind<br><small>arten – arter – artene</small>	norsk ord natur lagt_til::2026-11-03
+liknende / lignende	similar<br><small>(uninflected)</small>	norsk ord adj lagt_til::2026-11-03
+å gjennomføre	to carry out, complete (≈ gjøre ferdig)<br><small>gjennomfører – gjennomførte – har gjennomført</small>	norsk ord verb lagt_til::2026-11-03
+eksentrisk	eccentric<br><small>eksentrisk – eksentriske</small>	norsk ord adj lagt_til::2026-11-03
+å pendle	to commute<br><small>pendler – pendlet – har pendlet</small><br><i>Jeg slipper å pendle.</i>	norsk ord verb lagt_til::2026-11-03
+en pendler	commuter<br><small>pendleren – pendlere – pendlerne</small>	norsk ord lagt_til::2026-11-03
+ei/en drosje	taxi<br><small>drosja/-en – drosjer</small>	norsk ord transport lagt_til::2026-11-03
+ei/en sikt	visibility; sight<br><small>sikta/-en</small>	norsk ord lagt_til::2026-11-03
+ei/en utsikt	view<br><small>utsikta/-en – utsikter</small><br><i>Leiligheten har fin utsikt.</i>	norsk ord bolig lagt_til::2026-11-03
+ei/en husmor	housewife<br><small>husmora/husmoren – husmødre – husmødrene</small><br><i>en husmor som er hjemmeværende</i>	norsk ord familie lagt_til::2026-11-03
+hjemmeværende	stay-at-home<br><small>(uninflected)</small>	norsk ord familie adj lagt_til::2026-11-03
+et par	couple; pair<br><small>paret – par – parene</small>	norsk ord familie lagt_til::2026-11-03
+et brudepar	bridal couple, newlyweds<br><small>brudeparet – brudepar – brudeparene</small>	norsk ord familie lagt_til::2026-11-03
+et ektepar	married couple (mann + kone)<br><small>ekteparet – ektepar – ekteparene</small>	norsk ord familie lagt_til::2026-11-03
+et bryllup	wedding<br><small>bryllupet – bryllup – bryllupene</small>	norsk ord familie lagt_til::2026-11-03
+ei/en brud	bride<br><small>brura/bruden – bruder – brudene</small>	norsk ord familie lagt_til::2026-11-03
+en brudgom	groom<br><small>brudgommen – brudgommer – brudgommene</small>	norsk ord familie lagt_til::2026-11-03
+ei/en kone	wife<br><small>kona/konen – koner – konene</small>	norsk ord familie lagt_til::2026-11-03
+et brensel	fuel (for heating)<br><small>brenselet – (no pl.)</small>	norsk ord bolig lagt_til::2026-11-03
+ødelagt	broken, ruined<br><small>ødelagt – ødelagte</small>	norsk ord adj lagt_til::2026-11-03
+knust	smashed, shattered<br><small>knust – knuste</small><br><i>Glasset er knust.</i>	norsk ord adj lagt_til::2026-11-03
+å male	to paint<br><small>maler – malte – har malt</small><br><i>Hun har malt.</i>	norsk ord verb lagt_til::2026-11-03
+en vannlekkasje	water leak<br><small>vannlekkasjen – vannlekkasjer</small>	norsk ord bolig lagt_til::2026-11-03
+et baderom	bathroom<br><small>baderommet – baderom – baderommene</small>	norsk ord bolig lagt_til::2026-11-03
+å bli	to become; to stay<br><small>blir – ble – har blitt</small>	norsk ord verb sterkt lagt_til::2026-11-03
+å slite	to struggle; to wear out<br><small>sliter – slet – har slitt</small><br><i>Jeg sliter litt økonomisk.</i>	norsk ord verb sterkt lagt_til::2026-11-03
+økonomisk	financial(ly)<br><small>økonomisk – økonomiske</small>	norsk ord adj lagt_til::2026-11-03
+ingen	nobody, no, none (= ikke noen)<br><small>(pronoun)</small><br><i>Det er ingen hjemme.</i>	norsk ord pronomen lagt_til::2026-11-03
+stadig	constantly; increasingly (stadig bedre = better and better)<br><small>(adverb)</small><br><i>Han sjekket stadig telefonen.</i>	norsk ord adv lagt_til::2026-11-03
+uinteressant	uninteresting<br><small>uinteressant – uinteressante</small><br><i>helt uinteressant</i>	norsk ord adj lagt_til::2026-11-03
+å prate	to chat, talk (≈ snakke)<br><small>prater – pratet – har pratet</small><br><i>Du ville jo prate om noe.</i>	norsk ord verb lagt_til::2026-11-03
+visst	apparently, I&#x27;ve heard<br><small>(modal adverb)</small><br><i>Han er visst syk.</i>	norsk ord adv partikkel lagt_til::2026-11-03
+trolig / sannsynligvis	probably (= nok)<br><small>(adverbs)</small>	norsk ord adv lagt_til::2026-11-03
+å anklage	to accuse<br><small>anklager – anklaget – har anklaget</small><br><i>De anklager hverandre.</i>	norsk ord verb lagt_til::2026-11-03
+å beskylde	to accuse, blame<br><small>beskylder – beskyldte – har beskyldt</small><br><i>De beskylder hverandre.</i>	norsk ord verb lagt_til::2026-11-03
+hverandre	each other<br><small>(pronoun)</small>	norsk ord pronomen lagt_til::2026-11-03
+å sammenligne	to compare (also spelled <i>sammenlikne</i>)<br><small>sammenligner – sammenlignet – har sammenlignet</small><br><i>Sammenlikn resultatene og diskuter.</i>	norsk ord verb lagt_til::2026-11-03
+lei (seg)	sad (bli lei seg)<br><small>(predicative)</small><br><i>Jeg blir lei meg.</i>	norsk ord adj følelser lagt_til::2026-11-03
+trist	sad<br><small>trist – triste</small>	norsk ord adj følelser lagt_til::2026-11-03
+å svare	to answer<br><small>svarer – svarte – har svart</small><br><i>Han svarer at …</i>	norsk ord verb lagt_til::2026-11-03
+å oppdage	to discover, find out<br><small>oppdager – oppdaget – har oppdaget</small><br><i>Jeg har oppdaget at foreldrene mine sjekker meldingene.</i>	norsk ord kap6 verb lagt_til::2026-11-03
+en oppdagelse	discovery<br><small>oppdagelsen – oppdagelser – oppdagelsene</small>	norsk ord kap6 lagt_til::2026-11-03
+å godta	to accept, agree to<br><small>godtar – godtok – har godtatt</small><br><i>…hvis de ikke har godtatt det.</i>	norsk ord kap6 verb sterkt lagt_til::2026-11-03
+å tørre	to dare<br><small>tør – turte – har turt</small><br><i>Snart tør jeg ikke gå på fest.</i>	norsk ord kap6 verb lagt_til::2026-11-03
+ei/en venninne	(female) friend<br><small>venninna/venninnen – venninner – venninnene</small><br><i>…hva jeg snakker med venninnene mine om</i>	norsk ord kap6 lagt_til::2026-11-03
+morsom	funny, fun<br><small>morsomt – morsomme</small><br><i>«morsomme» bilder</i>	norsk ord kap6 adj lagt_til::2026-11-03
+full	full; drunk<br><small>fullt – fulle</small><br><i>folk som ser dumme og fulle ut</i>	norsk ord kap6 adj lagt_til::2026-11-03
+gøy	fun<br><small>(uninflected)</small><br><i>Vi hadde det jo bare gøy.</i>	norsk ord kap6 adj lagt_til::2026-11-03
+utover	all over; beyond<br><small>(preposition)</small><br><i>glass og flasker utover hele bordet</i>	norsk ord kap6 lagt_til::2026-11-03
+en arbeidsgiver	employer<br><small>arbeidsgiveren – arbeidsgivere – arbeidsgiverne</small><br><i>hva vil en arbeidsgiver tro?</i>	norsk ord kap6 jobb lagt_til::2026-11-03
+ei/en smartklokke	smartwatch<br><small>smartklokka/smartklokken – smartklokker – smartklokkene</small><br><i>Vi har kjøpt smartklokke til sønnen vår.</i>	norsk ord kap6 lagt_til::2026-11-03
+en knapp	button<br><small>knappen – knapper – knappene</small><br><i>en egen SOS-knapp</i>	norsk ord kap6 lagt_til::2026-11-03
+en trygghet	security, feeling safe<br><small>tryggheten</small><br><i>Det gir stor trygghet.</i>	norsk ord kap6 lagt_til::2026-11-03
+en frihet	freedom<br><small>friheten – friheter – frihetene</small><br><i>Barna må ha frihet.</i>	norsk ord kap6 lagt_til::2026-11-03
+en kompetanse	competence, skills<br><small>kompetansen</small><br><i>Barn må få digital kompetanse.</i>	norsk ord kap6 lagt_til::2026-11-03
+en konsekvens	consequence<br><small>konsekvensen – konsekvenser – konsekvensene</small><br><i>Tenker du på konsekvensene?</i>	norsk ord kap6 lagt_til::2026-11-03
+enig / uenig	(be) in agreement / disagreement<br><small>enig – enige</small><br><i>Er du enig eller uenig?</i>	norsk ord kap6 adj lagt_til::2026-11-03
+selvstendig	independent<br><small>selvstendig – selvstendige</small>	norsk ord adj ordlaging lagt_til::2026-11-03
+en selvstendighet	independence<br><small>selvstendigheten</small>	norsk ord ordlaging lagt_til::2026-11-03
+å låse	to lock<br><small>låser – låste – har låst</small><br><i>Dørene låses om kvelden.</i>	norsk ord verb passiv lagt_til::2026-11-03
+å stenge	to close, shut<br><small>stenger – stengte – har stengt</small><br><i>Skolen ble stengt i går.</i>	norsk ord verb passiv lagt_til::2026-11-03
+å vaske	to wash<br><small>vasker – vasket – har vasket</small><br><i>Bilen må vaskes.</i>	norsk ord verb passiv lagt_til::2026-11-03
+for tiden	at the moment, these days<br><i>Det er litt vanskelig hjemme for tiden.</i>	norsk uttrykk kap5 tid lagt_til::2026-11-03
+å gjøre ferdig (noe)	to finish (something)<br><i>Han skal gjøre ferdig skolen.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+å være ferdig med	to be done with<br><i>…til du er ferdig med farmasistudiet.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+å ha lyst til (å)	to want to, feel like<br><i>Han har lyst til å slutte.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+å ha lyst på (noe)	to want (a thing)<br><i>Noen har lyst på en ny leilighet.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+å ønske seg	to wish for<br><i>Noen ønsker seg et rolig liv på landet.</i>	norsk uttrykk kap5 refleksiv lagt_til::2026-11-03
+dårlig stemning	bad atmosphere/vibe<br><i>Det er dårlig stemning i huset.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+i tillegg	in addition<br><i>I tillegg har Sara sagt at …</i>	norsk uttrykk kap5 konnektor lagt_til::2026-11-03
+å flytte hjemmefra	to move out (of parents&#x27; home)	norsk uttrykk kap5 bolig lagt_til::2026-11-03
+å dele på (husleia)	to split (the rent)	norsk uttrykk kap5 bolig lagt_til::2026-11-03
+i fred	in peace, undisturbed<br><i>Her kan du studere i fred.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+Vi gjør alt for å hjelpe deg.	We do everything to help you.	norsk uttrykk kap5 lagt_til::2026-11-03
+Vi får tenke på det.	We&#x27;ll have to think about it. (polite &quot;maybe&quot;)	norsk uttrykk kap5 modal lagt_til::2026-11-03
+dagen etter	the day after<br><i>Dagen etter leser hun en historie.</i>	norsk uttrykk kap5 tid lagt_til::2026-11-03
+Det var en gang …	Once upon a time …	norsk uttrykk kap5 lagt_til::2026-11-03
+ved siden av	next to; alongside, on the side<br><i>et tre ved siden av et stort tre · en jobb ved siden av skolen</i>	norsk uttrykk kap5 kap6 lagt_til::2026-11-03
+ikke lenger	no longer<br><i>Det hadde ikke lenger beskyttelse.</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+etter en stund	after a while	norsk uttrykk kap5 tid lagt_til::2026-11-03
+i høyden	upwards, in height<br><i>vokse i høyden</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+all slags / allslags	all kinds of<br><i>all slags vær</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+i hvert fall	at any rate, at least	norsk uttrykk kap5 lagt_til::2026-11-03
+Slik kan man også se på det.	That&#x27;s one way to look at it.	norsk uttrykk kap5 lagt_til::2026-11-03
+å re opp senga	to make the bed	norsk uttrykk kap5 hjem lagt_til::2026-11-03
+ved sjøen / mot sjøen	by the sea / facing the sea<br><i>en liten leilighet ved sjøen</i>	norsk uttrykk kap5 preposisjon lagt_til::2026-11-03
+Borte bra, men hjemme best.	East or west, home is best.<br><i>(gammelt ordtak)</i>	norsk uttrykk kap5 ordtak lagt_til::2026-11-03
+å ta opp et lån	to take out a loan	norsk uttrykk kap5 økonomi lagt_til::2026-11-03
+å sette opp et budsjett	to make a budget	norsk uttrykk kap5 økonomi lagt_til::2026-11-03
+å gå på visning	to go to a viewing	norsk uttrykk kap5 bolig lagt_til::2026-11-03
+å legge inn et bud (= å by på)	to place a bid	norsk uttrykk kap5 bolig lagt_til::2026-11-03
+til salgs	for sale<br><i>en bolig som er til salgs</i>	norsk uttrykk kap5 lagt_til::2026-11-03
+som oftest	most often	norsk uttrykk kap5 lagt_til::2026-11-03
+Det vil si … (dvs.)	That is to say … / i.e.	norsk uttrykk kap5 lagt_til::2026-11-03
+slik at	so that	norsk uttrykk kap5 konnektor lagt_til::2026-11-03
+som regel	as a rule, usually	norsk uttrykk kap5 lagt_til::2026-11-03
+med en gang	at once, in one go	norsk uttrykk kap5 lagt_til::2026-11-03
+å ha råd til	to be able to afford<br><i>Vi har ikke råd.</i>	norsk uttrykk kap5 økonomi lagt_til::2026-11-03
+begge deler	both	norsk uttrykk kap5 lagt_til::2026-11-03
+et par år	a couple of years	norsk uttrykk kap5 lagt_til::2026-11-03
+å ta kontakt med	to get in touch with	norsk uttrykk kap5 lagt_til::2026-11-03
+å si opp (en avtale)	to cancel (a contract)	norsk uttrykk kap5 lagt_til::2026-11-03
+å dukke opp	to turn up, appear	norsk uttrykk kap5 partikkelverb lagt_til::2026-11-03
+i våre dager	nowadays	norsk uttrykk kap6 tid lagt_til::2026-11-03
+uten stans	non-stop	norsk uttrykk kap6 lagt_til::2026-11-03
+å gå glipp av	to miss out on<br><i>…slik at de ikke går glipp av noe.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å legge bort	to put away<br><i>Kan du ikke legge bort mobilen?</i>	norsk uttrykk kap6 partikkelverb lagt_til::2026-11-03
+i stedet	instead<br><i>Så kan vi snakke litt sammen i stedet?</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å bli lei av	to get tired/sick of<br><i>Jeg blir så lei av at du ser på mobilen.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+hele tida	all the time	norsk uttrykk kap6 tid lagt_til::2026-11-03
+en god stund	a good while<br><i>I helga la jeg den bort en god stund.</i>	norsk uttrykk kap6 tid lagt_til::2026-11-03
+(bare) av og til	(only) now and then	norsk uttrykk kap6 tid lagt_til::2026-11-03
+Glem det!	Forget it!	norsk uttrykk kap6 lagt_til::2026-11-03
+Tenk å …!	Imagine …-ing!<br><i>Tenk å kjøre rundt i en sånn en!</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å holde kontakten (med)	to keep in touch (with)	norsk uttrykk kap6 lagt_til::2026-11-03
+å gjøre avtaler	to make plans/arrangements	norsk uttrykk kap6 lagt_til::2026-11-03
+i løpet av	during, in the course of<br><i>i løpet av dagen</i>	norsk uttrykk kap6 tid lagt_til::2026-11-03
+å følge med på	to keep up with, follow<br><i>Jeg følger med på nyhetene.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å holde seg oppdatert	to keep oneself updated	norsk uttrykk kap6 refleksiv lagt_til::2026-11-03
+å kutte ut	to cut out, quit<br><i>…men det har jeg kuttet ut.</i>	norsk uttrykk kap6 partikkelverb lagt_til::2026-11-03
+å ha (mye) glede av	to get (a lot of) joy from<br><i>Det har jeg mye glede av.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å bestille time hos tannlegen	to book a dentist appointment	norsk uttrykk kap6 lagt_til::2026-11-03
+Hva er det som har skjedd?	What has happened?	norsk uttrykk kap6 lagt_til::2026-11-03
+i det siste	lately	norsk uttrykk kap6 tid lagt_til::2026-11-03
+Hold deg unna ham!	Stay away from him!	norsk uttrykk kap6 lagt_til::2026-11-03
+å kutte kontakten	to cut contact	norsk uttrykk kap6 lagt_til::2026-11-03
+en tom trussel	an empty threat	norsk uttrykk kap6 lagt_til::2026-11-03
+Stol på meg.	Trust me.	norsk uttrykk kap6 lagt_til::2026-11-03
+Jeg håper du har rett.	I hope you&#x27;re right.	norsk uttrykk kap6 lagt_til::2026-11-03
+å bli utsatt for	to be subjected to	norsk uttrykk kap6 passiv lagt_til::2026-11-03
+å ha rett til	to have the right to	norsk uttrykk kap6 lagt_til::2026-11-03
+Det er (ikke) lov å …	It is (not) allowed to …	norsk uttrykk kap6 lagt_til::2026-11-03
+å ha grunn til å	to have reason to	norsk uttrykk kap6 lagt_til::2026-11-03
+Hva driver du med (på fritida)?	What do you do (in your free time)?	norsk uttrykk hverdag lagt_til::2026-11-03
+Hva er fordelen?	What&#x27;s the advantage?	norsk uttrykk lagt_til::2026-11-03
+Faktum er at …	The fact is that …	norsk uttrykk lagt_til::2026-11-03
+å gå i kirken	to go to church	norsk uttrykk lagt_til::2026-11-03
+å legge merke til	to notice	norsk uttrykk lagt_til::2026-11-03
+til slutt	finally, in the end	norsk uttrykk tid lagt_til::2026-11-03
+Gi deg!	Give up! / Stop it! / Come on!	norsk uttrykk hverdag lagt_til::2026-11-03
+om kvelden	in the evening(s)<br><i>Om kvelden legger jeg bort telefonen.</i>	norsk uttrykk tid lagt_til::2026-11-03
+fordeler og ulemper	pros and cons	norsk uttrykk lagt_til::2026-11-03
+ganske kjedelig ↔ helt uinteressant	rather boring ↔ completely uninteresting	norsk uttrykk lagt_til::2026-11-03
+stadig bedre	better and better	norsk uttrykk lagt_til::2026-11-03
+en sånn bil = en slik bil	a car like that (sånn = spoken, slik = written)<br><i>Tenk å kjøre rundt i en sånn en!</i>	norsk uttrykk lagt_til::2026-11-03
+Hva var det (at) du sa?	What was it you said? (softer than <i>Hva sa du?</i>)	norsk uttrykk høflighet lagt_til::2026-11-03
+Hva er det du mener?	What is it you mean?	norsk uttrykk høflighet lagt_til::2026-11-03
+Jeg har (helt) rett. ↔ Du tar feil.	I&#x27;m (completely) right. ↔ You&#x27;re wrong.	norsk uttrykk lagt_til::2026-11-03
+å bli lei seg	to become sad / upset<br><i>Hvis du ikke kommer, blir jeg lei meg.</i>	norsk uttrykk følelser lagt_til::2026-11-03
+å holde en avtale	to keep an appointment/promise<br><i>Han har en avtale (som) han må holde.</i>	norsk uttrykk lagt_til::2026-11-03
+å ha lov til (å)	to be allowed to<br><i>Har de lov til det?</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å få noen til å …	to get/make someone do …<br><i>Hva kan jeg si for å få dem til å slutte?</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å gjøre noe galt	to do something wrong<br><i>Jeg gjør ikke noe galt.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+en eller annen	someone or other<br><i>Det er alltid en eller annen som legger ut bilder.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+Det ser verre ut enn det var.	It looks worse than it was.	norsk uttrykk kap6 lagt_til::2026-11-03
+å ha det gøy	to have fun<br><i>Vi hadde det jo bare gøy.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+å søke på (en jobb)	to apply for (a job)<br><i>Nå skal jeg begynne å søke på jobber.</i>	norsk uttrykk kap6 jobb lagt_til::2026-11-03
+å finne ut	to find out<br><i>…slik at vi alltid kan finne ut hvor han er.</i>	norsk uttrykk kap6 partikkelverb lagt_til::2026-11-03
+noen få	a few<br><i>noen få kontakter</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+til og med	even<br><i>Det er til og med en egen SOS-knapp.</i>	norsk uttrykk kap6 lagt_til::2026-11-03
+både … og …	both … and …<br><i>både for ham og for oss</i>	norsk uttrykk kap6 konnektor lagt_til::2026-11-03
+å være enig/uenig (med noen / i noe)	to agree/disagree (with someone / about something)	norsk uttrykk kap6 lagt_til::2026-11-03
+retten til å bestemme over egne personopplysninger	the right to control your own personal data	norsk uttrykk kap6 lagt_til::2026-11-03
+Det kommer an på … / Det avhenger av …	It depends (on …). <i>kommer an på</i> = everyday speech; <i>avhenger av</i> = more formal/written<br><i>Det kommer an på været. · Prisen avhenger av størrelsen.</i>	norsk uttrykk hverdag lagt_til::2026-11-05
+å stole på (noen/noe)	to trust, rely on<br><i>Stoler dere på det dere finner?</i>	norsk uttrykk kap6 lagt_til::2026-11-05
+å være til å stole på	to be trustworthy/reliable<br><i>Er informasjonen til å stole på?</i>	norsk uttrykk kap6 lagt_til::2026-11-05
+å tenke seg om (to ganger)	to think it over (twice)<br><i>Det er viktig å tenke seg om to ganger.</i>	norsk uttrykk kap6 refleksiv lagt_til::2026-11-05
+å ha ansvar for	to be responsible for<br><i>Redaktøren har ansvar for hva som skrives og sies.</i>	norsk uttrykk kap6 lagt_til::2026-11-05
+falske nyheter	fake news	norsk uttrykk kap6 medier lagt_til::2026-11-05
+på flere måter / på samme måte	in several ways / in the same way<br><i>Informasjonen blir kontrollert på flere måter.</i>	norsk uttrykk kap6 lagt_til::2026-11-05
+å komme klart fram	to be made clear, come across clearly<br><i>…mål som ikke kommer klart fram</i>	norsk uttrykk kap6 lagt_til::2026-11-05
+Pressens faglige utvalg (PFU)	the Norwegian Press Complaints Commission<br><i>PFU behandler klager mot trykte medier.</i>	norsk uttrykk kap6 samfunn lagt_til::2026-11-05
+Hva bruker du … til?	What do you use … for?<br><i>Hva bruker du mediene til?</i>	norsk uttrykk kap6 lagt_til::2026-11-05
+Sett kryss.	Tick the box / put a cross.	norsk uttrykk kap6 skole lagt_til::2026-11-05
+G1. Adjektiv – ubestemt form	Pattern: <b>base</b> (m/f) · <b>+t</b> (neuter) · <b>+e</b> (plural)<br>en fin leilighet · ei fin stue · et fin<b>t</b> kjøkken · fin<b>e</b> leiligheter<br>Predicative works the same: Leiligheten er stor · Kjøkkenet er stor<b>t</b> · Leilighetene er stor<b>e</b>.<br><b>Exceptions:</b><br>Ends in <b>-ig</b> → no -t: vanskelig, hyggelig, kjedelig (et vanskelig valg)<br>Ends in <b>-sk</b> → usually no -t: norsk, skeptisk, praktisk (et praktisk kjøkken). Exception: one-syllable words like frisk → friskt, fersk → ferskt<br>Ends in <b>-ende</b> or <b>-e</b> → never changes: bindende, spennende, moderne, lignende<br>Ends in <b>-t</b> already → no extra -t: lett, kort, sint<br>Double consonant → simplify: grønn → grønt, tynn → tynt<br>Ends in a stressed vowel → <b>-tt</b>: ny → nytt, blå → blått, fri → fritt<br>Some don&#x27;t change at all: gratis, bra, ekte<br><b>-el / -en / -er</b> drop the e in the plural: gammel → gamle, sikker → sikre, åpen → åpne<br>Past participles in -et: skuffet → skuffede (or skuffa)	norsk grammatikk lagt_til::2026-11-03
+G2. Adjektiv – bestemt form	<b>den / det / de + adjektiv-e + substantiv i bestemt form</b> (double definiteness)<br>den fine leiligheten · den fine stua · det fine kjøkkenet · de fine rommene<br>After a possessive or genitive, there&#x27;s no den/det but the adjective still takes <b>-e</b>: min fine leilighet, Saras nye kollektiv<br><b>-ig/-sk</b> words also take -e here: det vanskelige valget	norsk grammatikk lagt_til::2026-11-03
+G3. Liten og annen	| | m | f | n | pl | bestemt |<br>| liten | en liten | ei lita / en liten | et lite | små | den/det lille · de små |<br>| annen | en annen | ei anna / en annen | et annet | andre | den/det andre · de andre |<br>With <b>ei</b> you use lita/anna; with <b>en</b> (for feminine nouns) you use liten/annen.	norsk grammatikk lagt_til::2026-11-03
+G4. Modalverb + infinitiv uten «å»	vil, skal, må, kan, bør, får + bare infinitive: Jeg <b>må gå</b>. Vi <b>får tenke</b> på det.<br><b>få + infinitive</b> = &quot;will have to / let&#x27;s (I suppose)&quot;: <i>Vi får tenke på det</i> = We&#x27;ll have to think about it (often a polite &quot;maybe/no&quot;).<br>Contrast: <i>ha lyst til <b>å</b></i>, <i>slippe <b>å</b></i>, <i>behøve <b>å</b></i> → these <b>do</b> take å.<br>Exception: <b>trenge</b> → <i>Du trenger ikke (å) betale</i> — å is optional.	norsk grammatikk lagt_til::2026-11-03
+G5. Leaving out the motion verb after a modal	Norwegian often drops gå/dra/reise after modals when there&#x27;s a direction:<br><i>Jeg skal (gå) hjem.</i> · <i>Jeg må (gå) til tannlegen.</i> · <i>Vi skal til Bergen.</i>	norsk grammatikk lagt_til::2026-11-03
+G6. gå vs dra	<b>gå</b> = to walk, go on foot (or regular activities: gå på skolen, gå på visning, gå i kirken)<br><b>dra</b> = to go/leave by any means, often a trip: dra på ferie, dra til Bergen (≈ reise, kjøre)<br><b>gå på / gå fra / gå til</b>: gå på (bussen, skolen, visning) · gå fra (leave from) · gå til (go to)	norsk grammatikk lagt_til::2026-11-03
+G7. Inversjon (V2)	The verb is always in <b>2nd position</b> in a main clause. If something other than the subject comes first, the subject moves after the verb:<br><i>Så <b>kan vi</b> snakke litt.</i> · <i>I helga <b>la jeg</b> den bort.</i> · <i>Dagen etter <b>leser hun</b> en historie.</i> · <i>Likevel <b>føler jeg</b> meg …</i>	norsk grammatikk lagt_til::2026-11-03
+G8. Som-setninger (relative clauses)	In subordinate clauses, <b>ikke</b> (and other sentence adverbs) comes <b>before</b> the verb:<br><i>Jeg har en bok som jeg <b>ikke har</b> lest.</i> (main clause: Jeg <b>har ikke</b> lest boka.)<br>If <b>som is the subject</b> of the clause, it <b>must</b> stay: <i>en bok <b>som</b> handler om trær</i><br>If <b>som is the object</b> (someone else is the subject), you <b>can drop it</b>: <i>en bok (som) jeg ikke har lest</i>	norsk grammatikk lagt_til::2026-11-03
+G9. verken … eller · ikke … heller	<b>verken A eller B</b> = neither A nor B: <i>Du behøver <b>verken</b> å betale for husleie <b>eller</b> mat.</i><br>= <i>Du behøver ikke å betale for husleie, og ikke for mat heller.</i><br><b>ikke … heller</b> = not … either: <i>Jeg liker ikke kaffe. Jeg liker ikke te <b>heller</b>.</i><br><b>Heller ikke</b> at the start of a sentence → inversion: <i>Heller ikke jeg vet det.</i><br>Don&#x27;t put ikke inside verken…eller (<s>verken ikke</s>): verken already contains the negation.	norsk grammatikk lagt_til::2026-11-03
+G10. gjerne → heller → helst	Gradation for &quot;like to / prefer&quot;:<br><i>Jeg drikker <b>gjerne</b> te</i> (I like to) → <i>Jeg drikker <b>heller</b> te</i> (I&#x27;d rather) → <i>Jeg drikker <b>helst</b> te</i> (I most prefer).<br>Also: <i>Han vil <b>heller</b> jobbe med musikk.</i> (K5 s.75)	norsk grammatikk lagt_til::2026-11-03
+G11. Modale partikler (jo, vel, nok, da)	Small words that add attitude, not content:<br><b>jo</b> = &quot;as you know&quot; (shared knowledge): <i>Dere har <b>jo</b> truffet dem.</i><br><b>vel</b> = &quot;surely / I suppose&quot; (asks for agreement): <i>Du kan <b>vel</b> bo hjemme?</i><br><b>nok</b> = &quot;probably / I&#x27;m fairly sure&quot;: <i>Han er <b>nok</b> en gammel gubbe.</i><br><b>da</b> = softens or adds emphasis/irritation: <i>Det gjør jeg <b>da</b> ikke!</i> · <i>Hva slags bilde <b>da</b>?</i>	norsk grammatikk lagt_til::2026-11-03
+G12. Refleksive verb og s-verb	<b>Reflexive</b>: klare seg, føle seg, holde seg (oppdatert/unna), ønske seg → the pronoun changes: jeg føler <b>meg</b>, hun klarer <b>seg</b><br><b>Deponent s-verbs</b> (look passive, mean active): trives, synes, finnes, minnes → <i>Darian trives ikke.</i>	norsk grammatikk lagt_til::2026-11-03
+G13. Partikkelverb (verb + particle)	The particle changes the meaning, and it&#x27;s stressed in speech: legge <b>ut</b>, legge <b>bort</b>, kutte <b>ut</b>, skru <b>av</b>, dukke <b>opp</b>, si <b>opp</b>, passe <b>på</b>, ta <b>opp</b> (et lån).<br>With a pronoun object, the pronoun comes <b>before</b> the particle: <i>Jeg skrur <b>den av</b>.</i> · <i>Hun legger <b>den ut</b>.</i> · <i>I helga la jeg <b>den bort</b>.</i>	norsk grammatikk lagt_til::2026-11-03
+G14. Passiv (preview of kap. 6, full rule in G26)	<b>s-passiv</b> (present/infinitive, general or repeated actions): <i>Vi oversvømmes av informasjon.</i> · <i>De som utsettes for …</i><br><b>bli-passiv</b> (bli + past participle, specific events): <i>Han kan <b>bli straffet</b>.</i> · <i>Han <b>ble dømt</b> til fengsel.</i> · <i>De <b>blir utsatt</b> for krenkelse.</i>	norsk grammatikk lagt_til::2026-11-03
+G15. Konnektorer (likevel / imidlertid / dessuten / i tillegg)	<b>likevel</b> = nevertheless (contrast, conversational): <i>Likevel føler jeg meg …</i><br><b>imidlertid</b> = however (more formal, written; often after the verb): <i>Du må <b>imidlertid</b> betale høye renter.</i><br><b>dessuten / i tillegg</b> = besides / in addition<br>All are adverbs, so when they open a sentence → inversion (G7).	norsk grammatikk lagt_til::2026-11-03
+G16. Leddsetninger – word order in subordinate clauses	<b>subjunksjon + subjekt + (adverb: ikke/alltid/aldri…) + verb + resten</b><br>Subjunctions: at, når, hvis, om, fordi, mens, selv om, da, før, etter at, til, som.<br><i>Det regner <b>ikke</b> når jeg <b>går</b> til skolen.</i> (main clause: verb – ikke)<br><i>Jeg liker skolen fordi jeg <b>alltid finner</b> noen å snakke med.</i> (NOT <s>fordi jeg finner alltid</s>)<br><i>Hvis du <b>ikke kommer</b>, blir jeg lei meg.</i><br>No inversion inside the leddsetning, but if the leddsetning comes <b>first</b>, the main clause inverts: <i>Hvis du ikke kommer, <b>blir jeg</b> lei meg.</i> (the whole leddsetning counts as position 1)	norsk grammatikk lagt_til::2026-11-03
+G17. hvis vs om	<b>hvis</b> = if (condition): <i>Hvis du ikke kommer, blir jeg lei meg.</i><br><b>om</b> = whether (indirect question): <i>Hun spør <b>om</b> han kommer.</i> (NOT <s>spør hvis</s>)<br>Tip: if you can say &quot;whether&quot; in English, use <b>om</b>. (om can also mean &quot;if&quot; in conditions, but hvis can never mean &quot;whether&quot;.)	norsk grammatikk lagt_til::2026-11-03
+G18. Indirekte tale (reported speech)	<i>Han sier: «Jeg har en avtale.»</i> → <i>Han sier <b>at</b> han har en avtale.</i><br><i>Hun spør: «Kommer du?»</i> → <i>Hun spør <b>om</b> han kommer.</i><br><i>Hun spør: «Hvor bor du?»</i> → <i>Hun spør <b>hvor</b> han bor.</i><br>Leddsetning word order (G16): <i>Han sier at han <b>ikke har</b> tid.</i><br><i>at</i> can be dropped after sier/tror/vet: <i>Han sier (at) han kommer.</i>	norsk grammatikk lagt_til::2026-11-03
+G19. hel / helt / hele	Indefinite: <b>en hel</b> dag · <b>ei hel</b> natt · <b>et helt</b> år (&quot;a whole&quot;)<br>Definite: <b>hele</b> + definite noun, <b>without den/det</b>: <i>hele dagen, hele tida, hele verden, hele året</i> (NOT <s>den hele dagen</s>)<br><b>helt</b> as an adverb = completely: <i>helt rett, helt uinteressant</i><br>Contrast: <b>ganske</b> = rather/quite: <i>ganske kjedelig</i>	norsk grammatikk lagt_til::2026-11-03
+G20. all / alt / alle	+ <b>definite form</b> of the noun:<br><b>all</b> + uncountable m/f: <i>all maten</i><br><b>alt</b> + uncountable neuter: <i>alt vannet</i><br><b>alle</b> + plural: <i>alle menneskene, alle bøkene</i><br>With an adjective: <b>all den</b> gode maten · <b>alt det</b> varme vannet · <b>alle de</b> gode vennene<br><b>alle</b> alone = everybody · <b>alt</b> alone = everything	norsk grammatikk lagt_til::2026-11-03
+G21. noe / noen / ingen	<b>noe</b> = something / some, any (+ uncountable or neuter): <i>noe nytt, Har vi noe mat?</i> (≈ litt mat)<br><b>noen</b> = someone / some, any (+ plural): <i>Noen mener at det er feil. Har du noen nyheter?</i><br><b>ingen</b> = nobody / no (= ikke noen): <i>Ingen kom.</i> · <i>Det er ingen hjemme.</i><br>Adjective after noe takes the neuter -t: <i>noe nytt, noe gammelt</i><br><i>Noe er gammelt, noe er nytt.</i> (= en del av det)<br><b>ikke noe / ikke noen</b> is more common in speech than <b>ingen</b> when it&#x27;s the object: <i>Jeg har ikke noen venner her.</i>	norsk grammatikk lagt_til::2026-11-03
+G22. Modale adverb – complete list	| Word | Meaning | Example |<br>| <b>jo</b> | as you know | <i>Du ville jo prate om noe.</i> |<br>| <b>vel</b> | I suppose / surely? | <i>Du kommer vel?</i> |<br>| <b>nok</b> | probably (= trolig, sannsynligvis) | <i>Han er nok syk.</i> |<br>| <b>da</b> | obviously / softener / irritation | <i>Det gjør jeg da ikke!</i> |<br>| <b>visst</b> | apparently, so I&#x27;ve heard | <i>Han har visst flyttet.</i> |<br>They sit right after the verb in main clauses (V2 + modal adverb), like <i>ikke</i>.	norsk grammatikk lagt_til::2026-11-03
+G23. Politeness: avoid sounding too direct	Short questions like <i>Hva sa du? / Hva vil du? / Hva mener du?</i> can sound abrupt.<br>Softer: <b>Hva var det du sa?</b> · <b>Hva var det du ville?</b> · use <i>Unnskyld, …</i> or the particle <i>da</i>: <i>Hva mener du, da?</i><br>The &quot;Hva er/var det (som/at) …&quot; frame is a cleft sentence, used to soften or focus.	norsk grammatikk lagt_til::2026-11-03
+G24. lei meg vs lei av	<b>å bli/være lei seg</b> = to be sad/upset: <i>Jeg blir lei meg.</i> (reflexive: meg, deg, seg …)<br><b>å bli/være lei av</b> = to be tired/sick of: <i>Jeg blir lei av at du ser på mobilen.</i>	norsk grammatikk lagt_til::2026-11-03
+G25. Verbgrupper – how to predict the past tense	<b>Svake verb</b> (regular) get an ending. Look at the stem (infinitive minus -e):<br><b>-et</b> (gruppe 1): stem ends in <b>two consonants</b> → vaske – vasket, snakke – snakket, huske – husket<br><b>-te</b> (gruppe 2): stem ends in <b>one consonant</b> (or ll/mm/nn) → spise – spiste, lese – leste, kjøpe – kjøpte, glemme – glemte, kjenne – kjente<br><b>-de</b> (gruppe 3): stem ends in <b>-v, -g or a diphthong (ei, øy)</b> → leve – levde, prøve – prøvde, eie – eide, pleie – pleide<br><b>-dde</b> (gruppe 4): <b>one-syllable verbs ending in a stressed vowel</b> → bo – bodde, tro – trodde, sy – sydde, snu – snudde, bety – betydde<br>Perfektum: -et → har -et · -te → har -t · -de → har -d · -dde → har -dd<br><b>Sterke verb</b> (strong): <b>no ending in preteritum, the vowel changes</b> → drikke – drakk – har drukket, skrive – skrev – har skrevet, finne – fant – har funnet. Perfektum usually ends in <b>-et</b> or <b>-tt</b>. You must learn these by heart (practise them in the Verb tab).<br>Common vowel patterns: <b>i → a → u</b> (drikke, finne, synge, vinne) · <b>i → e → e</b> (skrive, bite, gripe) · <b>y → ø → (u)</b> (bryte, fryse, by)<br><b>Uregelmessige</b> (irregular): change vowel <b>and</b> add an ending: gjøre – gjorde – gjort, spørre – spurte, legge – la – lagt, si – sa – sagt, vite – vet – visste, velge – valgte, fortelle – fortalte, sette – satte.<br><b>Exceptions to watch:</b><br>Many -et verbs also have an <b>-a</b> form in speech/radical bokmål: kastet → kasta (common in Oslo).<br><b>gruppe 2 vs 1</b> isn&#x27;t 100% reliable: klippe – klippet but perfektum har klipt; leke – lekte (one consonant → -te ✓) but bade – badet.<br>Modal verbs: present has no -r (kan, vil, skal, må, bør).<br>s-verb: synes – syntes – har syntes; trives – trivdes – har trivdes.<br>Pairs with different meaning: <b>henge</b> (hang – be hanging) vs <b>henge</b> (hengte – hang up); <b>brenne</b> (brant – be on fire) vs (brente – set fire to).	norsk grammatikk lagt_til::2026-11-03
+G26. Passiv – bli-passiv, s-passiv og er + partisipp	Passive = the <b>object becomes the subject</b>; who does it is unimportant or unknown (add it with <b>av</b>: <i>Bilen ble vasket av Ola</i>).<br><i>De stengte skolen i går.</i> → <i>Skolen <b>ble stengt</b> i går.</i><br><b>bli-passiv</b> = bli + perfektum partisipp. Works in <b>all tenses</b>; used for a <b>specific, single action</b>:<br>| Tid | Aktiv | Passiv |<br>| presens | Noen vasker bilen. | Bilen <b>blir vasket</b>. |<br>| preteritum | De stengte skolen. | Skolen <b>ble stengt</b>. |<br>| perfektum | Noen har vasket bilen. | Bilen <b>har blitt vasket</b> / <b>er blitt vasket</b>. |<br>| med modal | Noen må vaske bilen. | Bilen <b>må bli vasket</b>. |<br>(bli – blir – ble – har blitt)<br><b>s-passiv</b> = verb + <b>-s</b>. Only in <b>presens</b> and <b>infinitiv</b> (after a modal). Used for <b>rules, habits, repeated or general actions</b> (&quot;normative&quot;):<br>å låse → å låses: <i>Dørene <b>låses</b> om kvelden.</i> (= every evening)<br><i>Søknaden <b>må skrives</b> nå.</i> · <i>Noe <b>må gjøres</b>.</i> · <i>Klokka kan også <b>brukes</b> som telefon.</i><br><b>After modal verbs (kan, må, skal, bør), s-passiv is the normal choice</b>: <i>Bilen må vaskes.</i><br>Presens: drop the -r and add -s: vasker → vaskes, skriver → skrives. Verbs ending in a vowel: <i>å sy → sys</i>.<br><b>er + partisipp</b> = a <b>state/result</b> (the action is already finished), not an action:<br><i>Bilen <b>er vasket</b>.</i> (it&#x27;s clean now) ≠ <i>Bilen <b>blir vasket</b>.</i> (someone is washing it)<br><i>Skolen <b>er stengt</b>.</i> (it&#x27;s closed)<br><b>Exceptions and tips:</b><br>s-passiv doesn&#x27;t exist in preteritum in normal modern bokmål (<s>vasktes</s> is old-fashioned): use <i>ble vasket</i>.<br>Don&#x27;t confuse s-passiv with <b>s-verb</b> (deponent): <i>trives, synes, finnes</i> look passive but are active (G12).<br><i>Søknaden blir skrevet nå</i> (specific, now) vs <i>Søknader skrives på nett</i> (general rule).	norsk grammatikk lagt_til::2026-11-03
+G27. Substantiv-endelser – which gender?	Nouns with these endings are <b>(almost) always en</b> (masculine):<br><b>-het</b>: selvstendighet, frihet, trygghet, sannhet<br><b>-else</b>: oppdagelse, krenkelse, beskyttelse, overraskelse<br><b>-sjon</b>: informasjon, kommunikasjon, situasjon<br><b>-ing / -ning</b>: visning, regning, leting, opplysning: these can also be <b>ei</b> (feminine) in bokmål: <i>ei/en regning, regninga/regningen</i><br>Adjectives often end in <b>-ig</b> (selvstendig, vanskelig) or <b>-lig</b>: add <b>-het</b> to make a noun: selvstendig → selvstendighet, trygg → trygghet<br><b>Other useful endings:</b><br><b>-eri</b> → et (et bakeri, et vaskeri)<br><b>-dom</b> → en (en sykdom, en ungdom)<br><b>-skap</b> → usually et (et vennskap, et ekteskap), but en vitenskap, ei/en egenskap<br><b>Exceptions:</b> short words that only <i>look</i> like they have the ending aren&#x27;t suffix words, so the rule doesn&#x27;t apply: <i>ei/en seng</i> (bed), <i>en ting</i> / <i>et ting</i> (thing / parliament). When the ending isn&#x27;t a real suffix (the word is one short root), check the gender in NAOB.	norsk grammatikk lagt_til::2026-11-03
+G28. kanskje – no inversion needed	Normally an adverb at the start causes inversion (G7), but <b>kanskje</b> often doesn&#x27;t:<br><i>Kanskje <b>han kommer</b>.</i> (very common, no inversion) = <i>Kanskje <b>kommer han</b>.</i> (also correct)<br>With ikke: <i>Kanskje han <b>ikke kommer</b>.</i> (word order like a subordinate clause: ikke before the verb)	norsk grammatikk lagt_til::2026-11-03
+G29. nyheter vs nytt	Both translate as &quot;news&quot;, but they are different words:<br><b>en nyhet – nyheter</b> = a real noun, countable: one piece of news, or (pl.) <i>the news</i> from the media. <i>Nyheter fra Norge.</i> · <i>Har du hørt nyheten?</i> · <i>Jeg ser på nyhetene</i> (the TV news).<br><b>nytt</b> = the adjective <i>ny</i> used as a noun (neuter, no article, no plural). It means updates / what&#x27;s new, often informal or personal: <i>Nytt fra hjemlandet</i> (updates from home) · <i>Hva er nytt?</i> · <i>Noe nytt?</i> · <i>Ikke noe nytt.</i><br>Rule of thumb: media headline or a specific item → <b>nyhet(er)</b>. &quot;Anything new?&quot; → <b>nytt</b>.<br>Exception: <b>en nyhet</b> can also mean a novelty / new product in a shop: <i>Dette er en nyhet i år.</i><br><i>nytt</i> behaves like an adjective after noe/ikke noe (G21): <i>noe nytt</i> (NOT <s>noe nyhet</s>).	norsk grammatikk lagt_til::2026-11-05
+G30. ofte – stadig – masse	Three near-synonyms for &quot;often / a lot&quot;, but they aren&#x27;t identical:<br><b>ofte</b> = often. Neutral, works everywhere. Comparison: <i>ofte – oftere – oftest</i>. <i>Jeg leser ofte avisa.</i><br><b>stadig</b> = constantly, again and again (often with a hint of irritation); with a comparative = more and more: <i>Han sjekker stadig telefonen.</i> · <i>stadig flere</i> (more and more people).<br><b>masse</b> = <b>a lot</b>. Mainly about <i>amount</i>, informal/spoken: <i>masse folk, masse penger</i>. As an adverb it means &quot;a lot&quot; (≈ mye), which can include &quot;often&quot;: <i>Han trener masse.</i> It doesn&#x27;t really mean &quot;often&quot; on its own, so <s>Jeg går masse på kino</s> sounds odd; say <i>Jeg går ofte på kino.</i><br>Written/formal: prefer <b>ofte</b>, <b>mye</b>, <b>mange</b> over masse.<br>Like other adverbs, ofte/stadig come <b>after the verb</b> in main clauses and <b>before</b> it in subordinate clauses (G16): <i>…fordi han <b>stadig sjekker</b> telefonen.</i>	norsk grammatikk lagt_til::2026-11-05
+G31. hva/hvem <b>som</b> – when the question word is the subject	In an indirect question (or after <i>det</i>), if <b>hva / hvem / hvilke</b> is the <b>subject</b> of the clause, you must add <b>som</b>:<br><i>Redaktøren har ansvar for hva <b>som</b> skrives og sies.</i> (hva = subject of <i>skrives</i>)<br><i>Jeg vet ikke hvem <b>som</b> kommer.</i> · <i>Mye av det <b>som</b> publiseres på nettet …</i><br>If the question word is the <b>object</b> (someone else is the subject), there&#x27;s <b>no som</b>: <i>Jeg vet ikke hva <b>han</b> sier.</i> · <i>Hvem <b>du</b> stoler på.</i><br>Test: is there another subject (jeg, han, de…) after the question word? Yes → no som. No → add som.<br>Direct questions don&#x27;t use som: <i>Hva skjer?</i> → indirect: <i>Jeg lurer på hva <b>som</b> skjer.</i><br>Note how the text mixes the passives from G26: <i>blir … kontrollert</i> (bli-passiv, specific), <i>skrives og sies</i>, <i>publiseres</i>, <i>kan presenteres</i> (s-passiv: general, and after a modal).	norsk grammatikk lagt_til::2026-11-05
+å adlyde	obey<br>adlyder – adlød – har adlydt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å anbefale	recommend<br>anbefaler – anbefalte – har anbefalt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å arbeide	work<br>arbeider – arbeidet – har arbeidet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å bade	bathe, swim<br>bader – badet – har badet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å barbere	shave<br>barberer – barberte – har barbert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å be	ask for, pray<br>ber – ba(d) – har bedt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bedra	cheat, deceive<br>bedrar – bedro(g) – har bedratt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bedøve	anaesthetise, numb<br>bedøver – bedøvde – har bedøvd<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å begynne	begin<br>begynner – begynte – har begynt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å behandle	handle, deal with; treat<br>behandler – behandlet – har behandlet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-05
+å beskrive	describe<br>beskriver – beskrev – har beskrevet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bestemme	decide<br>bestemmer – bestemte – har bestemt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å bestille	order, book<br>bestiller – bestilte – har bestilt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å besøke	visit<br>besøker – besøkte – har besøkt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å betale	pay<br>betaler – betalte – har betalt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å bety	mean, matter<br>betyr – betydde – har betydd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å binde	bind, tie<br>binder – bandt – har bundet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bite	bite<br>biter – bet/beit – har bitt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bli	become; stay<br>blir – ble – har blitt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å blåse	blow<br>blåser – blåste – har blåst<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å bo	live (reside)<br>bor – bodde – har bodd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å brekke	break (a bone, a stick)<br>brekker – brakk – har brukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å brenne (noe)	burn (set fire to)<br>brenner – brente – har brent<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å brenne (stå i flammer)	burn (be on fire)<br>brenner – brant – har brent<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å briste	burst<br>brister – brast – har bristet/brustet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bruke	use<br>bruker – brukte – har brukt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å bryte	break (a rule, contact)<br>bryter – brøt – har brutt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å burde	ought to, should<br>bør – burde – har burdet<br><small>modal</small>	norsk verbliste modal lagt_til::2026-11-03
+å by	bid; offer<br>byr – bød – har budt/bydd<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å bære	carry<br>bærer – bar – har båret<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å danse	dance<br>danser – danset – har danset<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å dette	fall (informal)<br>detter – datt – har dettet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å diskutere	discuss<br>diskuterer – diskuterte – har diskutert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å dra	go, leave; pull<br>drar – dro(g) – har dratt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å drikke	drink<br>drikker – drakk – har drukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å drive	run (a business); do (an activity)<br>driver – drev/dreiv – har drevet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å eie	own<br>eier – eide – har eid<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å falle	fall<br>faller – falt – har falt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å fare	travel, rush<br>farer – for – har fart<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å finne	find<br>finner – fant – har funnet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å fiske	fish<br>fisker – fisket – har fisket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å fly	fly<br>flyr – fløy – har fløyet/flydd<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å flykte	flee<br>flykter – flyktet – har flyktet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å flyte	float<br>flyter – fløt – har flytt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å flytte	move (house)<br>flytter – flyttet – har flyttet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å forklare	explain<br>forklarer – forklarte – har forklart<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å forlate	leave (a place, a person)<br>forlater – forlot – har forlatt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å forstå	understand<br>forstår – forstod/forsto – har forstått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å forsvinne	disappear<br>forsvinner – forsvant – har forsvunnet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å fortelle	tell<br>forteller – fortalte – har fortalt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å fryse	freeze, be cold<br>fryser – frøs – har frosset<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å fyke	drift, blow (snow)<br>fyker – føk – har føket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å fylle	fill<br>fyller – fylte – har fylt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å føle	feel<br>føler – følte – har følt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å føne	blow-dry<br>føner – fønte – har fønt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å få	get, receive; be allowed<br>får – fikk – har fått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gi	give<br>gir – ga(v) – har gitt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gidde	bother to (orke)<br>gidder – gadd – har giddet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gjelde	concern, apply to<br>gjelder – gjaldt – har gjeldt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gjemme	hide<br>gjemmer – gjemte – har gjemt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å gjette	guess<br>gjetter – gjettet – har gjettet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å gjøre	do<br>gjør – gjorde – har gjort<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å glemme	forget<br>glemmer – glemte – har glemt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å gli	glide, slide<br>glir – gled – har glidd<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å glippe	slip away<br>glipper – glapp – har glippet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å godta	accept, agree to<br>godtar – godtok – har godtatt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å grine	cry; grimace<br>griner – grein – har grint<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gripe	grab, seize<br>griper – grep/greip – har grepet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gråte	cry, weep<br>gråter – gråt – har grått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å gå	go, walk<br>går – gikk – har gått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å ha	have<br>har – hadde – har hatt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å handle	shop; act<br>handler – handlet – har handlet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å hende	happen<br>hender – hendte – har hendt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å henge (= være hengende)	hang (be hanging)<br>henger – hang – har hengt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å henge (noe opp)	hang (something up)<br>henger – hengte – har hengt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å hente	fetch, pick up<br>henter – hentet – har hentet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å hete	be called<br>heter – het – har hett<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å hilse	greet<br>hilser – hilste – har hilst<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å hindre	prevent, obstruct<br>hindrer – hindret – har hindret<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å hjelpe	help<br>hjelper – hjalp – har hjulpet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å holde	hold, keep<br>holder – holdt – har holdt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å hoste	cough<br>hoster – hostet – har hostet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å huske	remember<br>husker – husket – har husket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å hviske	whisper<br>hvisker – hvisket – har hvisket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å høre	hear<br>hører – hørte – har hørt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å håpe	hope<br>håper – håpet – har håpet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å invitere	invite<br>inviterer – inviterte – har invitert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å jogge	jog<br>jogger – jogget – har jogget<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å kikke	peek, have a look<br>kikker – kikket – har kikket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å kjenne	know (a person/place); feel<br>kjenner – kjente – har kjent<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å kjøpe	buy<br>kjøper – kjøpte – har kjøpt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å kjøre	drive<br>kjører – kjørte – har kjørt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å klage	complain<br>klager – klaget/klagde – har klaget/klagd<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-05
+å klare	manage<br>klarer – klarte – har klart<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å klatre	climb<br>klatrer – klatret – har klatret<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å kle	dress<br>kler – kledde – har kledd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å klinge	ring, sound<br>klinger – klang – har klinget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å klippe	cut (hair, paper)<br>klipper – klippet – har klipt<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å klype	pinch<br>klyper – kløp – har kløpet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å knekke	crack, snap<br>knekker – knakk – har knekket/knekt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å knipe	pinch<br>kniper – kneip – har knepet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å komme	come<br>kommer – kom – har kommet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å kontrollere	check, control<br>kontrollerer – kontrollerte – har kontrollert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-05
+å kose seg	have a nice time<br>koser seg – koste seg – har kost seg<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å koste	cost; sweep<br>koster – kostet – har kostet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å kunne	can, be able to<br>kan – kunne – har kunnet<br><small>modal</small>	norsk verbliste modal lagt_til::2026-11-03
+å la	let, allow<br>lar – lot – har latt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å lage	make<br>lager – laget – har laget<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å le	laugh<br>ler – lo – har ledd<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å legge	lay, put (down)<br>legger – la – har lagt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å leie	rent<br>leier – leide – har leid<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å leke	play (children)<br>leker – lekte – har lekt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å lengte	long for<br>lengter – lengtet – har lengtet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å lese	read<br>leser – leste – har lest<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å lete	look for, search<br>leter – lette – har lett<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å leve	live (be alive)<br>lever – levde – har levd<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å ligge	lie (be lying)<br>ligger – lå – har ligget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å lyve	lie (tell lies)<br>lyver – løy – har løyet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å lære	learn; teach<br>lærer – lærte – har lært<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å løpe	run<br>løper – løp – har løpt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å låne	borrow, lend<br>låner – lånte – har lånt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å låse	lock<br>låser – låste – har låst<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å låte	sound (Det låter bra)<br>låter – låt – har lått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å merke	notice; mark<br>merker – merket – har merket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å møte	meet<br>møter – møtte – har møtt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å måtte	must, have to<br>må – måtte – har måttet<br><small>modal</small>	norsk verbliste modal lagt_til::2026-11-03
+å nyte	enjoy<br>nyter – nøt – har nytt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å oppdage	discover, find out<br>oppdager – oppdaget – har oppdaget<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å overtale	persuade<br>overtaler – overtalte – har overtalt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å passe	fit, suit<br>passer – passet – har passet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å passe på	look after<br>passer på – passet på – har passet på<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å passere	pass by<br>passerer – passerte – har passert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å pipe	squeak, chirp<br>piper – pep/peip – har pepet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å pleie	usually (do); nurse<br>pleier – pleide – har pleid<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å plystre	whistle<br>plystrer – plystret – har plystret<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å presentere	present<br>presenterer – presenterte – har presentert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-05
+å prøve	try<br>prøver – prøvde – har prøvd<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å publisere	publish<br>publiserer – publiserte – har publisert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-05
+å putte	put<br>putter – puttet – har puttet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å pynte	decorate<br>pynter – pyntet – har pyntet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å påvirke	influence, affect<br>påvirker – påvirket – har påvirket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-05
+å redigere	edit<br>redigerer – redigerte – har redigert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-05
+å regne	rain; calculate<br>regner – regnet – har regnet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å reise	travel<br>reiser – reiste – har reist<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å rekke	reach, catch (the bus), have time to<br>rekker – rakk – har rukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å reparere	repair<br>reparerer – reparerte – har reparert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å ri	ride (a horse)<br>rir – red/reid – har ridd<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å rive	tear, demolish<br>river – rev/reiv – har revet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å rope	shout, call<br>roper – ropte – har ropt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å rydde	tidy up<br>rydder – ryddet – har ryddet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å ryke	snap, break; smoke (chimney)<br>ryker – røk – har røket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å røyke	smoke (tobacco)<br>røyker – røykte – har røykt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å sammenligne	compare (also: sammenlikne)<br>sammenligner – sammenlignet – har sammenlignet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-05
+å savne	miss (someone)<br>savner – savnet – har savnet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å se	see, look<br>ser – så – har sett<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å sende	send<br>sender – sendte – har sendt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å sette	put, place<br>setter – satte – har satt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å si	say<br>sier – sa – har sagt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å sige	ooze, sink slowly<br>siger – seg/seig – har seget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å sitte	sit<br>sitter – satt – har sittet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skinne	shine<br>skinner – skinte – har skint<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å skjelve	tremble, shake<br>skjelver – skalv – har skjelvet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skjære	cut, slice<br>skjærer – skar – har skåret<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skjønne	understand<br>skjønner – skjønte – har skjønt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å skride	stride, proceed<br>skrider – skred/skreid – har skredet/skridd<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skrike	scream<br>skriker – skrek/skreik – har skreket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skrive	write<br>skriver – skrev – har skrevet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skulle	shall, be going to<br>skal – skulle – har skullet<br><small>modal</small>	norsk verbliste modal lagt_til::2026-11-03
+å skylle	rinse<br>skyller – skylte – har skylt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å skynde seg	hurry<br>skynder seg – skyndte seg – har skyndt seg<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å skyte	shoot<br>skyter – skjøt – har skutt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å skyve	push<br>skyver – skjøv – har skjøvet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å slappe av	relax<br>slapper av – slappet av – har slappet av<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å slippe	let go; not have to<br>slipper – slapp – har sluppet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å slite	struggle; wear out<br>sliter – slet/sleit – har slitt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å slutte	stop, quit<br>slutter – sluttet – har sluttet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å slå	hit, beat<br>slår – slo – har slått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å smette	slip<br>smetter – smatt – har smettet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å smile	smile<br>smiler – smilte – har smilt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å smyge	creep, slip<br>smyger – smøg – har smøget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å snike	sneak<br>sniker – snek/sneik – har sneket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å snu	turn (around)<br>snur – snudde – har snudd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å snø	snow<br>snør – snødde – har snødd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å sove	sleep<br>sover – sov – har sovet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å spandere	treat (pay for someone)<br>spanderer – spanderte – har spandert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å spille	play (game, instrument)<br>spiller – spilte – har spilt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å spinne	spin; purr<br>spinner – spant – har spunnet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å spise	eat<br>spiser – spiste – har spist<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å sprekke	burst, crack<br>sprekker – sprakk – har sprukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å sprette	bounce, jump<br>spretter – spratt – har sprettet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å springe	run<br>springer – sprang – har sprunget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å spøke	joke; haunt<br>spøker – spøkte – har spøkt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å spørre	ask<br>spør – spurte – har spurt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å starte	start<br>starter – startet – har startet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å stave	spell<br>staver – stavet – har stavet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å stelle	take care of, tend<br>steller – stelte – har stelt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å stemme	be correct; vote; tune<br>stemmer – stemte – har stemt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å stenge	close, block<br>stenger – stengte – har stengt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å stige	rise, climb<br>stiger – steg/steig – har steget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å stikke	stick, sting; (stikke av) run off<br>stikker – stakk – har stukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å stille	put, place; ask (a question)<br>stiller – stilte – har stilt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å stjele	steal<br>stjeler – stjal – har stjålet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å stole på	trust, rely on<br>stoler på – stolte på – har stolt på<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-05
+å strekke	stretch<br>strekker – strakk – har strukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å stryke	iron; fail (an exam)<br>stryker – strøk – har strøket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å studere	study<br>studerer – studerte – har studert<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å stå	stand<br>står – stod/sto – har stått<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å sulte	starve, be hungry<br>sulter – sultet – har sultet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å svare	answer<br>svarer – svarte – har svart<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å svike	betray, let down<br>sviker – svek/sveik – har sveket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å svømme	swim<br>svømmer – svømte – har svømt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å sy	sew<br>syr – sydde – har sydd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å sykle	cycle<br>sykler – syklet – har syklet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å synes	think (opinion); seem<br>synes – syntes – har syntes<br><small>s-verb</small>	norsk verbliste s-verb lagt_til::2026-11-03
+å synge	sing<br>synger – sang – har sunget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å synke	sink<br>synker – sank – har sunket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å ta	take<br>tar – tok – har tatt<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å tape	lose (a game, money)<br>taper – tapte – har tapt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å tappe	tap, drain<br>tapper – tappet – har tappet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å tenke	think<br>tenker – tenkte – har tenkt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å tjene	earn; serve<br>tjener – tjente – har tjent<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å treffe	meet; hit<br>treffer – traff – har truffet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å trekke	pull<br>trekker – trakk – har trukket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å trene	train, exercise<br>trener – trente – har trent<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å trenge	need<br>trenger – trengte – har trengt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å trives	thrive, feel at home<br>trives – trivdes – har trivdes<br><small>s-verb</small>	norsk verbliste s-verb lagt_til::2026-11-03
+å tro	believe, think<br>tror – trodde – har trodd<br><small>svak -dde</small>	norsk verbliste svak-dde lagt_til::2026-11-03
+å trykke	print; press<br>trykker – trykte – har trykt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-05
+å tvinge	force<br>tvinger – tvang – har tvunget<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å tørke	dry<br>tørker – tørket – har tørket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å tørre	dare<br>tør – turte – har turt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å tørste	thirst (for)<br>tørster – tørstet – har tørstet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å undersøke	examine, investigate<br>undersøker – undersøkte – har undersøkt<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å utdanne	educate<br>utdanner – utdannet – har utdannet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å vaske	wash<br>vasker – vasket – har vasket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å veie	weigh<br>veier – veide – har veid<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
+å vekke	wake (someone) up<br>vekker – vekket – har vekket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å velge	choose; elect<br>velger – valgte – har valgt<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å vente	wait<br>venter – ventet – har ventet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å vike	give way<br>viker – vek/veik – har veket<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å ville	want to, will<br>vil – ville – har villet<br><small>modal</small>	norsk verbliste modal lagt_til::2026-11-03
+å vinne	win<br>vinner – vant – har vunnet<br><small>sterk</small>	norsk verbliste sterk lagt_til::2026-11-03
+å virke	work (function); seem<br>virker – virket – har virket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å vise	show<br>viser – viste – har vist<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å viske	rub; erase<br>visker – visket – har visket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å vite	know (a fact)<br>vet – visste – har visst<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å vokse	grow<br>vokser – vokste – har vokst<br><small>svak -te</small>	norsk verbliste svak-te lagt_til::2026-11-03
+å være	be<br>er – var – har vært<br><small>uregelmessig</small>	norsk verbliste uregelmessig lagt_til::2026-11-03
+å våkne	wake up<br>våkner – våknet – har våknet<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å ønske	wish<br>ønsker – ønsket – har ønsket<br><small>svak -et</small>	norsk verbliste svak-et lagt_til::2026-11-03
+å øve	practise<br>øver – øvde – har øvd<br><small>svak -de</small>	norsk verbliste svak-de lagt_til::2026-11-03
