@@ -120,6 +120,28 @@ Companion file to `norsk-database.md` (sections 2–5). The study app reads all 
 | Pressens faglige utvalg (PFU) | the Norwegian Press Complaints Commission | PFU behandler klager mot trykte medier. | K6 s.89 | kap6 samfunn 2026-11-05 |
 | Hva bruker du … til? | What do you use … for? | Hva bruker du mediene til? | K6 Ekstra s.4 | kap6 2026-11-05 |
 | Sett kryss. | Tick the box / put a cross. | | K6 Ekstra s.4 | kap6 skole 2026-11-05 |
+| time etter time | hour after hour | Noen ungdommer sitter time etter time med dataspill. | K6 s.90 | kap6 tid 2026-11-10 |
+| bortkastet tid | a waste of time | Foreldrene synes ofte slik spilling er bortkastet tid. | K6 s.90 | kap6 2026-11-10 |
+| å forandre mening | to change one's mind | Mange foreldre forandret mening da de leste artikkelen. | K6 s.90 | kap6 2026-11-10 |
+| å tenne lys for noen | to light a candle for someone (in memory) | Venner over hele Europa tente lys for ham. | K6 s.90 | kap6 2026-11-10 |
+| å bli født med | to be born with | Mats ble født med en alvorlig muskelsykdom. | K6 s.90 | kap6 helse 2026-11-10 |
+| å få en stor plass i livet | to become a big part of one's life | Online PC-spilling fikk en stor plass i livet hans. | K6 s.90 | kap6 2026-11-10 |
+| å dø av | to die of | 25 år gammel døde Mats av sykdommen. | K6 s.90 | kap6 helse 2026-11-10 |
+| (25) år gammel | at the age of (25) | 25 år gammel døde Mats. | K6 s.90 | kap6 2026-11-10 |
+| de siste årene | the last few years | Mats hadde knapt vært ute av huset de siste årene. | K6 s.90 | kap6 tid 2026-11-10 |
+| av begge kjønn | of both sexes | De var både unge og eldre, og av begge kjønn. | K6 s.91 | kap6 2026-11-10 |
+| å holde en tale / en minnetale | to give a speech / a eulogy (holde – holdt – har holdt) | En av dem holdt en minnetale i kapellet. | K6 s.91 · N 10/11 | kap6 2026-11-10 |
+| akkurat nå | right now, at this very moment | …akkurat nå tente online-spillere lys for Mats | K6 s.91 | kap6 tid 2026-11-10 |
+| å ha anledning til å | to have the opportunity to, be able to | …de som hadde anledning til å komme hit i dag | K6 s.91 | kap6 2026-11-10 |
+| mange flere enn | many more than | …av mange flere enn de som hadde anledning til å komme | K6 s.91 | kap6 2026-11-10 |
+| å ha det vanskelig | to have a hard time | Han støttet andre som hadde det vanskelig. | K6 s.91 | kap6 følelser 2026-11-10 |
+| nære venner | close friends | I denne digitale verdenen fikk han nære venner. | K6 s.91 | kap6 2026-11-10 |
+| å gråte av sorg | to cry with grief (av = because of: av glede, av sinne) | Vi gråt av sorg. | N 10/11 | følelser 2026-11-10 |
+| å sørge for (noen/noe) | to take care of, provide for; to make sure (≈ hjelpe, passe på, ta vare på) | Vi må sørge for familien. · Sørg for at døra er låst. | N 10/11 | 2026-11-10 |
+| å tjene penger | to earn money | Hun tjener godt. | N 10/11 | jobb økonomi 2026-11-10 |
+| en knapp time ↔ en drøy time | just under an hour (≈ 55 min) ↔ just over an hour | Det tar en knapp time. | N 10/11 | tid 2026-11-10 |
+| Jeg kan knapt si et eneste ord på … | I can barely say a single word in … | Jeg kan knapt si et eneste ord på russisk. | N 10/11 | språk 2026-11-10 |
+| en streng dom | a harsh sentence | Han fikk en streng dom. | N 10/11 | jus 2026-11-10 |
 
 ---
 
@@ -370,6 +392,72 @@ In an indirect question (or after *det*), if **hva / hvem / hvilke** is the **su
 - Direct questions don't use som: *Hva skjer?* → indirect: *Jeg lurer på hva **som** skjer.*
 - Note how the text mixes the passives from G26: *blir … kontrollert* (bli-passiv, specific), *skrives og sies*, *publiseres*, *kan presenteres* (s-passiv: general, and after a modal).
 
+### G32. Formelt subjekt «det» (presentering) *(K6 s.90–91 · N 10/11 · 2026-11-10)*
+When the real subject is **indefinite / new information** (et lys, mennesker), Norwegian often puts **det** in the subject slot and moves the real subject **after the verb**. English does the same with "there is / there are".
+- *Et lys brenner i et callsenter.* → *I et callsenter brenner **det et lys**.*
+- *I bisettelsen hans kom **det mennesker** (som) familien ikke kjente.* (relative clause without som, G8)
+- *Det kom mange mennesker.* · *Det står en mann ute.* · *Det finnes mange spill.*
+- Works with **intransitive verbs** (være, finnes, stå, ligge, sitte, komme, brenne, skje) and with **passive**: *tennes det lys* · *blir det tent et lys*.
+- Word order: (adverbial) + **verb** + **det** + real subject (V2, G7).
+
+**Exceptions:**
+- The real subject must be **indefinite**: ~~Det brenner lyset.~~ → *Lyset brenner.* · ~~Det kom Mats.~~ → *Mats kom.*
+- Not with a transitive verb + object in the active: ~~Det leser en mann avisa.~~ → *En mann leser avisa.* In the passive it's fine: *Det ble lest et dikt.*
+
+### G33. «Mens vi er samlet her i dag, tennes det lys» – sentence analysis *(K6 s.91 · N 10/11 · 2026-11-10)*
+- **mens** (= while) starts a leddsetning → subject before verb: *mens **vi er** …* (G16).
+- The whole leddsetning is position 1, so the main-clause verb comes **right after the comma**: *…, **tennes** det lys* (V2, G7).
+- **er samlet** (the word you underlined) = **er + partisipp** = a **state**: "we are gathered (here, now)". *Vi blir samlet* would be the action of someone gathering us (G26).
+- **tennes** = s-passiv of *tenne* (tenner – tente – har tent): candles are being lit in many places at once (general, repeated) + formal **det** (G32).
+- The text then varies the same idea: *brenner det et lys* (active, intransitive) · *blir det tent et lys* (bli-passiv) · *han minnes* (s-form, G35).
+
+### G34. Adjektiv på -som: ensom – ensomt – ensomme *(N 10/11 · 2026-11-10)*
+**-som** adjectives: neuter **+t**, plural/definite **double the m**:
+- en**som** – en**somt** – en**somme** · mor**som** – mor**somt** – mor**somme** · lang**som** – lang**somt** – lang**somme**
+- Others: hjelpsom (helpful), sparsom (sparse), arbeidsom (hard-working), virksom (effective)
+- Same doubling for short adjectives ending in **-m** after a short vowel: dum – dumt – **dumme**, tom – tomt – **tomme**, stum – **stumme**
+- The neuter form is also the adverb: *Han levde **ensomt**.* · *Det var **morsomt**.*
+- Pronunciation: stress on the first syllable: **EN**som, **MOR**som.
+
+### G35. minnes – active or passive? *(K6 s.91 · N 10/11 · 2026-11-10)*
+- **å minnes** (s-verb, G12) = to remember, commemorate. Solemn, used for the dead and anniversaries (everyday word: *huske*). Forms: **minnes – mintes – har minnes**. *Vi **minnes** Mats.* · *Jeg minnes barndommen min.*
+- The same form is used as a **passive** = *to be remembered*: *Han **minnes** i en liten frisørsalong i Finland.* · *Over hele Europa **minnes** Mats, **av** mange flere …*
+- Test: object after the verb (*Vi minnes **ham***) → active. The person is the subject and/or there's an **av**-phrase → passive.
+- Don't confuse with **å minne (om / på)** without -s = to remind: *Det minner meg om sommeren.* · *Minn meg på å ringe!*
+
+### G36. sørge – sorg – sørge for – omsorg – forsørge *(N 10/11 · 2026-11-10)*
+| Word | Meaning | Example |
+|---|---|---|
+| **å sørge (over)** | to mourn, grieve | *Familien sørger over Mats.* |
+| **ei/en sorg** | grief | *Vi gråt av sorg.* |
+| **å sørge for** | to take care of / make sure | *Vi må sørge for familien.* · *Jeg sørger for maten.* |
+| **sørge for at** + leddsetning | to make sure that | *Sørg for at døra er låst.* |
+| **ei/en omsorg** | care | *Barn trenger omsorg.* · *ha omsorg for noen* |
+| **å forsørge** | to provide for (financially, = tjene penger til familien) | *Han forsørger hele familien.* · *en forsørger* = breadwinner |
+**Trap:** the preposition changes everything: *sørge **over*** = mourn, *sørge **for*** = take care of. It has nothing to do with English "sorry for".
+
+### G37. knapt (adverb) og knapp (adjektiv) *(K6 s.90 · N 10/11 · 2026-11-10)*
+- **knapt** = hardly, barely (= nesten ikke, veldig lite). It's a **sentence adverb like ikke**: after the finite verb in main clauses, before it in leddsetninger (G16):
+  *Mats hadde **knapt** vært ute.* · *Jeg kan **knapt** si et eneste ord på russisk.* · *…fordi han **knapt** var ute.*
+- **knapt nok** = barely even (stronger): *Han hadde knapt nok penger til mat.*
+- **knapp – knapt – knappe** (adjective) = scant, just barely: *en **knapp** time* (just under an hour, ≈ 55 min) · *en knapp seier* (a narrow win) · *Tida er knapp.*
+- Opposite: ***drøy*** = a bit more than: *en drøy time* (just over an hour).
+- Don't confuse with **en knapp** (button), same spelling, different word.
+
+### G38. da vs når («when») *(K6 s.90 · 2026-11-10)*
+- **da** = when, about **one single time in the past**: *Men **da** Mats døde, tente venner lys.* · *Mange forandret mening **da** de leste artikkelen.*
+- **når** = when, for the **present, the future, and repeated past** (= every time): *Når jeg kommer hjem, lager jeg mat.* · *Når vi besøkte bestemor, fikk vi alltid kake.*
+- Both start a leddsetning: if it comes first, the main clause inverts (*Da Mats døde, **tente venner** lys*).
+- Tip: past + one occasion → **da**. Anything else → **når**. Questions are always **når**: *Når døde han?*
+- Exception: **da** is also an adverb (= then: *Da gikk vi hjem*) and a modal particle (G11).
+
+### G39. sin / si / sitt / sine vs hans / hennes *(K6 s.90–91 · 2026-11-10)*
+- **sin/si/sitt/sine** = his/her/their **own**, referring back to the **subject of the same clause**: *Gjennom avataren **sin** var **han** fri.* (han = Mats)
+- **hans / hennes / deres** when the owner is **not** the subject: *I bisettelsen **hans** kom det mennesker …* (subject = mennesker) · *Spilling fikk en stor plass i livet **hans**.* (subject = spilling)
+- Forms follow the noun: bilen **sin** · boka **si** · huset **sitt** · barna **sine**
+- **sin can never be part of the subject**: ~~Mats og avataren sin var …~~ → *Mats og avataren **hans** var …*
+- Position: normally after the noun (definite form): *livet hans*. Before the noun is more formal/emphatic: *hans sosiale verden*.
+
 ---
 
 ## 4. Uttale (pronunciation, Oslo vs Bergen)
@@ -395,6 +483,12 @@ In an indirect question (or after *det*), if **hva / hvem / hvilke** is the **su
 | **redaktør, publisere, kontrollere** | foreign words: stress on **-ØR** and on **-ER-**: redak**TØR**, publi**SE**re, kontrol**LE**re | same |
 | **påvirke** | prefix *på-* is stressed: **PÅ**virke | same |
 | **nytt / nyhet** | *y* = rounded "ee" (like German ü); short in *nytt*, long in *nyhet* | same |
+| **knapt** | both k and n are pronounced: *k-napt* | same |
+| **sørge / sorg** | rg is often softened to a j-sound: *sørje*, *sorj* | uvular r, g is kept: *søʁge*, *soʁg* |
+| **ensom** | long e, stress on the first syllable: **E:N**som; *ensomme* with short o | same |
+| **bisettelse / kapell / avatar** | **BI**settelse · ka**PELL** · ava**TAR** | same (uvular r in avatar) |
+| **verden** | e before r sounds like æ, rd is retroflex: *væɖen*, fast speech *væɳ* | uvular r + clear d: *væʁden* |
+| **minnes / mintes** | short i, double n: *minnes*; preteritum *mintes* | same |
 
 ---
 
@@ -412,3 +506,9 @@ In an indirect question (or after *det*), if **hva / hvem / hvilke** is the **su
 - N 3/11 p27: "verben være blir blir eller bli værende"(?): not sure what the teacher meant. Maybe that *være* has no passive and *bli værende* = "remain"? Please explain.
 - N 3/11 p28: "Kanskje han ikke blir…": sentence incomplete; rule added as G28.
 - K6 Ekstra s.4 (5/11): handwritten note top right of the worksheet ("Det – norme…"?) and the passive exercise sheet underneath ("…objektet (med strek under) til subjekt") are only partly visible. Send a photo if you want them added.
+- K6 «En annen verden»: the page numbers aren't visible in the photos; logged as **s.90–91**. Tell me if they're different.
+- N 10/11 p38: "å plage = å avbryte"(?): I read *avbryte* (to interrupt). *plage* means to bother/pester, closer to *forstyrre*. Was that the teacher's synonym, or did you mean a different word? avbryte and forstyrre were added as separate words.
+- N 10/11 p38: "å dømme =" and "å forsørge =" were left blank; filled in (dømme already in the list; forsørge = to provide for).
+- N 10/11 p38: "en som/T" read as **ensom / ensomt** (rule G34).
+- N 10/11 p39: "avledning = diversion": where did it come up? (It can also mean *derivation* in grammar.)
+- naob.no couldn't be reached from this session (10/11): forms for this lesson are standard bokmål; worth double-checking gender of *omsorg*, *sorg*, *avledning* (ei/en) in NAOB.

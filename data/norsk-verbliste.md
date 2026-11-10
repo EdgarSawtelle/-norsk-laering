@@ -13,6 +13,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å adlyde | adlyder | adlød | har adlydt | obey | sterk | 2026-11-03 |
 | å anbefale | anbefaler | anbefalte | har anbefalt | recommend | svak -te | 2026-11-03 |
 | å arbeide | arbeider | arbeidet | har arbeidet | work | svak -et | 2026-11-03 |
+| å avbryte | avbryter | avbrøt | har avbrutt | interrupt | sterk | 2026-11-10 |
 | å bade | bader | badet | har badet | bathe, swim | svak -et | 2026-11-03 |
 | å barbere | barberer | barberte | har barbert | shave | svak -te | 2026-11-03 |
 | å be | ber | ba(d) | har bedt | ask for, pray | sterk | 2026-11-03 |
@@ -46,6 +47,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å dra | drar | dro(g) | har dratt | go, leave; pull | sterk | 2026-11-03 |
 | å drikke | drikker | drakk | har drukket | drink | sterk | 2026-11-03 |
 | å drive | driver | drev/dreiv | har drevet | run (a business); do (an activity) | sterk | 2026-11-03 |
+| å dømme | dømmer | dømte | har dømt | sentence, judge | svak -te | 2026-11-10 |
 | å eie | eier | eide | har eid | own | svak -de | 2026-11-03 |
 | å falle | faller | falt | har falt | fall | sterk | 2026-11-03 |
 | å fare | farer | for | har fart | travel, rush | sterk | 2026-11-03 |
@@ -55,10 +57,13 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å flykte | flykter | flyktet | har flyktet | flee | svak -et | 2026-11-03 |
 | å flyte | flyter | fløt | har flytt | float | sterk | 2026-11-03 |
 | å flytte | flytter | flyttet | har flyttet | move (house) | svak -et | 2026-11-03 |
+| å forandre | forandrer | forandret | har forandret | change | svak -et | 2026-11-10 |
 | å forklare | forklarer | forklarte | har forklart | explain | svak -te | 2026-11-03 |
 | å forlate | forlater | forlot | har forlatt | leave (a place, a person) | sterk | 2026-11-03 |
+| å forstyrre | forstyrrer | forstyrret | har forstyrret | disturb | svak -et | 2026-11-10 |
 | å forstå | forstår | forstod/forsto | har forstått | understand | sterk | 2026-11-03 |
 | å forsvinne | forsvinner | forsvant | har forsvunnet | disappear | sterk | 2026-11-03 |
+| å forsørge | forsørger | forsørget | har forsørget | provide for, support | svak -et | 2026-11-10 |
 | å fortelle | forteller | fortalte | har fortalt | tell | uregelmessig | 2026-11-03 |
 | å fryse | fryser | frøs | har frosset | freeze, be cold | sterk | 2026-11-03 |
 | å fyke | fyker | føk | har føket | drift, blow (snow) | sterk | 2026-11-03 |
@@ -115,6 +120,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å kontrollere | kontrollerer | kontrollerte | har kontrollert | check, control | svak -te | 2026-11-05 |
 | å kose seg | koser seg | koste seg | har kost seg | have a nice time | svak -te | 2026-11-03 |
 | å koste | koster | kostet | har kostet | cost; sweep | svak -et | 2026-11-03 |
+| å krenke | krenker | krenket | har krenket | violate, offend | svak -et | 2026-11-10 |
 | å kunne | kan | kunne | har kunnet | can, be able to | modal | 2026-11-03 |
 | å la | lar | lot | har latt | let, allow | sterk | 2026-11-03 |
 | å lage | lager | laget | har laget | make | svak -et | 2026-11-03 |
@@ -134,6 +140,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å låse | låser | låste | har låst | lock | svak -te | 2026-11-03 |
 | å låte | låter | låt | har lått | sound (Det låter bra) | sterk | 2026-11-03 |
 | å merke | merker | merket | har merket | notice; mark | svak -et | 2026-11-03 |
+| å minnes | minnes | mintes | har minnes | remember, commemorate | s-verb | 2026-11-10 |
 | å møte | møter | møtte | har møtt | meet | svak -te | 2026-11-03 |
 | å måtte | må | måtte | har måttet | must, have to | modal | 2026-11-03 |
 | å nyte | nyter | nøt | har nytt | enjoy | sterk | 2026-11-03 |
@@ -143,6 +150,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å passe på | passer på | passet på | har passet på | look after | svak -et | 2026-11-03 |
 | å passere | passerer | passerte | har passert | pass by | svak -te | 2026-11-03 |
 | å pipe | piper | pep/peip | har pepet | squeak, chirp | sterk | 2026-11-03 |
+| å plage | plager | plaget/plagde | har plaget/plagd | bother, pester | svak -et | 2026-11-10 |
 | å pleie | pleier | pleide | har pleid | usually (do); nurse | svak -de | 2026-11-03 |
 | å plystre | plystrer | plystret | har plystret | whistle | svak -et | 2026-11-03 |
 | å presentere | presenterer | presenterte | har presentert | present | svak -te | 2026-11-05 |
@@ -162,6 +170,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å rydde | rydder | ryddet | har ryddet | tidy up | svak -et | 2026-11-03 |
 | å ryke | ryker | røk | har røket | snap, break; smoke (chimney) | sterk | 2026-11-03 |
 | å røyke | røyker | røykte | har røykt | smoke (tobacco) | svak -te | 2026-11-03 |
+| å samle | samler | samlet | har samlet | gather, collect | svak -et | 2026-11-10 |
 | å sammenligne | sammenligner | sammenlignet | har sammenlignet | compare (also: sammenlikne) | svak -et | 2026-11-05 |
 | å savne | savner | savnet | har savnet | miss (someone) | svak -et | 2026-11-03 |
 | å se | ser | så | har sett | see, look | sterk | 2026-11-03 |
@@ -213,9 +222,11 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å stille | stiller | stilte | har stilt | put, place; ask (a question) | svak -te | 2026-11-03 |
 | å stjele | stjeler | stjal | har stjålet | steal | sterk | 2026-11-03 |
 | å stole på | stoler på | stolte på | har stolt på | trust, rely on | svak -te | 2026-11-05 |
+| å straffe | straffer | straffet | har straffet | punish | svak -et | 2026-11-10 |
 | å strekke | strekker | strakk | har strukket | stretch | sterk | 2026-11-03 |
 | å stryke | stryker | strøk | har strøket | iron; fail (an exam) | sterk | 2026-11-03 |
 | å studere | studerer | studerte | har studert | study | svak -te | 2026-11-03 |
+| å støtte | støtter | støttet | har støttet | support | svak -et | 2026-11-10 |
 | å stå | står | stod/sto | har stått | stand | sterk | 2026-11-03 |
 | å sulte | sulter | sultet | har sultet | starve, be hungry | svak -et | 2026-11-03 |
 | å svare | svarer | svarte | har svart | answer | svak -te | 2026-11-03 |
@@ -226,10 +237,12 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å synes | synes | syntes | har syntes | think (opinion); seem | s-verb | 2026-11-03 |
 | å synge | synger | sang | har sunget | sing | sterk | 2026-11-03 |
 | å synke | synker | sank | har sunket | sink | sterk | 2026-11-03 |
+| å sørge | sørger | sørget | har sørget | mourn; (sørge for) take care of | svak -et | 2026-11-10 |
 | å ta | tar | tok | har tatt | take | sterk | 2026-11-03 |
 | å tape | taper | tapte | har tapt | lose (a game, money) | svak -te | 2026-11-03 |
 | å tappe | tapper | tappet | har tappet | tap, drain | svak -et | 2026-11-03 |
 | å tenke | tenker | tenkte | har tenkt | think | svak -te | 2026-11-03 |
+| å tenne | tenner | tente | har tent | light (a candle); switch on | svak -te | 2026-11-10 |
 | å tjene | tjener | tjente | har tjent | earn; serve | svak -te | 2026-11-03 |
 | å treffe | treffer | traff | har truffet | meet; hit | sterk | 2026-11-03 |
 | å trekke | trekker | trakk | har trukket | pull | sterk | 2026-11-03 |
@@ -237,6 +250,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å trenge | trenger | trengte | har trengt | need | svak -te | 2026-11-03 |
 | å trives | trives | trivdes | har trivdes | thrive, feel at home | s-verb | 2026-11-03 |
 | å tro | tror | trodde | har trodd | believe, think | svak -dde | 2026-11-03 |
+| å true | truer | truet | har truet | threaten | svak -et | 2026-11-10 |
 | å trykke | trykker | trykte | har trykt | print; press | svak -te | 2026-11-05 |
 | å tvinge | tvinger | tvang | har tvunget | force | sterk | 2026-11-03 |
 | å tørke | tørker | tørket | har tørket | dry | svak -et | 2026-11-03 |

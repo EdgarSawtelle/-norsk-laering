@@ -22,6 +22,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | 2026-11-03 (c) | Verbliste: 238 norske verb (grammatikk.com s. 1–6) → section 6 + rule G25 |
 | 2026-11-03 (d) | Time 3/11: notatbok s. 26–28 (passiv), tavle (substantiv-endelser), K6 s. 87–88 (personvern, Frustrert/Alex/Mikkel) |
 | 2026-11-05 | Notatbok s. 33 (nyheter/nytt, ofte/stadig/masse, påvirke, komfyr, det kommer an på), K6 Ekstraoppgaver s. 4 (meningsmåling, medier), K6 s. 89 (kilder og kildekritikk) → G29–G31. Date tags added to all entries. |
+| 2026-11-10 | Kap. 6 *En annen verden* – «Et liv på nettet» (s. 90–91), notatbok s. 38–39 (10/11): sørge/sorg/omsorg, knapt, ensom, minnes, holde en tale, «tennes det lys» → G32–G39 |
 
 ---
 
@@ -43,7 +44,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | en stemning | stemningen – stemninger – stemningene | atmosphere, mood ("vibe") | Det er ganske dårlig stemning i huset. | K5 s.75 | kap5 2026-11-03 |
 | et farmasistudium | farmasistudiet – farmasistudier – farmasistudiene | pharmacy degree/studies | …til du er ferdig med farmasistudiet. | K5 s.75 | kap5 2026-11-03 |
 | sentral | sentralt – sentrale | central | Det er mer sentralt. | K5 s.75 | kap5 adj 2026-11-03 |
-| nær | nært – nære · komp. nærmere – nærmest | near, close | …nærmere universitetet. | K5 s.75 | kap5 adj komparativ 2026-11-03 |
+| nær | nært – nære · komp. nærmere – nærmest | near, close | …nærmere universitetet. · nære venner | K5 s.75 · K6 s.91 | kap5 adj komparativ 2026-11-03 |
 | å slippe | slipper – slapp – har sluppet | to not have to, to be spared (+ å) | Jeg slipper å ta bussen hver dag. | K5 s.75 · N p11 | kap5 verb sterkt 2026-11-03 |
 | et soverom | soverommet – soverom – soverommene | bedroom | …en leilighet med fire soverom. | K5 s.75 | kap5 bolig 2026-11-03 |
 | ei/en husleie | husleia/husleien – husleier – husleiene | rent | Vi skal dele på husleia. | K5 s.75 | kap5 bolig økonomi 2026-11-03 |
@@ -116,7 +117,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | ei/en leting | letinga/-en | search(ing) | | K5 s.81 | kap5 ordliste 2026-11-03 |
 | å protestere | protesterer – protesterte – har protestert | to object, protest | | K5 s.81 | kap5 ordliste verb 2026-11-03 |
 | å stemme | stemmer – stemte – har stemt | to be correct; to vote | Det stemmer! | K5 s.81 | kap5 ordliste verb 2026-11-03 |
-| ei/en anledning | anledninga/-en – anledninger | opportunity, occasion | | K5 s.81 | kap5 ordliste 2026-11-03 |
+| ei/en anledning | anledninga/-en – anledninger | opportunity, occasion | …de som hadde anledning til å komme hit i dag | K5 s.81 · K6 s.91 | kap5 ordliste 2026-11-03 |
 | å foreslå | foreslår – foreslo – har foreslått | to suggest | | K5 s.81 | kap5 ordliste verb sterkt 2026-11-03 |
 | å love | lover – lovet/lovte – har lovet/lovt | to promise | | K5 s.81 | kap5 ordliste verb 2026-11-03 |
 | faktisk | (adverb) | actually, in fact | Jeg har faktisk akkurat flyttet. | K5 s.76 · s.81 · N p7 | kap5 adv 2026-11-03 |
@@ -150,20 +151,20 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | ei/en stilling | stillinga/-en – stillinger | position, job | | K6 s.85 | kap6 jobb 2026-11-03 |
 | en jobbsøknad | jobbsøknaden – jobbsøknader | job application | | K6 s.85 | kap6 jobb 2026-11-03 |
 | en nabogutt | nabogutten – nabogutter | the boy next door | | K6 s.86 | kap6 2026-11-03 |
-| å plage | plager – plaget/plagde – har plaget/plagd | to bother, harass | En som plager deg? | K6 s.86 | kap6 verb 2026-11-03 |
+| å plage | plager – plaget/plagde – har plaget/plagd | to bother, harass | En som plager deg? | K6 s.86 · N 10/11 | kap6 verb 2026-11-03 |
 | å chatte | chatter – chattet – har chattet | to chat (online) | | K6 s.86 | kap6 verb 2026-11-03 |
 | grei | greit – greie | nice, decent; easy | Han virket så grei. | K6 s.86 | kap6 adj 2026-11-03 |
 | å virke | virker – virket – har virket | to seem; to work (function) | Han virket så grei. | K6 s.86 | kap6 verb 2026-11-03 |
 | å manipulere | manipulerer – manipulerte – har manipulert | to manipulate | | K6 s.86 | kap6 verb 2026-11-03 |
-| en trussel | trusselen – trusler – truslene | threat | en tom trussel | K6 s.86 | kap6 2026-11-03 |
+| en trussel | trusselen – trusler – truslene | threat | en tom trussel | K6 s.86 · N 10/11 | kap6 2026-11-03 |
 | en gubbe | gubben – gubber – gubbene | old man, geezer (informal) | en gammel gubbe | K6 s.86 | kap6 uformell 2026-11-03 |
 | å lure | lurer – lurte – har lurt | to trick, fool; (lure på) to wonder | prøver å lure jenter | K6 s.86 | kap6 verb 2026-11-03 |
-| å straffe | straffer – straffet – har straffet | to punish | Han kan bli straffet. | K6 s.86 | kap6 verb jus 2026-11-03 |
-| å dømme | dømmer – dømte – har dømt | to sentence, judge | Han ble dømt til fengsel. | K6 s.87 | kap6 verb jus 2026-11-03 |
+| å straffe | straffer – straffet – har straffet | to punish | Han kan bli straffet. | K6 s.86 · N 10/11 | kap6 verb jus 2026-11-03 |
+| å dømme | dømmer – dømte – har dømt | to sentence, judge | Han ble dømt til fengsel. | K6 s.87 · N 10/11 | kap6 verb jus 2026-11-03 |
 | et fengsel | fengselet – fengsler – fengslene | prison | ubetinget fengsel | K6 s.87 | kap6 jus 2026-11-03 |
 | ubetinget | ubetinget – ubetingede | unconditional (non-suspended sentence) | fem måneders ubetinget fengsel | K6 s.87 | kap6 jus 2026-11-03 |
 | å spre | sprer – spredte – har spredt | to spread | spre nakenbilder | K6 s.87 | kap6 verb 2026-11-03 |
-| ei/en krenkelse | krenkelsen – krenkelser | violation, offence (against a person) | | K6 s.87 | kap6 jus 2026-11-03 |
+| ei/en krenkelse | krenkelsen – krenkelser | violation, offence (against a person) | | K6 s.87 · N 10/11 | kap6 jus 2026-11-03 |
 | ei/en personopplysning | -opplysninga/-en – -opplysninger | personal data | | K6 s.87 | kap6 2026-11-03 |
 | ei/en opplysning | opplysninga/-en – opplysninger | (piece of) information | | K6 s.87 | kap6 2026-11-03 |
 | et privatliv | privatlivet | private life, privacy | | K6 s.87 | kap6 2026-11-03 |
@@ -207,6 +208,46 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | en avsender | avsenderen – avsendere – avsenderne | sender | Hvem er avsenderen? | K6 s.89 | kap6 2026-11-05 |
 | nyttig | nyttig – nyttige | useful | noen nyttige spørsmål | K6 s.89 | kap6 adj 2026-11-05 |
 | et mål | målet – mål – målene | goal, aim; measurement | politiske eller økonomiske mål | K6 s.89 | kap6 2026-11-05 |
+| en ungdom | ungdommen – ungdommer – ungdommene | young person, teenager; (no pl.) youth | Noen ungdommer sitter time etter time med dataspill. | K6 s.90 | kap6 2026-11-10 |
+| et dataspill | dataspillet – dataspill – dataspillene | computer game, video game | …sitter time etter time med dataspill. | K6 s.90 | kap6 spill 2026-11-10 |
+| et spill | spillet – spill – spillene | game | eksempler på spill som samler millioner av spillere | K6 s.90 | kap6 spill 2026-11-10 |
+| en spiller | spilleren – spillere – spillerne | player | millioner av spillere på nettet | K6 s.90 | kap6 spill 2026-11-10 |
+| ei/en spilling | spillinga/spillingen – (no pl.) | gaming, playing (games) | Slik spilling er bortkastet tid. | K6 s.90 | kap6 spill 2026-11-10 |
+| å samle | samler – samlet – har samlet · passiv: samles | to gather, collect, bring together | spill som samler millioner · Mens vi er samlet her i dag … | K6 s.90 · s.91 | kap6 verb 2026-11-10 |
+| bortkastet | bortkastet – bortkastede/bortkasta | wasted | Spilling er bortkastet tid. | K6 s.90 | kap6 adj 2026-11-10 |
+| å forandre | forandrer – forandret – har forandret | to change | Mange foreldre forandret mening. | K6 s.90 | kap6 verb 2026-11-10 |
+| en artikkel | artikkelen – artikler – artiklene | article | …da de leste denne artikkelen | K6 s.90 | kap6 medier 2026-11-10 |
+| ensom | ensomt – ensomme | lonely (see G34) | Sønnen levde et ensomt liv foran pc-en. | K6 s.90 · N 10/11 | kap6 adj følelser 2026-11-10 |
+| et lys | lyset – lys – lysene | light; candle | Venner over hele Europa tente lys for ham. | K6 s.90 | kap6 2026-11-10 |
+| å tenne | tenner – tente – har tent · passiv: tennes | to light (a candle, a fire); to switch on | …tennes det lys for Mats | K6 s.90 · s.91 · N 10/11 | kap6 verb passiv 2026-11-10 |
+| alvorlig | alvorlig – alvorlige | serious | en alvorlig muskelsykdom | K6 s.90 | kap6 adj 2026-11-10 |
+| en sykdom | sykdommen – sykdommer – sykdommene | illness, disease | Han døde av sykdommen. | K6 s.90 | kap6 helse 2026-11-10 |
+| en muskelsykdom | muskelsykdommen – muskelsykdommer – muskelsykdommene | muscle disease (e.g. muscular dystrophy) | Mats ble født med en alvorlig muskelsykdom. | K6 s.90 | kap6 helse 2026-11-10 |
+| syk | sykt – syke · komp. sykere – sykest | ill, sick | …som gjorde ham stadig sykere | K6 s.90 | kap6 adj komparativ helse 2026-11-10 |
+| en rullestol | rullestolen – rullestoler – rullestolene | wheelchair | Han satt i rullestol. | K6 s.90 | kap6 helse 2026-11-10 |
+| en plass | plassen – plasser – plassene | place, room, space; seat | Spilling fikk en stor plass i livet hans. | K6 s.90 | kap6 2026-11-10 |
+| en bisettelse | bisettelsen – bisettelser – bisettelsene | funeral service (before a cremation) | I bisettelsen hans kom det mennesker familien ikke kjente. | K6 s.90 | kap6 2026-11-10 |
+| knapt | (adverb) | hardly, barely (= nesten ikke, see G37) | Mats hadde knapt vært ute av huset. | K6 s.90 · N 10/11 | kap6 adv 2026-11-10 |
+| et kjønn | kjønnet – kjønn – kjønnene | sex, gender; (grammar) gender | av begge kjønn | K6 s.91 | kap6 2026-11-10 |
+| forskjellig | forskjellig – forskjellige | different, various | forskjellige land i Europa | K6 s.91 | kap6 adj 2026-11-10 |
+| en tale | talen – taler – talene | speech | å holde en tale | N 10/11 | kap6 2026-11-10 |
+| en minnetale | minnetalen – minnetaler – minnetalene | memorial speech, eulogy | En av dem holdt en minnetale i kapellet. | K6 s.91 | kap6 2026-11-10 |
+| et kapell | kapellet – kapell/kapeller – kapella/kapellene | chapel | …i kapellet | K6 s.91 | kap6 2026-11-10 |
+| et klasserom | klasserommet – klasserom – klasserommene | classroom | i et klasserom i Nederland | K6 s.91 | kap6 skole 2026-11-10 |
+| et callsenter | callsenteret – callsentre/callsentere – callsentrene | call centre | I et callsenter i Irland brenner det et lys. | K6 s.91 | kap6 jobb 2026-11-10 |
+| et bibliotek | biblioteket – bibliotek/biblioteker – bibliotekene | library | i et bibliotek i Sverige | K6 s.91 | kap6 2026-11-10 |
+| en frisørsalong | frisørsalongen – frisørsalonger – frisørsalongene | hairdresser's (salon) | i en liten frisørsalong i Finland | K6 s.91 | kap6 2026-11-10 |
+| å minnes | minnes – mintes – har minnes | to remember, commemorate (solemn ≈ huske); (passiv) to be remembered (see G35) | Over hele Europa minnes Mats. | K6 s.91 · N 10/11 | kap6 verb s-verb 2026-11-10 |
+| en karakter | karakteren – karakterer – karakterene | character (in a game/story); grade (at school) | Disse menneskene kjente Mats som en karakter i dataspill. | K6 s.91 | kap6 spill 2026-11-10 |
+| en deltaker | deltakeren – deltakere – deltakerne | participant | en karakter og deltaker i dataspill | K6 s.91 | kap6 2026-11-10 |
+| en avatar | avataren – avatarer – avatarene | avatar | Gjennom avataren sin var han fri. | K6 s.91 | kap6 spill 2026-11-10 |
+| gjennom | (preposition) | through | gjennom avataren sin | K6 s.91 | kap6 preposisjon 2026-11-10 |
+| fri | fritt – frie | free | Gjennom avataren sin var han fri. | K6 s.91 | kap6 adj 2026-11-10 |
+| et samfunn | samfunnet – samfunn – samfunnene | society, community | | K6 s.91 | kap6 samfunn 2026-11-10 |
+| et nettsamfunn | nettsamfunnet – nettsamfunn – nettsamfunnene | online community | Nettsamfunnet ble hans sosiale verden. | K6 s.91 | kap6 spill 2026-11-10 |
+| sosial | sosialt – sosiale | social | hans sosiale verden | K6 s.91 | kap6 adj 2026-11-10 |
+| digital | digitalt – digitale | digital | i denne digitale verdenen | K6 s.91 | kap6 adj 2026-11-10 |
+| en verden | verden/verdenen – verdener – verdenene | world (definite: *verden* or *verdenen*, both correct) | En annen verden · i denne digitale verdenen · hele verden | K6 s.90 · s.91 | kap6 2026-11-10 |
 
 ### 1c. Notatbok (fra timene)
 
@@ -218,7 +259,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | å forene | forener – forente – har forent | to unite | De forente nasjoner | N 15/10 | samfunn verb 2026-11-03 |
 | en forening | foreningen – foreninger – foreningene | association, union, club | | N 15/10 | samfunn 2026-11-03 |
 | ei/en kunst → kunstig | kunstig – kunstige | art → artificial | kunstig intelligens | N 15/10 | adj ordlaging 2026-11-03 |
-| ei/en støtte · å støtte | støtta/-en · støtter – støttet – har støttet | support · to support (also financially) | | N 15/10 | samfunn 2026-11-03 |
+| ei/en støtte · å støtte | støtta/-en · støtter – støttet – har støttet | support · to support (also financially) | | N 15/10 · N 10/11 · K6 s.91 | samfunn 2026-11-03 |
 | å passe på | passer på – passet på – har passet på | to look after, keep an eye on (≈ observere, kontrollere) | Foreldre må passe på barna. | N 15/10 · K6 s.87 | verb partikkelverb 2026-11-03 |
 | å ta vare på | tar – tok – har tatt vare på | to take care of, preserve | | N 15/10 | verb 2026-11-03 |
 | å bevare | bevarer – bevarte – har bevart | to preserve, conserve | | N 15/10 | verb 2026-11-03 |
@@ -229,7 +270,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | forurenset | forurenset – forurensede | polluted | | N 15/10 | miljø adj 2026-11-03 |
 | et krigsområde | krigsområdet – krigsområder | war zone | | N 15/10 | samfunn 2026-11-03 |
 | krigsrammet | krigsrammet – krigsrammede | war-torn | | N 15/10 | samfunn adj 2026-11-03 |
-| å drive (med) | driver – drev – har drevet | to do (an activity); to run (a business) | Hva driver du med? | N 15/10 · N p6 | verb sterkt 2026-11-03 |
+| å drive (med) | driver – drev – har drevet | to do (an activity); to run (a business) | Hva driver du med? | N 15/10 · N p6 · K6 s.90 | verb sterkt 2026-11-03 |
 | en skyskraper | skyskraperen – skyskrapere | skyscraper | | N p6 | by 2026-11-03 |
 | en fordel | fordelen – fordeler – fordelene | advantage | Hva er fordelen? | N p6 · K5 s.77 | 2026-11-03 |
 | en ulempe | ulempen – ulemper – ulempene | disadvantage | fordeler og ulemper | K5 s.77 | 2026-11-03 |
@@ -240,7 +281,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | ei/en nasjon | nasjonen – nasjoner | nation (*check gender in NAOB: masculine*) | | N 20/10 | 2026-11-03 |
 | å handle | handler – handlet – har handlet | to shop | Jeg handler mat. | N 19/10 | verb 2026-11-03 |
 | å handle om | handler om – handlet om | to be about | Boka handler om … | N 19/10 | verb 2026-11-03 |
-| sjelden | sjeldent – sjeldne | rare; rarely | sjeldne arter | N p10 | adj 2026-11-03 |
+| sjelden | sjeldent – sjeldne | rare; rarely | sjeldne arter · Han var sjelden ute. | N p10 · K6 s.90 | adj 2026-11-03 |
 | ei/en art | arten – arter – artene | species; kind | | N p10 | natur 2026-11-03 |
 | liknende / lignende | (uninflected) | similar | | N p10 | adj 2026-11-03 |
 | å gjennomføre | gjennomfører – gjennomførte – har gjennomført | to carry out, complete (≈ gjøre ferdig) | | N p10 | verb 2026-11-03 |
@@ -269,7 +310,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | å slite | sliter – slet – har slitt | to struggle; to wear out | Jeg sliter litt økonomisk. | N p15 | verb sterkt 2026-11-03 |
 | økonomisk | økonomisk – økonomiske | financial(ly) | | N p15 | adj 2026-11-03 |
 | ingen | (pronoun) | nobody, no, none (= ikke noen) | Det er ingen hjemme. | N 27/10 | pronomen 2026-11-03 |
-| stadig | (adverb) | constantly; increasingly (stadig bedre = better and better) | Han sjekket stadig telefonen. | N p18 · K6 s.84 · N p33 | adv 2026-11-03 |
+| stadig | (adverb) | constantly; increasingly (stadig bedre = better and better) | Han sjekket stadig telefonen. | N p18 · K6 s.84 · N p33 · K6 s.90 | adv 2026-11-03 |
 | uinteressant | uinteressant – uinteressante | uninteresting | helt uinteressant | N p18 | adj 2026-11-03 |
 | å prate | prater – pratet – har pratet | to chat, talk (≈ snakke) | Du ville jo prate om noe. | N p18 · K6 s.84 | verb 2026-11-03 |
 | visst | (modal adverb) | apparently, I've heard | Han er visst syk. | N p18 | adv partikkel 2026-11-03 |
@@ -303,3 +344,19 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | å låse | låser – låste – har låst | to lock | Dørene låses om kvelden. | N 3/11 | verb passiv 2026-11-03 |
 | å stenge | stenger – stengte – har stengt | to close, shut | Skolen ble stengt i går. | N 3/11 | verb passiv 2026-11-03 |
 | å vaske | vasker – vasket – har vasket | to wash | Bilen må vaskes. | N 3/11 | verb passiv 2026-11-03 |
+| et bråk | bråket – bråk – bråkene | noise, racket; fuss, trouble | Hva er det for et bråk? | N 10/11 | 2026-11-10 |
+| å true | truer – truet – har truet | to threaten (true med å …) | Han truet med å spre bildene. | N 10/11 | verb jus 2026-11-10 |
+| å krenke | krenker – krenket – har krenket | to violate, infringe (rights); to offend, hurt | å krenke personvernet til noen | N 10/11 | verb jus 2026-11-10 |
+| en dom | dommen – dommer – dommene | sentence, verdict; judgement | Han fikk en streng dom. | N 10/11 | jus 2026-11-10 |
+| streng | strengt – strenge | strict, harsh | en streng dom | N 10/11 | adj 2026-11-10 |
+| å sørge (over) | sørger – sørget – har sørget | to mourn, grieve (for) (see G36) | Familien sørger over Mats. | N 10/11 | verb følelser 2026-11-10 |
+| ei/en sorg | sorga/sorgen – sorger – sorgene | grief, sorrow | Vi gråt av sorg. | N 10/11 | følelser 2026-11-10 |
+| ei/en omsorg | omsorga/omsorgen – (no pl.) | care (for someone) | Barn trenger omsorg. | N 10/11 | familie 2026-11-10 |
+| å forsørge | forsørger – forsørget – har forsørget | to provide for, support (financially) | Han forsørger hele familien. | N 10/11 | verb familie 2026-11-10 |
+| en forsørger | forsørgeren – forsørgere – forsørgerne | breadwinner, provider | | N 10/11 | familie 2026-11-10 |
+| å avbryte | avbryter – avbrøt – har avbrutt | to interrupt | Unnskyld at jeg avbryter. | N 10/11 | verb sterkt 2026-11-10 |
+| å forstyrre | forstyrrer – forstyrret – har forstyrret | to disturb | Ikke forstyrr meg nå! | N 10/11 | verb 2026-11-10 |
+| ei/en avledning | avledninga/avledningen – avledninger – avledningene | diversion, distraction; (grammar) derivation | en avledning fra problemene | N 10/11 | 2026-11-10 |
+| knapp | knapt – knappe | scant, barely enough; (time) just under (see G37) | en knapp time (≈ 55 min) | N 10/11 | adj 2026-11-10 |
+| eneste | (uninflected) | only, single | Jeg kan knapt si et eneste ord på russisk. · Han er den eneste. | N 10/11 | 2026-11-10 |
+| russisk | russisk – russiske | Russian | på russisk | N 10/11 | adj språk 2026-11-10 |
