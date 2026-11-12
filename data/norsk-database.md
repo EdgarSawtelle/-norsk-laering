@@ -24,6 +24,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | 2026-11-05 | Notatbok s. 33 (nyheter/nytt, ofte/stadig/masse, påvirke, komfyr, det kommer an på), K6 Ekstraoppgaver s. 4 (meningsmåling, medier), K6 s. 89 (kilder og kildekritikk) → G29–G31. Date tags added to all entries. |
 | 2026-11-10 | Kap. 6 *En annen verden* – «Et liv på nettet» (s. 90–91), notatbok s. 38–39 (10/11): sørge/sorg/omsorg, knapt, ensom, minnes, holde en tale, «tennes det lys» → G32–G39 |
 | 2026-11-12 | Chat-leksjon: komparativ og superlativ (gradbøying) → G40, 6 uttrykk, 3 uttale-rader |
+| 2026-11-12 (b) | Time 12/11: K7 *Barn og unge* – «Snakk med ham» (s. 100–101), notatbok s. 45 → ord, uttrykk, G41–G47, 12 uttale-rader |
 
 ---
 
@@ -91,7 +92,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | en megler | megleren – meglere – meglerne | (estate) agent | …til megleren | K5 s.78 | kap5 bolig 2026-11-03 |
 | skriftlig | skriftlig – skriftlige | written | et skriftlig bud | K5 s.78 | kap5 adj 2026-11-03 |
 | bindende | (uninflected) | binding | Budet ditt er bindende. | K5 s.78 | kap5 adj 2026-11-03 |
-| å akseptere | aksepterer – aksepterte – har akseptert | to accept | …hvis eieren aksepterer budet. | K5 s.78 | kap5 verb 2026-11-03 |
+| å akseptere | aksepterer – aksepterte – har akseptert | to accept | …hvis eieren aksepterer budet. | K5 s.78 · K7 s.101 | kap5 verb 2026-11-03 |
 | å øke | øker – økte – har økt | to increase, raise | Du må øke budet. | K5 s.79 | kap5 verb 2026-11-03 |
 | en budrunde | budrunden – budrunder – budrundene | bidding round | være med på budrunden | K5 s.79 | kap5 bolig 2026-11-03 |
 | å skje | skjer – skjedde – har skjedd | to happen | Det skjer vanligvis via sms. | K5 s.79 | kap5 verb 2026-11-03 |
@@ -107,7 +108,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | ei/en regning | regninga/-en – regninger – regningene | bill | Du får en regning. | K5 s.79 | kap5 økonomi 2026-11-03 |
 | imidlertid | (adverb) | however | Du må imidlertid betale høye renter. | K5 s.79 · N p7 | kap5 adv konnektor 2026-11-03 |
 | tydeligvis | (adverb) | evidently, clearly | | K5 s.81 | kap5 ordliste 2026-11-03 |
-| trang | trangt – trange | cramped, tight | trange skap | K5 s.81 · N p7 | kap5 adj 2026-11-03 |
+| trang | trangt – trange | cramped, tight | trange skap | K5 s.81 · N p7 · N 12/11 | kap5 adj 2026-11-03 |
 | miljøvennlig | miljøvennlig – miljøvennlige | environmentally friendly | | K5 s.81 | kap5 ordliste 2026-11-03 |
 | fornuftig | fornuftig – fornuftige | sensible, reasonable | | K5 s.81 | kap5 ordliste 2026-11-03 |
 | et abonnement | abonnementet – abonnementer – abonnementene | subscription | | K5 s.81 | kap5 ordliste 2026-11-03 |
@@ -216,7 +217,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | ei/en spilling | spillinga/spillingen – (no pl.) | gaming, playing (games) | Slik spilling er bortkastet tid. | K6 s.90 | kap6 spill 2026-11-10 |
 | å samle | samler – samlet – har samlet · passiv: samles | to gather, collect, bring together | spill som samler millioner · Mens vi er samlet her i dag … | K6 s.90 · s.91 | kap6 verb 2026-11-10 |
 | bortkastet | bortkastet – bortkastede/bortkasta | wasted | Spilling er bortkastet tid. | K6 s.90 | kap6 adj 2026-11-10 |
-| å forandre | forandrer – forandret – har forandret | to change | Mange foreldre forandret mening. | K6 s.90 | kap6 verb 2026-11-10 |
+| å forandre | forandrer – forandret – har forandret | to change | Mange foreldre forandret mening. | K6 s.90 · K7 s.101 | kap6 verb 2026-11-10 |
 | en artikkel | artikkelen – artikler – artiklene | article | …da de leste denne artikkelen | K6 s.90 | kap6 medier 2026-11-10 |
 | ensom | ensomt – ensomme | lonely (see G34) | Sønnen levde et ensomt liv foran pc-en. | K6 s.90 · N 10/11 | kap6 adj følelser 2026-11-10 |
 | et lys | lyset – lys – lysene | light; candle | Venner over hele Europa tente lys for ham. | K6 s.90 | kap6 2026-11-10 |
@@ -239,7 +240,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | et bibliotek | biblioteket – bibliotek/biblioteker – bibliotekene | library | i et bibliotek i Sverige | K6 s.91 | kap6 2026-11-10 |
 | en frisørsalong | frisørsalongen – frisørsalonger – frisørsalongene | hairdresser's (salon) | i en liten frisørsalong i Finland | K6 s.91 | kap6 2026-11-10 |
 | å minnes | minnes – mintes – har minnes | to remember, commemorate (solemn ≈ huske); (passiv) to be remembered (see G35) | Over hele Europa minnes Mats. | K6 s.91 · N 10/11 | kap6 verb s-verb 2026-11-10 |
-| en karakter | karakteren – karakterer – karakterene | character (in a game/story); grade (at school) | Disse menneskene kjente Mats som en karakter i dataspill. | K6 s.91 | kap6 spill 2026-11-10 |
+| en karakter | karakteren – karakterer – karakterene | character (in a game/story); grade (at school) | Disse menneskene kjente Mats som en karakter i dataspill. | K6 s.91 · K7 s.101 (= grade: «karakterene mine») | kap6 spill 2026-11-10 |
 | en deltaker | deltakeren – deltakere – deltakerne | participant | en karakter og deltaker i dataspill | K6 s.91 | kap6 2026-11-10 |
 | en avatar | avataren – avatarer – avatarene | avatar | Gjennom avataren sin var han fri. | K6 s.91 | kap6 spill 2026-11-10 |
 | gjennom | (preposition) | through | gjennom avataren sin | K6 s.91 | kap6 preposisjon 2026-11-10 |
@@ -361,3 +362,54 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | knapp | knapt – knappe | scant, barely enough; (time) just under (see G37) | en knapp time (≈ 55 min) | N 10/11 | adj 2026-11-10 |
 | eneste | (uninflected) | only, single | Jeg kan knapt si et eneste ord på russisk. · Han er den eneste. | N 10/11 | 2026-11-10 |
 | russisk | russisk – russiske | Russian | på russisk | N 10/11 | adj språk 2026-11-10 |
+| å savne | savner – savnet – har savnet | to miss (someone) | Jeg savner deg. · Vi savner deg. | N p45 · K7 s.100 | verb følelser 2026-11-12 |
+| en fritidsklubb | fritidsklubben – fritidsklubber – fritidsklubbene | youth club, after-school club | Han er på fritidsklubben hver dag. | N p45 · K7 s.100 | kap7 ungdom 2026-11-12 |
+| en fotball | fotballen – fotballer – fotballene | football (the ball); (no article) the sport: *spille fotball* | Jeg spilte fotball. | N p45 · K7 s.100 | kap7 sport 2026-11-12 |
+| en varighet | varigheten – (no pl.) | duration (*check reading of the note*) | | N p45 | ordlaging 2026-11-12 |
+| varig | varig – varige | lasting, permanent (*check reading of the note*) | et varig vennskap | N p45 | adj ordlaging 2026-11-12 |
+| en mangel | mangelen – mangler – manglene | lack, shortage; defect | mangel på tid · en mangel ved produktet | N p45 | 2026-11-12 |
+| å mangle | mangler – manglet – har manglet | to lack, be missing | Det mangler penger. | N p45 | verb 2026-11-12 |
+| forresten | (adverb) | by the way, incidentally (one word; = for resten) | Jeg også, forresten. · Vet du forresten hva Darian gjør? | N p45 · K7 s.100 · s.101 | adv konnektor 2026-11-12 |
+
+### 1d. Kapittel 7 – Barn og unge
+
+| Norsk | Bøyning | English | Eksempel | Kilde | Tag |
+|---|---|---|---|---|---|
+| fornøyd | fornøyd – fornøyde | satisfied, pleased, happy | Sara er veldig fornøyd. | K7 s.100 | kap7 adj følelser 2026-11-12 |
+| en deltidsjobb | deltidsjobben – deltidsjobber – deltidsjobbene | part-time job | Hun har fått deltidsjobb på et apotek. | K7 s.100 | kap7 jobb 2026-11-12 |
+| et apotek | apoteket – apotek – apoteka/apotekene | pharmacy | …på et apotek | K7 s.100 | kap7 jobb 2026-11-12 |
+| en farmasi | farmasien (no pl.) | pharmacy (the subject) | studiene i farmasi | K7 s.100 | kap7 jobb 2026-11-12 |
+| et studium | studiet – studier – studiene | course of study; (pl.) studies | Det går fint med studiene. | K7 s.100 | kap7 skole 2026-11-12 |
+| nesten | (adverb) | almost, nearly (see G46) | Klokka er nesten tolv. | K7 s.100 | kap7 adv 2026-11-12 |
+| en kunde | kunden – kunder – kundene | customer | Hun hjelper kunder. | K7 s.100 | kap7 jobb 2026-11-12 |
+| et tannverk | tannverket (no pl.) | toothache | En kunde har tannverk. | K7 s.100 | kap7 helse 2026-11-12 |
+| smertestillende | (uninflected) | painkilling | smertestillende tabletter | K7 s.100 | kap7 helse adj 2026-11-12 |
+| en tablett | tabletten – tabletter – tablettene | tablet, pill | | K7 s.100 | kap7 helse 2026-11-12 |
+| et eksem | eksemet – eksem – eksemene | eczema | En annen har eksem. | K7 s.100 | kap7 helse 2026-11-12 |
+| ei/en hudkrem | hudkrema/hudkremen – hudkremer – hudkremene | skin cream, moisturiser | …trenger en god hudkrem. | K7 s.100 | kap7 helse 2026-11-12 |
+| ei/en lunsjpause | lunsjpausa/lunsjpausen – lunsjpauser – lunsjpausene | lunch break | …kan ta lunsjpause. | K7 s.100 | kap7 jobb 2026-11-12 |
+| å avtale | avtaler – avtalte – har avtalt | to agree, arrange | De har avtalt å gå og spise. | K7 s.100 | kap7 verb 2026-11-12 |
+| ei/en avtale | avtala/avtalen – avtaler – avtalene | agreement, appointment, arrangement | | K7 s.100 | kap7 2026-11-12 |
+| en kafé | kafeen – kafeer – kafeene | café | på kafeen i nærheten | K7 s.100 | kap7 2026-11-12 |
+| ei/en nærhet | nærheten (no pl.) | nearness; *i nærheten* = nearby | kafeen i nærheten | K7 s.100 | kap7 2026-11-12 |
+| ei/en fritid | fritida/fritiden (no pl.) | free time, leisure | | K7 s.100 | kap7 2026-11-12 |
+| bekymret (for) | bekymret – bekymrede | worried (about) | Vi er bekymret for Darian. | K7 s.100 | kap7 adj følelser 2026-11-12 |
+| et fristed | fristedet – fristeder – fristedene | refuge, safe haven | Fritidsklubben er et fristed. | K7 s.100 | kap7 ungdom 2026-11-12 |
+| å henge | henger – hang – har hengt (*informal:* to hang out) | to hang out (slang, from *henge*) | Skal de henge? | K7 s.100 | kap7 verb uformell 2026-11-12 |
+| å konsentrere seg (om) | konsentrerer seg – konsentrerte seg – har konsentrert seg | to concentrate (on) | Han burde konsentrere seg om skolearbeidet. | K7 s.100 | kap7 verb refleksiv 2026-11-12 |
+| et skolearbeid | skolearbeidet – (no pl.) | schoolwork | | K7 s.100 | kap7 skole 2026-11-12 |
+| velkommen | velkommen – velkomment – velkomne | welcome | Han føler seg velkommen. | K7 s.100 | kap7 adj 2026-11-12 |
+| ei/en turngruppe | turngruppa/turngruppen – turngrupper | gymnastics group | Jeg var med i turngruppa. | K7 s.100 | kap7 sport 2026-11-12 |
+| å elske | elsker – elsket – har elsket | to love | Jeg elsket det. | K7 s.101 | kap7 verb følelser 2026-11-12 |
+| organisert | organisert – organiserte | organised | organiserte aktiviteter | K7 s.101 | kap7 adj 2026-11-12 |
+| en aktivitet | aktiviteten – aktiviteter – aktivitetene | activity | | K7 s.101 | kap7 2026-11-12 |
+| en matematikk | matematikken (no pl.) | mathematics | Jeg liker matematikk bedre enn han. | K7 s.101 | kap7 skole 2026-11-12 |
+| flink | flinkt – flinke · komp. flinkere – flinkest | good at, skilful, diligent | Han er mye flinkere enn meg i musikk. | K7 s.101 | kap7 adj komparativ 2026-11-12 |
+| en klubb | klubben – klubber – klubbene | club | …når han er på klubben | K7 s.100 · s.101 | kap7 2026-11-12 |
+| et band | bandet – band – bandene | (music) band | Han er med i et band. | K7 s.101 | kap7 musikk 2026-11-12 |
+| en musikk | musikken (no pl.) | music | Jeg forstår ikke musikken deres. | K7 s.101 | kap7 musikk 2026-11-12 |
+| yngre | (comp. of *ung*) yngre – yngst | younger | Han lærer de som er yngre, å spille. | K7 s.101 | kap7 adj komparativ 2026-11-12 |
+| en hygiene | hygienen (no pl.) | hygiene | personlig hygiene | K7 s.101 | kap7 2026-11-12 |
+| en fremtid | fremtiden (no pl.) | future | | K7 s.101 | kap7 2026-11-12 |
+| klær (pl.) | klærne | clothes | | K7 s.101 | kap7 2026-11-12 |
+| niks | (interjection, informal) | nope, nothing | Niks, ikke det heller. | K7 s.101 | kap7 uformell 2026-11-12 |

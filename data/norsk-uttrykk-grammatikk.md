@@ -23,7 +23,7 @@ Companion file to `norsk-database.md` (sections 2–5). The study app reads all 
 | Vi får tenke på det. | We'll have to think about it. (polite "maybe") | | K5 s.76 · N p11 | kap5 modal 2026-11-03 |
 | dagen etter | the day after | Dagen etter leser hun en historie. | K5 s.76 | kap5 tid 2026-11-03 |
 | Det var en gang … | Once upon a time … | | K5 s.76 | kap5 2026-11-03 |
-| ved siden av | next to; alongside, on the side | et tre ved siden av et stort tre · en jobb ved siden av skolen | K5 s.76 · K6 s.85 | kap5 kap6 2026-11-03 |
+| ved siden av | next to; alongside, on the side | et tre ved siden av et stort tre · en jobb ved siden av skolen | K5 s.76 · K6 s.85 · K7 s.100 | kap5 kap6 2026-11-03 |
 | ikke lenger | no longer | Det hadde ikke lenger beskyttelse. | K5 s.76 | kap5 2026-11-03 |
 | etter en stund | after a while | | K5 s.76 | kap5 tid 2026-11-03 |
 | i høyden | upwards, in height | vokse i høyden | K5 s.76 | kap5 2026-11-03 |
@@ -55,7 +55,7 @@ Companion file to `norsk-database.md` (sections 2–5). The study app reads all 
 | å legge bort | to put away | Kan du ikke legge bort mobilen? | K6 s.84 | kap6 partikkelverb 2026-11-03 |
 | i stedet | instead | Så kan vi snakke litt sammen i stedet? | K6 s.84 | kap6 2026-11-03 |
 | å bli lei av | to get tired/sick of | Jeg blir så lei av at du ser på mobilen. | K6 s.84 | kap6 2026-11-03 |
-| hele tida | all the time | | K6 s.84 | kap6 tid 2026-11-03 |
+| hele tida | all the time |  | K6 s.84 · K7 s.100 · N p45 (hele tida / hele tiden) | kap6 tid 2026-11-03 |
 | en god stund | a good while | I helga la jeg den bort en god stund. | K6 s.84 | kap6 tid 2026-11-03 |
 | (bare) av og til | (only) now and then | | K6 s.84 | kap6 tid 2026-11-03 |
 | Glem det! | Forget it! | | K6 s.84 | kap6 2026-11-03 |
@@ -131,7 +131,7 @@ Companion file to `norsk-database.md` (sections 2–5). The study app reads all 
 | de siste årene | the last few years | Mats hadde knapt vært ute av huset de siste årene. | K6 s.90 | kap6 tid 2026-11-10 |
 | av begge kjønn | of both sexes | De var både unge og eldre, og av begge kjønn. | K6 s.91 | kap6 2026-11-10 |
 | å holde en tale / en minnetale | to give a speech / a eulogy (holde – holdt – har holdt) | En av dem holdt en minnetale i kapellet. | K6 s.91 · N 10/11 | kap6 2026-11-10 |
-| akkurat nå | right now, at this very moment | …akkurat nå tente online-spillere lys for Mats | K6 s.91 | kap6 tid 2026-11-10 |
+| akkurat nå | right now, at this very moment | …akkurat nå tente online-spillere lys for Mats | K6 s.91 · K7 s.100 | kap6 tid 2026-11-10 |
 | å ha anledning til å | to have the opportunity to, be able to | …de som hadde anledning til å komme hit i dag | K6 s.91 | kap6 2026-11-10 |
 | mange flere enn | many more than | …av mange flere enn de som hadde anledning til å komme | K6 s.91 | kap6 2026-11-10 |
 | å ha det vanskelig | to have a hard time | Han støttet andre som hadde det vanskelig. | K6 s.91 | kap6 følelser 2026-11-10 |
@@ -148,7 +148,32 @@ Companion file to `norsk-database.md` (sections 2–5). The study app reads all 
 | bedre og bedre / mer og mer | better and better / more and more (= stadig bedre) | Det blir verre og verre. | Chat 12/11 | komparativ 2026-11-12 |
 | den aller beste | the very best (aller + superlativ) | Det var den aller beste dagen. | Chat 12/11 | superlativ 2026-11-12 |
 | mindre … enn | less … than | Filmen var mindre interessant enn boka. | Chat 12/11 | komparativ 2026-11-12 |
-
+| Hvordan går det? / Det går fint med studiene. | How is it going? / My studies are going fine. | Kjempebra. Det går fint med studiene. | K7 s.100 | kap7 hverdag 2026-11-12 |
+| å like seg (et sted) | to like it (somewhere), feel at home | …og jeg liker meg i kollektivet. | K7 s.100 | kap7 refleksiv 2026-11-12 |
+| Gjør du? / Jeg også, forresten. | Do you? (echo) / Me too, by the way. | Jeg liker meg i kollektivet. – Gjør du? | K7 s.100 · N p45 | kap7 hverdag 2026-11-12 |
+| å være glad for at | to be glad that | Jeg er glad for at dere sa ja til slutt. | K7 s.100 | kap7 følelser 2026-11-12 |
+| å si ja | to say yes, agree | …at dere sa ja til slutt. | K7 s.100 | kap7 2026-11-12 |
+| Ikke så bra. | Not so good. | Hvordan går det hjemme? – Ikke så bra. | K7 s.100 | kap7 hverdag 2026-11-12 |
+| Jeg savner deg. / Vi savner deg. | I miss you. / We miss you. | | N p45 · K7 s.100 | følelser 2026-11-12 |
+| å være bekymret for | to be worried about | Vi er bekymret for Darian. | K7 s.100 | kap7 følelser 2026-11-12 |
+| å være på klubben / på apoteket | to be at the club / at the pharmacy (på + place) | Han er på fritidsklubben hver dag. | K7 s.100 | kap7 preposisjon 2026-11-12 |
+| å ha det (ikke) så bra | to be (not) doing so well | Darian har det ikke så bra akkurat nå. | K7 s.100 | kap7 følelser 2026-11-12 |
+| et sted der han kan henge | a place where he can hang out | | K7 s.100 | kap7 2026-11-12 |
+| å føle seg velkommen | to feel welcome | På fritidsklubben føler han seg velkommen. | K7 s.100 | kap7 refleksiv 2026-11-12 |
+| hele tida / hele tiden | all the time (both forms correct: *tida* ei, *tiden* en) | …hva han skal gjøre hele tida. | K7 s.100 · N p45 | kap7 tid 2026-11-12 |
+| så mye annet å gjøre | so much else to do | Jeg hadde så mye annet å gjøre. | K7 s.100 | kap7 2026-11-12 |
+| å være med i (et band, en gruppe) | to be part of, be a member of | Han er med i et band. · Jeg var med i turngruppa. | K7 s.100 · s.101 | kap7 2026-11-12 |
+| å spille fotball | to play football | Jeg spilte fotball. | K7 s.100 · N p45 | kap7 sport 2026-11-12 |
+| Dere er så forskjellige. | You are so different. | | K7 s.101 | kap7 2026-11-12 |
+| å få lov til å (være) | to be allowed to (be) | Det må vi få lov til å være. | K7 s.101 | kap7 2026-11-12 |
+| å snakke med ↔ å snakke til | to talk *with* (dialogue) ↔ to talk *at/to* (one way); see G41 | Snakk mer med ham, ikke bare til ham. | K7 s.101 · N p45 | kap7 preposisjon 2026-11-12 |
+| slik han er | the way he is, as he is | Dere må akseptere ham slik han er. | K7 s.101 | kap7 2026-11-12 |
+| å prøve å forandre noen | to try to change someone | …ikke prøve å forandre ham. | K7 s.101 | kap7 2026-11-12 |
+| Det visste jeg ikke. | I didn't know that. (inversion, G7) | | K7 s.101 | kap7 2026-11-12 |
+| Niks, ikke det heller. | Nope, not that either. (informal) | | K7 s.101 | kap7 uformell 2026-11-12 |
+| Hva med været? | What about the weather? | | K7 s.101 | kap7 småprat 2026-11-12 |
+| mangel på (noe) | lack of (something) | mangel på tid | N p45 | 2026-11-12 |
+| å gå ut på gata/gaten | to go out onto the street (*check the note*) | | N p45 | uformell 2026-11-12 |
 ---
 
 ## 3. Grammatikk (rules)
@@ -269,6 +294,7 @@ Leddsetning word order (G16): *Han sier at han **ikke har** tid.*
 - Definite: **hele** + definite noun, **without den/det**: *hele dagen, hele tida, hele verden, hele året* (NOT ~~den hele dagen~~)
 - **helt** as an adverb = completely: *helt rett, helt uinteressant*
 - Contrast: **ganske** = rather/quite: *ganske kjedelig*
+- **Tida / tiden**: both are correct bokmål (*ei tid / en tid*): *hele tida = hele tiden* (K7 s.100, N p45). *tida* sounds more natural in Oslo speech, *tiden* in writing and in Bergen.
 
 ### G20. all / alt / alle *(N 27/10 · 2026-11-03)*
 + **definite form** of the noun:
@@ -506,6 +532,54 @@ When the real subject is **indefinite / new information** (et lys, mennesker), N
 - **aller** strengthens the superlative: *den **aller** beste* (the very best).
 - Adverbs follow the same pattern: ofte – oftere – oftest (G30) · gjerne – heller – helst (G10) · lenge – lenger – lengst.
 
+### G41. snakke med vs snakke til *(K7 s.101 · N p45 · 2026-11-12)*
+- **snakke med** = talk **with** someone: a two-way conversation, both sides speak and listen. *Snakk mer **med** ham.* · *Jeg snakker med kundene.*
+- **snakke til** = talk **to/at** someone: one-way, you speak and the other just receives it (a speech, a telling-off). *Ikke bare snakk **til** ham.* · *Han snakket til forsamlingen.*
+- Other verbs follow the same logic: **høre på** (listen to) ≠ **høre fra** (hear from) · **tenke på** (think of) ≠ **tenke på/over** (think about).
+- Exception: **snakke om** = talk about (topic): *Vi kan snakke om alt.* · **snakke sammen** = talk together, chat: *Så kan vi snakke litt sammen.*
+
+### G42. Sammenligning i en setning: «enn han gjør», «mye flinkere», «liker … bedre» *(K7 s.101 · 2026-11-12)*
+- *Jeg liker matematikk **bedre enn han gjør**.* (I like maths better than he does.) After **enn** you can use a **full clause**: enn + subject + **gjør** (replaces the repeated verb *liker*). Shorter: *…bedre enn **ham*** (speech) / *enn han* (writing).
+- *Han er **mye flinkere** enn meg i musikk.* **mye** (or *mye mer, langt, atskillig*) strengthens the comparative: mye større, mye bedre. ~~veldig flinkere~~ is **wrong**: use **mye**, not *veldig*, with a komparativ.
+- *liker bedre* = like better (**gjerne → heller → helst**, G10 / **godt → bedre → best**, G40): *Jeg liker te **bedre** enn kaffe.* (NOT ~~mer~~ )
+- flink – flinkere – flinkest (G40: regular ending **-ere / -est**). *flink i + subject / flink til å + infinitive*: flink **i** musikk, flink **til å** spille.
+
+### G43. «gjøre» as a pro-verb: short answers and echo questions *(K7 s.100–101 · 2026-11-12)*
+**gjøre** replaces a verb that has already been mentioned:
+- *Jeg liker meg i kollektivet.* – ***Gjør du?*** (= Do you? Echo question: surprise / interest)
+- *Jeg liker matematikk bedre enn han **gjør**.* (G42)
+- *Han spiller bra, og det **gjør** hun også.* · *Liker du kaffe? – Ja, det **gjør** jeg.*
+- If the first verb is a **modal or hjelpeverb**, repeat it: *Kan du svømme? – Ja, det **kan** jeg.* · *Har du spist? – Ja, det **har** jeg.*
+- Short agreement: **Jeg også.** (me too) · **Jeg heller ikke.** (me neither, *heller ikke* → inversion if followed by a verb: *Heller ikke jeg vet det*, G9).
+- In speech the echo question has **rising intonation** and is usually followed by nothing else.
+
+### G44. uten at vs uten å *(K7 s.100 · 2026-11-12)*
+Both mean **without**:
+- **uten å** + infinitive: only when the **subject is the same**: *Han gikk **uten å** si noe.*
+- **uten at** + full clause (leddsetning, G16): when there's a **new subject**: *Han føler seg velkommen, **uten at noen forteller ham** hva han skal gjøre.* · *…uten at det må skje så mye.*
+- Word order: subject + (ikke) + verb: *uten at han **ikke** kommer* → *uten at han kommer*. (The negation is already in *uten*.)
+- Same pattern: **i stedet for å** (+ infinitive, same subject) – **i stedet for at** (+ clause).
+
+### G45. «og» instead of «å»: være/sitte/stå/ligge/gå + og + verb *(K7 s.100 · 2026-11-12)*
+After verbs of position or movement, Norwegian joins the second verb with **og** (not å), same tense as the first:
+- *Han burde være hjemme **og** konsentrere seg om skolearbeidet.* (= be at home concentrating, **og** = and)
+- *Hun sitter **og** leser.* · *Han ligger **og** sover.* · *Hun går **og** hjelper kunder.* · *De står **og** snakker.*
+- Common with: **sitte, stå, ligge, være, gå, komme, bli** · The idea is "doing this while being there".
+- With **burde / måtte / kunne** etc. the modal is followed by the bare infinitive: *Han **burde være** hjemme* (G4).
+- Spelling trap: **og** (and) and **å** (to) are both pronounced *o*, so listen for the structure and write **og** here.
+- Exception: with *prøve, begynne, slutte, glemme* etc. you use **å** + infinitive: *Han prøver **å** forandre ham.*
+
+### G46. nesten – nesten ikke – knapt *(K7 s.100 · 2026-11-12)*
+- **nesten** = almost, nearly: *Klokka er **nesten** tolv.* · *Jeg er nesten ferdig.* (≠ *snart* = soon)
+- **nesten ikke** = hardly, almost not: *Jeg har **nesten ikke** tid.* = **knapt** (more formal, G37): *Jeg har knapt tid.*
+- **nesten alle / alt** = almost all(everything): *nesten alle menneskene*; **nesten aldri** = hardly ever; **nesten ingen** = almost nobody.
+- Position: after the verb in main clauses, before the verb in subordinate clauses (G16): *…fordi hun **nesten** ikke har tid.*
+
+### G47. Ord med **-het** og **-ig/-lig** → substantiv *(N p45 · 2026-11-12)*
+Revision of G27 using today's note: **varig** (lasting) → **varighet** (duration); *trygg → trygghet · selvstendig → selvstendighet · sann → sannhet · fri → frihet.*
+- Add **-het** to an adjective: the noun is **en** and has **no plural** in most cases: *Varigheten er to timer.*
+- Exceptions: adjectives in **-ig** keep the -ig: vanskelig → vanskelighet (not ~~vanskelhet~~).
+- Related: **mangel** (lack) → *å mangle*; adjective *mangelfull* (deficient).
 ---
 
 ## 4. Uttale (pronunciation, Oslo vs Bergen)
@@ -540,7 +614,18 @@ When the real subject is **indefinite / new information** (et lys, mennesker), N
 | **komparativ -ere / superlativ -est** | stress stays on the stem: **FI**nere, **FI**nest; tapped r in *-ere* | uvular r: *fineʁe* |
 | **verst, størst** (rs) | rs → "sh": *væsjt*, *støsjt* | uvular r, no merging: *væʁst*, *støʁst* |
 | **eldre, yngre** | d is pronounced in *eldre*; *ng* in *yngre* is one sound, like in *sing*, with no separate g: [ˈʏŋrə] | same |
-
+| **forresten** | stress on the 2nd syllable: *for-**RES**-ten*; the double *rr* is a single tapped r (Oslo) | uvular r: *foʁ-RES-ten* |
+| **apotek, eksem, kafé** | stress on the last syllable: apo**TEK**, ek**SEM**, ka**FÉ** | same (uvular r in none of them) |
+| **tannverk** | stress on the first: **TANN**verk; *nn* is long; *rk* with a retroflex tap in Oslo | uvular r: *TANNveʁk* |
+| **fritidsklubben** | **FRI**tidsklubben, *tid* with the d pronounced; *-ben* → *-bm̩* | same |
+| **fotball** | stress on the first syllable: **FOT**ball [ˈfuːtbɑl] (*o* = long «u» sound) | same |
+| **hygiene** | hygi**E**ne, *g* = «g» as in *go*, *e* long [hyɡiˈeːnə] | same |
+| **band** | [bɛnd] or [bænd] like English *band*, *d* often silent (*ban*) | same |
+| **turngruppe** | *rn* → one retroflex sound [ɳ]: *tuɳ-gruppe* | uvular r + n: *tuʁn-gruppe* |
+| **varighet** | **VA**righet; *-ig* → [i], *-het* → [heːt]: *VA-ri-heet* | same, with uvular *r*: *VAʁi-heet* |
+| **mangel** | **MANG**el; *ng* one sound as in *sing* (no separate g) | same |
+| **studiene** | stu-**DI**-e-ne: *-ie-* are two syllables, not one | same |
+| **fornøyd** | for-**NØYD** [fɔˈnøyd], *-rn-* → retroflex *n* in Oslo; *øy* = rounded «oy» | uvular r: *foʁ-NØYD* |
 ---
 
 ## 5. Usikkert / å sjekke (unclear handwriting or follow-ups)
@@ -563,3 +648,10 @@ When the real subject is **indefinite / new information** (et lys, mennesker), N
 - N 10/11 p38: "en som/T" read as **ensom / ensomt** (rule G34).
 - N 10/11 p39: "avledning = diversion": where did it come up? (It can also mean *derivation* in grammar.)
 - naob.no couldn't be reached from this session (10/11): forms for this lesson are standard bokmål; worth double-checking gender of *omsorg*, *sorg*, *avledning* (ei/en) in NAOB.
+- K7 s.100: handwritten word top right of the page (next to the title, with an arrow): looks like «å krangle(?)» or «sj-/s-krago». Couldn't read it. What does it say?
+- N p45 (12/11): the note date reads **12/10/26**, but the lesson was 12/11. I logged it as 12/11. Tell me if I'm wrong.
+- N p45: «gå ut på gaten →» (arrow with no word after it). I read it as *gå ut på gata/gaten* (to go out into the street). Was there a meaning to add?
+- N p45: the circled crossed-out word before «Trangt»: unreadable. I took *trangt* (neuter of *trang*, cramped) and added the Kilde to the existing row.
+- N p45: «varighet = ability(?) = varig»: I read *varighet = durability = varig* (duration = lasting). The English word in the middle is unclear (*durability*?). Please confirm.
+- K7 s.100 side questions (left margin): «Hvorfor liker Darian å være på klubben?» · «Hva mener Sara når hun sier at foreldrene må snakke med Darian, ikke til ham?» · «Skal foreldre akseptere barna sine slik de er, eller skal man prøve å forandre dem?»: do you want model answers added?
+- naob.no wasn't checked again for the new words: worth double-checking gender of *farmasi, nærhet, fritid, hudkrem, avtale* (ei/en) and the plural of *studium*, *apotek*.

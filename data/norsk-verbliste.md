@@ -11,9 +11,11 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | Infinitiv | Presens | Preteritum | Perfektum | English | Gruppe | Lagt til |
 |---|---|---|---|---|---|---|
 | å adlyde | adlyder | adlød | har adlydt | obey | sterk | 2026-11-03 |
+| å akseptere | aksepterer | aksepterte | har akseptert | accept | svak -te | 2026-11-12 |
 | å anbefale | anbefaler | anbefalte | har anbefalt | recommend | svak -te | 2026-11-03 |
 | å arbeide | arbeider | arbeidet | har arbeidet | work | svak -et | 2026-11-03 |
 | å avbryte | avbryter | avbrøt | har avbrutt | interrupt | sterk | 2026-11-10 |
+| å avtale | avtaler | avtalte | har avtalt | agree, arrange | svak -te | 2026-11-12 |
 | å bade | bader | badet | har badet | bathe, swim | svak -et | 2026-11-03 |
 | å barbere | barberer | barberte | har barbert | shave | svak -te | 2026-11-03 |
 | å be | ber | ba(d) | har bedt | ask for, pray | sterk | 2026-11-03 |
@@ -49,6 +51,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å drive | driver | drev/dreiv | har drevet | run (a business); do (an activity) | sterk | 2026-11-03 |
 | å dømme | dømmer | dømte | har dømt | sentence, judge | svak -te | 2026-11-10 |
 | å eie | eier | eide | har eid | own | svak -de | 2026-11-03 |
+| å elske | elsker | elsket | har elsket | love | svak -et | 2026-11-12 |
 | å falle | faller | falt | har falt | fall | sterk | 2026-11-03 |
 | å fare | farer | for | har fart | travel, rush | sterk | 2026-11-03 |
 | å finne | finner | fant | har funnet | find | sterk | 2026-11-03 |
@@ -117,6 +120,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å knekke | knekker | knakk | har knekket/knekt | crack, snap | sterk | 2026-11-03 |
 | å knipe | kniper | kneip | har knepet | pinch | sterk | 2026-11-03 |
 | å komme | kommer | kom | har kommet | come | sterk | 2026-11-03 |
+| å konsentrere seg | konsentrerer seg | konsentrerte seg | har konsentrert seg | concentrate | svak -te | 2026-11-12 |
 | å kontrollere | kontrollerer | kontrollerte | har kontrollert | check, control | svak -te | 2026-11-05 |
 | å kose seg | koser seg | koste seg | har kost seg | have a nice time | svak -te | 2026-11-03 |
 | å koste | koster | kostet | har kostet | cost; sweep | svak -et | 2026-11-03 |
@@ -139,6 +143,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å låne | låner | lånte | har lånt | borrow, lend | svak -te | 2026-11-03 |
 | å låse | låser | låste | har låst | lock | svak -te | 2026-11-03 |
 | å låte | låter | låt | har lått | sound (Det låter bra) | sterk | 2026-11-03 |
+| å mangle | mangler | manglet | har manglet | lack, be missing | svak -et | 2026-11-12 |
 | å merke | merker | merket | har merket | notice; mark | svak -et | 2026-11-03 |
 | å minnes | minnes | mintes | har minnes | remember, commemorate | s-verb | 2026-11-10 |
 | å møte | møter | møtte | har møtt | meet | svak -te | 2026-11-03 |
