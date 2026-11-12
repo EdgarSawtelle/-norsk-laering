@@ -173,7 +173,7 @@ Companion file to `norsk-database.md` (sections 2–5). The study app reads all 
 | Niks, ikke det heller. | Nope, not that either. (informal) | | K7 s.101 | kap7 uformell 2026-11-12 |
 | Hva med været? | What about the weather? | | K7 s.101 | kap7 småprat 2026-11-12 |
 | mangel på (noe) | lack of (something) | mangel på tid | N p45 | 2026-11-12 |
-| å gå ut på gata/gaten | to go out onto the street (*check the note*) | | N p45 | uformell 2026-11-12 |
+| å være / henge på gata | to hang around on the streets (with nothing to do, often unsupervised); a youth club is the alternative | Fritidsklubben er et sted for ungdom som ellers ville vært på gata. | N p45 | ungdom uformell 2026-11-12 |
 ---
 
 ## 3. Grammatikk (rules)
@@ -571,6 +571,7 @@ After verbs of position or movement, Norwegian joins the second verb with **og**
 
 ### G46. nesten – nesten ikke – knapt *(K7 s.100 · 2026-11-12)*
 - **nesten** = almost, nearly: *Klokka er **nesten** tolv.* · *Jeg er nesten ferdig.* (≠ *snart* = soon)
+- Can you use **knapt** instead of nesten in *Klokka er nesten tolv*? **No.** *knapt* = hardly / barely (it carries a negative idea, like *nesten ikke*), so *Klokka er knapt tolv* would sound odd. Use **nesten** (or *snart* = soon). *knapt* works with time only as the adjective: *en knapp time* (just under an hour, G37).
 - **nesten ikke** = hardly, almost not: *Jeg har **nesten ikke** tid.* = **knapt** (more formal, G37): *Jeg har knapt tid.*
 - **nesten alle / alt** = almost all(everything): *nesten alle menneskene*; **nesten aldri** = hardly ever; **nesten ingen** = almost nobody.
 - Position: after the verb in main clauses, before the verb in subordinate clauses (G16): *…fordi hun **nesten** ikke har tid.*
@@ -579,6 +580,7 @@ After verbs of position or movement, Norwegian joins the second verb with **og**
 Revision of G27 using today's note: **varig** (lasting) → **varighet** (duration); *trygg → trygghet · selvstendig → selvstendighet · sann → sannhet · fri → frihet.*
 - Add **-het** to an adjective: the noun is **en** and has **no plural** in most cases: *Varigheten er to timer.*
 - Exceptions: adjectives in **-ig** keep the -ig: vanskelig → vanskelighet (not ~~vanskelhet~~).
+- The **vare** family: **å vare** (to last: *varer – varte – har vart*) → **varig** (lasting) → **varighet** (duration). Don't confuse with **ei/en vare** (goods, product: *varer – varene*): same spelling, different word.
 - Related: **mangel** (lack) → *å mangle*; adjective *mangelfull* (deficient).
 ---
 
@@ -648,10 +650,5 @@ Revision of G27 using today's note: **varig** (lasting) → **varighet** (durati
 - N 10/11 p38: "en som/T" read as **ensom / ensomt** (rule G34).
 - N 10/11 p39: "avledning = diversion": where did it come up? (It can also mean *derivation* in grammar.)
 - naob.no couldn't be reached from this session (10/11): forms for this lesson are standard bokmål; worth double-checking gender of *omsorg*, *sorg*, *avledning* (ei/en) in NAOB.
-- K7 s.100: handwritten word top right of the page (next to the title, with an arrow): looks like «å krangle(?)» or «sj-/s-krago». Couldn't read it. What does it say?
-- N p45 (12/11): the note date reads **12/10/26**, but the lesson was 12/11. I logged it as 12/11. Tell me if I'm wrong.
-- N p45: «gå ut på gaten →» (arrow with no word after it). I read it as *gå ut på gata/gaten* (to go out into the street). Was there a meaning to add?
 - N p45: the circled crossed-out word before «Trangt»: unreadable. I took *trangt* (neuter of *trang*, cramped) and added the Kilde to the existing row.
-- N p45: «varighet = ability(?) = varig»: I read *varighet = durability = varig* (duration = lasting). The English word in the middle is unclear (*durability*?). Please confirm.
-- K7 s.100 side questions (left margin): «Hvorfor liker Darian å være på klubben?» · «Hva mener Sara når hun sier at foreldrene må snakke med Darian, ikke til ham?» · «Skal foreldre akseptere barna sine slik de er, eller skal man prøve å forandre dem?»: do you want model answers added?
 - naob.no wasn't checked again for the new words: worth double-checking gender of *farmasi, nærhet, fritid, hudkrem, avtale* (ei/en) and the plural of *studium*, *apotek*.

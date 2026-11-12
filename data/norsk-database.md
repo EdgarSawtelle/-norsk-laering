@@ -365,8 +365,10 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | å savne | savner – savnet – har savnet | to miss (someone) | Jeg savner deg. · Vi savner deg. | N p45 · K7 s.100 | verb følelser 2026-11-12 |
 | en fritidsklubb | fritidsklubben – fritidsklubber – fritidsklubbene | youth club, after-school club | Han er på fritidsklubben hver dag. | N p45 · K7 s.100 | kap7 ungdom 2026-11-12 |
 | en fotball | fotballen – fotballer – fotballene | football (the ball); (no article) the sport: *spille fotball* | Jeg spilte fotball. | N p45 · K7 s.100 | kap7 sport 2026-11-12 |
-| en varighet | varigheten – (no pl.) | duration (*check reading of the note*) | | N p45 | ordlaging 2026-11-12 |
-| varig | varig – varige | lasting, permanent (*check reading of the note*) | et varig vennskap | N p45 | adj ordlaging 2026-11-12 |
+| en varighet | varigheten – (no pl.) | duration | Varigheten er to timer. | N p45 | ordlaging 2026-11-12 |
+| varig | varig – varige | lasting, permanent | et varig vennskap | N p45 | adj ordlaging 2026-11-12 |
+| å vare | varer – varte – har vart | to last, to go on (for a period of time) | Møtet varer i to timer. | N p45 | verb ordlaging 2026-11-12 |
+| ei/en vare | vara/varen – varer – varene | goods, product, item for sale | Butikken selger billige varer. | N p45 | ordlaging 2026-11-12 |
 | en mangel | mangelen – mangler – manglene | lack, shortage; defect | mangel på tid · en mangel ved produktet | N p45 | 2026-11-12 |
 | å mangle | mangler – manglet – har manglet | to lack, be missing | Det mangler penger. | N p45 | verb 2026-11-12 |
 | forresten | (adverb) | by the way, incidentally (one word; = for resten) | Jeg også, forresten. · Vet du forresten hva Darian gjør? | N p45 · K7 s.100 · s.101 | adv konnektor 2026-11-12 |

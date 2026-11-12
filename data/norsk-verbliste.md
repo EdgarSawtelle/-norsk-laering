@@ -263,6 +263,7 @@ Source: *238 norske verb* (grammatikk.com, K. H. Ullestad), checked and correcte
 | å tørste | tørster | tørstet | har tørstet | thirst (for) | svak -et | 2026-11-03 |
 | å undersøke | undersøker | undersøkte | har undersøkt | examine, investigate | svak -te | 2026-11-03 |
 | å utdanne | utdanner | utdannet | har utdannet | educate | svak -et | 2026-11-03 |
+| å vare | varer | varte | har vart | last, go on | svak -te | 2026-11-12 |
 | å vaske | vasker | vasket | har vasket | wash | svak -et | 2026-11-03 |
 | å veie | veier | veide | har veid | weigh | svak -de | 2026-11-03 |
 | å vekke | vekker | vekket | har vekket | wake (someone) up | svak -et | 2026-11-03 |
