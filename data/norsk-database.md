@@ -23,6 +23,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | 2026-11-03 (d) | Time 3/11: notatbok s. 26–28 (passiv), tavle (substantiv-endelser), K6 s. 87–88 (personvern, Frustrert/Alex/Mikkel) |
 | 2026-11-05 | Notatbok s. 33 (nyheter/nytt, ofte/stadig/masse, påvirke, komfyr, det kommer an på), K6 Ekstraoppgaver s. 4 (meningsmåling, medier), K6 s. 89 (kilder og kildekritikk) → G29–G31. Date tags added to all entries. |
 | 2026-11-10 | Kap. 6 *En annen verden* – «Et liv på nettet» (s. 90–91), notatbok s. 38–39 (10/11): sørge/sorg/omsorg, knapt, ensom, minnes, holde en tale, «tennes det lys» → G32–G39 |
+| 2026-11-12 | Chat-leksjon: komparativ og superlativ (gradbøying) → G40, 6 uttrykk, 3 uttale-rader |
 
 ---
 
