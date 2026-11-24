@@ -1,6 +1,6 @@
 # Norsk læringsdatabase (B1, bokmål)
 
-This is the master list for building flashcards (Anki or similar). New lessons get **appended** to it. Sections 0–1 are here; expressions, grammar, pronunciation and open questions (sections 2–5) are in `norsk-uttrykk-grammatikk.md`; the verb list (section 6) is in `norsk-verbliste.md`.
+This is the master list for building flashcards (Anki or similar). New lessons get **appended** to it. Sections 0–1 are here; expressions, grammar, pronunciation and open questions (sections 2–5) are in `norsk-uttrykk-grammatikk.md`; the verb list (section 6) is in `norsk-verbliste.md`. **From 2026-11-24 new entries for all sections go into `norsk-database-2.md`** (these files reached the ~20k token limit).
 Columns: **Norsk** (with gender/article) · **Bøyning** (all forms) · **English** · **Eksempel** (from the book or your notes) · **Kilde** (where it came from) · **Tag**.
 
 Noun forms: indefinite sg – definite sg – indefinite pl – definite pl
@@ -9,7 +9,7 @@ Adjective forms: m/f – neuter – plural/definite
 
 **Date tag:** the last token in the Tag column (sections 1–2), the `Lagt til` column (section 6) and the date inside the `*( )*` of each `### G` heading = the day the entry was uploaded (YYYY-MM-DD). The app filters on it (📅 Lagt til) and the Anki file gets `lagt_til::YYYY-MM-DD` tags.
 
-Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook page dated 15/10 · `N p7` = notebook page 7/26
+Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook page dated 15/10 · `N p7` = notebook page 7/26 · `Adj s.51` = workbook *Adjektiv*, page 51
 
 ---
 
@@ -25,6 +25,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | 2026-11-10 | Kap. 6 *En annen verden* – «Et liv på nettet» (s. 90–91), notatbok s. 38–39 (10/11): sørge/sorg/omsorg, knapt, ensom, minnes, holde en tale, «tennes det lys» → G32–G39 |
 | 2026-11-12 | Chat-leksjon: komparativ og superlativ (gradbøying) → G40, 6 uttrykk, 3 uttale-rader |
 | 2026-11-12 (b) | Time 12/11: K7 *Barn og unge* – «Snakk med ham» (s. 100–101), notatbok s. 45 → ord, uttrykk, G41–G47, 12 uttale-rader |
+| 2026-11-24 | Time 24/11: K7 *Barn og unge* – «Tove jobber i barnevernet» (s. 105–106), arbeidshefte *Adjektiv* s. 49 + 51 (komparativ/superlativ, bestemt form), notatbok s. 51–52 → ord, uttrykk, G48–G51, uttale-rader, 10 verb. Ny fil: `norsk-database-2.md` |
 
 ---
 
@@ -60,10 +61,10 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | likevel | (adverb) | nevertheless, still, anyway | Likevel føler jeg meg … | K5 s.76 | kap5 adv konnektor 2026-11-03 |
 | å forklare | forklarer – forklarte – har forklart | to explain | Det er vanskelig å forklare. | K5 s.76 | kap5 verb 2026-11-03 |
 | skuffet | skuffet – skuffede/skuffa | disappointed | Sara er skuffet. | K5 s.76 | kap5 adj følelser 2026-11-03 |
-| å krangle | krangler – kranglet/krangla – har kranglet | to argue, quarrel ("fight" with words) | Hun har ikke lyst til å krangle med foreldrene. | K5 s.76 · s.81 | kap5 verb 2026-11-03 |
+| å krangle | krangler – kranglet/krangla – har kranglet | to argue, quarrel ("fight" with words) | Hun har ikke lyst til å krangle med foreldrene. | K5 s.76 · s.81 · K7 s.106 | kap5 verb 2026-11-03 |
 | å legge ut | legger ut – la ut – har lagt ut | to post (online) | Hun legger den ut på Facebook. | K5 s.76 | kap5 verb partikkelverb 2026-11-03 |
 | kraftig | kraftig – kraftige | strong, powerful, solid | et stort og kraftig tre | K5 s.76 | kap5 adj 2026-11-03 |
-| trygg | trygt – trygge | safe, secure | Det lille treet sto trygt. | K5 s.76 | kap5 adj 2026-11-03 |
+| trygg | trygt – trygge · komp. tryggere – tryggest | safe, secure | Det lille treet sto trygt. · …hjemmet er dessverre ikke tryggest eller best for barnet. | K5 s.76 · K7 s.105 · N p51 | kap5 adj komparativ 2026-11-03 |
 | en storm | stormen – stormer – stormene | storm | i storm og uvær | K5 s.76 | kap5 vær 2026-11-03 |
 | et uvær | uværet – uvær – uværene | bad weather | i storm og uvær | K5 s.76 | kap5 vær 2026-11-03 |
 | å vokse | vokser – vokste – har vokst | to grow | lite lys og luft å vokse i | K5 s.76 | kap5 verb 2026-11-03 |
@@ -156,7 +157,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | å plage | plager – plaget/plagde – har plaget/plagd | to bother, harass | En som plager deg? | K6 s.86 · N 10/11 | kap6 verb 2026-11-03 |
 | å chatte | chatter – chattet – har chattet | to chat (online) | | K6 s.86 | kap6 verb 2026-11-03 |
 | grei | greit – greie | nice, decent; easy | Han virket så grei. | K6 s.86 | kap6 adj 2026-11-03 |
-| å virke | virker – virket – har virket | to seem; to work (function) | Han virket så grei. | K6 s.86 | kap6 verb 2026-11-03 |
+| å virke | virker – virket – har virket | to seem; to work (function) (= å fungere) | Han virket så grei. | K6 s.86 · N p51 | kap6 verb 2026-11-03 |
 | å manipulere | manipulerer – manipulerte – har manipulert | to manipulate | | K6 s.86 | kap6 verb 2026-11-03 |
 | en trussel | trusselen – trusler – truslene | threat | en tom trussel | K6 s.86 · N 10/11 | kap6 2026-11-03 |
 | en gubbe | gubben – gubber – gubbene | old man, geezer (informal) | en gammel gubbe | K6 s.86 | kap6 uformell 2026-11-03 |
@@ -172,7 +173,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | et privatliv | privatlivet | private life, privacy | | K6 s.87 | kap6 2026-11-03 |
 | ei/en plikt | plikta/-en – plikter | duty | Foreldre har plikt til å passe på barna. | K6 s.87 | kap6 2026-11-03 |
 | bekymret | bekymret – bekymrede/bekymra | worried | | K6 s.87 | kap6 adj følelser 2026-11-03 |
-| å beskytte | beskytter – beskyttet – har beskyttet | to protect | | K6 s.87 | kap6 verb 2026-11-03 |
+| å beskytte | beskytter – beskyttet – har beskyttet | to protect | Det betyr at man skal verne eller beskytte barnet. | K6 s.87 · K7 s.105 · N p51 | kap6 verb 2026-11-03 |
 | ei/en meningsmåling | meningsmålinga/meningsmålingen – meningsmålinger – meningsmålingene | opinion poll, survey | Meningsmåling: Hva bruker du mediene til? | K6 Ekstra s.4 | kap6 medier 2026-11-05 |
 | et medium | mediet – medier – mediene | medium; (pl.) **medier/mediene** = the media | Hva bruker du mediene til? | K6 Ekstra s.4 · K6 s.89 | kap6 medier 2026-11-05 |
 | en nyhet | nyheten – nyheter – nyhetene | (a piece of) news; novelty, new product | Nyheter fra Norge · Nyheter fra andre land | K6 Ekstra s.4 · N p33 | kap6 medier 2026-11-05 |
@@ -262,8 +263,8 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | en forening | foreningen – foreninger – foreningene | association, union, club | | N 15/10 | samfunn 2026-11-03 |
 | ei/en kunst → kunstig | kunstig – kunstige | art → artificial | kunstig intelligens | N 15/10 | adj ordlaging 2026-11-03 |
 | ei/en støtte · å støtte | støtta/-en · støtter – støttet – har støttet | support · to support (also financially) | | N 15/10 · N 10/11 · K6 s.91 | samfunn 2026-11-03 |
-| å passe på | passer på – passet på – har passet på | to look after, keep an eye on (≈ observere, kontrollere) | Foreldre må passe på barna. | N 15/10 · K6 s.87 | verb partikkelverb 2026-11-03 |
-| å ta vare på | tar – tok – har tatt vare på | to take care of, preserve | | N 15/10 | verb 2026-11-03 |
+| å passe på | passer på – passet på – har passet på | to look after, keep an eye on (≈ observere, kontrollere) | Foreldre må passe på barna. · Vår jobb er å passe på at barn og unge har det trygt og godt. | N 15/10 · K6 s.87 · K7 s.105 | verb partikkelverb 2026-11-03 |
+| å ta vare på | tar – tok – har tatt vare på | to take care of, preserve | …hvis foreldrene ikke kan ta vare på barnet sitt. | N 15/10 · K7 s.105 | verb 2026-11-03 |
 | å bevare | bevarer – bevarte – har bevart | to preserve, conserve | | N 15/10 | verb 2026-11-03 |
 | en stabilitet | stabiliteten | stability | | N 15/10 | samfunn 2026-11-03 |
 | å forhandle | forhandler – forhandlet – har forhandlet | to negotiate | | N 15/10 | samfunn verb 2026-11-03 |
@@ -353,7 +354,7 @@ Kilde codes: `K5 s.75` = textbook chapter 5, page 75 · `N 15/10` = notebook pag
 | streng | strengt – strenge | strict, harsh | en streng dom | N 10/11 | adj 2026-11-10 |
 | å sørge (over) | sørger – sørget – har sørget | to mourn, grieve (for) (see G36) | Familien sørger over Mats. | N 10/11 | verb følelser 2026-11-10 |
 | ei/en sorg | sorga/sorgen – sorger – sorgene | grief, sorrow | Vi gråt av sorg. | N 10/11 | følelser 2026-11-10 |
-| ei/en omsorg | omsorga/omsorgen – (no pl.) | care (for someone) | Barn trenger omsorg. | N 10/11 | familie 2026-11-10 |
+| ei/en omsorg | omsorga/omsorgen – (no pl.) | care (for someone); *å miste omsorgen for barnet* = to lose custody | Barn trenger omsorg. · Noen foreldre mister omsorgen for barnet sitt. | N 10/11 · K7 s.106 | familie 2026-11-10 |
 | å forsørge | forsørger – forsørget – har forsørget | to provide for, support (financially) | Han forsørger hele familien. | N 10/11 | verb familie 2026-11-10 |
 | en forsørger | forsørgeren – forsørgere – forsørgerne | breadwinner, provider | | N 10/11 | familie 2026-11-10 |
 | å avbryte | avbryter – avbrøt – har avbrutt | to interrupt | Unnskyld at jeg avbryter. | N 10/11 | verb sterkt 2026-11-10 |

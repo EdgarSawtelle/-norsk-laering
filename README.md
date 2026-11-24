@@ -7,6 +7,7 @@ My Norwegian study database (words, expressions, grammar rules, verbs), plus a s
 | Folder | What it is |
 |---|---|
 | `data/norsk-database.md` | Words, expressions, grammar rules, pronunciation (sections 0–5) |
+| `data/norsk-database-2.md` | New entries from 2026-11-24 on, all sections (continuation of the files above) |
 | `data/norsk-verbliste.md` | Verb list with all forms (section 6) |
 | `data/INSTRUKSJONER.md` | How new lessons are added (for Claude) |
 | `app/template.html` | The study app (the data gets inserted at `__DB__`) |

@@ -289,8 +289,8 @@ function loadDb(){
   const md=custom||$('#db').textContent;
   DB=parse(md);
   const v=DB.filter(e=>e.kind==='verb').length,w=DB.filter(e=>e.kind==='word').length,x=DB.filter(e=>e.kind==='expr').length,r=DB.filter(e=>e.kind==='rule').length;
-  const log=(md.match(/\| (\d{4}-\d\d-\d\d[^|]*)\|/g)||[]).pop()||'';
-  $('#dbinfo').textContent=`${w} ord · ${x} uttrykk · ${v} verb · ${r} grammatikkregler${custom?' · (lokal versjon)':''}${log?' · sist oppdatert '+log.replace(/\|/g,'').trim():''}`;
+  const log=DB.map(e=>e.date).filter(Boolean).sort().pop()||'';
+  $('#dbinfo').textContent=`${w} ord · ${x} uttrykk · ${v} verb · ${r} grammatikkregler${custom?' · (lokal versjon)':''}${log?' · sist oppdatert '+log:''}`;
   buildTags(); buildDates(); render();
 }
 
